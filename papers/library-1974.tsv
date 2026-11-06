@@ -1,0 +1,67 @@
+key	year	authors	title	journal	doi	why
+ChewFrautschi1961	1961	Chew, Frautschi	Principle of equivalence for all strongly interacting particles within the S-matrix framework	Phys. Rev. Lett. 7, 394	10.1103/PhysRevLett.7.394	Regge trajectories as the organising principle of hadron spectroscopy.
+ChewFrautschi1962	1962	Chew, Frautschi	Regge trajectories and the principle of maximum strength for strong interactions	Phys. Rev. Lett. 8, 41	10.1103/PhysRevLett.8.41	Linear trajectories, the Chew-Frautschi plot.
+Schwinger1962	1962	Schwinger	Gauge invariance and mass. II	Phys. Rev. 128, 2425	10.1103/PhysRev.128.2425	Confinement and a massive photon in 1+1 dimensions; the simplest flux tube.
+NambuJonaLasinio1961	1961	Nambu, Jona-Lasinio	Dynamical model of elementary particles based on an analogy with superconductivity. I	Phys. Rev. 122, 345	10.1103/PhysRev.122.345	Chiral symmetry breaking; needed for Phase 5.
+Hagedorn1965	1965	Hagedorn	Statistical thermodynamics of strong interactions at high energies	Nuovo Cim. Suppl. 3, 147 (CERN-TH-520)		Exponential level density and the limiting temperature of 160 MeV.
+Miyazawa1966	1966	Miyazawa	Baryon number changing currents	Prog. Theor. Phys. 36, 1266	10.1143/PTP.36.1266	A supersymmetry between mesons and baryons, decades early.
+Miyazawa1968	1968	Miyazawa	Spinor currents and symmetries of baryons and mesons	Phys. Rev. 170, 1586	10.1103/PhysRev.170.1586	Same program, developed.
+DolenHornSchmid1968	1968	Dolen, Horn, Schmid	Finite-energy sum rules and their application to pi N charge exchange	Phys. Rev. 166, 1768	10.1103/PhysRev.166.1768	Duality between resonances and Regge exchange.
+Veneziano1968	1968	Veneziano	Construction of a crossing-symmetric, Regge-behaved amplitude for linearly rising trajectories	Nuovo Cim. A57, 190	10.1007/BF02824451	The amplitude that started it.
+Virasoro1969	1969	Virasoro	Alternative constructions of crossing-symmetric amplitudes with Regge behavior	Phys. Rev. 177, 2309	10.1103/PhysRev.177.2309	The closed-string amplitude.
+Shapiro1969	1969	Shapiro	Narrow-resonance model with Regge behavior for pi pi scattering	Phys. Rev. 179, 1345	10.1103/PhysRev.179.1345	Lovelace-Shapiro pi pi amplitude; Adler zero and intercept 1/2.
+Shapiro1970	1970	Shapiro	Electrostatic analogue for the Virasoro model	Phys. Lett. B33, 361	10.1016/0370-2693(70)90255-8	Shapiro-Virasoro model, closed strings.
+ChanPaton1969	1969	Chan, Paton	Generalized Veneziano model with isospin	Nucl. Phys. B10, 516	10.1016/0550-3213(69)90038-8	Flavour at the string ends.
+KikkawaSakitaVirasoro1969	1969	Kikkawa, Sakita, Virasoro	Feynman-like diagrams compatible with duality. I	Phys. Rev. 184, 1701	10.1103/PhysRev.184.1701	Loops; the beginning of the topological expansion.
+FubiniGordonVeneziano1969	1969	Fubini, Gordon, Veneziano	A general treatment of factorization in dual resonance models	Phys. Lett. B29, 679	10.1016/0370-2693(69)90109-9	Operator formalism; harmonic oscillators.
+AdemolloVenezianoWeinberg1969	1969	Ademollo, Veneziano, Weinberg	Quantization conditions for Regge intercepts and hadron masses	Phys. Rev. Lett. 22, 83	10.1103/PhysRevLett.22.83	Intercept relations from duality.
+Susskind1969	1969	Susskind	Harmonic-oscillator analogy for the Veneziano model	Phys. Rev. Lett. 23, 545	10.1103/PhysRevLett.23.545	Oscillators, hence a string.
+Susskind1970	1970	Susskind	Structure of hadrons implied by duality	Phys. Rev. D1, 1182	10.1103/PhysRevD.1.1182	The hadron as a rubber band.
+Nambu1970	1970	Nambu	Quark model and the factorization of the Veneziano amplitude	Symmetries and Quark Models (Wayne State, 1969), Gordon and Breach 1970, p. 269		The string interpretation. Also the 1970 Copenhagen lecture notes, Duality and Hadrodynamics.
+Goto1971	1971	Goto	Relativistic quantum mechanics of one-dimensional mechanical continuum and subsidiary condition of dual resonance model	Prog. Theor. Phys. 46, 1560	10.1143/PTP.46.1560	The Nambu-Goto action.
+FairlieNielsen1970	1970	Fairlie, Nielsen	An analogue model for KSV theory	Nucl. Phys. B20, 637	10.1016/0550-3213(70)90393-7	Nielsen's electrostatic surface analogue of the amplitude.
+HuangWeinberg1970	1970	Huang, Weinberg	Ultimate temperature and the early universe	Phys. Rev. Lett. 25, 895	10.1103/PhysRevLett.25.895	Hagedorn temperature from the dual-model level density.
+Lovelace1970	1970	Lovelace	Veneziano theory	Proc. Roy. Soc. A318, 321 (and Phys. Lett. B28, 264, 1968)		Lovelace-Shapiro amplitude for pi pi.
+Bjorken1969	1969	Bjorken	Asymptotic sum rules at infinite momentum	Phys. Rev. 179, 1547	10.1103/PhysRev.179.1547	Scaling; the parton side of the argument.
+Ramond1971	1971	Ramond	Dual theory for free fermions	Phys. Rev. D3, 2415	10.1103/PhysRevD.3.2415	Fermions on the string.
+NeveuSchwarz1971	1971	Neveu, Schwarz	Factorizable dual model of pions	Nucl. Phys. B31, 86	10.1016/0550-3213(71)90448-2	The pion model; worldsheet fermions.
+GervaisSakita1971	1971	Gervais, Sakita	Field theory interpretation of supergauges in dual models	Nucl. Phys. B34, 632	10.1016/0550-3213(71)90351-8	Worldsheet supersymmetry.
+BardakciHalpern1971	1971	Bardakci, Halpern	New dual quark models	Phys. Rev. D3, 2493	10.1103/PhysRevD.3.2493	Quarks in the dual model.
+Lovelace1971	1971	Lovelace	Pomeron form factors and dual Regge cuts	Phys. Lett. B34, 500	10.1016/0370-2693(71)90665-4	d = 26 appears; the Pomeron as a closed-string effect.
+Scherk1971	1971	Scherk	Zero-slope limit of the dual resonance model	Nucl. Phys. B31, 222		The alpha' to 0 limit gives a field theory.
+NeveuScherk1972	1972	Neveu, Scherk	Connection between Yang-Mills fields and dual models	Nucl. Phys. B36, 155	10.1016/0550-3213(72)90301-X	Zero slope gives Yang-Mills; the massless vector is a gauge boson.
+GoddardThorn1972	1972	Goddard, Thorn	Compatibility of the dual Pomeron with unitarity and the absence of ghosts in the dual resonance model	Phys. Lett. B40, 235	10.1016/0370-2693(72)90420-0	No-ghost theorem.
+Brower1972	1972	Brower	Spectrum-generating algebra and no-ghost theorem for the dual model	Phys. Rev. D6, 1655	10.1103/PhysRevD.6.1655	No-ghost theorem, independent proof.
+Shapiro1972	1972	Shapiro	Loop graph in the dual-tube model	Phys. Rev. D5, 1945	10.1103/PhysRevD.5.1945	Closed-string loop; modular invariance in embryo.
+GGRT1973	1973	Goddard, Goldstone, Rebbi, Thorn	Quantum dynamics of a massless relativistic string	Nucl. Phys. B56, 109	10.1016/0550-3213(73)90223-X	Light-cone quantisation; d = 26 from Lorentz invariance. The tool for the Arvis spectrum.
+Mandelstam1973	1973	Mandelstam	Interacting-string picture of dual-resonance models	Nucl. Phys. B64, 205	10.1016/0550-3213(73)90622-6	Strings that split and join.
+BrinkNielsen1973	1973	Brink, Nielsen	A simple physical interpretation of the critical dimension of space-time in dual models	Phys. Lett. B45, 332	10.1016/0370-2693(73)90048-8	The intercept as a zero-point energy. Seed of the Luscher term.
+NielsenOlesen1973	1973	Nielsen, Olesen	Vortex-line models for dual strings	Nucl. Phys. B61, 45	10.1016/0550-3213(73)90350-7	A field theory whose solitons are Nambu-Goto strings.
+GrossWilczek1973	1973	Gross, Wilczek	Ultraviolet behavior of non-Abelian gauge theories	Phys. Rev. Lett. 30, 1343	10.1103/PhysRevLett.30.1343	Asymptotic freedom.
+Politzer1973	1973	Politzer	Reliable perturbative results for strong interactions?	Phys. Rev. Lett. 30, 1346	10.1103/PhysRevLett.30.1346	Asymptotic freedom.
+FritzschGellMannLeutwyler1973	1973	Fritzsch, Gell-Mann, Leutwyler	Advantages of the color octet gluon picture	Phys. Lett. B47, 365	10.1016/0370-2693(73)90625-4	QCD as the theory of the strong interactions.
+BrodskyFarrar1973	1973	Brodsky, Farrar	Scaling laws at large transverse momentum	Phys. Rev. Lett. 31, 1153	10.1103/PhysRevLett.31.1153	Counting rules: the hard-scattering objection.
+MatveevMuradyanTavkhelidze1973	1973	Matveev, Muradyan, Tavkhelidze	Automodellism in the large-angle elastic scattering and structure of hadrons	Lett. Nuovo Cim. 7, 719	10.1007/BF02728133	Counting rules, independently.
+Schwarz1973	1973	Schwarz	Dual resonance theory	Phys. Rept. 8, 269	10.1016/0370-1573(73)90003-3	Review.
+tHooftPlanar1974	1974	't Hooft	A planar diagram theory for strong interactions	Nucl. Phys. B72, 461	10.1016/0550-3213(74)90154-0	1/N as the string coupling; surfaces from gauge theory.
+tHooft2d1974	1974	't Hooft	A two-dimensional model for mesons	Nucl. Phys. B75, 461	10.1016/0550-3213(74)90088-1	Exactly solvable confining theory with a linear potential and a Regge-like spectrum.
+Wilson1974	1974	Wilson	Confinement of quarks	Phys. Rev. D10, 2445	10.1103/PhysRevD.10.2445	The area law; surfaces in the strong-coupling expansion.
+Nambu1974	1974	Nambu	Strings, monopoles, and gauge fields	Phys. Rev. D10, 4262	10.1103/PhysRevD.10.4262	The flux tube as the dual string, with quarks at the ends.
+tHooftMonopole1974	1974	't Hooft	Magnetic monopoles in unified gauge theories	Nucl. Phys. B79, 276	10.1016/0550-3213(74)90486-6	Monopoles; dual superconductor picture of confinement.
+PolyakovMonopole1974	1974	Polyakov	Particle spectrum in quantum field theory	JETP Lett. 20, 194		Monopoles, independently.
+ScherkSchwarz1974	1974	Scherk, Schwarz	Dual models for non-hadrons	Nucl. Phys. B81, 118	10.1016/0550-3213(74)90010-8	The paper this repository argues against. Read it carefully.
+Yoneya1974	1974	Yoneya	Connection of dual models to electrodynamics and gravidynamics	Prog. Theor. Phys. 51, 1907	10.1143/PTP.51.1907	Same proposal, independently.
+KalbRamond1974	1974	Kalb, Ramond	Classical direct interstring action	Phys. Rev. D9, 2273	10.1103/PhysRevD.9.2273	Antisymmetric tensor coupling to strings; the dual photon of the vortex.
+MITBag1974	1974	Chodos, Jaffe, Johnson, Thorn, Weisskopf	New extended model of hadrons	Phys. Rev. D9, 3471	10.1103/PhysRevD.9.3471	The competitor model; the string is a bag's limit.
+CasherKogutSusskind1974	1974	Casher, Kogut, Susskind	Vacuum polarization and the absence of free quarks	Phys. Rev. D10, 732	10.1103/PhysRevD.10.732	Confinement and string breaking in 1+1 dimensions.
+GrossNeveu1974	1974	Gross, Neveu	Dynamical symmetry breaking in asymptotically free field theories	Phys. Rev. D10, 3235	10.1103/PhysRevD.10.3235	Large-N in 2d; a solvable model of mass generation.
+KogutSusskind1975	1974	Kogut, Susskind	Hamiltonian formulation of Wilson's lattice gauge theories	Phys. Rev. D11, 395 (preprint CLNS-262, 1974)	10.1103/PhysRevD.11.395	Hamiltonian lattice; the flux tube as a string of links.
+Veneziano1974	1974	Veneziano	An introduction to dual models of strong interactions and their physical motivations	Phys. Rept. 9, 199	10.1016/0370-1573(74)90027-1	Review, phenomenological motivation.
+Rebbi1974	1974	Rebbi	Dual models and relativistic quantum strings	Phys. Rept. 12, 1	10.1016/0370-1573(74)90012-2	Review, string quantisation.
+Mandelstam1974	1974	Mandelstam	Dual-resonance models	Phys. Rept. 13, 259	10.1016/0370-1573(74)90034-9	Review.
+Scherk1975	1974	Scherk	An introduction to the theory of dual models and strings	Rev. Mod. Phys. 47, 123 (preprint 1974)	10.1103/RevModPhys.47.123	Review.
+Frautschi1971	1971	Frautschi	Statistical bootstrap model of hadrons	Phys. Rev. D3, 2821	10.1103/PhysRevD.3.2821	Hagedorn spectrum from the bootstrap.
+PDG1974	1974	Particle Data Group	Review of Particle Properties	Phys. Lett. B50, 1 (April 1974)		The data. Tabulated in data/.
+ChodosThorn1974	1974	Chodos, Thorn	Making the massless string massive	Nucl. Phys. B72, 509		The string with massive endpoints; quarks at the ends, classically.
+ArtruMennessier1974	1974	Artru, Mennessier	String model and multiproduction	Nucl. Phys. B70, 93		Hadron production as string breaking; the ancestor of the Lund model.
+CapperDuff1974	1974	Capper, Duff	Trace anomalies in dimensional regularization	Nuovo Cim. A23, 173		The conformal anomaly, needed for the Liouville construction.

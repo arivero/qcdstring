@@ -1,0 +1,13 @@
+# downloaded papers (large binaries; re-fetch with papers/fetch.py)
+papers/pdf/
+papers/resolved.tsv
+# python / numerics scratch
+__pycache__/
+*.pyc
+numerics/out/
+*.npy
+*.npz
+# editor
+*~
+.vscode/
+.idea/
