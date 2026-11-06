@@ -12,14 +12,14 @@ MakeenkoMigdal1979	1979	Makeenko, Migdal	Exact equation for the loop average in 
 Nambu1979	1979	Nambu	QCD and the string model	Phys. Lett. B80, 372		10.1016/0370-2693(79)91193-6	high	Nambu's own derivation of the string from Wilson loops.
 Polyakov1979	1979	Polyakov	String representations and hidden symmetries for gauge fields	Phys. Lett. B82, 247		10.1016/0370-2693(79)90747-0	high	Gauge fields as strings.
 LSW1980	1980	Luscher, Symanzik, Weisz	Anomalies of the free loop wave equation in the WKB approximation	Nucl. Phys. B173, 365		10.1016/0550-3213(80)90009-7	high	The string in lattice gauge theory; roughening; the 1/R term.
-IPZ1980	1980	Itzykson, Peskin, Zuber	Roughening of Wilson's surface	Phys. Lett. B95, 259		10.1016/0370-2693(80)90482-X	high	Roughening transition.
+IPZ1980	1980	Itzykson, Peskin, Zuber	Roughening of Wilson's surface	Phys. Lett. B95, 259		10.1016/0370-2693(80)90483-9	high	Roughening transition.
 Luscher1981	1981	Luscher	Symmetry breaking aspects of the roughening transition in gauge theories	Nucl. Phys. B180, 317		10.1016/0550-3213(81)90423-5	high	The universal -pi(d-2)/24R term.
 Polyakov1981	1981	Polyakov	Quantum geometry of bosonic strings	Phys. Lett. B103, 207		10.1016/0370-2693(81)90743-7	high	Liouville; strings in d < 26.
 Alvarez1981	1981	Alvarez	Static potential in string models	Phys. Rev. D24, 440		10.1103/PhysRevD.24.440	high	Nambu-Goto V(R) at large d.
 PisarskiAlvarez1982	1982	Pisarski, Alvarez	Strings at finite temperature and deconfinement	Phys. Rev. D26, 3735		10.1103/PhysRevD.26.3735	high	Hagedorn and deconfinement from the string.
 Arvis1983	1983	Arvis	The exact q qbar potential in Nambu string theory	Phys. Lett. B127, 106		10.1016/0370-2693(83)91640-4	high	The square-root spectrum.
 Migdal1983	1983	Migdal	Loop equations and 1/N expansion	Phys. Rept. 102, 199		10.1016/0370-1573(83)90076-5	medium	Review of loop equations.
-Olesen1985	1985	Olesen	Strings, tachyons and deconfinement	Phys. Lett. B160, 144		10.1016/0370-2693(85)91482-4	high	T_H = sqrt(3 sigma/(pi (d-2))); the tachyon as the deconfinement signal.
+Olesen1985	1985	Olesen	Strings, tachyons and deconfinement	Phys. Lett. B160, 144		10.1016/0370-2693(85)90010-3	high	T_H = sqrt(3 sigma/(pi (d-2))); the tachyon as the deconfinement signal.
 IsgurPaton1985	1985	Isgur, Paton	A flux tube model for hadrons in QCD	Phys. Rev. D31, 2910		10.1103/PhysRevD.31.2910	high	Phenomenological flux-tube model of mesons.
 CattoGursey1985	1985	Catto, Gursey	Algebraic treatment of effective supersymmetry	Nuovo Cim. A86, 201		10.1007/BF02902548	low	Hadronic supersymmetry, diquarks.
 Polyakov1986	1986	Polyakov	Fine structure of strings	Nucl. Phys. B268, 406		10.1016/0550-3213(86)90162-8	high	Rigid string.
@@ -43,7 +43,7 @@ Bali2000	2000	Bali	Casimir scaling of SU(3) static potentials	Phys. Rev. D62, 11
 Bali2001	2001	Bali	QCD forces and heavy quark bound states	Phys. Rept. 343, 1	hep-ph/0001312		high	Review of the static potential.
 KlebanovStrassler2000	2000	Klebanov, Strassler	Supergravity and a confining gauge theory: duality cascades and chi SB resolution of naked singularities	JHEP 08, 052	hep-th/0007191		high	A confining geometry.
 LuciniTeper2001	2001	Lucini, Teper	SU(N) gauge theories in four dimensions: exploring the approach to N = infinity	JHEP 06, 050	hep-lat/0103027		high	Large N on the lattice; O(1/N^2) corrections.
-DelDebbio2001	2001	Del Debbio, Panagopoulos, Rossi, Vicari	Spectrum of confining strings in SU(N) gauge theories	JHEP 01, 009 (2002)	hep-th/0106185		high	k-string tensions.
+DelDebbio2001	2001	Del Debbio, Panagopoulos, Rossi, Vicari	Spectrum of confining strings in SU(N) gauge theories	JHEP 01, 009 (2002)	hep-th/0111090	10.1088/1126-6708/2002/01/009	high	k-string tensions.
 PolchinskiStrassler2001	2001	Polchinski, Strassler	Hard scattering and gauge/string duality	Phys. Rev. Lett. 88, 031601	hep-th/0109174		high	Counting rules from a warped string. Phase 4 target.
 LuscherWeisz2001	2001	Luscher, Weisz	Locality and exponential error reduction in numerical lattice gauge theory	JHEP 09, 010	hep-lat/0108014		high	The multilevel algorithm that makes the 1/R term measurable.
 LuscherWeisz2002	2002	Luscher, Weisz	Quark confinement and the bosonic string	JHEP 07, 049	hep-lat/0207003		high	Luscher term confirmed in SU(3).
@@ -76,11 +76,11 @@ Sonnenschein2016	2016	Sonnenschein	Holography inspired stringy hadrons	Prog. Par
 AT2016	2016	Athenodorou, Teper	Closed flux tubes in D=2+1 SU(N) gauge theories: dynamics and effective string description	JHEP 10, 093	1602.07634		high	3d spectra at high precision.
 ConkeyDubovsky2016	2016	Conkey, Dubovsky	Four loop scattering in the Nambu-Goto theory	JHEP 05, 071	1603.00719		medium	Worldsheet S-matrix checks.
 AT2017	2017	Athenodorou, Teper	On the mass of the world-sheet axion in SU(N) gauge theories in 3+1 dimensions	Phys. Lett. B771, 408	1702.03717		high	Axion mass at about 1.85 sqrt(sigma).
-Brandt2017	2017	Brandt	Spectrum of the open QCD flux tube and its effective string description I: 3d static potential in SU(N=2,3)	JHEP 07, 008	1705.03604		high	Open-tube spectra.
+Brandt2017	2017	Brandt	Spectrum of the open QCD flux tube and its effective string description I: 3d static potential in SU(N=2,3)	JHEP 07, 008	1705.03828		high	Open-tube spectra.
 CCDH2018	2018	Chen, Conkey, Dubovsky, Hernandez-Chifflet	Undressing confining flux tubes with TTbar	Phys. Rev. D98, 114024	1808.01339		high	Extracting the worldsheet S-matrix from lattice spectra.
 EliasMiro2019	2019	Elias Miro, Guerrieri, Hebbar, Penedones, Vieira	Flux tube S-matrix bootstrap	Phys. Rev. Lett. 123, 221602	1906.08098		high	Bootstrap bounds on the worldsheet theory.
 AT2021	2021	Athenodorou, Teper	SU(N) gauge theories in 3+1 dimensions: glueball spectrum, string tensions and topology	JHEP 12, 082	2106.00364		high	The definitive large-N lattice tables.
-Brandt2021	2021	Brandt	Spectrum of the open QCD flux tube and its effective string description II: 4d static potential in SU(N=2,3)	JHEP 07, 008 (2021)	2102.06413		medium	Open-tube spectra in 4d.
+Brandt2021	2021	Brandt	Spectrum of the open QCD flux tube and its effective string description II: 4d static potential in SU(N=2,3)	JHEP 07, 008 (2021)			low	Open-tube spectra in 4d.
 BarsHanson1976	1976	Bars, Hanson	Quarks at the ends of the string	Phys. Rev. D13, 1744		10.1103/PhysRevD.13.1744	high	Massive spinning quarks on a rotating string; idea 008.
 PandoZayas2004	2004	Pando Zayas, Sonnenschein, Vaman	Regge trajectories revisited in the gauge/string correspondence	Nucl. Phys. B682, 3	hep-th/0311190		high	Regge trajectories from rotating strings in curved space; ideas 006 and 008. Local copy exists.
 PolchinskiStrassler2002	2002	Polchinski, Strassler	Deep inelastic scattering and gauge/string duality	JHEP 05, 012	hep-th/0209211		high	Inclusive companion of the hard-scattering paper; idea 007.
