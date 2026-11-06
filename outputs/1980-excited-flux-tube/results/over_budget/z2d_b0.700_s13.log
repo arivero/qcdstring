@@ -1,0 +1,11 @@
+beta 0.7 seed 13: 100/1000, 96 s
+beta 0.7 seed 13: 200/1000, 208 s
+beta 0.7 seed 13: 300/1000, 311 s
+beta 0.7 seed 13: 400/1000, 431 s
+beta 0.7 seed 13: 500/1000, 556 s
+beta 0.7 seed 13: 600/1000, 652 s
+beta 0.7 seed 13: 700/1000, 754 s
+beta 0.7 seed 13: 800/1000, 864 s
+beta 0.7 seed 13: 900/1000, 960 s
+beta 0.7 seed 13: 1000/1000, 1009 s
+wrote /home/codexssh/qcdstring/outputs/1980-excited-flux-tube/code/../results/z2d_b0.700_s13.npz

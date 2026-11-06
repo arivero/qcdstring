@@ -77,6 +77,13 @@ R^-2 endpoint term fits everything. The endpoint term is new to this file:
 the claim above that the first correction is O(1/R^3) holds for the
 worldsheet interior only.
 
+## 1980 paper
+`outputs/1980-excited-flux-tube/` (QCDS-80/1). Test 2 done in the 1973 way
+(Appendix A there). The first excitation in 3d Z2 lies far below pi/R and
+approaches the square root from above, within errors from R sqrt(sigma) ~ 1.7.
+The ground state, refitted with the 1976 data, still admits both a single 1/R
+coefficient and pi/24 with an endpoint term.
+
 ## References
 GGRT1973, BrinkNielsen1973, Luscher1981, Alvarez1981, Arvis1983,
 PolchinskiStrominger1991, AharonyKarzbrun2009, AharonyKomargodski2013,

@@ -83,4 +83,25 @@ Registered 6 November 1974 unless stated.
     centre within 12 MeV of the 1976 data. Supported at the 10% level.
   * P19: the psi(3772) (1977) agrees with the 1976 record; no weight.
   * P20 registered (outcome remembered; no weight).
+* 1980-11 (paper QCDS-80/1, `outputs/1980-excited-flux-tube/`, tag `y1980`):
+  * P03, d = 3, n = 1: in the Z2 theory at beta = 0.73 the first excitation
+    lies 4 to 17 standard errors below the free-phonon spacing pi/R for
+    R sqrt(sigma) = 0.86-1.3, and above the square root by a factor that
+    falls from 1.30 (R sqrt(sigma) = 0.86) to 1.10 (1.94); it agrees with the
+    square root within errors from R sqrt(sigma) ~ 1.7. Levels n >= 2 are not
+    resolved. Partly supported (long strings, n = 1, d = 3).
+  * P02, d = 3: the ground state measured again to R = 9 by an independent
+    method; fitted together with the 1976 data, a single 1/R coefficient
+    (0.089(4) from R = 3, 0.107(12) from R = 4) and pi/24 with an endpoint term
+    (d sqrt(sigma) = 0.0107(9) and 0.0084(12) at beta = 0.73 and 0.70) fit
+    equally well. Open.
+  * P11: the dual Ising interface roughens at K_R = 0.405 +- 0.008, gauge
+    coupling beta_R = 0.479 +- 0.010 (crossing of the 1/pi^2 criterion,
+    calibrated on the BCSOS model); the Casimir term is seen only above it. The
+    statement about a singularity of the strong-coupling series is untested.
+    Partly supported.
+  * P20: CESR finds a narrow third and a broad fourth upsilon level about 0.9
+    and 1.1 GeV above the first; the 1978 records gave 0.89 and 1.16. No weight.
+  * P01: the eta_c candidate at 2.98 GeV lies 70 MeV above the singlet implied
+    by the first-order spin-spin term of the 1976 potential (a).
 

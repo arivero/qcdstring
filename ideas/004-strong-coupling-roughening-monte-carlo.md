@@ -66,6 +66,11 @@ fluctuation peak at beta = 2.1-2.2, nonzero tension to beta = 2.6.
 sqrt(sigma)/Lambda_L is constant within 50-58 over 2.4-2.6 and the range
 cannot test the two-loop form. Small boxes lower the tension.
 
+## 1980 paper
+`outputs/1980-excited-flux-tube/` (QCDS-80/1). The dual Ising interface
+roughens at K_R = 0.405 +- 0.008 (beta_R = 0.479 +- 0.010), from the 1/pi^2
+slope criterion calibrated on the BCSOS model with the same box sizes.
+
 ## References
 Wilson1974, KogutSusskind1975, Creutz1979, Creutz1980, LSW1980, IPZ1980,
 Luscher1981, LuscherWeisz2001, LuscherWeisz2002.

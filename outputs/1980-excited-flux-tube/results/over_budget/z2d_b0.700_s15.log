@@ -1,0 +1,11 @@
+beta 0.7 seed 15: 100/1000, 145 s
+beta 0.7 seed 15: 200/1000, 271 s
+beta 0.7 seed 15: 300/1000, 385 s
+beta 0.7 seed 15: 400/1000, 491 s
+beta 0.7 seed 15: 500/1000, 600 s
+beta 0.7 seed 15: 600/1000, 710 s
+beta 0.7 seed 15: 700/1000, 810 s
+beta 0.7 seed 15: 800/1000, 926 s
+beta 0.7 seed 15: 900/1000, 1020 s
+beta 0.7 seed 15: 1000/1000, 1075 s
+wrote /home/codexssh/qcdstring/outputs/1980-excited-flux-tube/code/../results/z2d_b0.700_s15.npz

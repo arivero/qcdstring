@@ -1,0 +1,11 @@
+beta 0.7 seed 10: 10/100, 42 s
+beta 0.7 seed 10: 20/100, 81 s
+beta 0.7 seed 10: 30/100, 127 s
+beta 0.7 seed 10: 40/100, 163 s
+beta 0.7 seed 10: 50/100, 188 s
+beta 0.7 seed 10: 60/100, 216 s
+beta 0.7 seed 10: 70/100, 254 s
+beta 0.7 seed 10: 80/100, 298 s
+beta 0.7 seed 10: 90/100, 338 s
+beta 0.7 seed 10: 100/100, 367 s
+wrote /home/codexssh/qcdstring/outputs/1980-excited-flux-tube/code/../results/z2g_b0.700_s10.npz

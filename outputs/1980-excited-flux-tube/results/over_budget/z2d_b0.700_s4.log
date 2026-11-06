@@ -1,0 +1,11 @@
+beta 0.7 seed 4: 100/1000, 133 s
+beta 0.7 seed 4: 200/1000, 242 s
+beta 0.7 seed 4: 300/1000, 355 s
+beta 0.7 seed 4: 400/1000, 457 s
+beta 0.7 seed 4: 500/1000, 581 s
+beta 0.7 seed 4: 600/1000, 676 s
+beta 0.7 seed 4: 700/1000, 741 s
+beta 0.7 seed 4: 800/1000, 838 s
+beta 0.7 seed 4: 900/1000, 940 s
+beta 0.7 seed 4: 1000/1000, 1033 s
+wrote /home/codexssh/qcdstring/outputs/1980-excited-flux-tube/code/../results/z2d_b0.700_s4.npz

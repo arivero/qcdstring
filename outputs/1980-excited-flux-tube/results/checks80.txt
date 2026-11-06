@@ -1,0 +1,2 @@
+one-operator basis (z2_excited.py): max deviation 0.00e+00
+two-operator basis (z2_excited_gevp.py): max deviation 0.00e+00

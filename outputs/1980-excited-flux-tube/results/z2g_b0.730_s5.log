@@ -1,0 +1,16 @@
+beta 0.73 seed 5: 10/150, 52 s
+beta 0.73 seed 5: 20/150, 99 s
+beta 0.73 seed 5: 30/150, 149 s
+beta 0.73 seed 5: 40/150, 197 s
+beta 0.73 seed 5: 50/150, 243 s
+beta 0.73 seed 5: 60/150, 281 s
+beta 0.73 seed 5: 70/150, 322 s
+beta 0.73 seed 5: 80/150, 360 s
+beta 0.73 seed 5: 90/150, 386 s
+beta 0.73 seed 5: 100/150, 408 s
+beta 0.73 seed 5: 110/150, 433 s
+beta 0.73 seed 5: 120/150, 455 s
+beta 0.73 seed 5: 130/150, 477 s
+beta 0.73 seed 5: 140/150, 496 s
+beta 0.73 seed 5: 150/150, 506 s
+wrote /home/codexssh/qcdstring/outputs/1980-excited-flux-tube/code/../results/z2g_b0.730_s5.npz
