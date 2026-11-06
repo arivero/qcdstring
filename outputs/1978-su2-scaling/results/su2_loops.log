@@ -1,0 +1,9 @@
+beta 1.9: L = 8, plaquette 0.46994, 1.30e+10 flop, 83 s
+beta 2.1: L = 8, plaquette 0.53427, 1.30e+10 flop, 87 s
+beta 1.8: L = 8, plaquette 0.44131, 1.19e+10 flop, 88 s
+beta 2.0: L = 8, plaquette 0.50130, 1.30e+10 flop, 90 s
+beta 2.2: L = 10, plaquette 0.56892, 3.26e+10 flop, 168 s
+beta 2.3: L = 12, plaquette 0.60225, 7.97e+10 flop, 338 s
+beta 2.4: L = 12, plaquette 0.63007, 8.64e+10 flop, 348 s
+beta 2.6: L = 16, plaquette 0.67005, 2.56e+11 flop, 684 s
+beta 2.5: L = 16, plaquette 0.65188, 2.91e+11 flop, 725 s

@@ -60,6 +60,12 @@ if c is reliably positive.
 needs slabs of 4 for Z2 near beta_c (slabs of 2 are boundary-dominated). U(1)
 in 4d: the area law ends near beta = 1.0; the order of the transition is open.
 
+## 1978 paper
+`outputs/1978-su2-scaling/` (QCDS-78/1). SU(2) in 4d: no hysteresis on 8^4,
+fluctuation peak at beta = 2.1-2.2, nonzero tension to beta = 2.6.
+sqrt(sigma)/Lambda_L is constant within 50-58 over 2.4-2.6 and the range
+cannot test the two-loop form. Small boxes lower the tension.
+
 ## References
 Wilson1974, KogutSusskind1975, Creutz1979, Creutz1980, LSW1980, IPZ1980,
 Luscher1981, LuscherWeisz2001, LuscherWeisz2002.

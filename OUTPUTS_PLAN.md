@@ -30,7 +30,7 @@ Agreed 6 November 2026 (machine date).
 | Year | Working title | Ideas | Status |
 |---|---|---|---|
 | 1976 | The Casimir energy of a flux tube, and an area law on the computer (Z2 in 3d, U(1) in 4d) | 001, 004, 009 | done: `outputs/1976-flux-tube-casimir/`, tag `y1976` |
-| 1978 | SU(2) string tension and asymptotic scaling | 004 | |
+| 1978 | SU(2) string tension and asymptotic scaling | 004 | done: `outputs/1978-su2-scaling/`, tag `y1978` |
 | 1980 | Excited flux-tube levels, the square-root spectrum, roughening; longer strings to separate the Casimir coefficient from an endpoint term | 001, 011 | |
 | 1982 | Hagedorn versus deconfinement: Polyakov loops and T_c below T_H | 005, 009 | |
 | 1984 | The critical dimension as a statement about the effective string | 002, 012 | |

@@ -1,0 +1,6 @@
+1. sum over links of Tr(U V)/2 / 24 = 0.556282512750805; plaquette = 0.556282512750805
+2. <a0> at beta k = 3: 0.56842 +/- 0.00052; I_2(3)/I_1(3) = 0.56792
+3. max |W - W after a random gauge transformation| = 1.11e-16
+4. W(2,2): averaged 0.18131(0.00064)  raw 0.18138(0.00082)  difference -0.00007(0.00039)  variance ratio 1.68
+4. W(2,3): averaged 0.09051(0.00054)  raw 0.09064(0.00079)  difference -0.00013(0.00050)  variance ratio 2.17
+4. W(3,3): averaged 0.03676(0.00042)  raw 0.03667(0.00064)  difference +0.00009(0.00043)  variance ratio 2.33

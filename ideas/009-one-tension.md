@@ -61,6 +61,12 @@ tension is 0.78-0.86 of the Regge tension once the potential's own spin-spin
 term is allowed for. The 1D level comes out at 3.78-3.81 GeV (P19, no weight:
 the outcome is remembered).
 
+## 1978 paper
+`outputs/1978-su2-scaling/` (QCDS-78/1). The upsilon family discriminates among
+the 1976 potentials; a joint fit to psi, psi', Upsilon, Upsilon' gives
+sigma = 0.168 GeV^2, 0.91 of the Regge tension, and the chi_c centre within
+12 MeV.
+
 ## References
 ChewFrautschi1962, Hagedorn1965, HuangWeinberg1970, Olesen1985,
 PisarskiAlvarez1982, LTW2004a, PDG1974.

@@ -1,0 +1,149 @@
+/home/codexssh/qcdstring/outputs/1978-su2-scaling/code/analyze78.py:49: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  return c, np.sqrt((nb - 1) * np.nanvar(js, axis=0)), js
+SU(2), d = 4: Wilson loops
+  beta 1.50 L  8 smear  0 meas 200: plaquette 0.36232  chi22 1.0030(0.0040)  chi33 1.0631(0.3933)  strong coupling 1.0106
+     V(R) at T* = 1: 1.0080(0.0024), 2.0109(0.0036), 3.0065(0.0335)
+     V(R) at T*+1:   1.0007(0.0065), 2.0102(0.0151), 3.0733(0.3988)
+     sigma a^2 = 1.0030(0.0040)(syst 0.0000); a Lambda_L (2-loop) = 4.255e-02; sqrt(sigma)/Lambda_L = 23.5(0.0 stat, 0.0 total); 1-loop 56.8
+  beta 1.60 L  8 smear  0 meas 200: plaquette 0.38778  chi22 0.9317(0.0033)  chi33 0.8667(0.1991)  strong coupling 0.9433
+     V(R) at T* = 1: 0.9399(0.0019), 1.8715(0.0039), 2.8020(0.0247)
+     V(R) at T*+1:   0.9353(0.0047), 1.8785(0.0127), 2.7453(0.2072)
+     sigma a^2 = 0.9317(0.0033)(syst 0.0000); a Lambda_L (2-loop) = 3.340e-02; sqrt(sigma)/Lambda_L = 28.9(0.1 stat, 0.1 total); 1-loop 71.6
+  beta 1.70 L  8 smear  0 meas 200: plaquette 0.41381  chi22 0.8480(0.0024)  chi33 0.7560(0.0934)  chi44 -5.6464(4.6670)  strong coupling 0.8786
+     V(R) at T* = 1: 0.8713(0.0021), 1.7193(0.0029), 2.5904(0.0201), 3.5342(0.1043)
+     V(R) at T*+1:   0.8687(0.0050), 1.7190(0.0094), 2.4750(0.0918), 3.0145(1.1841)
+     sigma a^2 = 0.8480(0.0024)(syst 0.0000); a Lambda_L (2-loop) = 2.618e-02; sqrt(sigma)/Lambda_L = 35.2(0.1 stat, 0.1 total); 1-loop 89.4
+  beta 1.80 L  8 smear  0 meas 200: plaquette 0.44131  chi22 0.7738(0.0028)  chi33 0.7189(0.0586)  chi44 nan(nan)  strong coupling 0.8161
+     V(R) at T* = 1: 0.8021(0.0014), 1.5759(0.0030), 2.3403(0.0122), 3.1285(0.0686)
+     V(R) at T*+1:   0.7978(0.0035), 1.5700(0.0082), 2.2889(0.0631), 3.1723(0.6013)
+     sigma a^2 = 0.7738(0.0028)(syst 0.0000); a Lambda_L (2-loop) = 2.049e-02; sqrt(sigma)/Lambda_L = 42.9(0.1 stat, 0.1 total); 1-loop 111.8
+  beta 1.90 L  8 smear  2 meas 200: plaquette 0.46994  chi22 0.6714(0.0026)  chi33 0.7054(0.0527)  chi44 nan(nan)  strong coupling 0.7553
+     V(R) at T* = 1: 0.7344(0.0018), 1.4058(0.0038), 2.0457(0.0104), 2.7130(0.0356)
+     V(R) at T*+1:   0.7251(0.0030), 1.3975(0.0069), 2.1029(0.0563), 2.9733(0.5141)
+     sigma a^2 = 0.6714(0.0026)(syst 0.0000); a Lambda_L (2-loop) = 1.602e-02; sqrt(sigma)/Lambda_L = 51.2(0.1 stat, 0.1 total); 1-loop 136.3
+  beta 2.00 L  8 smear  2 meas 200: plaquette 0.50130  chi22 0.5752(0.0020)  chi33 0.5605(0.0175)  chi44 nan(4.3746)  strong coupling 0.6959
+     V(R) at T* = 2: 0.6537(0.0023), 1.2285(0.0040), 1.7890(0.0203), 2.4414(0.1088)
+     V(R) at T*+1:   0.6513(0.0034), 1.2366(0.0080), 1.7445(0.0832), nan(4.4040)
+     sigma a^2 = 0.5605(0.0175)(syst 0.0000); a Lambda_L (2-loop) = 1.250e-02; sqrt(sigma)/Lambda_L = 59.9(0.9 stat, 0.9 total); 1-loop 163.0
+  beta 2.10 L  8 smear  2 meas 200: plaquette 0.53427  chi22 0.4684(0.0020)  chi33 0.4049(0.0096)  chi44 0.3997(0.1170)  strong coupling 0.6378
+     V(R) at T* = 2: 0.5768(0.0020), 1.0434(0.0036), 1.4483(0.0121), 1.8268(0.0356)
+     V(R) at T*+1:   0.5817(0.0031), 1.0426(0.0046), 1.4531(0.0238), 1.8528(0.1278)
+     sigma a^2 = 0.4049(0.0096)(syst 0.0000); a Lambda_L (2-loop) = 9.751e-03; sqrt(sigma)/Lambda_L = 65.3(0.8 stat, 0.8 total); 1-loop 181.4
+  beta 2.20 L 10 smear  4 meas 150: plaquette 0.56892  chi22 0.3577(0.0015)  chi33 0.2937(0.0046)  chi44 0.2970(0.0219)  chi55 0.6733(0.5324)  strong coupling 0.5807
+     V(R) at T* = 1: 0.5009(0.0008), 0.8586(0.0022), 1.1509(0.0043), 1.4195(0.0075), 1.6829(0.0126)
+     V(R) at T*+1:   0.4993(0.0012), 0.8563(0.0025), 1.1500(0.0067), 1.4133(0.0127), 1.6541(0.0268)
+     fit cornell  R [1, 4]: V0 0.4487(0.0080), sigma 0.2561(0.0033), e 0.2039(0.0050); chi2 0.4/1
+     fit luscher  R [1, 4]: V0 0.5271(0.0015), sigma 0.2350(0.0018); chi2 20.7/2
+     sigma from T*+1: 0.2558
+     sigma(T): T1: 0.2561(0.0033), T2: 0.2558(0.0065), T3: 0.2687(0.0157)  -> T* = 1
+     sigma a^2 = 0.2561(0.0033)(syst 0.0003); a Lambda_L (2-loop) = 7.597e-03; sqrt(sigma)/Lambda_L = 66.6(0.4 stat, 0.4 total); 1-loop 188.8
+  beta 2.30 L 12 smear  6 meas 120: plaquette 0.60225  chi22 0.2568(0.0009)  chi33 0.1855(0.0023)  chi44 0.1575(0.0040)  chi55 0.1478(0.0160)  chi66 0.0723(0.0839)  strong coupling 0.5244
+     V(R) at T* = 2: 0.4277(0.0008), 0.6840(0.0018), 0.8695(0.0040), 1.0298(0.0066), 1.1826(0.0094), 1.3333(0.0139)
+     V(R) at T*+1:   0.4283(0.0011), 0.6835(0.0018), 0.8692(0.0042), 1.0267(0.0076), 1.1769(0.0126), 1.3365(0.0234)
+     fit cornell  R [1, 5]: V0 0.5065(0.0071), sigma 0.1449(0.0030), e 0.2237(0.0047); chi2 0.7/2
+     fit luscher  R [1, 5]: V0 0.5565(0.0016), sigma 0.1322(0.0018); chi2 18.9/3
+     sigma from T*+1: 0.1442
+     sigma(T): T1: 0.1490(0.0015), T2: 0.1449(0.0030), T3: 0.1442(0.0039), T4: 0.1421(0.0048), T5: 0.1419(0.0077)  -> T* = 2
+     sigma a^2 = 0.1449(0.0030)(syst 0.0028); a Lambda_L (2-loop) = 5.914e-03; sqrt(sigma)/Lambda_L = 64.4(0.7 stat, 0.9 total); 1-loop 185.9
+  beta 2.40 L 12 smear 10 meas 120: plaquette 0.63007  chi22 0.1893(0.0009)  chi33 0.1168(0.0017)  chi44 0.0909(0.0022)  chi55 0.0708(0.0040)  chi66 0.0519(0.0079)  strong coupling 0.4689
+     V(R) at T* = 2: 0.3732(0.0008), 0.5616(0.0015), 0.6784(0.0031), 0.7708(0.0051), 0.8529(0.0072), 0.9312(0.0095)
+     V(R) at T*+1:   0.3734(0.0009), 0.5605(0.0015), 0.6756(0.0032), 0.7665(0.0051), 0.8479(0.0076), 0.9227(0.0104)
+     fit cornell  R [2, 5]: V0 0.5740(0.0090), sigma 0.0676(0.0027), e 0.2953(0.0095); chi2 0.0/1
+     fit luscher  R [2, 5]: V0 0.5493(0.0026), sigma 0.0717(0.0019); chi2 0.3/2
+     sigma from T*+1: 0.0668
+     sigma(T): T1: 0.0728(0.0014), T2: 0.0676(0.0027), T3: 0.0668(0.0033), T4: 0.0567(0.0046), T5: 0.0537(0.0063)  -> T* = 2
+     sigma a^2 = 0.0676(0.0027)(syst 0.0109); a Lambda_L (2-loop) = 4.600e-03; sqrt(sigma)/Lambda_L = 56.5(1.1 stat, 4.7 total); 1-loop 166.2
+  beta 2.50 L 16 smear 15 meas 100: plaquette 0.65188  chi22 0.1487(0.0007)  chi33 0.0810(0.0011)  chi44 0.0588(0.0015)  chi55 0.0493(0.0028)  chi66 0.0448(0.0029)  chi77 0.0411(0.0057)  chi88 0.0327(0.0070)  strong coupling 0.4142
+     V(R) at T* = 3: 0.3351(0.0008), 0.4832(0.0012), 0.5642(0.0025), 0.6229(0.0040), 0.6726(0.0060), 0.7187(0.0084), 0.7628(0.0112), 0.8056(0.0140)
+     V(R) at T*+1:   0.3348(0.0008), 0.4832(0.0014), 0.5636(0.0031), 0.6219(0.0053), 0.6711(0.0080), 0.7160(0.0108), 0.7584(0.0145), 0.8004(0.0182)
+     fit cornell  R [2, 7]: V0 0.5412(0.0076), sigma 0.0369(0.0024), e 0.2635(0.0080); chi2 0.0/3
+     fit luscher  R [2, 7]: V0 0.5400(0.0022), sigma 0.0371(0.0017); chi2 0.0/4
+     sigma from T*+1: 0.0360
+     sigma(T): T1: 0.0407(0.0009), T2: 0.0385(0.0016), T3: 0.0369(0.0024), T4: 0.0360(0.0034), T5: 0.0358(0.0032), T6: 0.0360(0.0043), T7: 0.0326(0.0032)  -> T* = 3
+     sigma a^2 = 0.0369(0.0024)(syst 0.0044); a Lambda_L (2-loop) = 3.576e-03; sqrt(sigma)/Lambda_L = 53.7(1.8 stat, 3.6 total); 1-loop 160.7
+  beta 2.60 L 16 smear 20 meas 80: plaquette 0.67005  chi22 0.1267(0.0005)  chi33 0.0646(0.0008)  chi44 0.0445(0.0009)  chi55 0.0369(0.0011)  chi66 0.0330(0.0015)  chi77 0.0314(0.0022)  chi88 0.0328(0.0043)  strong coupling 0.3600
+     V(R) at T* = 2: 0.3080(0.0002), 0.4349(0.0008), 0.4995(0.0016), 0.5440(0.0025), 0.5808(0.0035), 0.6138(0.0045), 0.6448(0.0056), 0.6749(0.0067)
+     V(R) at T*+1:   0.3081(0.0002), 0.4346(0.0008), 0.4991(0.0016), 0.5436(0.0025), 0.5805(0.0037), 0.6135(0.0054), 0.6445(0.0069), 0.6749(0.0080)
+     fit cornell  R [2, 7]: V0 0.5033(0.0026), sigma 0.0250(0.0011), e 0.2368(0.0024); chi2 0.0/3
+     fit luscher  R [2, 7]: V0 0.5203(0.0011), sigma 0.0226(0.0009); chi2 1.7/4
+     sigma from T*+1: 0.0251
+     sigma(T): T1: 0.0263(0.0009), T2: 0.0250(0.0011), T3: 0.0251(0.0015), T4: 0.0247(0.0016), T5: 0.0251(0.0014), T6: 0.0256(0.0012), T7: 0.0256(0.0016)  -> T* = 2
+     sigma a^2 = 0.0250(0.0011)(syst 0.0006); a Lambda_L (2-loop) = 2.777e-03; sqrt(sigma)/Lambda_L = 56.9(1.2 stat, 1.4 total); 1-loop 173.1
+
+Variants at beta = 2.4-2.6 (errors: jackknife over blocks of >= 4 autocorrelation times)
+  beta 2.4: 90 measurements used, tau_int 1.3, 15 blocks; T* = 2, latest usable T = 4
+     A  e free, T*                      T=2 R=2-5: sigma 0.0676(0.0027)  sqrt(sigma)/Lambda_L 56.5(1.1)  e 0.295(0.010)  corr chi2 0.3/1
+     B  e = pi/12, T*                   T=2 R=2-5: sigma 0.0717(0.0019)  sqrt(sigma)/Lambda_L 58.2(0.8)  e = pi/12     corr chi2 26.4/2
+     C  e free, latest T                T=4 R=2-5: sigma 0.0567(0.0046)  sqrt(sigma)/Lambda_L 51.8(2.1)  e 0.332(0.023)  corr chi2 5.0/1
+     D  e free, R sqrt(sigma) 0.4-1.4   T=2 R=2-5: sigma 0.0676(0.0027)  sqrt(sigma)/Lambda_L 56.5(1.1)  e 0.295(0.010)  corr chi2 0.3/1
+  beta 2.5: 75 measurements used, tau_int 2.8, 6 blocks; T* = 3, latest usable T = 7
+     A  e free, T*                      T=3 R=2-7: sigma 0.0369(0.0024)  sqrt(sigma)/Lambda_L 53.7(1.8)  e 0.264(0.008)  corr chi2 3.3/3
+     B  e = pi/12, T*                   T=3 R=2-7: sigma 0.0371(0.0017)  sqrt(sigma)/Lambda_L 53.9(1.2)  e = pi/12     corr chi2 4.1/4
+     C  e free, latest T                T=7 R=2-7: sigma 0.0326(0.0032)  sqrt(sigma)/Lambda_L 50.5(2.5)  e 0.272(0.027)  corr chi2 5.9/3
+     D  e free, R sqrt(sigma) 0.4-1.4   T=3 R=3-7: sigma 0.0375(0.0032)  sqrt(sigma)/Lambda_L 54.2(2.3)  e 0.252(0.024)  corr chi2 5.8/2
+  beta 2.6: 60 measurements used, tau_int 2.7, 5 blocks; T* = 2, latest usable T = 7
+     A  e free, T*                      T=2 R=2-7: sigma 0.0250(0.0011)  sqrt(sigma)/Lambda_L 56.9(1.2)  e 0.237(0.002)  corr chi2 6.7/3
+     B  e = pi/12, T*                   T=2 R=2-7: sigma 0.0226(0.0009)  sqrt(sigma)/Lambda_L 54.1(1.1)  e = pi/12     corr chi2 336.1/4
+     C  e free, latest T                T=7 R=2-7: sigma 0.0256(0.0016)  sqrt(sigma)/Lambda_L 57.6(1.8)  e 0.251(0.008)  corr chi2 0.3/3
+     D  e free, R sqrt(sigma) 0.4-1.4   T=2 R=3-8: sigma 0.0256(0.0012)  sqrt(sigma)/Lambda_L 57.7(1.4)  e 0.225(0.007)  corr chi2 2.3/3
+  one-loop / two-loop ratio (variant A): 2.40: 166 / 56.5, 2.50: 161 / 53.7, 2.60: 173 / 56.9
+
+Finite volume and start (variant A fits where the box allows):
+   beta 2.4 L 8, T = 2: R2: 0.5659(0.0028) vs 0.5616; R3: 0.6881(0.0073) vs 0.6784; R4: 0.7865(0.0136) vs 0.7708
+   beta 2.4 L 8, T = 3: R2: 0.5642(0.0030) vs 0.5605; R3: 0.6840(0.0084) vs 0.6756; R4: 0.7798(0.0150) vs 0.7665
+     tension from R = 2-4 at T = 2: 0.0744(0.0088) here, 0.0680 in the main run over the same R
+     tension from R = 2-4 at T = 3: 0.0719(0.0100) here, 0.0667 in the main run over the same R
+     plaquette 0.62980 here, 0.63007 main
+   beta 2.5 L 12 hot, T = 2: R2: 0.4825(0.0011) vs 0.4836; R3: 0.5609(0.0021) vs 0.5646; R4: 0.6162(0.0033) vs 0.6236; R5: 0.6630(0.0044) vs 0.6746; R6: 0.7057(0.0056) vs 0.7226
+   beta 2.5 L 12 hot, T = 3: R2: 0.4823(0.0011) vs 0.4832; R3: 0.5604(0.0022) vs 0.5643; R4: 0.6146(0.0035) vs 0.6232; R5: 0.6591(0.0052) vs 0.6731; R6: 0.6982(0.0070) vs 0.7197
+     tension from R = 2-6 at T = 2: 0.0331(0.0013) here, 0.0383 in the main run over the same R
+     tension from R = 2-6 at T = 3: 0.0299(0.0020) here, 0.0370 in the main run over the same R
+     plaquette 0.65207 here, 0.65188 main
+
+Thermal cycle, 8^4 (up / down):
+   beta 1.5: 0.3625(0.0003)  0.3620(0.0004)  diff +1.1 sigma
+   beta 1.6: 0.3880(0.0003)  0.3879(0.0005)  diff +0.1 sigma
+   beta 1.7: 0.4143(0.0004)  0.4131(0.0004)  diff +2.0 sigma
+   beta 1.8: 0.4404(0.0006)  0.4413(0.0006)  diff -1.0 sigma
+   beta 1.9: 0.4697(0.0004)  0.4700(0.0006)  diff -0.3 sigma
+   beta 2.0: 0.5008(0.0006)  0.5012(0.0004)  diff -0.6 sigma
+   beta 2.1: 0.5346(0.0006)  0.5354(0.0010)  diff -0.7 sigma
+   beta 2.2: 0.5700(0.0008)  0.5683(0.0009)  diff +1.4 sigma
+   beta 2.3: 0.6027(0.0005)  0.6027(0.0003)  diff +0.0 sigma
+   beta 2.4: 0.6302(0.0006)  0.6302(0.0005)  diff -0.1 sigma
+   beta 2.5: 0.6513(0.0004)  0.6515(0.0003)  diff -0.2 sigma
+   beta 2.6: 0.6704(0.0004)  0.6698(0.0004)  diff +1.0 sigma
+   beta 2.7: 0.6858(0.0005)  0.6857(0.0003)  diff +0.2 sigma
+   beta 2.8: 0.6992(0.0002)  0.6995(0.0003)  diff -0.9 sigma
+   beta 2.9: 0.7121(0.0003)  0.7120(0.0003)  diff +0.2 sigma
+   beta 3.0: 0.7231(0.0002)  0.7235(0.0003)  diff -1.3 sigma
+
+Specific heat 6V var(P), 8^4:
+   beta 1.9: 0.287(0.016)  plaquette 0.47004
+   beta 2.0: 0.299(0.015)  plaquette 0.50119
+   beta 2.1: 0.365(0.024)  plaquette 0.53462
+   beta 2.2: 0.368(0.025)  plaquette 0.56924
+   beta 2.3: 0.277(0.015)  plaquette 0.60185
+   beta 2.4: 0.279(0.018)  plaquette 0.63070
+   beta 2.5: 0.190(0.007)  plaquette 0.65243
+
+Budget (CDC 7600, 100 h at 3.3 Mflop/s = 1.19e+12):
+   Wilson loops, beta = 1.5     1.07e+10 (  0.9 %)
+   Wilson loops, beta = 1.6     1.07e+10 (  0.9 %)
+   Wilson loops, beta = 1.7     1.19e+10 (  1.0 %)
+   Wilson loops, beta = 1.8     1.19e+10 (  1.0 %)
+   Wilson loops, beta = 1.9     1.30e+10 (  1.1 %)
+   Wilson loops, beta = 2.0     1.30e+10 (  1.1 %)
+   Wilson loops, beta = 2.1     1.30e+10 (  1.1 %)
+   Wilson loops, beta = 2.2     3.26e+10 (  2.7 %)
+   Wilson loops, beta = 2.3     7.97e+10 (  6.7 %)
+   Wilson loops, beta = 2.4     8.64e+10 (  7.3 %)
+   Wilson loops, beta = 2.5     2.91e+11 ( 24.5 %)
+   Wilson loops, beta = 2.6     2.56e+11 ( 21.5 %)
+   thermal cycle                5.99e+10 (  5.0 %)
+   plaquette fluctuations       8.33e+10 (  7.0 %)
+   referee check 2.40_L8        1.50e+10 (  1.3 %)
+   referee check 2.50_L12hot    8.03e+10 (  6.8 %)
+   program checks (checks78.py) 1.00e+09 (  0.1 %)
+   disk traffic of the 16^4 runs (10%) 5.47e+10 (  4.6 %)
+   total                        1.12e+12 ( 94.6 %) = 95 h

@@ -1,0 +1,3 @@
+beta 1.6: L = 8, plaquette 0.38778, 1.07e+10 flop, 20 s
+beta 1.5: L = 8, plaquette 0.36232, 1.07e+10 flop, 21 s
+beta 1.7: L = 8, plaquette 0.41381, 1.19e+10 flop, 22 s

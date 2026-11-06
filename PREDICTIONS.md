@@ -29,6 +29,7 @@ Registered 6 November 1974 unless stated.
 | P18 | The QCD flux tube carries no massless worldsheet fermions. Its 1/R coefficient is -pi/12; two massless NS Majoranas would give -pi/8 and two R Majoranas 0. Registered 8 Nov 1974 jointly with the second line. | 1974 (free-field Casimir arithmetic), MEMORY (lattice) | Lattice V(R); `ideas/001`, second line T09/T14 | 2002 | open |
 | P14 | The extrinsic-curvature (rigidity) term on the worldsheet is irrelevant at long distance and does not change P02 or P03. | MEMORY | `ideas/011` | 1986-2013 | open |
 | P19 | The lowest D-wave level of charmonium lies at 3.78-3.81 GeV, 50-75 MeV above the open-charm threshold, in the potential of the 1976 paper (no coupled-channel shift, no error bar). Registered November 1976. Both lines remember the outcome, so this entry carries no weight as a test. | 1976 calculation | e+e- scans above 3.73 GeV | 1977 | open |
+| P20 | Bottomonium in the joint charmonium-bottomonium potential of the 1978 paper (kappa = 0.515, sigma = 0.168 GeV^2): 3S at 10.35, 1P centre 9.93, 1D 10.17, 2P 10.27, 4S 10.62 GeV; open-bottom threshold 10.57-10.72 GeV, so whether the 4S lies above it is undetermined. Registered November 1978. Both lines remember the outcome; no weight. | 1978 calculation | e+e- scans, radiative transitions | 1980-82 | open |
 
 ## Status log
 
@@ -66,4 +67,20 @@ Registered 6 November 1974 unless stated.
     set by the spin-spin term of the same potential. Supported at the 15-20%
     level, no tighter.
   * P19 registered (outcome remembered; no weight).
+* 1978-11 (paper QCDS-78/1, `outputs/1978-su2-scaling/`, tag `y1978`):
+  * P13, SU(2) part: no hysteresis on 8^4 for 1.5 <= beta <= 3.0; the
+    plaquette fluctuations peak at beta = 2.1-2.2; the tension is nonzero up to
+    beta = 2.6. The confinement half is supported. Scaling half:
+    sqrt(sigma)/Lambda_L falls from 66.6 at beta = 2.2 to 50-58 at 2.4-2.6,
+    constant within the spread of four analysis choices; the range cannot
+    tell two-loop from one-loop scaling, and the ledger's window 2.2-2.4 is too
+    low. Open.
+  * P02, d = 4: the 1/R coefficient of the SU(2) potential at beta = 2.4-2.6
+    is 0.24-0.33, depending on coupling and time separation; pi/12 is
+    acceptable at 2.5 only. The Casimir share is open.
+  * P01: a joint potential for charmonium and bottomonium has
+    sigma = 0.168 GeV^2, 0.91 of the Regge tension, and places the chi_c
+    centre within 12 MeV of the 1976 data. Supported at the 10% level.
+  * P19: the psi(3772) (1977) agrees with the 1976 record; no weight.
+  * P20 registered (outcome remembered; no weight).
 

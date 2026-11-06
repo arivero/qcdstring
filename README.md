@@ -26,9 +26,11 @@ of a result is a strong hint about *what* is true and a weak hint about
 | `THESIS.md` | The position: the string is the hadronic flux tube. Arguments, counter-arguments, what would change my mind. |
 | `RESEARCH_PLAN.md` | Phased plan, milestones, falsifiable predictions, resource needs. |
 | `LONG_MARCH.md` | How the programme absorbs the five superstring theories and M-theory as charts on the confining vacuum; the admission that it is geometry, and the hadronic reading of that geometry. |
+| `outputs/` | One paper every two years from 1976 (plan and rules in `OUTPUTS_PLAN.md`). Each folder holds the paper, every program behind its numbers, raw results, figures, a cold referee report for the second line and our response. Tagged `y1976`, `y1978`, ... |
 | `second_line/` | The independent package of Astra 6.0 on the same premise, unmodified, with provenance and a memo on how it was integrated. |
 | `TIMELINE.md` | What the memory says happens next (1974 to 2026), and where to intervene. |
 | `PREDICTIONS.md` | Registered predictions with dates. The honesty ledger. |
+| `OUTPUTS_PLAN.md` | The plan for one paper every two years, 1976 to 2026: the rules (the world moves as it did, era-bound computing, a cold referee) and the next slots. |
 | `papers/` | Two manifests. `library-1974.tsv`: papers that exist now and should be on the shelf. `memory-future.tsv`: papers that do not exist yet; their results must be rederived. `fetch.py` resolves identifiers through INSPIRE and downloads what is freely available. |
 | `ideas/` | One file per idea to test. Each has a claim, its 1974 status, what the memory says, a concrete test, and a status line. |
 | `numerics/` | Small programs: Regge fits, the Nambu-Goto (Arvis) spectrum and Luscher term, a Z2 lattice gauge Monte Carlo (Metropolis 1953 exists; a lattice gauge theory now exists too, Wilson 1974). |
