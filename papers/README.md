@@ -10,6 +10,7 @@ Two manifests and a fetcher.
   in 2026 can download them. Each line also carries an arXiv identifier
   where one exists and a confidence flag on the identifier.
 * `local_sources.tsv` and `LOCAL_SCAN.md`: what the 2026 disk already holds, found by a scan of the parent directory. `fetch.py` links those PDFs first and downloads the rest.
+* `transcribe.py`: converts `pdf/*.pdf` to Markdown in `md/` (ignored by git), with a front-matter header and a page marker per page. `md-index.tsv` lists what was converted. Equations come out as plain text.
 * `fetch.py`: resolves every entry through the INSPIRE API (by DOI,
   arXiv id, or title), writes `resolved.tsv`, and downloads whatever is
   freely available (arXiv, or a scanned preprint hosted on INSPIRE) into
@@ -28,4 +29,4 @@ and are reliable; Elsevier DOIs of the 1970s and arXiv numbers are
 reliable in most cases and the fetcher checks each against INSPIRE's
 title before trusting it. A mismatch is reported, never silently used.
 
-`pdf/` and `resolved.tsv` are ignored by git.
+`pdf/`, `md/` and `resolved.tsv` are ignored by git.

@@ -1,5 +1,6 @@
 # downloaded papers (large binaries; re-fetch with papers/fetch.py)
 papers/pdf/
+papers/md/
 papers/resolved.tsv
 # python / numerics scratch
 __pycache__/
