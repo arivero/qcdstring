@@ -25,6 +25,7 @@ of a result is a strong hint about *what* is true and a weak hint about
 |---|---|
 | `THESIS.md` | The position: the string is the hadronic flux tube. Arguments, counter-arguments, what would change my mind. |
 | `RESEARCH_PLAN.md` | Phased plan, milestones, falsifiable predictions, resource needs. |
+| `LONG_MARCH.md` | How the programme absorbs the five superstring theories and M-theory as charts on the confining vacuum; the admission that it is geometry, and the hadronic reading of that geometry. |
 | `TIMELINE.md` | What the memory says happens next (1974 to 2026), and where to intervene. |
 | `PREDICTIONS.md` | Registered predictions with dates. The honesty ledger. |
 | `papers/` | Two manifests. `library-1974.tsv`: papers that exist now and should be on the shelf. `memory-future.tsv`: papers that do not exist yet; their results must be rederived. `fetch.py` resolves identifiers through INSPIRE and downloads what is freely available. |

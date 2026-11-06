@@ -34,16 +34,21 @@ typically a year earlier.
 | 1981 | Luscher: the universal 1/R term. Polyakov: the Liouville string. Alvarez: the Nambu-Goto V(R). | Should already be in the ledger with a 1975 date. |
 | 1983 | Arvis: the full Nambu-Goto fixed-end spectrum. | Same. |
 | 1984 | Green-Schwarz anomaly cancellation. The field turns to gravity. | The hadronic program must be self-sustaining by now. |
-| 1985 | Isgur-Paton flux-tube model. Olesen: Hagedorn and deconfinement from the string. Catto-Gursey: hadronic supersymmetry. | |
+| 1985 | Heterotic string (Gross-Harvey-Martinec-Rohm); Calabi-Yau vacua. Isgur-Paton flux-tube model. Olesen: Hagedorn and deconfinement from the string. Catto-Gursey: hadronic supersymmetry. | |
 | 1986 | Polyakov, Kleinert: the rigid string. | Worth examining early; the extrinsic-curvature term is irrelevant in the infrared (memory), which is itself a useful result. |
 | 1987 | Polyakov, "Gauge Fields and Strings". | |
 | 1991 | Polchinski-Strominger: effective string theory in any d. | Core of Phase 1. |
 | 1992 | Polchinski, "Strings and QCD?". Donnachie-Landshoff: Pomeron intercept 1.08. | |
-| 1993 | Gross-Taylor: 2d QCD as a string theory. | |
+| 1993 | Gross-Taylor: 2d QCD as a string theory. |
+| 1994-95 | Seiberg-Witten: monopole condensation exact in N=2. Hull-Townsend, Witten: the duality web and the eleventh dimension. Douglas-Shenker: sine law. Polchinski: D-branes. Polchinski-Witten: heterotic equals type I. | `LONG_MARCH.md`, ideas 018-019. |
+| 1996 | Horava-Witten: E8xE8 from an interval. Hanany-Witten: brane constructions. | Idea 020. |
+| 1997 | Witten: MQCD, the string as a membrane. Hanany-Strassler-Zaffaroni: sine law from MQCD. | Idea 018. | |
 | 1997 | Maldacena. Polyakov: the fifth dimension is the Liouville field. | Phase 4 is the attempt to get here from the gauge side. |
-| 1998 | Witten: confinement from a thermal AdS geometry. Maldacena, Rey-Yee: Wilson loops as minimal surfaces. Kinar-Schreiber-Sonnenschein: the Q-Qbar potential in holography. | |
+| 1998 | Polyakov: the wall of the cave; Klebanov-Tseytlin: type 0 duals. Witten: baryon vertex. Gopakumar-Vafa: geometric transition. Witten: confinement from a thermal AdS geometry. Maldacena, Rey-Yee: Wilson loops as minimal surfaces. Kinar-Schreiber-Sonnenschein: the Q-Qbar potential in holography. | |
+| 2000-01 | Klebanov-Strassler, Maldacena-Nunez: confining IIB geometries. Vafa, Atiyah-Maldacena-Vafa: the geometric transition as confinement, on a G2 manifold. | Idea 021. |
 | 2001 | Polchinski-Strassler: hard scattering from a warped string. Lucini-Teper: large-N lattice. | Phase 4. |
 | 2002-04 | Luscher-Weisz: the Luscher term confirmed on the lattice in SU(3); boundary terms. | Phase 2 stretch goal. |
+| 2003 | Armoni-Shifman-Veneziano: planar equivalence. Non-Abelian vortices (Hanany-Tong; Auzzi et al). | Ideas 019, 022. |
 | 2004 | Sakai-Sugimoto: chiral symmetry breaking from joined branes. Kruczenski et al: Regge trajectories from rotating strings in confining backgrounds. | Phase 5. |
 | 2006 | Brower-Polchinski-Strassler-Tan: the Pomeron as the Reggeised graviton, intercept 2 - 2/sqrt(lambda). | Phase 3 and 4. |
 | 2009-13 | Aharony and collaborators: the Nambu-Goto spectrum is universal to O(1/R^5) in d = 4. | Phase 1. |

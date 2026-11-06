@@ -37,3 +37,9 @@ Index:
 | 014 | Casimir scaling and k-strings | 2 |
 | 015 | Two-dimensional QCD is the solvable case | 5 |
 | 016 | Mesons and baryons on one trajectory: the diquark string | 3 |
+| 017 | Type 0 strings are the non-supersymmetric string of QCD | 6 |
+| 018 | The flux tube is a membrane at strong coupling | 6 |
+| 019 | k-strings are (p,q) strings and S-duality is the dual superconductor | 2, 6 |
+| 020 | Two walls, two chiralities: the heterotic string as the flavoured flux tube | 6 |
+| 021 | Geometry is the vacuum: the geometric transition is confinement | 6 |
+| 022 | Supersymmetry from the hadron side | 3, 6 |

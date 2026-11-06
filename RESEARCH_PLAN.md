@@ -137,6 +137,16 @@ This is the phase on which the whole program turns.
 * Two-dimensional QCD ('t Hooft 1974) as the exactly solvable string:
   the meson equation is a string with massive ends in d = 2. `ideas/015`.
 
+## Phase 6: 1980 onward. The long march.
+
+The superstring theories and M-theory, as they arrive in the memory's
+chronology, are absorbed as descriptions of confining vacua. The
+document is `LONG_MARCH.md`; the ideas are 017 to 022. The hadronic
+order of business is the dual superconductor, then branes as the
+surfaces for the string ends, then the membrane string, then the
+geometric transition, then type 0 and planar equivalence as the bridges
+to QCD with light quarks.
+
 ## Milestones and kill criteria
 
 | When | Milestone | Kill criterion |

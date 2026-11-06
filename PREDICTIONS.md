@@ -23,6 +23,9 @@ Registered 6 November 1974 unless stated.
 | P11 | In the strong-coupling expansion of sigma(beta) there is a roughening singularity before the continuum regime; beyond it the Wilson surface fluctuates and the 1/R term in V(R) appears. | MEMORY | Series analysis, Monte Carlo; `ideas/004` | 1980 | open |
 | P12 | In the theory with light quarks the flux tube breaks at R ~ 1.2-1.3 fm, where sigma R equals twice the heavy-light meson mass above threshold. | MEMORY | Lattice; `ideas/008` | 2005 | open |
 | P13 | The U(1) lattice gauge theory in d = 4 has a confining phase at strong coupling and a Coulomb phase at weak coupling, separated by a transition near beta = 1.0. The SU(2) theory confines at all couplings and shows asymptotic scaling of sigma around beta = 2.2-2.4 on lattices of 6^4 to 10^4. | MEMORY | `numerics/`, Phase 2 | 1979-80 | open |
+| P15 | The static three-quark potential at large separations is sigma times the length of the Steiner (Y-shaped) tree joining the quarks, with the same sigma as the quark-antiquark string. Registered 7 Nov 1974. | MEMORY, 1974 (Nambu's junction) | Lattice three-quark potential; `ideas/018` | 2001 | open |
+| P16 | The exponential growth of the hadron level density has the same slope for mesons and for baryons. Registered 7 Nov 1974. | MEMORY (Kutasov-Seiberg theorem, read hadronically) | Separate Hagedorn fits to the meson and baryon tables; `ideas/022` | open in the memory | open |
+| P17 | SU(N) gauge theory with one Dirac fermion in the two-index antisymmetric representation has glueball and meson masses that approach those of N=1 super Yang-Mills with O(1/N) corrections; at N = 3 this is one-flavour QCD. Registered 7 Nov 1974. | MEMORY | Lattice at N = 3, 4, 6; `ideas/022` | 2003 (theory) | open |
 | P14 | The extrinsic-curvature (rigidity) term on the worldsheet is irrelevant at long distance and does not change P02 or P03. | MEMORY | `ideas/011` | 1986-2013 | open |
 
 ## Status log
@@ -41,3 +44,4 @@ Registered 6 November 1974 unless stated.
   sigma from the Regge slope, m_c tuned to the 1S): predicted 1P centroid
   3.528, 2S 3.712, 1D 3.829, 3S 4.166 GeV. Memory values: 3.525, 3.686,
   3.770, 4.040. The 3S overshoot is expected from the open-charm threshold.
+* 1974-11-07: P15-P17 registered with the long-march document.

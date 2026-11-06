@@ -94,3 +94,41 @@ Pomeron1998	1998	Ellis, John R., Ross, Graham G., Williams, J.C.	Probing the str
 XsecParam2013	2013	Menon, M.J., Silva, P.V.R.G.	A study on analytic parametrizations for proton–proton cross-sections and asymptotia		1305.2947		medium	Analytic parametrisations of pp cross sections; idea 006. From a local abstract list.
 XsecBounds2017	2017	Fagundes, D.A., Menon, M.J., Silva, P.V.R.G.	Bounds on the rise of total cross section from LHC7 and LHC8 data		1703.07486		medium	Bounds on the rise of the total cross section from LHC7/8; idea 006. From a local abstract list.
 DiffCone2015	2015	Fagundes, D.A., Jenkovszky, L., Miranda, E.Q., Pancheri, G.	Fine structure of the diffraction cone: from ISR to the LHC		1509.02197		medium	Fine structure of the diffraction cone, ISR to LHC; idea 006. From a local abstract list.
+GHMR1985	1985	Gross, Harvey, Martinec, Rohm	Heterotic string	Phys. Rev. Lett. 54, 502		10.1103/PhysRevLett.54.502	high	The heterotic string; idea 020.
+CHSW1985	1985	Candelas, Horowitz, Strominger, Witten	Vacuum configurations for superstrings	Nucl. Phys. B258, 46		10.1016/0550-3213(85)90602-9	medium	Calabi-Yau compactification; the geometry the programme leaves alone (LONG_MARCH section 7).
+KutasovSeiberg1991	1991	Kutasov, Seiberg	Number of degrees of freedom, density of states and tachyons in string theory and CFT	Nucl. Phys. B358, 600			high	Tachyon-free strings have asymptotically Bose-Fermi degenerate spectra; P16.
+Dienes1994	1994	Dienes	Modular invariance, finiteness, and misaligned supersymmetry: new constraints on the numbers of physical string states	Nucl. Phys. B429, 533	hep-th/9402006		high	Misaligned supersymmetry; P16.
+SeibergWitten1994	1994	Seiberg, Witten	Electric-magnetic duality, monopole condensation, and confinement in N=2 supersymmetric Yang-Mills theory	Nucl. Phys. B426, 19	hep-th/9407087		high	Monopole condensation made exact; idea 019. Local copy exists.
+HullTownsend1994	1994	Hull, Townsend	Unity of superstring dualities	Nucl. Phys. B438, 109	hep-th/9410167		high	The duality web. Local copy exists.
+Witten1995	1995	Witten	String theory dynamics in various dimensions	Nucl. Phys. B443, 85	hep-th/9503124		high	M-theory from IIA at strong coupling. Local copy exists.
+Townsend1995	1995	Townsend	The eleven-dimensional supermembrane revisited	Phys. Lett. B350, 184	hep-th/9501068		high	The membrane; idea 018.
+DouglasShenker1995	1995	Douglas, Shenker	Dynamics of SU(N) supersymmetric gauge theory	Nucl. Phys. B447, 271	hep-th/9503163		high	The sine law for k-strings; idea 019.
+PolchinskiWitten1995	1995	Polchinski, Witten	Evidence for heterotic-type I string duality	Nucl. Phys. B460, 525	hep-th/9510169		high	Heterotic SO(32) equals type I; idea 020.
+HoravaWitten1996a	1996	Horava, Witten	Heterotic and type I string dynamics from eleven dimensions	Nucl. Phys. B460, 506	hep-th/9510209		high	M-theory on an interval; idea 020.
+HoravaWitten1996b	1996	Horava, Witten	Eleven-dimensional supergravity on a manifold with boundary	Nucl. Phys. B475, 94	hep-th/9603142		high	Same; the wall gauge fields.
+Duff1996	1996	Duff	M theory (the theory formerly known as strings)	Int. J. Mod. Phys. A11, 5623	hep-th/9608117		high	Review of M-theory; idea 018.
+HananyWitten1996	1996	Hanany, Witten	Type IIB superstrings, BPS monopoles, and three-dimensional gauge dynamics	Nucl. Phys. B492, 152	hep-th/9611230		high	Brane constructions of gauge theories. Local copy exists.
+HSZ1998	1997	Hanany, Strassler, Zaffaroni	Confinement and strings in MQCD	Nucl. Phys. B513, 87	hep-th/9707244		high	Sine law from the membrane string; idea 018.
+Witten1998c	1998	Witten	Baryons and branes in anti de Sitter space	JHEP 07, 006	hep-th/9805112		high	The baryon vertex: N strings meeting on a wrapped brane; P15.
+Sen1998	1998	Sen	Tachyon condensation on the brane antibrane system	JHEP 08, 012	hep-th/9805170		high	How two flavour stacks join; idea 020.
+Polyakov1998	1998	Polyakov	The wall of the cave	Int. J. Mod. Phys. A14, 645	hep-th/9809057		high	Type 0 strings for non-supersymmetric gauge theories; idea 017.
+KlebanovTseytlin1998a	1998	Klebanov, Tseytlin	D-branes and dual gauge theories in type 0 strings	Nucl. Phys. B546, 155	hep-th/9811035		high	Type 0 duals; idea 017.
+KlebanovTseytlin1998b	1998	Klebanov, Tseytlin	Asymptotic freedom and infrared behavior in the type 0 string approach to gauge theory	Nucl. Phys. B547, 143	hep-th/9812089		high	Running coupling from the tachyon; idea 017.
+GopakumarVafa1998	1998	Gopakumar, Vafa	On the gauge theory/geometry correspondence	Adv. Theor. Math. Phys. 3, 1415	hep-th/9811131		high	Geometric transition; idea 021.
+Vafa2000	2000	Vafa	Superstrings and topological strings at large N	J. Math. Phys. 42, 2798	hep-th/0008142		high	Geometric transition for N=1 SYM; idea 021.
+MaldacenaNunez2000	2000	Maldacena, Nunez	Towards the large N limit of pure N=1 super Yang Mills	Phys. Rev. Lett. 86, 588	hep-th/0008001		high	Wrapped fivebranes; a confining IIB geometry; idea 021.
+Acharya2000	2000	Acharya	On realising N=1 super Yang-Mills in M theory		hep-th/0011089		high	SYM at G2 singularities; idea 021.
+AMV2001	2001	Atiyah, Maldacena, Vafa	An M-theory flop as a large N duality	J. Math. Phys. 42, 3209	hep-th/0011256		high	Confinement as a G2 flop; idea 021.
+AtiyahWitten2001	2001	Atiyah, Witten	M-theory dynamics on a manifold of G2 holonomy	Adv. Theor. Math. Phys. 6, 1	hep-th/0107177		high	G2 dynamics. Local copy exists.
+AcharyaGukov2004	2004	Acharya, Gukov	M theory and singularities of exceptional holonomy manifolds	Phys. Rept. 392, 121	hep-th/0409191		high	Review of G2 singularities. Local copy exists.
+HerzogKlebanov2001	2001	Herzog, Klebanov	On string tensions in supersymmetric SU(M) gauge theory	Phys. Lett. B526, 388	hep-th/0111078		high	k-strings in the deformed conifold; idea 019.
+KarchKatz2002	2002	Karch, Katz	Adding flavor to AdS/CFT	JHEP 06, 043	hep-th/0205236		high	Flavour branes; idea 020.
+ASV2003a	2003	Armoni, Shifman, Veneziano	Exact results in non-supersymmetric large N orientifold field theories	Nucl. Phys. B667, 170	hep-th/0302163		high	Planar equivalence; idea 022.
+ASV2003b	2003	Armoni, Shifman, Veneziano	SUSY relics in one-flavor QCD from a new 1/N expansion	Phys. Rev. Lett. 91, 191601	hep-th/0307097		high	Planar equivalence applied to QCD; idea 022, P17.
+HananyTong2003	2003	Hanany, Tong	Vortices, instantons and branes	JHEP 07, 037	hep-th/0306150		high	Non-Abelian vortices; idea 019.
+Auzzi2003	2003	Auzzi, Bolognesi, Evslin, Konishi, Yung	Nonabelian superconductors: vortices and confinement in N=2 SQCD	Nucl. Phys. B673, 187	hep-th/0307287		high	Non-Abelian vortices; idea 019.
+ArmoniPatella2009	2009	Armoni, Patella	Degeneracy between the Regge slope of mesons and baryons from supersymmetry	JHEP 07, 073	0901.4508		high	Hadronic supersymmetry from the orientifold theory; ideas 016, 022.
+BroniowskiFlorkowski2000	2000	Broniowski, Florkowski	Different Hagedorn temperatures for mesons and baryons from experimental mass spectra, compound hadrons, and combinatorial saturation	Phys. Lett. B490, 223	hep-ph/0004104		high	The meson versus baryon Hagedorn slope; P16.
+Takahashi2001	2001	Takahashi, Matsufuru, Nemoto, Suganuma	The three-quark potential in the SU(3) lattice QCD	Phys. Rev. Lett. 86, 18	hep-lat/0006005		high	Y-junction three-quark potential; P15.
+Rivero2024	2024	Rivero	An interpretation of scalars in SO(32)	Eur. Phys. J. C84, 1058	2407.05397	10.1140/epjc/s10052-024-13368-3	high	SO(32) scalars as diquarks and mesons; a lead for idea 022. Local copy exists.
+NSVZ1983	1983	Novikov, Shifman, Vainshtein, Zakharov	Exact Gell-Mann-Low function of supersymmetric Yang-Mills theories from instanton calculus	Nucl. Phys. B229, 381		10.1016/0550-3213(83)90338-3	medium	Gluino condensate at weak coupling; idea 021 consistency check.

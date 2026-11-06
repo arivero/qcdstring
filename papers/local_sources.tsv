@@ -21,3 +21,11 @@ Tong2009	pdf	physres5/references/pdfs/02_Tong_String_Theory_notes.pdf	218	Canoni
 -	md	chatpublic/discussions/2026-10-11-quark-antiquark-open-string/sources.md		Annotated source list for dual-model open strings with fermionic ends; names Schwarz 1971, Ramond 1971, Bars-Hanson 1976, Polchinski-Strassler, Sonnenschein-Weissman.
 -	md	phys6gpd/analysis/results/pf_thread_bibliography.md		Bibliography of a Physics Forums thread titled 'The Wrong Turn of String Theory', 2011-2026; hadronic supersymmetry and diquark references.
 -	md	physres5lineage/dv2/references/regge-string/README.md		Manifest of two Regge/string references.
+SeibergWitten1994	pdf	phys4/sources/seiberg-witten-1994.pdf	45	Verified by arXiv stamp hep-th/9407087.
+HullTownsend1994	pdf	physres5lineage/chats/devries-regge-kk-research-project/references/dimension-limits/hull-townsend-1995-unity-string-dualities.pdf	44	Verified by preprint number.
+Witten1995	pdf	physres5lineage/chats/devries-regge-kk-research-project/references/dimension-limits/witten-1995-string-theory-dynamics-various-dimensions.pdf	56	Verified by arXiv stamp.
+HananyWitten1996	pdf	phys4/sources/hanany-witten-1997.pdf	46	Verified by preprint number hep-th/9611230.
+AtiyahWitten2001	pdf	physres5/references/pdfs/12_Atiyah_Witten_MTheory_G2_Holonomy_hep-th-0107177.pdf	105	Verified by arXiv stamp. 11 Markdown transcriptions in physres5/context/source_fragments/12_...
+AcharyaGukov2004	pdf	physres5/references/pdfs/11_Acharya_Gukov_MTheory_Singularities_G2_holonomy_hep-th-0409191.pdf	95	Verified by preprint number. 10 transcriptions in source_fragments/11_...
+Rivero2024	pdf	phys4/sources/rivero-so32-2024.pdf	9	Verified by journal header, EPJC 84, 1058.
+-	pdf	physres5/references/pdfs/14_Duff_MTheory_G2_First_Twenty_Years_hep-th-0201062.pdf	21	Duff, M-theory on G2: the first twenty years. Background for idea 021.
