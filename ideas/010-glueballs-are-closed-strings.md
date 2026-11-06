@@ -45,6 +45,14 @@ Masses in the ranges above with the stated ordering. Refuted by a
 lattice scalar below 2 sqrt(sigma) or above 5, or by a different
 ordering.
 
+## Second line
+The D4 tensor tower (second line T05; `numerics/d4_tensor.py`) is the
+holographic version of the 2++ sector of this idea. Its ratio to the
+string tension is 1.5669 sqrt(27 pi/(2 lambda)); the lattice ratio of
+4.8-5.0 in P08 would need lambda ~ 4.3, outside the regime of the
+calculation. If the 2++ states have exact N=1 partners, the multiplet
+is (2, 3/2, 3/2, 1); a supersymmetric glueball claim must predict them.
+
 ## References
 tHooftPlanar1974, Shapiro1970, IsgurPaton1985, Teper1998, LTW2004b,
 AT2021, Witten1998b.

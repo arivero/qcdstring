@@ -1,6 +1,6 @@
 # Predictions ledger
 
-Rules. A prediction is registered with a date and never edited. Its
+Rules. A remembered number is a prediction, never an input and never evidence; an entry counts as supported only when reproduced inside the programme (rule adopted from the second line). A prediction is registered with a date and never edited. Its
 status is updated below it. "Source" says whether the prediction follows
 from a 1974 derivation or from memory. "Resolves" gives the year the
 memory says the matter is settled, so that a reader can judge how much
@@ -26,6 +26,7 @@ Registered 6 November 1974 unless stated.
 | P15 | The static three-quark potential at large separations is sigma times the length of the Steiner (Y-shaped) tree joining the quarks, with the same sigma as the quark-antiquark string. Registered 7 Nov 1974. | MEMORY, 1974 (Nambu's junction) | Lattice three-quark potential; `ideas/018` | 2001 | open |
 | P16 | The exponential growth of the hadron level density has the same slope for mesons and for baryons. Registered 7 Nov 1974. | MEMORY (Kutasov-Seiberg theorem, read hadronically) | Separate Hagedorn fits to the meson and baryon tables; `ideas/022` | open in the memory | open |
 | P17 | SU(N) gauge theory with one Dirac fermion in the two-index antisymmetric representation has glueball and meson masses that approach those of N=1 super Yang-Mills with O(1/N) corrections; at N = 3 this is one-flavour QCD. Registered 7 Nov 1974. | MEMORY | Lattice at N = 3, 4, 6; `ideas/022` | 2003 (theory) | open |
+| P18 | The QCD flux tube carries no massless worldsheet fermions. Its 1/R coefficient is -pi/12; two massless NS Majoranas would give -pi/8 and two R Majoranas 0. Registered 8 Nov 1974 jointly with the second line. | 1974 (free-field Casimir arithmetic), MEMORY (lattice) | Lattice V(R); `ideas/001`, second line T09/T14 | 2002 | open |
 | P14 | The extrinsic-curvature (rigidity) term on the worldsheet is irrelevant at long distance and does not change P02 or P03. | MEMORY | `ideas/011` | 1986-2013 | open |
 
 ## Status log
@@ -45,3 +46,4 @@ Registered 6 November 1974 unless stated.
   3.528, 2S 3.712, 1D 3.829, 3S 4.166 GeV. Memory values: 3.525, 3.686,
   3.770, 4.040. The 3S overshoot is expected from the open-charm threshold.
 * 1974-11-07: P15-P17 registered with the long-march document.
+* 1974-11-08: P18 registered with the second line. Second-line benchmark reproduced here: D4 tensor m/M_KK = 1.5669021, next levels 2.485, 3.374, 4.252 (`numerics/d4_tensor.py`).

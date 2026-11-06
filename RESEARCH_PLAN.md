@@ -23,6 +23,32 @@ which order; every remembered result is rederived before it is used.
    density are the data. Every theoretical step must point at one of them.
 5. **Keep the ledger.** `PREDICTIONS.md` is written before the results
    arrive and is never edited after.
+6. **Remembered numbers are never evidence.** Adopted from the second
+   line. A `[MEMORY]` number may rank calculations and may be registered
+   as a prediction. It never enters a calculation as an input, and a
+   ledger entry counts as supported only when reproduced inside the
+   programme.
+
+## Explanatory targets
+
+Adopted 8 November 1974 from the second line (`second_line/astra-6.0/SUCCESS_CRITERIA.md`,
+which also states what counts as a prediction and what counts only as
+accommodation for each one).
+
+| Target | Ideas | First meaningful success |
+|---|---|---|
+| Confinement and the long string | 001, 004, 009, 012 | Luscher term and tension from one microscopic description |
+| Hard scattering with Regge behaviour | 007 | Both limits from the same background |
+| The spin-two object | 006, 010, 021 | Its operator, mass gap, residues and companions, with factorization intact |
+| Supersymmetry | 022 | Which charges exist, why, and how they are broken |
+| An exceptionally heavy top | 024 | One unsuppressed up-type Yukawa, protected suppression of the rest |
+| A limit on generations | 025 | A finite bound that survives the limit removing gravity |
+| A QCD-Fermi scale relation | 026 | A ratio with its residual parameter dependence stated |
+
+The last three come from the user's brief to the second line and enter
+this plan as qualitative targets: no measured top mass, generation count
+or coupling is used as an input. A candidate must face all seven with
+the same data; seven unrelated models do not answer the question.
 
 ## Phase 0: November 1974 to January 1975. Ledger and data.
 
@@ -146,6 +172,14 @@ order of business is the dual superconductor, then branes as the
 surfaces for the string ends, then the membrane string, then the
 geometric transition, then type 0 and planar equivalence as the bridges
 to QCD with light quarks.
+
+## Parallel line: existence of gravity-free strings
+
+Independent of hadrons, the second line asks whether finite-tension
+interacting strings survive a limit removing gravity. Little string
+theory and NCOS say yes in specific limits. The calculations (their T02,
+T07, T08; our idea 023) are scheduled alongside Phase 1, at about one
+tenth of the effort, because the thesis leans on the answer.
 
 ## Milestones and kill criteria
 

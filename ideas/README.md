@@ -43,3 +43,10 @@ Index:
 | 020 | Two walls, two chiralities: the heterotic string as the flavoured flux tube | 6 |
 | 021 | Geometry is the vacuum: the geometric transition is confinement | 6 |
 | 022 | Supersymmetry from the hadron side | 3, 6 |
+| 023 | Gravity-free strings: little strings and NCOS as existence controls | parallel |
+| 024 | One heavy quark: a rank-one Yukawa | targets |
+| 025 | A bound on generations that survives removing gravity | targets |
+| 026 | Why the QCD and Fermi scales are only three decades apart | targets |
+
+Ideas 023-026 come from the second line (`second_line/README.md` maps
+their tests T01-T14 onto this index).

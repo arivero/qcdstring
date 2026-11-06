@@ -38,6 +38,15 @@ hadronic physics.
 | Heterotic SO(32) | Dual to Type I (Polchinski-Witten 1995) | Same as Type I at strong coupling | Worldsheet current algebra = internal modes on the flux tube (idea 020) |
 | Type 0 | Non-supersymmetric strings as duals of non-supersymmetric gauge theories (Polyakov 1998, Klebanov-Tseytlin 1998) | Fundamental string of a theory with no spacetime fermions and a tachyon lifted by flux | The tachyon potential is the vacuum energy of the gauge theory |
 
+**Caveat on the IIA chart**, from the second line: in Witten's D4
+background the unwanted Kaluza-Klein states sit at the same scale as the
+glueballs. The tensor mass is 1.5669 M_KK, and the tension is
+sigma = 2 lambda M_KK^2 / (27 pi). Matching the remembered lattice ratio
+m(2++)/sqrt(sigma) ~ 4.9 needs lambda ~ 4.3, outside the regime where the
+classical geometry is trustworthy (`numerics/d4_tensor.py`). The chart
+shows the mechanism; it cannot yet be a controlled description of pure
+Yang-Mills.
+
 The confining examples are all supersymmetric or nearly so (N=1 SYM,
 softly broken N=2, Witten's D4 model with its Kaluza-Klein tower).
 Pure QCD with light quarks has no exact geometric dual in the memory.
@@ -147,10 +156,25 @@ previous one from the hadronic side:
 * Planar equivalence: degeneracies between the orientifold theory and
   SYM on the lattice at N = 3 to 6 (P17).
 
+## 6b. Gravity-free strings
+
+The duality web also contains strings that have no gravity at all. Little
+string theories live on NS5-branes when g_s goes to zero at fixed alpha';
+NCOS keeps open strings interacting in a near-critical electric field while
+bulk closed strings decouple. Neither describes hadrons. Both refute the
+universal claim that a finite-tension interacting string must carry
+dynamical gravity, and the second line uses them as controls for exactly
+that reason. Idea 023.
+
 ## 7. The boundary
 
 Heterotic strings on Calabi-Yau manifolds as the origin of the Standard
 Model, the cosmological applications, and quantum gravity in flat
-ten-dimensional space are outside this programme. The claim is that the
+ten-dimensional space are outside this programme. The second line moves
+this boundary for flavour: a heavy top, a bound on generations and a
+QCD-Fermi relation are targets (ideas 024-026) when they come from a
+nongravitational sector, such as a local brane system with gravity
+decoupled. A result that needs a compact gravitational vacuum stays
+outside. The claim is that the
 same formalism, applied to confining vacua, is the theory of the QCD
 string, and that this is the application where the formalism meets data.

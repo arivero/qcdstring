@@ -35,3 +35,9 @@
 | F15, F37, H19, H3,11 | N(1680), Delta(1950), N(2220), Delta(2420) | Partial-wave names of baryon resonances. |
 | Cornell potential | same | V(r) = -kappa/r + sigma r for heavy quarks; 1975. |
 | bag model | same | The MIT competitor; the string is its long, thin limit. |
+| (no name) | soft graviton theorem | Weinberg 1964: a physical massless helicity-2 particle with nonzero soft coupling couples universally to energy-momentum. |
+| (no name) | little string theory | Interacting six-dimensional theory on NS5-branes with gravity decoupled and a finite string tension. |
+| (no name) | NCOS | Noncommutative open string theory: open strings in a near-critical electric field, interacting, with bulk closed strings decoupled. |
+| (no name) | Kaluza-Klein contamination | In the D4 confining background, unwanted states at the same scale as the glueballs. |
+| (no name) | rank-one Yukawa | A Yukawa matrix with one nonzero singular value; one heavy fermion per sector at leading order. |
+| second line | Astra 6.0 package | The independent study of the same premise, stored in `second_line/`. |

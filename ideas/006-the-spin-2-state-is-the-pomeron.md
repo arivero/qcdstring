@@ -57,6 +57,16 @@ Intercept between 1.05 and 1.12; slope near 0.25; quark-counting
 couplings. Refuted by an intercept consistent with 2, or at or below 0,
 or by an energy-universal coupling.
 
+## Second line
+Their T01 shows that a physical massless helicity-2 state with nonzero
+soft coupling is forced to couple universally (Weinberg 1964), so this
+idea must never be read as renaming the flat-space graviton. Their T05
+supplies the controlled version: in Witten's D4 background the tensor
+equation has no normalizable zero mode, and the lowest 2++ sits at
+1.5669 M_KK. `numerics/d4_tensor.py` confirms it and adds 2.485, 3.374 and
+4.252 M_KK for the next levels. The claim of this idea is now stated as:
+the Pomeron is the Regge trajectory through those massive tensor states.
+
 ## References
 Lovelace1971, GoddardThorn1972, DonnachieLandshoff1992, BPST2006,
 Maldacena1997, Witten1998b, LTW2004b.

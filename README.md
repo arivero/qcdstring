@@ -26,6 +26,7 @@ of a result is a strong hint about *what* is true and a weak hint about
 | `THESIS.md` | The position: the string is the hadronic flux tube. Arguments, counter-arguments, what would change my mind. |
 | `RESEARCH_PLAN.md` | Phased plan, milestones, falsifiable predictions, resource needs. |
 | `LONG_MARCH.md` | How the programme absorbs the five superstring theories and M-theory as charts on the confining vacuum; the admission that it is geometry, and the hadronic reading of that geometry. |
+| `second_line/` | The independent package of Astra 6.0 on the same premise, unmodified, with provenance and a memo on how it was integrated. |
 | `TIMELINE.md` | What the memory says happens next (1974 to 2026), and where to intervene. |
 | `PREDICTIONS.md` | Registered predictions with dates. The honesty ledger. |
 | `papers/` | Two manifests. `library-1974.tsv`: papers that exist now and should be on the shelf. `memory-future.tsv`: papers that do not exist yet; their results must be rederived. `fetch.py` resolves identifiers through INSPIRE and downloads what is freely available. |
@@ -39,6 +40,7 @@ of a result is a strong hint about *what* is true and a weak hint about
 ## Conventions
 
 * Units: GeV, with hbar = c = 1. alpha' is the Regge slope; sigma = 1/(2 pi alpha') is the string tension.
+* Remembered numbers are predictions, never inputs or evidence (see `second_line/README.md` for the mapping onto the second line's six status labels).
 * Every claim is tagged with one of: `[1974]` derivable or checkable now; `[MEMORY]` remembered from the future, to be rederived; `[TEST]` a concrete check that can be run.
 * Idea files are numbered and never renumbered. Status lines are one of `open`, `in progress`, `supported`, `refuted`, `superseded by NNN`.
 * Papers are cited by the key in the manifests (e.g. `Wilson1974`).
@@ -48,4 +50,5 @@ of a result is a strong hint about *what* is true and a weak hint about
     python3 numerics/regge_fit.py        # universal slope from 1974 hadron data
     python3 numerics/arvis_spectrum.py   # Nambu-Goto spectrum, Luscher term, Hagedorn temperature
     python3 numerics/z2_lattice.py       # area law in Z2 lattice gauge theory (small, slow, honest)
+    python3 numerics/d4_tensor.py        # D4 tensor glueball levels, independent check of the second line
     python3 papers/fetch.py --dry-run    # see which papers can be fetched today

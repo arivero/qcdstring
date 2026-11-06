@@ -58,6 +58,15 @@ same mass; lattice degeneracies at the percent level by N = 6. Refuted
 by a robust difference in slopes, or by O(1) differences between the
 orientifold theory and SYM at N = 6.
 
+## Second line
+Their T14 separates four claims that this idea must keep apart:
+worldsheet supersymmetry, global spacetime supersymmetry, local spacetime
+supersymmetry, and an approximate algebra organising bound states. The
+hadronic supersymmetry of Miyazawa and Catto-Gursey is the fourth kind.
+Planar equivalence relates the bosonic sector of one-flavour QCD to a
+theory with the second kind. A claim that slides from one kind to
+another is rejected under their rule, and under ours from now on.
+
 ## References
 Miyazawa1966, ASV2003a, ASV2003b, ArmoniPatella2009, KutasovSeiberg1991,
 BroniowskiFlorkowski2000, CattoGursey1985, BdTDE2015, Rivero2024.

@@ -47,6 +47,13 @@ show O(1/N^2) convergence. Refuted if widths or lattice quantities show
 O(1/N) corrections of order one, or if the N-counting of dual-model
 loops fails to match the planar counting.
 
+## Second line
+Their T04 adds a sharper microscopic test than genus counting: a
+candidate worldsheet must satisfy the regulated Makeenko-Migdal loop
+equations and the retracing identity (a path followed by its inverse
+cancels exactly on the lattice), following Polyakov's 1997 zigzag
+programme. Add to Test as step 4.
+
 ## References
 tHooftPlanar1974, tHooft2d1974, Veneziano1976 (Nucl. Phys. B117, 519),
 Witten1979, LuciniTeper2001, AT2021, Maldacena1997.

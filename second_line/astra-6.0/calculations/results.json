@@ -1,0 +1,310 @@
+{
+  "scope": "Elementary scaling, long-string, soft-identity and hard-wall spectral checks; not a string-theory construction.",
+  "environment": {
+    "python": "3.12.14",
+    "scipy": "1.17.0"
+  },
+  "checks": [
+    {
+      "name": "soft_identity_equal_couplings",
+      "passed": true,
+      "detail": "A common coupling reduces the leading soft Ward identity to momentum conservation."
+    },
+    {
+      "name": "soft_identity_unequal_example",
+      "passed": true,
+      "detail": "The selected unequal-coupling assignment fails the same kinematic identity."
+    },
+    {
+      "name": "topology_relative_weights",
+      "passed": true,
+      "detail": "A handle costs N^-2; a fixed-flavor boundary costs N^-1."
+    },
+    {
+      "name": "long_string_coefficients",
+      "passed": true,
+      "detail": "The D=4 R^-1 and R^-3 coefficients have the stated signs and normalization."
+    },
+    {
+      "name": "long_string_asymptotic_error",
+      "passed": true,
+      "detail": "The truncated Nambu-Goto expansion approaches an R^-5 remainder."
+    },
+    {
+      "name": "NCOS_scaling",
+      "passed": true,
+      "detail": "G10/(alpha_eff')^4 scales as G_o^4 delta^3 at fixed open-sector parameters."
+    },
+    {
+      "name": "central_charge_budgets",
+      "passed": true,
+      "detail": "Arithmetic only: no modular-invariant or unitary internal model is constructed."
+    },
+    {
+      "name": "tensor_boundary_conditions",
+      "passed": true,
+      "detail": "The three massive modes satisfy the chosen infrared Neumann condition."
+    },
+    {
+      "name": "tensor_norms",
+      "passed": true,
+      "detail": "Numerical norms agree with the Bessel-function integral identity."
+    },
+    {
+      "name": "tensor_rayleigh_quotient",
+      "passed": true,
+      "detail": "The positive quadratic-form quotient independently reproduces each eigenvalue."
+    },
+    {
+      "name": "zero_mode_boundary_control",
+      "passed": true,
+      "detail": "The z^4 zero mode is normalizable, fails Neumann (derivative 4), and satisfies z psi'-4 psi=0."
+    }
+  ],
+  "soft_identity_example": {
+    "theta_radians": 0.73,
+    "equal_coupling_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "unequal_example_residual": [
+      1.0,
+      -0.7451744023448704,
+      -0.6668696350036979,
+      0.0
+    ]
+  },
+  "topology": [
+    {
+      "N": 3,
+      "genus": 0,
+      "fundamental_boundaries": 0,
+      "exponent": 2,
+      "weight": 9,
+      "relative_to_sphere": 1
+    },
+    {
+      "N": 3,
+      "genus": 0,
+      "fundamental_boundaries": 1,
+      "exponent": 1,
+      "weight": 3,
+      "relative_to_sphere": 0.3333333333333333
+    },
+    {
+      "N": 3,
+      "genus": 1,
+      "fundamental_boundaries": 0,
+      "exponent": 0,
+      "weight": 1,
+      "relative_to_sphere": 0.1111111111111111
+    },
+    {
+      "N": 3,
+      "genus": 1,
+      "fundamental_boundaries": 1,
+      "exponent": -1,
+      "weight": 0.3333333333333333,
+      "relative_to_sphere": 0.037037037037037035
+    },
+    {
+      "N": 10,
+      "genus": 0,
+      "fundamental_boundaries": 0,
+      "exponent": 2,
+      "weight": 100,
+      "relative_to_sphere": 1
+    },
+    {
+      "N": 10,
+      "genus": 0,
+      "fundamental_boundaries": 1,
+      "exponent": 1,
+      "weight": 10,
+      "relative_to_sphere": 0.1
+    },
+    {
+      "N": 10,
+      "genus": 1,
+      "fundamental_boundaries": 0,
+      "exponent": 0,
+      "weight": 1,
+      "relative_to_sphere": 0.01
+    },
+    {
+      "N": 10,
+      "genus": 1,
+      "fundamental_boundaries": 1,
+      "exponent": -1,
+      "weight": 0.1,
+      "relative_to_sphere": 0.001
+    },
+    {
+      "N": 30,
+      "genus": 0,
+      "fundamental_boundaries": 0,
+      "exponent": 2,
+      "weight": 900,
+      "relative_to_sphere": 1
+    },
+    {
+      "N": 30,
+      "genus": 0,
+      "fundamental_boundaries": 1,
+      "exponent": 1,
+      "weight": 30,
+      "relative_to_sphere": 0.03333333333333333
+    },
+    {
+      "N": 30,
+      "genus": 1,
+      "fundamental_boundaries": 0,
+      "exponent": 0,
+      "weight": 1,
+      "relative_to_sphere": 0.0011111111111111111
+    },
+    {
+      "N": 30,
+      "genus": 1,
+      "fundamental_boundaries": 1,
+      "exponent": -1,
+      "weight": 0.03333333333333333,
+      "relative_to_sphere": 3.7037037037037037e-05
+    }
+  ],
+  "long_string_D4": [
+    {
+      "R_sqrt_sigma": 2.0,
+      "NG_benchmark_E_over_sqrt_sigma": 1.8645109880077675,
+      "expansion_through_R_minus_3": 1.8648166236346746,
+      "absolute_difference": 0.0003056356269071081,
+      "difference_times_r5": 0.00978034006102746
+    },
+    {
+      "R_sqrt_sigma": 4.0,
+      "NG_benchmark_E_over_sqrt_sigma": 3.9340057478862054,
+      "expansion_through_R_minus_3": 3.934014692741994,
+      "absolute_difference": 8.944855788506345e-06,
+      "difference_times_r5": 0.009159532327430497
+    },
+    {
+      "R_sqrt_sigma": 8.0,
+      "NG_benchmark_E_over_sqrt_sigma": 7.967207868783247,
+      "expansion_through_R_minus_3": 7.9672081439865785,
+      "absolute_difference": 2.752033312347635e-07,
+      "difference_times_r5": 0.00901786275790073
+    },
+    {
+      "R_sqrt_sigma": 16.0,
+      "NG_benchmark_E_over_sqrt_sigma": 15.983629163128182,
+      "expansion_through_R_minus_3": 15.983629171695236,
+      "absolute_difference": 8.567054621266834e-09,
+      "difference_times_r5": 0.008983207866549492
+    }
+  ],
+  "little_string_bulk_scaling_only": [
+    {
+      "g_s": 0.1,
+      "G10_over_alpha_prime_power4_proportional_to": 0.010000000000000002,
+      "ordinary_open_disk_4pt_coupling_proportional_to": 0.1
+    },
+    {
+      "g_s": 0.01,
+      "G10_over_alpha_prime_power4_proportional_to": 0.0001,
+      "ordinary_open_disk_4pt_coupling_proportional_to": 0.01
+    },
+    {
+      "g_s": 0.001,
+      "G10_over_alpha_prime_power4_proportional_to": 1e-06,
+      "ordinary_open_disk_4pt_coupling_proportional_to": 0.001
+    },
+    {
+      "g_s": 0.0001,
+      "G10_over_alpha_prime_power4_proportional_to": 1e-08,
+      "ordinary_open_disk_4pt_coupling_proportional_to": 0.0001
+    }
+  ],
+  "NCOS_scaling_only": [
+    {
+      "delta": 0.01,
+      "alpha_prime": 0.01,
+      "g_s": 2.0,
+      "G_o_squared": 0.2,
+      "alpha_prime_effective": 1.0,
+      "gravity_factor": 4e-08,
+      "predicted_factor": 4.0000000000000014e-08
+    },
+    {
+      "delta": 0.0001,
+      "alpha_prime": 0.0001,
+      "g_s": 20.0,
+      "G_o_squared": 0.2,
+      "alpha_prime_effective": 1.0,
+      "gravity_factor": 4.0000000000000006e-14,
+      "predicted_factor": 4.000000000000001e-14
+    },
+    {
+      "delta": 1e-06,
+      "alpha_prime": 1e-06,
+      "g_s": 200.0,
+      "G_o_squared": 0.2,
+      "alpha_prime_effective": 1.0,
+      "gravity_factor": 3.999999999999999e-20,
+      "predicted_factor": 4.0000000000000004e-20
+    }
+  ],
+  "central_charge": {
+    "D_free_embedding_coordinates": 4,
+    "bosonic_extra_matter_c": 22,
+    "RNS_extra_matter_c": 9.0
+  },
+  "tensor_hard_wall_modes": [
+    {
+      "mode": 1,
+      "m_times_z0": 3.8317059702075125,
+      "m2_times_z0_squared": 14.681970642123895,
+      "Neumann_boundary_residual": -3.577222035944709e-16,
+      "norm_numeric_z0_equals_1": 0.08110756541334284,
+      "norm_analytic_z0_equals_1": 0.0811075654133429,
+      "quadrature_absolute_error_estimate": 9.004748659318423e-16,
+      "Rayleigh_quotient": 14.681970642123893
+    },
+    {
+      "mode": 2,
+      "m_times_z0": 7.015586669815619,
+      "m2_times_z0_squared": 49.2184563216946,
+      "Neumann_boundary_residual": 3.81272650675205e-16,
+      "norm_numeric_z0_equals_1": 0.04503473245716342,
+      "norm_analytic_z0_equals_1": 0.0450347324571634,
+      "quadrature_absolute_error_estimate": 4.999859687980525e-16,
+      "Rayleigh_quotient": 49.21845632169459
+    },
+    {
+      "mode": 3,
+      "m_times_z0": 10.173468135062722,
+      "m2_times_z0_squared": 103.49945389513657,
+      "Neumann_boundary_residual": 9.182652865029949e-16,
+      "norm_numeric_z0_equals_1": 0.031176262813236287,
+      "norm_analytic_z0_equals_1": 0.031176262813236297,
+      "quadrature_absolute_error_estimate": 1.363527634578492e-14,
+      "Rayleigh_quotient": 103.49945389513661
+    }
+  ],
+  "constant_zero_mode_cutoff_norms": [
+    {
+      "UV_cutoff_epsilon": 0.1,
+      "norm": 49.49999999999999
+    },
+    {
+      "UV_cutoff_epsilon": 0.01,
+      "norm": 4999.5
+    },
+    {
+      "UV_cutoff_epsilon": 0.001,
+      "norm": 499999.5
+    }
+  ],
+  "z_power4_mode_norm_at_z0_1": 0.16666666666666669
+}

@@ -49,6 +49,14 @@ sigma, Lambda, the condensate and the number of vacua all encoded in one
 geometry with no free parameter. Refuted if the geometric and
 field-theoretic condensates disagree in their N dependence.
 
+## Second line
+The second line's D4 benchmark is the one fully computed case in either
+line: tension sigma = 2 lambda M_KK^2/(27 pi) and a gapped tensor spectrum
+from the same metric, with supersymmetry broken by antiperiodic fermions
+on the contractible circle. Its limitation is the same as ours here: the
+Kaluza-Klein states sit at the glueball scale, so the geometry describes
+a cousin of Yang-Mills rather than Yang-Mills itself.
+
 ## References
 GopakumarVafa1998, Vafa2000, AMV2001, Acharya2000, AtiyahWitten2001,
 AcharyaGukov2004, KlebanovStrassler2000, MaldacenaNunez2000.

@@ -132,3 +132,20 @@ BroniowskiFlorkowski2000	2000	Broniowski, Florkowski	Different Hagedorn temperat
 Takahashi2001	2001	Takahashi, Matsufuru, Nemoto, Suganuma	The three-quark potential in the SU(3) lattice QCD	Phys. Rev. Lett. 86, 18	hep-lat/0006005		high	Y-junction three-quark potential; P15.
 Rivero2024	2024	Rivero	An interpretation of scalars in SO(32)	Eur. Phys. J. C84, 1058	2407.05397	10.1140/epjc/s10052-024-13368-3	high	SO(32) scalars as diquarks and mesons; a lead for idea 022. Local copy exists.
 NSVZ1983	1983	Novikov, Shifman, Vainshtein, Zakharov	Exact Gell-Mann-Low function of supersymmetric Yang-Mills theories from instanton calculus	Nucl. Phys. B229, 381		10.1016/0550-3213(83)90338-3	medium	Gluino condensate at weak coupling; idea 021 consistency check.
+WeinbergWitten1980	1980	Weinberg, Witten	Limits on massless particles	Phys. Lett. B96, 59		10.1016/0370-2693(80)90212-9	high	Restrictions on emergent massless higher-spin states. Second line M11.
+PendletonRoss1981	1981	Pendleton, Ross	Mass and mixing angle predictions from infra-red fixed points	Phys. Lett. B98, 291		10.1016/0370-2693(81)90017-4	high	Gauge-Yukawa fixed ratios; idea 024.
+CFMP1985	1985	Callan, Friedan, Martinec, Perry	Strings in background fields	Nucl. Phys. B262, 593		10.1016/0550-3213(85)90506-1	high	Background-field equations from worldsheet conformal invariance; second line T09.
+AGMV1986	1986	Alvarez-Gaume, Ginsparg, Moore, Vafa	An O(16) x O(16) heterotic string	Phys. Lett. B171, 155		10.1016/0370-2693(86)91524-8	high	Tachyon-free string without spacetime supersymmetry; idea 022.
+DixonHarvey1986	1986	Dixon, Harvey	String theories in ten dimensions without space-time supersymmetry	Nucl. Phys. B274, 93		10.1016/0550-3213(86)90619-X	high	Non-supersymmetric strings and their vacuum energy; ideas 017, 022.
+BHL1990	1990	Bardeen, Hill, Lindner	Minimal dynamical symmetry breaking of the standard model	Phys. Rev. D41, 1647		10.1103/PhysRevD.41.1647	high	Top condensation; ideas 024, 026.
+Seiberg1997	1997	Seiberg	Matrix description of M-theory on T5 and T5/Z2	Phys. Lett. B408, 98	hep-th/9705221		high	Little string theory; idea 023.
+Quigg1997	1997	Quigg	Hadron colliders, the top quark, and the Higgs sector		hep-ph/9707508		high	Top threshold and the QCD scale; idea 026.
+Aharony1999	1999	Aharony	A brief review of little string theories	Class. Quant. Grav. 17, 929	hep-th/9911147		high	Review of the NS5 decoupling limit; idea 023.
+BMT2000	2000	Brower, Mathur, Tan	Glueball spectrum for QCD from AdS supergravity duality	Nucl. Phys. B587, 249	hep-th/0003115		high	The D4 tensor radial equation and spectrum reproduced by both lines; ideas 006, 010.
+SST2000	2000	Seiberg, Susskind, Toumbas	Strings in background electric field, space/time noncommutativity and a new noncritical string theory	JHEP 06, 021	hep-th/0005040		high	NCOS; idea 023.
+GMMS2000	2000	Gopakumar, Maldacena, Minwalla, Strominger	S-duality and noncommutative gauge theory	JHEP 06, 036	hep-th/0005048		high	NCOS annulus without closed-string poles; idea 023.
+BHV2008	2008	Beasley, Heckman, Vafa	GUTs and exceptional branes in F-theory - I	JHEP 01, 058 (2009)	0802.3391		high	Local gauge, matter and Yukawa sectors; second line's first construction.
+HeckmanVafa2008	2008	Heckman, Vafa	Flavor hierarchy from F-theory	Nucl. Phys. B837, 137 (2010)	0811.2417		high	Rank-one Yukawas; idea 024.
+CCHV2009	2009	Cecotti, Cheng, Heckman, Vafa	Yukawa couplings in F-theory and non-commutative geometry		0910.0477		high	Local rank theorem and the gauge-flux qualification; idea 024.
+QuiggShrock2009	2009	Quigg, Shrock	Gedanken worlds without Higgs: QCD-induced electroweak symmetry breaking	Phys. Rev. D79, 096002	0901.3958	10.1103/PhysRevD.79.096002	high	QCD alone gives too small a weak scale; idea 026.
+Ishiguro2023	2023	Ishiguro, Kai, Nishimura, Otsuka, Takeuchi	Upper bound on the Atiyah-Singer index from tadpole cancellation	JHEP 01, 200 (2024)	2308.12421		high	Generation bounds from tadpoles; idea 025.

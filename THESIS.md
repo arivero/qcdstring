@@ -95,19 +95,30 @@ has alpha(0) ~ 0.5 and the Pomeron has alpha(0) ~ 1.0. There are no
 massless hadrons. Scherk and Schwarz take the massless spin-2 at face
 value and call it the graviton.
 
-**Answer.** `[MEMORY]` The massless spin-2 closed-string state *is* the
-Pomeron, seen in the wrong background. In the curved five-dimensional
-geometry that describes a confining gauge theory at large N and strong
-coupling, the graviton Regge trajectory has intercept
+**Answer.** In flat space Scherk and Schwarz are right. A physical
+massless helicity-2 particle with a nonzero coupling obeys Weinberg's
+1964 soft identity, which forces it to couple universally to
+energy-momentum; renaming it, or moving its intercept by hand, changes
+nothing. (The second line's T01 makes this point against our earlier
+wording; see `second_line/README.md`.) The claim of this repository
+concerns the background. `[MEMORY]` The hadronic string lives in a
+confining background, and there the tensor sector has a mass gap. In
+Witten's D4 model the transverse-traceless equation has no normalizable
+zero mode, by tip regularity and UV normalizability alone, and its lowest
+state is a massive 2++ at 1.5669 M_KK (computed by the second line,
+confirmed by `numerics/d4_tensor.py`). The Pomeron is the Regge trajectory
+through those massive tensor states. Its intercept is computed from the
+curvature of the background,
 
     alpha_P(0) = 2 - 2/sqrt(lambda) + ...,   lambda = g^2 N   (Brower, Polchinski, Strassler, Tan 2006)
 
-which interpolates between 2 (free string) and 1 (perturbative two-gluon
+and interpolates between 2 (free string) and 1 (perturbative two-gluon
 exchange). The observed 1.08 (Donnachie-Landshoff 1992) sits in between.
 The same curvature pushes the open-string vector down the rho trajectory
-to alpha_rho(0) ~ 0.5. The "graviton" is a prediction of the hadronic
-string: it is the leading vacuum-exchange trajectory, and its intercept
-is a measurable number that is neither 2 nor 0. `[TEST]` See `ideas/006`.
+to alpha_rho(0) ~ 0.5. What the flat-space theory calls the graviton
+becomes, in the confining background, the leading vacuum-exchange
+trajectory, whose states are massive and whose couplings carry form
+factors. `[TEST]` See `ideas/006`.
 
 ### 2.4 Hard scattering
 
@@ -146,9 +157,10 @@ amount (Miyazawa 1966; Brodsky, de Teramond, Dosch 2015). `[TEST]` See
 1. **Scale.** It discards the one number the theory is anchored to,
    alpha', and replaces it with 1/M_Planck^2. Every hadronic check becomes
    inaccessible.
-2. **What the spin-2 state actually does.** Its intercept is measured in
-   proton-proton scattering at the ISR this year. It is about 1. The
-   object is the Pomeron.
+2. **What the leading closed-string trajectory actually does.** Its
+   intercept is measured in proton-proton scattering at the ISR this
+   year. It is about 1, and the states on it are massive. The trajectory
+   is the Pomeron.
 3. **The genus expansion has a name.** It is 1/N, and N = 3.
 4. **Testability.** The hadronic string makes numerical predictions for
    lattice computations that can be run on a 1974 computer (section 5),
@@ -157,8 +169,9 @@ amount (Miyazawa 1966; Brodsky, de Teramond, Dosch 2015). `[TEST]` See
 5. **The memory's own verdict.** The gravity program becomes the mainstream
    from 1984. What it finds, by 1997, is that its best-understood examples
    are gauge theories in disguise (Maldacena). The string of hadrons was the
-   right object all along; the graviton that keeps appearing is the
-   bulk description of the Pomeron.
+   right object all along; the graviton that keeps appearing is a
+   bulk field whose normalizable modes, in a confining background, are the
+   massive tensor glueballs on the Pomeron trajectory.
 
 I will state the honest counterweight. In the memory, the gravity
 interpretation leads to a consistent perturbative quantum gravity, to
@@ -175,11 +188,26 @@ is a bet that it can.
 * A Pomeron intercept at the ISR consistent with 2, or with 0.
 * A proof that the fixed-angle power laws cannot arise from any string
   with an extra warped coordinate.
-* A graviton. Specifically, evidence that the spin-2 state of *this*
-  string, with alpha' ~ 1 GeV^-2, couples universally to energy-momentum.
-  It does not (the Pomeron couples to hadrons, with form factors).
+* A graviton. Specifically, an isolated massless helicity-2 pole in a
+  hadronic amplitude whose soft coupling is universal, as Weinberg's
+  identity would then require. The Pomeron couples to hadrons with form
+  factors and through massive states.
+* A confining background in which the tensor equation keeps a
+  normalizable zero mode without an adjustable boundary condition.
+* The second line's tests T01, T02 and T05 failing for every candidate
+  in a defined class (`second_line/astra-6.0/IDEA_REGISTER.md`).
 
-## 5. Tools available now
+## 5. A second line
+
+An independent group (Astra 6.0) was given the same premise and reached a
+compatible position by a stricter route. Their package is in
+`second_line/astra-6.0/`, and `second_line/README.md` records where the
+two lines agree, where they disagree, and what each now adopts. Their
+three additions that change this thesis: the soft-theorem correction to
+2.3, the existence benchmarks of little strings and NCOS (idea 023), and
+three flavour targets (ideas 024-026).
+
+## 6. Tools available now
 
 Paper and pencil; the Review of Particle Properties (April 1974); ISR and
 Serpukhov total cross-sections; SLAC deep-inelastic data; a CDC 7600 or

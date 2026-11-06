@@ -1,0 +1,52 @@
+{
+  "scope": "Known smooth confining background; no claim of pure QCD or observed mass prediction.",
+  "tensor": {
+    "roots": [
+      {
+        "endpoint_cutoff": 0.0001,
+        "radial_eigenvalue": 5.5241599997582655,
+        "mass_over_MKK": 1.566902109933733,
+        "matching_residual": 1.8041124150158794e-16
+      },
+      {
+        "endpoint_cutoff": 1e-05,
+        "radial_eigenvalue": 5.524159999766544,
+        "mass_over_MKK": 1.5669021099349072,
+        "matching_residual": 2.0816681711721685e-16
+      },
+      {
+        "endpoint_cutoff": 1e-06,
+        "radial_eigenvalue": 5.524159999766728,
+        "mass_over_MKK": 1.5669021099349332,
+        "matching_residual": 1.5265566588595902e-16
+      }
+    ],
+    "norm": 0.03189421737647654,
+    "rayleigh_eigenvalue": 5.5241599996993695,
+    "nodeless_on_sample": true,
+    "literature_comparison_4lambda": 22.096639999066912
+  },
+  "supersymmetry": {
+    "fermion_circle_momentum": "(n+1/2)*MKK",
+    "boson_circle_momentum": "n*MKK",
+    "note": "Kinematic frequencies; not physical interacting particle masses."
+  },
+  "tension": {
+    "sigma_over_MKK2_per_lambda4": 0.0235785100876882,
+    "note": "lambda4=g4^2*N; convention g4^2=2*pi*gs*ls*MKK."
+  },
+  "worldsheet_casimir": [
+    {
+      "sector": "two transverse bosons",
+      "coefficient": "-1/12"
+    },
+    {
+      "sector": "two bosons + two NS Majoranas",
+      "coefficient": "-1/8"
+    },
+    {
+      "sector": "two bosons + two R Majoranas",
+      "coefficient": "0"
+    }
+  ]
+}

@@ -61,6 +61,13 @@ clean lattice measurement gives c of the wrong sign, or a magnitude off
 by more than the quoted error, or if the excited levels fail the square
 root at O(1/R^3).
 
+## Second line
+Their T03 derives the same coefficients. Their T09/T14 table adds a
+discriminator: two massless NS Majorana fermions on the worldsheet would
+change -pi/(12R) to -pi/(8R), and two R Majoranas to zero. The 1/R
+coefficient therefore also measures the worldsheet's fermion content
+(P18).
+
 ## References
 GGRT1973, BrinkNielsen1973, Luscher1981, Alvarez1981, Arvis1983,
 PolchinskiStrominger1991, AharonyKarzbrun2009, AharonyKomargodski2013,
