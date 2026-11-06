@@ -54,6 +54,12 @@ and a negative c of order -0.3 in SU(2) at beta ~ 2.3 with a large
 error. Refuted if the area law fails at strong coupling (it will not) or
 if c is reliably positive.
 
+## 1976 paper
+`outputs/1976-flux-tube-casimir/` (QCDS-76/1). Z2 in 3d: the ratios chi follow
+-ln u - 2u^4 within 0.1% to beta = 0.30 and 1% at 0.40. Two-level averaging
+needs slabs of 4 for Z2 near beta_c (slabs of 2 are boundary-dominated). U(1)
+in 4d: the area law ends near beta = 1.0; the order of the transition is open.
+
 ## References
 Wilson1974, KogutSusskind1975, Creutz1979, Creutz1980, LSW1980, IPZ1980,
 Luscher1981, LuscherWeisz2001, LuscherWeisz2002.

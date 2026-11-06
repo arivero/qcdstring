@@ -1,0 +1,140 @@
+/home/codexssh/qcdstring/outputs/1976-flux-tube-casimir/code/analyze.py:112: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  dV = np.sqrt((nb - 1) * np.nanvar(jk, axis=0))
+/home/codexssh/qcdstring/outputs/1976-flux-tube-casimir/code/analyze.py:149: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  res["dF"] = np.sqrt((nb - 1) * np.nanvar(Fj, axis=0)).tolist()
+/home/codexssh/qcdstring/outputs/1976-flux-tube-casimir/code/analyze.py:158: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  beff.append((r0, b0, math.sqrt((nb - 1) * np.nanvar(bj))))
+
+Z2, beta = 0.73: 12 chains x 50 outer, Nt = 16, L = 32, slabs of 4, 500 sub-updates
+   R =  1: V = 0.12782 +/- 0.00028   (rel. error of C 0.005; excited-level corr -0.0e+00)
+   R =  2: V = 0.20495 +/- 0.00059   (rel. error of C 0.010; excited-level corr 7.6e-13)
+   R =  3: V = 0.26618 +/- 0.00094   (rel. error of C 0.015; excited-level corr 3.3e-09)
+   R =  4: V = 0.32124 +/- 0.00136   (rel. error of C 0.022; excited-level corr 2.2e-07)
+   R =  5: V = 0.37355 +/- 0.00196   (rel. error of C 0.031; excited-level corr 2.7e-06)
+   R =  6: V = 0.42474 +/- 0.00287   (rel. error of C 0.046; excited-level corr 1.4e-05)
+   R =  7: V = 0.47641 +/- 0.00460   (rel. error of C 0.073; excited-level corr 4.8e-05)
+   R =  8: V = 0.52933 +/- 0.00841   (rel. error of C 0.134; excited-level corr 1.2e-04)
+   R =  9: V = 0.58630 +/- 0.01788   (rel. error of C 0.285; excited-level corr 2.4e-04)
+   R = 10: V = 0.64781 +/- 0.04406   (rel. error of C 0.700; excited-level corr 4.1e-04)
+   fit free_2-8        : sigma = 0.0490(0.0013), c = 0.1432(0.0063), b = 0.0727(0.0079);  chi2/dof = 0.2/4
+   fit luscher_2-8     : sigma = 0.0434(0.0006), c = 0.1825(0.0010);  chi2/dof = 24.2/5
+   fit ng_2-8          : sigma = 0.0396(0.0003), c = 0.2046(0.0006);  chi2/dof = 34.0/5
+   fit nocasimir_2-8   : sigma = 0.0561(0.0006), c = 0.0943(0.0010);  chi2/dof = 37.6/5
+   fit free_3-8        : sigma = 0.0495(0.0022), c = 0.1389(0.0151), b = 0.0636(0.0267);  chi2/dof = 0.2/3
+   fit luscher_3-8     : sigma = 0.0457(0.0008), c = 0.1721(0.0022);  chi2/dof = 2.4/4
+   fit ng_3-8          : sigma = 0.0421(0.0010), c = 0.1938(0.0030);  chi2/dof = 22.9/4
+   fit nocasimir_3-8   : sigma = 0.0531(0.0008), c = 0.1075(0.0022);  chi2/dof = 2.2/4
+   fit free_2-7        : sigma = 0.0488(0.0011), c = 0.1444(0.0050), b = 0.0743(0.0061);  chi2/dof = 0.0/3
+   fit luscher_2-7     : sigma = 0.0432(0.0005), c = 0.1830(0.0009);  chi2/dof = 20.3/4
+   fit ng_2-7          : sigma = 0.0395(0.0002), c = 0.2047(0.0006);  chi2/dof = 25.3/4
+   fit nocasimir_2-7   : sigma = 0.0562(0.0005), c = 0.0939(0.0009);  chi2/dof = 34.9/4
+   fit free_3-9        : sigma = 0.0499(0.0026), c = 0.1357(0.0186), b = 0.0576(0.0334);  chi2/dof = 0.4/4
+   fit luscher_3-9     : sigma = 0.0458(0.0009), c = 0.1717(0.0024);  chi2/dof = 3.3/5
+   fit ng_3-9          : sigma = 0.0423(0.0010), c = 0.1929(0.0033);  chi2/dof = 25.3/5
+   fit nocasimir_3-9   : sigma = 0.0531(0.0009), c = 0.1075(0.0024);  chi2/dof = 2.2/5
+   local b from three consecutive R: R=3: 0.074(0.002), R=4: 0.083(0.008), R=5: 0.067(0.030), R=6: -0.049(0.118), R=7: -0.213(0.416), R=8: -1.018(1.591)
+   mean correlation of neighbouring V(R): 0.969
+   correlated free_2-8            : sigma = 0.0498(0.0005), c = 0.1404(0.0014), b = 0.0701(0.0013);  chi2/dof = 13.1/4  p = 0.011
+   correlated luscher_2-8         : sigma = 0.0345(0.0003), c = 0.2019(0.0002);  chi2/dof = 2082.8/5  p = 0.000
+   correlated zero_2-8            : sigma = 0.0674(0.0003), c = 0.0694(0.0002);  chi2/dof = 2767.4/5  p = 0.000
+   correlated endpoint_2-8        : sigma = 0.0464(0.0004), c = 0.1646(0.0008), d = 0.0514(0.0011);  chi2/dof = 3.7/4  p = 0.449
+   correlated free_endpoint_2-8   : sigma = 0.0468(0.0011), c = 0.1617(0.0070), b = 0.1237(0.0174), d = 0.0454(0.0146);  chi2/dof = 3.5/3  p = 0.318
+   correlated free_3-8            : sigma = 0.0479(0.0008), c = 0.1507(0.0037), b = 0.0852(0.0052);  chi2/dof = 4.1/3  p = 0.252
+   correlated luscher_3-8         : sigma = 0.0416(0.0004), c = 0.1829(0.0005);  chi2/dof = 80.9/4  p = 0.000
+   correlated zero_3-8            : sigma = 0.0596(0.0004), c = 0.0906(0.0005);  chi2/dof = 272.1/4  p = 0.000
+   correlated endpoint_3-8        : sigma = 0.0466(0.0007), c = 0.1636(0.0022), d = 0.0542(0.0062);  chi2/dof = 3.5/3  p = 0.324
+   correlated free_endpoint_3-8   : sigma = 0.0463(0.0021), c = 0.1667(0.0204), b = 0.1416(0.0709), d = 0.0669(0.0839);  chi2/dof = 3.5/2  p = 0.178
+   correlated ng_3-8              : sigma = 0.0478(0.0006), c = 0.2157(0.0013);  chi2/dof = 5503.2/4  p = 0.000
+   correlated free_4-8            : sigma = 0.0467(0.0013), c = 0.1596(0.0090), b = 0.1029(0.0171);  chi2/dof = 2.9/2  p = 0.233
+   correlated luscher_4-8         : sigma = 0.0448(0.0005), c = 0.1742(0.0011);  chi2/dof = 5.6/3  p = 0.133
+   correlated zero_4-8            : sigma = 0.0540(0.0005), c = 0.1059(0.0011);  chi2/dof = 39.1/3  p = 0.000
+   correlated endpoint_4-8        : sigma = 0.0462(0.0011), c = 0.1662(0.0053), d = 0.0406(0.0262);  chi2/dof = 3.2/2  p = 0.202
+   correlated free_endpoint_4-8   : sigma = 0.0559(0.0056), c = 0.0362(0.0741), b = -0.4633(0.3378), d = -0.8690(0.5178);  chi2/dof = 0.1/1  p = 0.751
+   correlated ng_4-8              : sigma = 0.0412(0.0006), c = 0.1926(0.0014);  chi2/dof = 50.8/3  p = 0.000
+   correlated free_3-9            : sigma = 0.0478(0.0008), c = 0.1509(0.0037), b = 0.0855(0.0052);  chi2/dof = 4.3/4  p = 0.361
+   correlated luscher_3-9         : sigma = 0.0415(0.0004), c = 0.1829(0.0005);  chi2/dof = 81.0/5  p = 0.000
+   correlated zero_3-9            : sigma = 0.0597(0.0004), c = 0.0906(0.0005);  chi2/dof = 275.4/5  p = 0.000
+   correlated endpoint_3-9        : sigma = 0.0466(0.0007), c = 0.1637(0.0022), d = 0.0539(0.0061);  chi2/dof = 3.8/4  p = 0.427
+   correlated free_endpoint_3-9   : sigma = 0.0465(0.0021), c = 0.1650(0.0202), b = 0.1354(0.0702), d = 0.0592(0.0830);  chi2/dof = 3.8/3  p = 0.279
+   correlated ng_3-9              : sigma = 0.0479(0.0006), c = 0.2154(0.0013);  chi2/dof = 5573.2/5  p = 0.000
+   correlated free_4-9            : sigma = 0.0468(0.0013), c = 0.1589(0.0089), b = 0.1014(0.0170);  chi2/dof = 3.4/3  p = 0.337
+   correlated luscher_4-9         : sigma = 0.0447(0.0005), c = 0.1744(0.0011);  chi2/dof = 6.4/4  p = 0.170
+   correlated zero_4-9            : sigma = 0.0540(0.0005), c = 0.1059(0.0011);  chi2/dof = 39.1/4  p = 0.000
+   correlated endpoint_4-9        : sigma = 0.0463(0.0011), c = 0.1658(0.0053), d = 0.0431(0.0260);  chi2/dof = 3.7/3  p = 0.300
+   correlated free_endpoint_4-9   : sigma = 0.0555(0.0056), c = 0.0414(0.0738), b = -0.4374(0.3364), d = -0.8263(0.5153);  chi2/dof = 0.8/2  p = 0.667
+   correlated ng_4-9              : sigma = 0.0412(0.0006), c = 0.1928(0.0014);  chi2/dof = 53.6/4  p = 0.000
+
+Z2, beta = 0.7: 12 chains x 50 outer, Nt = 16, L = 24, slabs of 4, 500 sub-updates
+   R =  1: V = 0.20440 +/- 0.00025   (rel. error of C 0.004; excited-level corr -0.0e+00)
+   R =  2: V = 0.35002 +/- 0.00057   (rel. error of C 0.009; excited-level corr 7.6e-13)
+   R =  3: V = 0.47451 +/- 0.00102   (rel. error of C 0.016; excited-level corr 3.3e-09)
+   R =  4: V = 0.59058 +/- 0.00174   (rel. error of C 0.028; excited-level corr 2.2e-07)
+   R =  5: V = 0.70249 +/- 0.00352   (rel. error of C 0.056; excited-level corr 2.7e-06)
+   R =  6: V = 0.81448 +/- 0.01107   (rel. error of C 0.176; excited-level corr 1.4e-05)
+   R =  7: V = 1.11955 +/- 0.64981   (rel. error of C 15.661; excited-level corr 4.8e-05)
+   R =  8: V = nan +/- nan   (rel. error of C 0.948; excited-level corr 1.2e-04)
+   R =  9: V = nan +/- 0.00000   (rel. error of C 5.285; excited-level corr 2.4e-04)
+   R = 10: V = 0.95145 +/- 0.06015   (rel. error of C 0.929; excited-level corr 4.1e-04)
+   fit free_2-6        : sigma = 0.1073(0.0026), c = 0.1872(0.0130), b = 0.1035(0.0159);  chi2/dof = 0.0/2
+   fit luscher_2-6     : sigma = 0.1038(0.0008), c = 0.2076(0.0014);  chi2/dof = 1.6/3
+   fit ng_2-6          : sigma = 0.0953(0.0009), c = 0.2421(0.0020);  chi2/dof = 52.3/3
+   fit nocasimir_2-6   : sigma = 0.1203(0.0008), c = 0.1101(0.0014);  chi2/dof = 22.5/3
+   fit free_2-5        : sigma = 0.1072(0.0020), c = 0.1878(0.0099), b = 0.1042(0.0117);  chi2/dof = 0.0/1
+   fit luscher_2-5     : sigma = 0.1037(0.0007), c = 0.2078(0.0013);  chi2/dof = 1.3/2
+   fit ng_2-5          : sigma = 0.0949(0.0009), c = 0.2431(0.0018);  chi2/dof = 47.8/2
+   fit nocasimir_2-5   : sigma = 0.1205(0.0007), c = 0.1096(0.0013);  chi2/dof = 19.8/2
+   fit free_3-6        : sigma = 0.1067(0.0071), c = 0.1914(0.0492), b = 0.1111(0.0835);  chi2/dof = 0.0/1
+   fit luscher_3-6     : sigma = 0.1053(0.0014), c = 0.2022(0.0040);  chi2/dof = 0.0/2
+   fit ng_3-6          : sigma = 0.1036(0.0014), c = 0.2107(0.0042);  chi2/dof = 0.3/2
+   fit nocasimir_3-6   : sigma = 0.1147(0.0014), c = 0.1306(0.0040);  chi2/dof = 0.8/2
+   local b from three consecutive R: R=3: 0.101(0.007), R=4: 0.124(0.054), R=5: -0.004(0.444), R=6: -20.272(67.360), R=7: nan(nan), R=8: nan(nan)
+   mean correlation of neighbouring V(R): 0.857
+   correlated free_2-6            : sigma = 0.1080(0.0012), c = 0.1837(0.0050), b = 0.0992(0.0055);  chi2/dof = 0.6/2  p = 0.734
+   correlated luscher_2-6         : sigma = 0.1014(0.0005), c = 0.2125(0.0006);  chi2/dof = 34.0/3  p = 0.000
+   correlated zero_2-6            : sigma = 0.1287(0.0005), c = 0.0934(0.0006);  chi2/dof = 328.0/3  p = 0.000
+   correlated endpoint_2-6        : sigma = 0.1067(0.0010), c = 0.1949(0.0031), d = 0.0287(0.0050);  chi2/dof = 0.4/2  p = 0.825
+   correlated free_endpoint_2-6   : sigma = 0.1032(0.0069), c = 0.2247(0.0586), b = 0.2142(0.1636), d = 0.1040(0.1478);  chi2/dof = 0.1/1  p = 0.724
+   correlated ng_2-6              : sigma = 0.0505(0.0001), c = 0.3336(0.0005);  chi2/dof = 3625.0/3  p = 0.000
+   correlated free_3-6            : sigma = 0.1050(0.0043), c = 0.2038(0.0283), b = 0.1327(0.0466);  chi2/dof = 0.1/1  p = 0.756
+   correlated luscher_3-6         : sigma = 0.1051(0.0008), c = 0.2028(0.0018);  chi2/dof = 0.1/2  p = 0.952
+   correlated zero_3-6            : sigma = 0.1171(0.0008), c = 0.1233(0.0018);  chi2/dof = 8.2/2  p = 0.016
+   correlated endpoint_3-6        : sigma = 0.1050(0.0033), c = 0.2035(0.0163), d = -0.0026(0.0586);  chi2/dof = 0.1/1  p = 0.757
+   correlated ng_3-6              : sigma = 0.1026(0.0008), c = 0.2141(0.0019);  chi2/dof = 1.0/2  p = 0.615
+   correlated free_2-5            : sigma = 0.1079(0.0012), c = 0.1838(0.0050), b = 0.0994(0.0055);  chi2/dof = 0.2/1  p = 0.639
+   correlated luscher_2-5         : sigma = 0.1013(0.0005), c = 0.2125(0.0006);  chi2/dof = 33.3/2  p = 0.000
+   correlated zero_2-5            : sigma = 0.1287(0.0005), c = 0.0934(0.0006);  chi2/dof = 328.0/2  p = 0.000
+   correlated endpoint_2-5        : sigma = 0.1066(0.0010), c = 0.1950(0.0031), d = 0.0286(0.0050);  chi2/dof = 0.1/1  p = 0.767
+   correlated ng_2-5              : sigma = 0.0505(0.0001), c = 0.3335(0.0005);  chi2/dof = 3581.9/2  p = 0.000
+
+Z2 strong coupling (L = 16):
+   beta 0.25: plaquette 0.2466  chi22 1.3983(0.0033)  chi23 1.4134(0.0136)  chi33 1.3005(0.4078)  -ln u 1.4068  O(u^4) 1.3996
+   beta 0.30: plaquette 0.2953  chi22 1.2182(0.0020)  chi23 1.2337(0.0085)  chi33 1.1521(0.2016)  -ln u 1.2334  O(u^4) 1.2190
+   beta 0.35: plaquette 0.3446  chi22 1.0589(0.0020)  chi23 1.0569(0.0057)  chi33 1.0614(0.1079)  -ln u 1.0895  O(u^4) 1.0639
+   beta 0.40: plaquette 0.3945  chi22 0.9185(0.0013)  chi23 0.9161(0.0044)  chi33 0.9262(0.0360)  -ln u 0.9677  O(u^4) 0.9260
+   beta 0.45: plaquette 0.4468  chi22 0.7888(0.0011)  chi23 0.7842(0.0028)  chi33 0.7595(0.0196)  -ln u 0.8630  O(u^4) 0.7996
+   beta 0.50: plaquette 0.5021  chi22 0.6600(0.0010)  chi23 0.6572(0.0020)  chi33 0.6740(0.0152)  -ln u 0.7719  O(u^4) 0.6807
+   beta 0.55: plaquette 0.5617  chi22 0.5335(0.0011)  chi23 0.5241(0.0016)  chi33 0.5153(0.0057)  -ln u 0.6921  O(u^4) 0.5666
+   beta 0.60: plaquette 0.6273  chi22 0.4085(0.0011)  chi23 0.3975(0.0016)  chi33 0.3835(0.0044)  -ln u 0.6217  O(u^4) 0.4553
+
+U(1) ratios chi(R,R), L = 10:
+   beta 0.60: plaquette 0.2949  chi22 1.2175(0.0024)  chi33 1.4035(0.3126)  chi44 nan(nan)  SC O(u^4) 1.2201
+   beta 0.80: plaquette 0.4021  chi22 0.8815(0.0013)  chi33 0.8940(0.0468)  chi44 -1.8165(1.3371)  SC O(u^4) 0.9155
+   beta 0.90: plaquette 0.4690  chi22 0.6908(0.0015)  chi33 0.6308(0.0146)  chi44 0.5246(1.0272)  SC O(u^4) 0.7791
+   beta 0.95: plaquette 0.5135  chi22 0.5617(0.0016)  chi33 0.4993(0.0093)  chi44 0.6672(0.2206)  SC O(u^4) 0.7130
+   beta 1.00: plaquette 0.5854  chi22 0.3523(0.0046)  chi33 0.2524(0.0077)  chi44 0.2041(0.0127)  SC O(u^4) 0.6477
+   beta 1.05: plaquette 0.6910  chi22 0.1244(0.0003)  chi33 0.0424(0.0004)  chi44 0.0160(0.0006)  SC O(u^4) 0.5831
+   beta 1.10: plaquette 0.7167  chi22 0.1060(0.0002)  chi33 0.0360(0.0003)  chi44 0.0143(0.0004)  SC O(u^4) 0.5189
+   beta 1.20: plaquette 0.7516  chi22 0.0871(0.0001)  chi33 0.0297(0.0002)  chi44 0.0119(0.0003)  SC O(u^4) 0.3913
+   beta 1.40: plaquette 0.7964  chi22 0.0676(0.0001)  chi33 0.0236(0.0002)  chi44 0.0095(0.0002)  SC O(u^4) 0.1379
+
+Computing budget (flop-equivalents; CDC 7600, 100 h at 3.3 Mflop/s = 1.19e+12):
+   Z2 estimator validation          1.28e+10  (  1.1 %)
+   Z2 strong coupling               2.93e+10  (  2.5 %)
+   Z2 two-level, beta = 0.73        3.21e+11  ( 27.0 %)
+   Z2 two-level, beta = 0.7         1.81e+11  ( 15.2 %)
+   U(1) thermal cycle               2.65e+10  (  2.2 %)
+   U(1) Wilson loops                3.49e+11  ( 29.3 %)
+   Z2 direct check at production parameters 4.38e+10  (  3.7 %)
+   U(1) two starts at beta = 1.00   4.23e+10  (  3.6 %)
+   pilot runs (code/pilots/README.md) 1.63e+11  ( 13.7 %)
+   total                            1.17e+12  ( 98.3 %)  = 98 CDC 7600 hours

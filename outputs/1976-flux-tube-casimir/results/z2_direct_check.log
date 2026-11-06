@@ -1,0 +1,5 @@
+R = 1: direct V = 0.12819 +/- 0.00032
+R = 2: direct V = 0.20548 +/- 0.00076
+R = 3: direct V = 0.26641 +/- 0.00145
+R = 4: direct V = 0.32408 +/- 0.00263
+mean |tanh(beta h)| = 0.934, mean tanh^2 = 0.913, fraction h = 0: 0.043

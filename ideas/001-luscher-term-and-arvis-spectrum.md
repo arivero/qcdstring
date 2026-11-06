@@ -68,6 +68,15 @@ change -pi/(12R) to -pi/(8R), and two R Majoranas to zero. The 1/R
 coefficient therefore also measures the worldsheet's fermion content
 (P18).
 
+## 1976 paper
+`outputs/1976-flux-tube-casimir/` (QCDS-76/1). Test 1 done again with three
+regulators and a harmonic chain. Test 4 done in 3d Z2: a 1/R term of Casimir
+sign is required; its fitted coefficient is 0.070-0.10 depending on the
+shortest separation, pi/24 fits from R sqrt(sigma) ~ 0.9, and pi/24 plus an
+R^-2 endpoint term fits everything. The endpoint term is new to this file:
+the claim above that the first correction is O(1/R^3) holds for the
+worldsheet interior only.
+
 ## References
 GGRT1973, BrinkNielsen1973, Luscher1981, Alvarez1981, Arvis1983,
 PolchinskiStrominger1991, AharonyKarzbrun2009, AharonyKomargodski2013,

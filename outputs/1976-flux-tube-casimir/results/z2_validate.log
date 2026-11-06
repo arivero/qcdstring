@@ -1,0 +1,10 @@
+Nt = 6, slabs of 2:
+  R=1: direct 0.29221(0.00126)  two-level 0.29228(0.00124)  difference +0.00007(0.00011)  pull +0.66
+  R=2: direct 0.12191(0.00128)  two-level 0.12198(0.00127)  difference +0.00007(0.00013)  pull +0.56
+  R=3: direct 0.05839(0.00125)  two-level 0.05868(0.00122)  difference +0.00029(0.00017)  pull +1.69
+  R=4: direct 0.03090(0.00125)  two-level 0.03108(0.00123)  difference +0.00018(0.00021)  pull +0.85
+Nt = 8, slabs of 4:
+  R=1: direct 0.19532(0.00098)  two-level 0.19534(0.00097)  difference +0.00001(0.00011)  pull +0.13
+  R=2: direct 0.06108(0.00088)  two-level 0.06103(0.00083)  difference -0.00005(0.00016)  pull -0.32
+  R=3: direct 0.02237(0.00067)  two-level 0.02254(0.00067)  difference +0.00018(0.00016)  pull +1.08
+  R=4: direct 0.00907(0.00059)  two-level 0.00908(0.00055)  difference +0.00001(0.00016)  pull +0.04

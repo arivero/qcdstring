@@ -1,0 +1,13 @@
+beta 0.7 multihit False nsub 500 time 15s
+  R= 1 C= 7.193e-03 rel.err=0.050 V=0.2056
+  R= 2 C= 1.995e-04 rel.err=0.143 V=0.3550
+  R= 3 C= 1.034e-05 rel.err=0.279 V=0.4783
+  R= 4 C= 7.677e-07 rel.err=0.646 V=0.5867
+  R= 5 C= 4.902e-08 rel.err=4.736 V=0.7013
+  R= 6 C=-3.509e-08 rel.err=2.425 V=0.7152
+  R= 7 C= 9.939e-09 rel.err=1.574 V=0.7678
+  R= 8 C= 2.041e-08 rel.err=0.790 V=0.7378
+  R= 9 C= 5.869e-09 rel.err=1.207 V=0.7897
+  R=10 C= 6.960e-09 rel.err=0.763 V=0.7826
+  R=11 C= 2.507e-09 rel.err=0.786 V=0.8252
+  R=12 C= 2.247e-09 rel.err=0.664 V=0.8297

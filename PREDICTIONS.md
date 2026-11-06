@@ -28,6 +28,7 @@ Registered 6 November 1974 unless stated.
 | P17 | SU(N) gauge theory with one Dirac fermion in the two-index antisymmetric representation has glueball and meson masses that approach those of N=1 super Yang-Mills with O(1/N) corrections; at N = 3 this is one-flavour QCD. Registered 7 Nov 1974. | MEMORY | Lattice at N = 3, 4, 6; `ideas/022` | 2003 (theory) | open |
 | P18 | The QCD flux tube carries no massless worldsheet fermions. Its 1/R coefficient is -pi/12; two massless NS Majoranas would give -pi/8 and two R Majoranas 0. Registered 8 Nov 1974 jointly with the second line. | 1974 (free-field Casimir arithmetic), MEMORY (lattice) | Lattice V(R); `ideas/001`, second line T09/T14 | 2002 | open |
 | P14 | The extrinsic-curvature (rigidity) term on the worldsheet is irrelevant at long distance and does not change P02 or P03. | MEMORY | `ideas/011` | 1986-2013 | open |
+| P19 | The lowest D-wave level of charmonium lies at 3.78-3.81 GeV, 50-75 MeV above the open-charm threshold, in the potential of the 1976 paper (no coupled-channel shift, no error bar). Registered November 1976. Both lines remember the outcome, so this entry carries no weight as a test. | 1976 calculation | e+e- scans above 3.73 GeV | 1977 | open |
 
 ## Status log
 
@@ -47,3 +48,22 @@ Registered 6 November 1974 unless stated.
   3.770, 4.040. The 3S overshoot is expected from the open-charm threshold.
 * 1974-11-07: P15-P17 registered with the long-march document.
 * 1974-11-08: P18 registered with the second line. Second-line benchmark reproduced here: D4 tensor m/M_KK = 1.5669021, next levels 2.485, 3.374, 4.252 (`numerics/d4_tensor.py`).
+* 1976-11 (paper QCDS-76/1, `outputs/1976-flux-tube-casimir/`, tag `y1976`):
+  * P02, d = 3: in the Z2 theory at beta = 0.70 and 0.73 (two-level
+    Polyakov-line correlators, correlated fits) a 1/R term with the Casimir
+    sign is required; b = 0 fails at both couplings over every range. Fitted
+    alone, b = 0.070(1), 0.085(5), 0.103(17) from R = 2, 3, 4 at beta = 0.73;
+    pi/24 is acceptable from R sqrt(sigma) ~ 0.9. pi/24 plus an endpoint term
+    d/R^2 fits all separations, with d sqrt(sigma) ~ 0.010 at both couplings.
+    Sign supported; magnitude not separated from an endpoint term. Open.
+  * P11: the strong-coupling series to O(u^4) holds within 0.1% at beta <= 0.30
+    and 1% at 0.40, then departs smoothly; the roughening point is not
+    located. Open.
+  * P13: U(1) part: the area law ends near beta = 1.0 with a jump of the
+    plaquette; hot and cold starts at beta = 1.00 agree, so the order is open.
+    SU(2) part open.
+  * P01: the charmonium tension is 0.78-0.86 of the Regge tension, the range
+    set by the spin-spin term of the same potential. Supported at the 15-20%
+    level, no tighter.
+  * P19 registered (outcome remembered; no weight).
+

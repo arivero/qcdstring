@@ -55,6 +55,12 @@ One sigma within 10 percent across items 1, 2 and 4. Refuted if the
 charmonium sigma differs from the Regge sigma by a factor of two, or if
 T_c comes out above T_H.
 
+## 1976 paper
+`outputs/1976-flux-tube-casimir/` (QCDS-76/1). Item 2 tested: the charmonium
+tension is 0.78-0.86 of the Regge tension once the potential's own spin-spin
+term is allowed for. The 1D level comes out at 3.78-3.81 GeV (P19, no weight:
+the outcome is remembered).
+
 ## References
 ChewFrautschi1962, Hagedorn1965, HuangWeinberg1970, Olesen1985,
 PisarskiAlvarez1982, LTW2004a, PDG1974.

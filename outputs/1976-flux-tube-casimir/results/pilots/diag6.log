@@ -1,0 +1,6 @@
+tau 6 nsub 5000 time 7.474303960800171
+R=2: mean|A|=0.292 rms A=0.321 mean err=0.031 frac|A|<2err=0.05  prod mean=9.16e-03 prod rms=1.33e-02  expect~1.5e-02
+R=4: mean|A|=0.146 rms A=0.179 mean err=0.038 frac|A|<2err=0.29  prod mean=6.27e-04 prod rms=1.34e-03  expect~1.7e-03
+R=6: mean|A|=0.087 rms A=0.115 mean err=0.041 frac|A|<2err=0.56  prod mean=5.45e-05 prod rms=1.79e-04  expect~2.0e-04
+R=8: mean|A|=0.060 rms A=0.083 mean err=0.042 frac|A|<2err=0.75  prod mean=-2.53e-06 prod rms=4.13e-05  expect~2.3e-05
+R=10: mean|A|=0.049 rms A=0.069 mean err=0.043 frac|A|<2err=0.84  prod mean=-4.56e-06 prod rms=2.45e-05  expect~2.7e-06

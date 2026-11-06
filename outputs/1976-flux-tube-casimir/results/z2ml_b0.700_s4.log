@@ -1,0 +1,6 @@
+beta 0.7 seed 4: 10/50 outer, 30 s
+beta 0.7 seed 4: 20/50 outer, 65 s
+beta 0.7 seed 4: 30/50 outer, 97 s
+beta 0.7 seed 4: 40/50 outer, 127 s
+beta 0.7 seed 4: 50/50 outer, 153 s
+wrote /home/codexssh/qcdstring/outputs/1976-flux-tube-casimir/code/../results/z2ml_b0.700_s4.npz

@@ -12,3 +12,5 @@ numerics/out/
 *~
 .vscode/
 .idea/
+# raw Monte Carlo results of the papers are kept
+!outputs/**/*.npz
