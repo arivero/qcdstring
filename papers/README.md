@@ -9,6 +9,7 @@ Two manifests and a fetcher.
   that the results they contain can be rederived, and so that a reader
   in 2026 can download them. Each line also carries an arXiv identifier
   where one exists and a confidence flag on the identifier.
+* `local_sources.tsv` and `LOCAL_SCAN.md`: what the 2026 disk already holds, found by a scan of the parent directory. `fetch.py` links those PDFs first and downloads the rest.
 * `fetch.py`: resolves every entry through the INSPIRE API (by DOI,
   arXiv id, or title), writes `resolved.tsv`, and downloads whatever is
   freely available (arXiv, or a scanned preprint hosted on INSPIRE) into
@@ -19,6 +20,7 @@ Two manifests and a fetcher.
         python3 papers/fetch.py                 # everything
         python3 papers/fetch.py --future        # only the memory list
         python3 papers/fetch.py --key Wilson1974
+        python3 papers/fetch.py --no-local      # ignore local_sources.tsv
 
 Identifiers in the manifests were written from memory. The DOIs of APS
 and Progress of Theoretical Physics articles follow a fixed pattern

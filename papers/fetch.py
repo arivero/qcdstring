@@ -22,6 +22,8 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 PDF_DIR = os.path.join(HERE, "pdf")
 RESOLVED = os.path.join(HERE, "resolved.tsv")
+LOCAL = os.path.join(HERE, "local_sources.tsv")
+PARENT = os.path.dirname(os.path.dirname(HERE))  # local paths in local_sources.tsv are relative to ../ of the repo
 INSPIRE = "https://inspirehep.net/api/literature"
 UA = "qcdstring-fetch/0.1 (research manifest resolver)"
 FIELDS = "titles,arxiv_eprints,dois,documents,control_number,publication_info"
@@ -104,6 +106,18 @@ def resolve(row):
     return out
 
 
+def load_local():
+    """key -> absolute path of a verified local PDF, from local_sources.tsv (see LOCAL_SCAN.md)."""
+    out = {}
+    if not os.path.exists(LOCAL):
+        return out
+    for r in read_manifest(LOCAL):
+        p = os.path.join(PARENT, r["local_path"])
+        if r["key"] != "-" and r["kind"] == "pdf" and os.path.isfile(p):
+            out[r["key"]] = p
+    return out
+
+
 def read_manifest(path):
     with open(path, newline="") as f:
         return list(csv.DictReader(f, delimiter="\t"))
@@ -115,6 +129,7 @@ def main():
     ap.add_argument("--library", action="store_true", help="only library-1974.tsv")
     ap.add_argument("--future", action="store_true", help="only memory-future.tsv")
     ap.add_argument("--key", action="append", default=[], help="only these keys (repeatable)")
+    ap.add_argument("--no-local", action="store_true", help="ignore local_sources.tsv and fetch everything")
     ap.add_argument("--no-resolve", action="store_true", help="skip INSPIRE; use manifest ids as given")
     args = ap.parse_args()
 
@@ -127,12 +142,23 @@ def main():
         rows = [r for r in rows if r["key"] in args.key]
     os.makedirs(PDF_DIR, exist_ok=True)
 
+    local = {} if args.no_local else load_local()
     results = []
     n_pdf = 0
+    n_local = 0
     for r in rows:
         key = r["key"]
         target = os.path.join(PDF_DIR, key + ".pdf")
         print(f"[{r['manifest']}] {key}: {r['title'][:70]}")
+        if key in local:
+            if not os.path.lexists(target) and not args.dry_run:
+                os.symlink(local[key], target)
+            print(f"    local copy {os.path.relpath(local[key], PARENT)}")
+            n_pdf += 1
+            n_local += 1
+            results.append({"key": key, "manifest": r["manifest"], "recid": "", "arxiv": r.get("arxiv", ""), "doi": r.get("doi", ""),
+                            "pdf_url": "", "how": "local", "note": "", "pdf": os.path.relpath(local[key], PARENT)})
+            continue
         if args.no_resolve:
             res = {"recid": "", "arxiv": r.get("arxiv", ""), "doi": r.get("doi", ""),
                    "pdf_url": f"https://arxiv.org/pdf/{r['arxiv']}" if r.get("arxiv") else "",
@@ -144,7 +170,7 @@ def main():
         if res.get("note"):
             print(f"    NOTE: {res['note']}")
         if res["pdf_url"]:
-            if os.path.exists(target):
+            if os.path.lexists(target):
                 print(f"    have {os.path.relpath(target, HERE)}")
                 n_pdf += 1
             elif args.dry_run:
@@ -167,13 +193,13 @@ def main():
         else:
             print("    no identifier resolved; search INSPIRE by hand")
         results.append({"key": key, "manifest": r["manifest"], **{k: res[k] for k in ("recid", "arxiv", "doi", "pdf_url", "how", "note")},
-                        "pdf": os.path.relpath(target, HERE) if os.path.exists(target) else ""})
+                        "pdf": os.path.relpath(target, HERE) if os.path.lexists(target) else ""})
 
     with open(RESOLVED, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(results[0].keys()) if results else ["key"], delimiter="\t")
         w.writeheader()
         w.writerows(results)
-    print(f"\n{len(results)} entries processed, {n_pdf} PDFs present, written {os.path.relpath(RESOLVED, HERE)}")
+    print(f"\n{len(results)} entries processed, {n_pdf} PDFs present ({n_local} linked from local copies), written {os.path.relpath(RESOLVED, HERE)}")
 
 
 if __name__ == "__main__":

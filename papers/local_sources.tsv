@@ -1,0 +1,23 @@
+key	kind	local_path	pages	note
+Miyazawa1966	pdf	phys4/sources/miyazawa-1966.pdf	11	Baryon number changing currents, PTP 36, 1266. Verified by title page.
+CattoGursey1985	pdf	phys4/sources/catto-gursey-1985.pdf	18	Algebraic treatment of effective supersymmetry, Nuovo Cim. 86A. Verified by title page.
+Chew1962	pdf	phys4/sources/chew-1962.pdf	8	PDF metadata gives Chew's S-matrix review; page-1 text is a different OCR layer, so check before citing.
+Witten1997	pdf	phys4/sources/witten-1997-branes-qcd.pdf	40	Verified by arXiv stamp.
+DoschTeramondBrodsky2015	pdf	phys4/sources/brodsky-deteramond-2015.pdf	31	Verified by arXiv stamp 1501.00959.
+FradkinShenker1979	pdf	phys4/sources/fradkin-shenker-1979.pdf	16	Title seen in scan.
+PandoZayas2004	pdf	physres5lineage/dv2/references/regge-string/pando-zayas-sonnenschein-vaman-2004-regge-trajectories-revisited.pdf	54	Verified by arXiv stamp hep-th/0311190.
+Polchinski1994	pdf	physres5/references/pdfs/04_Polchinski_What_is_String_Theory_hep-th-9411028.pdf	154	Canonical copy. Duplicate under physres5lineage/physres6.
+Ginsparg1988	pdf	physres5/references/pdfs/03_Ginsparg_Applied_Conformal_Field_Theory_hep-th-9108028.pdf	90	Canonical copy. Duplicate under physres5lineage/physres6.
+Tong2009	pdf	physres5/references/pdfs/02_Tong_String_Theory_notes.pdf	218	Canonical copy, 218 pages. Duplicate under physres5lineage/physres6.
+-	pdf	physres5lineage/kkorchestra/sources/stringbook/string notes.pdf	845	Xi Yin, Foundations of String Theory, Harvard, version of 20 April 2026. Chapter 1: the effective string and its quantization. Not on arXiv as far as known.
+-	md	physres5lineage/kkorchestra/sources/stringbook_string_notes_translated.md		Markdown transcription of the Yin notes, 2.2 MB, LaTeX-derived.
+-	pdf	phys4/sources/catto-gursey-1988-hadronic-susy.pdf	15	Catto and Gursey 1988 on hadronic supersymmetry; idea 016.
+-	pdf	phys4/sources/brodsky-deteramond-2008-hadronic-susy.pdf	38	SLAC-PUB-13107; hadronic supersymmetry from light-front holography; idea 016.
+-	pdf	phys4/sources/hanany-witten-1997.pdf	46	Hanany and Witten, hep-th/9611230; brane constructions of gauge theories.
+-	md	physres5/context/source_fragments/02_tong_string_theory_notes		22 page-range Markdown transcriptions of the Tong notes.
+-	md	physres5/context/source_fragments/04_polchinski_what_is_string_theory_hep_th_9411028		16 page-range transcriptions of Polchinski hep-th/9411028.
+-	md	physres5/context/source_fragments/03_ginsparg_applied_conformal_field_theory_hep_th_9108028		9 page-range transcriptions of Ginsparg.
+-	md	navstokgap/docs/WilsonKogut_1974.md		Reading note on Wilson and Kogut, Phys. Rept. 12, with DOI and a PDF link. Not a transcription.
+-	md	chatpublic/discussions/2026-10-11-quark-antiquark-open-string/sources.md		Annotated source list for dual-model open strings with fermionic ends; names Schwarz 1971, Ramond 1971, Bars-Hanson 1976, Polchinski-Strassler, Sonnenschein-Weissman.
+-	md	phys6gpd/analysis/results/pf_thread_bibliography.md		Bibliography of a Physics Forums thread titled 'The Wrong Turn of String Theory', 2011-2026; hadronic supersymmetry and diquark references.
+-	md	physres5lineage/dv2/references/regge-string/README.md		Manifest of two Regge/string references.

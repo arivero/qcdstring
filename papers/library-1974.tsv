@@ -65,3 +65,6 @@ PDG1974	1974	Particle Data Group	Review of Particle Properties	Phys. Lett. B50, 
 ChodosThorn1974	1974	Chodos, Thorn	Making the massless string massive	Nucl. Phys. B72, 509		The string with massive endpoints; quarks at the ends, classically.
 ArtruMennessier1974	1974	Artru, Mennessier	String model and multiproduction	Nucl. Phys. B70, 93		Hadron production as string breaking; the ancestor of the Lund model.
 CapperDuff1974	1974	Capper, Duff	Trace anomalies in dimensional regularization	Nuovo Cim. A23, 173		The conformal anomaly, needed for the Liouville construction.
+Chew1962	1962	Chew	S-matrix theory of strong interactions without elementary particles	Rev. Mod. Phys. 34, 394	10.1103/RevModPhys.34.394	The bootstrap programme from which duality grew; a local copy exists.
+WilsonKogut1974	1974	Wilson, Kogut	The renormalization group and the epsilon expansion	Phys. Rept. 12, 75	10.1016/0370-1573(74)90023-4	Scale treated as a continuous variable; the source of the size coordinate in ideas/002. Only a reading note exists locally.
+Schwarz1971	1971	Schwarz	Dual quark-gluon model of hadrons	Phys. Lett. B37, 315	10.1016/0370-2693(71)90028-1	Quarks and gluons inside the dual model; the historical anchor of a 2026 discussion of open strings with fermionic ends.
