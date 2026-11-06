@@ -1,5 +1,5 @@
 # 004. Strong coupling, roughening, and a 1975 Monte Carlo
-**Status:** in progress
+**Status:** in progress. First run (6 Nov 1974, `numerics/z2_lattice.py`, 12^3, 100+100 sweeps): chi(2,2) = 1.23, 0.95, 0.68, 0.41, 0.17 at beta = 0.3, 0.4, 0.5, 0.6, 0.7 against -ln tanh beta = 1.23, 0.97, 0.77, 0.62, 0.50. Strong coupling holds to beta ~ 0.4, departs from 0.5 on (the roughening estimate is 0.47), and the tension falls toward zero approaching beta_c = 0.76.
 **Depends on:** 001
 **Predictions:** P02, P11, P13
 
