@@ -95,6 +95,20 @@ No endpoint term exists for a closed tube, so the tension has no such
 ambiguity (0.04566(11)(22) at beta = 0.73); with it the open tube's 1/R
 coefficient fitted alone is 0.116(5) from R = 4.
 
+## 1984 paper
+`outputs/1984-critical-dimension/` (QCDS-84/1). The L^-3 term is derived: the
+quartic term of the area action shifts every closed-string level by
+-2 E+ E-/(sigma L), so the 1982 count becomes c = 0.99(3)(9) without the
+assumption. The R^-2 endpoint term of the 1976 section above is forbidden for
+a rotation-invariant source; the first end term gives e/R^4 in the ground
+state and +240 e/R^4 in the first gap, against -24 d/R^2 for an R^-2 term.
+The stored data cannot apply that test: with one baseline for both levels
+they admit the square root with e/R^4 and equally the free string with d/R^2.
+The endpoint question stays open; the first gap to 1% at R sqrt(sigma) = 2.5
+would decide. Test 3 (where d = 26 enters) is answered by a proposal:
+Polyakov's anomaly on the induced metric, a four-phonon vertex with
+coefficient (26-d)/384 pi, a total derivative in d = 3.
+
 ## References
 GGRT1973, BrinkNielsen1973, Luscher1981, Alvarez1981, Arvis1983,
 PolchinskiStrominger1991, AharonyKarzbrun2009, AharonyKomargodski2013,

@@ -1,5 +1,5 @@
 # 011. Rigidity is irrelevant
-**Status:** open
+**Status:** supported by derivation (1984); lattice comparison open
 **Depends on:** 001
 **Predictions:** P14
 
@@ -37,6 +37,19 @@ what kind of string a gauge theory makes.
 ## Expected outcome, and what would refute it
 No deviation in SU(2); a measurable one in U(1). Refuted if the
 non-Abelian spectrum needs rigidity, which would also damage 001.
+
+## 1984 paper
+`outputs/1984-critical-dimension/` (QCDS-84/1), Section 2.3. A stronger and
+simpler statement than the running of the coupling. By Gauss's equation the
+Lorentz-invariant stiffness K_ab K^ab equals K^2 minus the curvature scalar of
+the induced metric: a term quadratic in the equations of motion plus a total
+derivative. It changes no level of a long string, closed or open. Terms cubic
+in the curvature vanish or reduce likewise, and (grad K)^2 reduces by
+Codazzi's equation; the first bulk terms with free coefficients are quartic in
+the curvature and enter at sigma^-3 L^-7. The 1976 paper had given a stiffness
+as its example of an R^-3 correction; it meant the bending energy of a rod,
+which the Lorentz invariance of the vacuum excludes. Tests 1 and 2 above (the
+running, and U(1) against SU(2)) remain.
 
 ## References
 Polyakov1986, Kleinert1986, AharonyKomargodski2013, DFG2012a, Polyakov1977.

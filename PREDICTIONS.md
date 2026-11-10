@@ -140,3 +140,44 @@ Registered 6 November 1974 unless stated.
   * P01, P20: an eta_c' candidate at 3.592 GeV lies 28 MeV above the singlet
     implied by the 1976 potential; the chi_b(2P) states are seen through
     photons of about 0.1 GeV (record: 0.082). No weight.
+* 1984-11 (paper QCDS-84/1, `outputs/1984-critical-dimension/`, tag `y1984`;
+  theory, with refits of stored data):
+  * P14: by Gauss's equation a Lorentz-invariant stiffness term is a total
+    derivative plus terms that vanish with the equations of motion; it changes
+    no level. Supported by derivation. (The 1976 paper had given a stiffness
+    as an example of an R^-3 correction; that was the bending energy of a
+    rod.) The first free bulk coefficients are quartic in the curvature and
+    enter at sigma^-3 L^-7.
+  * P02 and P03, the L^-3 term: the quartic term of the area action is
+    2 sigma (d+X.d+X)(d-X.d-X) and shifts every closed-string level by
+    -2 E+ E-/(sigma L). Derived; it is the L^-3 term of the square root, with
+    no free parameter. This closes the open point of the 1982 entry.
+  * P02, open tube, d = 3: a rotation-invariant source forbids the R^-2 end
+    term; the first allowed, b_2 (d_t d_x X)^2, gives e/R^4 in the ground state
+    and +240 k^3 e/R^4 per phonon, where d/R^2 would give -24 k d/R^2. Derived.
+    The 1976 and 1980 data CANNOT apply the test: with one baseline for both
+    levels they are described by the square root with e/R^4 alone and equally
+    by the free string with d/R^2 alone (both from R sqrt(sigma) = 1.5), and
+    e sigma^(3/2) runs from 0.002 to 0.010 with the baseline. Open. Decisive
+    measurement: the first gap to 1% at R sqrt(sigma) = 2.5.
+  * P03: the area action gives phonons the phase exp(i s/4 sigma); free phonons
+    with that phase have the square-root spectra (closed and open) if the same
+    rule is applied to the zero-point motion and to standing waves. The rule
+    is derived at first order and assumed beyond.
+    Amendment recorded here, since entries are never edited: PROPOSED, that
+    the quantum correction for a long string is Polyakov's anomaly on the
+    induced metric (the central term then cancels in every dimension; derived
+    in Appendix B). It adds the four-phonon vertex
+    (26-d)[d_a(dX.dX)]^2/384 pi, which is a total derivative for d = 3,
+    absent for d = 26, and in d = 4 splits the level N = Nbar = 1 of a closed
+    tube by -/+ (26-d)(4 pi^3/3)/(sigma^2 L^5) at first order (scalar and
+    pseudoscalar down, spin 2 up). On that proposal P03 as registered ("up to
+    and including O(1/R^5) in d = 4") can hold for the closed-string ground
+    state and one-way states only. Not yet a measurement. The level of the
+    area action at order L^-5 is not computed.
+  * P18: the closed tube of the 3d Z2 theory carries c = 0.99(3)(9) massless
+    modes and no further scalar lighter than 1.2 sqrt(sigma) (95%, one-sided;
+    1.9 with the shortest tubes as measured). Supported in d = 3; d = 4 open.
+  * P20: the chi_b(1P) centre is seen about 0.44 GeV above the Upsilon (record
+    0.47); B mesons at 5.27 GeV put the 4S some 30 MeV above threshold (record:
+    undetermined, level 40 MeV high). No weight.

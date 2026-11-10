@@ -1,0 +1,79 @@
+A. Area action in static gauge
+   area density on the flat sheet X1 = a t, X2 = b x: -a**4*epsilon**4/8 - a**2*b**2*epsilon**4/4 - a**2*epsilon**2/2 - b**4*epsilon**4/8 + b**2*epsilon**2/2 + 1
+   quartic coefficients fixed by flat sheets: c2/sigma = -1/8, c3/sigma = 1/4
+   with one transverse direction only c2 + c3 = 1/8 sigma enters
+   quartic term minus 2 sigma (d+X.d+X)(d-X.d-X): 0
+   free energy density (sigma/2)(Xdot^2 + X'^2) minus sigma [(d+X)^2 + (d-X)^2]: 0
+   so L_4 = (2/sigma) eps_+ eps_-, the product of the energy densities of the two directions of motion, and a state of a closed
+   string with energies E_+ and E_- in the two directions is shifted at first order by -2 E_+ E_- / (sigma L)
+   square root (2) with E_+- = 2 pi (N - (d-2)/24)/L, second order in the phonon energies, minus [-2 E_+ E_-/(sigma L)]: 0
+
+B. Stiffness term
+   (d_a d_b X)^2 - (d^2 X)^2 - d_a[d_b X d_a d_b X - d_a X d^2 X] = 0
+
+C. Curvature of the induced metric h_ab = delta_ab + d_a X d_b X to second order
+   R at second order minus [(d^2 X)^2 - (d_a d_b X)^2] = 0
+   d^2(d_c X d_c X) - 2 (d_a d_b X)^2 - 2 d_c X d_c d^2 X = 0   (so R = -(1/2) d^2 A on shell)
+
+D. Four-phonon amplitude of the area action (sigma = 1, canonical fields)
+   s = 4*p*q
+   transmission (i j -> i j): M = 8*p**2*q**2 = s^2/2;   annihilation (i i -> k k): 0;   reflection (i j -> j i): 0
+   one flavour: M = 8*p**2*q**2;   phase 2 delta = M/2s = p*q = s/4
+
+E. Phonons on a string lengthened by the momentum of the opposite movers
+   closed string, 200 of 200 random (sigma, L, N, Nbar, c) with a real level: largest |E - square root (2)| = 5.3e-15
+   open string,  200 of 200 random (sigma, R, N, c) with a real level:       largest |E - square root of [3]| = 1.8e-15
+   identity (sigma L + P + Q)^2 = sigma^2 L^2 + 2 sigma [P(L + Q/sigma) + Q(L + P/sigma)] + (P - Q)^2: remainder 0
+
+F. Polyakov's anomaly on the induced metric (evaluation of (11) and (12))
+   vertex kappa [d_a (dX.dX)]^2 in the Euclidean action, kappa = (26 - d)/(384 pi sigma^2); L_Minkowski = -kappa d_a A d^a A
+   sum over assignments of d_a A d^a A: annihilation -128*p**3*q**3 = -2 s^3;  transmission 0;  reflection 128*p**3*q**3 = +2 s^3
+   one flavour: 0   (the vertex is trivial for one transverse direction)
+   amplitude M = +2 kappa s^3 [delta_ij delta_kl - delta_il delta_jk] = (26 - d) s^3/(192 pi sigma^2) [ ... ]
+   d = 3: eigenvalues of [delta_ij delta_kl - delta_il delta_jk] on the (i, j) states: +0 (x1)
+   d = 4: eigenvalues of [delta_ij delta_kl - delta_il delta_jk] on the (i, j) states: -1 (x2), +1 (x2)
+   d = 5: eigenvalues of [delta_ij delta_kl - delta_il delta_jk] on the (i, j) states: -1 (x5), +1 (x3), +2 (x1)
+   d = 26: eigenvalues of [delta_ij delta_kl - delta_il delta_jk] on the (i, j) states: -1 (x299), +1 (x276), +23 (x1)
+   level shift of N = Nbar = 1 at momenta 2 pi/L: Delta E = -(26 - d) lambda s^2/(192 pi sigma^2 L), s = 16 pi^2/L^2  ->  -(26 - d) lambda (4*pi**3/3) /(sigma^2 L^5), 4 pi^3/3 = 41.342
+   d = 4 (lambda = +1 scalar, +1 pseudoscalar, -1 for the two spin-2 states), units sqrt(sigma) = 1:
+   L sqrt(sigma)   square root (2), N = Nbar = 1   shift of scalar and pseudoscalar   relative   tree phase s/4   anomaly phase
+     4.0             6.248                           -0.8882                        -14.22%     2.467           1.776
+     5.0             6.931                           -0.2910                         -4.20%     1.579           0.728
+     6.0             7.684                           -0.1170                         -1.52%     1.097           0.351
+     8.0             9.329                           -0.0278                         -0.30%     0.617           0.111
+    10.0            11.092                           -0.0091                         -0.08%     0.395           0.045
+    12.0            12.924                           -0.0037                         -0.03%     0.274           0.022
+   with dressed momenta: P (L + P) = 2 pi (1 - 1/12) - lambda 22 s^2/(384 pi), s = 4 p^2, p = 2 pi/(L + P), E = L + 2 P  (units sqrt(sigma) = 1)
+   L sqrt(sigma)   first-order shift (12)   shift with dressed momenta, lambda = +1 and -1   ratio to (12)
+     5.0           -+0.2910                 -0.1083, +0.0995                              0.37, 0.34
+     6.0           -+0.1170                 -0.0551, +0.0530                              0.47, 0.45
+     8.0           -+0.0278                 -0.0174, +0.0172                              0.63, 0.62
+    10.0           -+0.0091                 -0.0066, +0.0066                              0.73, 0.73
+    12.0           -+0.0037                 -0.0029, +0.0029                              0.80, 0.80
+
+G. End terms
+   finite part of sum n   = -0.083333   (zeta(-1) = -1/12 = -0.083333)
+   finite part of sum n^3 = +0.008331   (zeta(-3) = 1/120 = +0.008333)
+   boundary Lagrangian b1 (d_x X)^2 at both ends:      ground state +b1 pi (d-2)/(6 sigma R^2) = d1/R^2;  phonon of mode k: -24 k d1/R^2 per transverse direction
+   boundary Lagrangian b2 (d_t d_x X)^2 at both ends:  ground state -b2 pi^3 (d-2)/(60 sigma R^4) = e/R^4; phonon of mode k: +240 k^3 e/R^4 per transverse direction
+   (ratios: -[4 k pi]/[pi/6] = -24 k and [4 k^3 pi^3]/[pi^3/60] = 240 k^3)
+
+H. Central term of the long string in conformal gauge, from the action (9) on the induced metric
+   phi = ln(-2 d+X.d-X) at first order: 2*(-Derivative(f(u, v), v) - Derivative(g(u, v), u))/R   [= -(2/R)(e+.d-Y + e-.d+Y)]
+   quadratic Lagrangian: -2*Derivative(f(u, v), u)*Derivative(g(u, v), v)/a**2 - 2*Derivative(f(u, v), v)*Derivative(g(u, v), u)/a**2 + 4*beta*Derivative(f(u, v), (v, 2))*Derivative(g(u, v), (u, 2))/R**2 + 4*beta*Derivative(f(u, v), (v, 2))*Derivative(f(u, v), u, v)/R**2 + 4*beta*Derivative(g(u, v), (u, 2))*Derivative(g(u, v), u, v)/R**2 + 4*beta*Derivative(f(u, v), u, v)*Derivative(g(u, v), u, v)/R**2
+   kernel in the basis (f, g): K_ff = 8*beta*k_m**3*k_p/R**2,  K_fg = 4*k_m*k_p*(-R**2 + 2*a**2*beta*k_m*k_p)/(R**2*a**2),  K_gg = 8*beta*k_m*k_p**3/R**2
+   Noether tensor at first order, in momentum space: T = (I*k_m*(-R**2 + 2*a**2*beta*k_m*k_p)/(R*a**2)) g + (2*I*beta*k_m**3/R) f
+   on shell (k_p = 0 for a function of v): T = -(R/a^2) d-g - (2 beta/R) d-^3 f; the second term is beta d-^2 phi
+   <T(k) T(-k)> with this tensor and the propagator of the full quadratic action: order beta^0: 0;  order beta: k_m**3/(2*k_p)
+   its non-local part (the coefficient of k_m^3/k_p): 1/2 beta
+   with the free propagator instead: coefficient 1 beta
+   calibration: for a canonical field with improvement q d-^2 chi the same coefficient is q**2/2, and that is a central term 12 q^2;
+   so the coefficient x 24 is the central term: 12 beta from (9) on the induced metric  (24 beta if the propagator correction is left out)
+   with half the improvement term and the free propagator (the first version of Appendix B): 12 beta, by two omissions that cancel
+   after the redefinition g = g' - (beta a^2/R^2) d-^2 f': K_ff to first order in beta = 0, and the tensor becomes -(R/a^2) d-g' + (beta/R) d-^3 f' - (2 beta/R) d-^3 f' = -(R/a^2) d-g' - (beta/R) d-^3 f'
+   total: d + 12 beta - 26 = 0 for beta = (26 - d)/12, which is the coefficient of (9): (beta/4 pi) int du dv d+phi d-phi = (26 - d)/(48 pi) int (1/2)(d phi)^2
+
+I. Casimir energy of a massive scalar on a circle (Section 6): -(m/pi) sum_n K1(n m L)/n against the regulated mode sum
+   m = 1.0, L = 2.0: Bessel form -0.046664; mode sum with cutoff 0.02, 0.01: -0.046639, -0.046658
+   m = 2.0, L = 1.5: Bessel form -0.026004; mode sum with cutoff 0.02, 0.01: -0.025972, -0.025996
+   m -> 0: -0.52310 against -pi/6 = -0.52360

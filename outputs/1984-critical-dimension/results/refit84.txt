@@ -1,0 +1,204 @@
+1. Open tube, ground state: 1976 and 1980 data with the closed-tube tension of 1982 (total error) as a constraint
+   chi2/dof (p); coefficient; coefficient in units of the tension
+
+   beta = 0.73, sigma = 0.04566(0.00025), sqrt(sigma) = 0.2137
+   R = 2-9  free string                    6051.3/15 (0.000)  
+   R = 2-9  + d/R^2                          13.4/14 (0.492)  coefficient 0.0501(0.0006); x sigma^0.5 = 0.01070(0.00014)
+   R = 2-9  + f/R^3                          20.6/14 (0.113)  coefficient 0.0662(0.0009); x sigma^1.0 = 0.00302(0.00004)
+   R = 2-9  + e/R^4                          59.8/14 (0.000)  coefficient 0.1026(0.0013); x sigma^1.5 = 0.00100(0.00001)
+   R = 2-9  + d/R^2 + e/R^4                   9.2/13 (0.757)  d 0.0389(0.0055), e 0.023(0.011), correlation -0.99
+   R = 2-9  + area R^-3 + e/R^4             334.8/14 (0.000)  coefficient 0.4089(0.0013); x sigma^1.5 = 0.00399(0.00001)
+   R = 3-9  free string                     241.6/13 (0.000)  
+   R = 3-9  + d/R^2                           9.3/12 (0.674)  coefficient 0.0447(0.0029); x sigma^0.5 = 0.00956(0.00063)
+   R = 3-9  + f/R^3                           6.8/12 (0.868)  coefficient 0.0865(0.0056); x sigma^1.0 = 0.00395(0.00026)
+   R = 3-9  + e/R^4                           6.9/12 (0.867)  coefficient 0.1937(0.0126); x sigma^1.5 = 0.00189(0.00012)
+   R = 3-9  + d/R^2 + e/R^4                   6.7/11 (0.826)  d 0.0096(0.0217), e 0.153(0.093), correlation -0.99
+   R = 3-9  + area R^-3 + e/R^4              12.0/12 (0.445)  coefficient 0.6158(0.0116); x sigma^1.5 = 0.00601(0.00011)
+   R = 3-9  square root                   10596.7/13 (0.000)  
+   R = 3-9  square root + d/R^2             131.5/12 (0.000)  coefficient 0.2353(0.0023); x sigma^0.5 = 0.05027(0.00049)
+   R = 3-9  square root + f/R^3              32.4/12 (0.001)  coefficient 0.4656(0.0045); x sigma^1.0 = 0.02126(0.00021)
+   R = 3-9  square root + e/R^4               7.3/12 (0.840)  coefficient 1.0637(0.0104); x sigma^1.5 = 0.01038(0.00010)
+   R = 3-9  square root + d/R^2 + e/R^4       7.0/11 (0.797)  d -0.0107(0.0222), e 1.112(0.100), correlation -0.99
+   R = 4-9  free string                      15.3/11 (0.170)  
+   R = 4-9  + d/R^2                           6.7/10 (0.756)  coefficient 0.0292(0.0100); x sigma^0.5 = 0.00624(0.00213)
+   R = 4-9  + f/R^3                           6.6/10 (0.761)  coefficient 0.0755(0.0257); x sigma^1.0 = 0.00345(0.00117)
+   R = 4-9  + e/R^4                           6.7/10 (0.755)  coefficient 0.2230(0.0761); x sigma^1.5 = 0.00218(0.00074)
+   R = 4-9  + d/R^2 + e/R^4                   6.6/ 9 (0.675)  d 0.0161(0.0722), e 0.101(0.552), correlation -0.99
+   R = 4-9  + area R^-3 + e/R^4               7.1/10 (0.716)  coefficient 0.7791(0.0747); x sigma^1.5 = 0.00760(0.00073)
+   R = 4-9  square root                     199.2/11 (0.000)  
+   R = 4-9  square root + d/R^2               8.6/10 (0.574)  coefficient 0.1320(0.0096); x sigma^0.5 = 0.02821(0.00205)
+   R = 4-9  square root + f/R^3               6.7/10 (0.757)  coefficient 0.3423(0.0247); x sigma^1.0 = 0.01563(0.00113)
+   R = 4-9  square root + e/R^4               6.8/10 (0.743)  coefficient 1.0166(0.0734); x sigma^1.5 = 0.00992(0.00072)
+   R = 4-9  square root + d/R^2 + e/R^4       6.6/ 9 (0.677)  d 0.0321(0.0722), e 0.773(0.554), correlation -0.99
+   R = 5-9  free string                       6.0/ 9 (0.739)  
+   R = 5-9  + d/R^2                           5.2/ 8 (0.740)  coefficient 0.0269(0.0291); x sigma^0.5 = 0.00574(0.00622)
+   R = 5-9  + f/R^3                           5.0/ 8 (0.752)  coefficient 0.0936(0.0955); x sigma^1.0 = 0.00428(0.00436)
+   R = 5-9  + e/R^4                           5.0/ 8 (0.762)  coefficient 0.3654(0.3567); x sigma^1.5 = 0.00356(0.00348)
+   R = 5-9  + d/R^2 + e/R^4                   4.4/ 7 (0.737)  d -0.1855(0.2393), e 2.621(2.932), correlation -0.99
+   R = 5-9  + area R^-3 + e/R^4               4.8/ 8 (0.778)  coefficient 1.0650(0.3552); x sigma^1.5 = 0.01039(0.00347)
+   R = 5-9  square root                      16.9/ 9 (0.050)  
+   R = 5-9  square root + d/R^2               5.6/ 8 (0.693)  coefficient 0.0972(0.0289); x sigma^0.5 = 0.02077(0.00618)
+   R = 5-9  square root + f/R^3               5.1/ 8 (0.743)  coefficient 0.3250(0.0948); x sigma^1.0 = 0.01484(0.00433)
+   R = 5-9  square root + e/R^4               4.8/ 8 (0.774)  coefficient 1.2299(0.3544); x sigma^1.5 = 0.01200(0.00346)
+   R = 5-9  square root + d/R^2 + e/R^4       4.4/ 7 (0.737)  d -0.1665(0.2393), e 3.255(2.933), correlation -0.99
+
+   beta = 0.7, sigma = 0.10566(0.00041), sqrt(sigma) = 0.3251
+   R = 2-6  free string                     118.9/ 9 (0.000)  
+   R = 2-6  + d/R^2                           4.3/ 8 (0.832)  coefficient 0.0231(0.0022); x sigma^0.5 = 0.00751(0.00070)
+   R = 2-6  + f/R^3                           3.2/ 8 (0.919)  coefficient 0.0334(0.0031); x sigma^1.0 = 0.00353(0.00033)
+   R = 2-6  + e/R^4                           3.0/ 8 (0.932)  coefficient 0.0550(0.0051); x sigma^1.5 = 0.00189(0.00018)
+   R = 2-6  + d/R^2 + e/R^4                   3.0/ 7 (0.882)  d 0.0005(0.0204), e 0.054(0.048), correlation -0.99
+   R = 2-6  + area R^-3 + e/R^4               4.2/ 8 (0.839)  coefficient 0.1886(0.0048); x sigma^1.5 = 0.00648(0.00016)
+   R = 2-6  square root                    5355.3/ 9 (0.000)  
+   R = 2-6  square root + d/R^2              36.3/ 8 (0.000)  coefficient 0.1214(0.0018); x sigma^0.5 = 0.03946(0.00057)
+   R = 2-6  square root + f/R^3               7.9/ 8 (0.442)  coefficient 0.1769(0.0025); x sigma^1.0 = 0.01869(0.00027)
+   R = 2-6  square root + e/R^4               3.1/ 8 (0.925)  coefficient 0.2931(0.0042); x sigma^1.5 = 0.01006(0.00014)
+   R = 2-6  square root + d/R^2 + e/R^4       3.1/ 7 (0.875)  d 0.0037(0.0205), e 0.284(0.049), correlation -1.00
+   R = 3-6  free string                       3.7/ 7 (0.818)  
+   R = 3-6  + d/R^2                           2.9/ 6 (0.821)  coefficient 0.0100(0.0115); x sigma^0.5 = 0.00325(0.00374)
+   R = 3-6  + f/R^3                           2.9/ 6 (0.816)  coefficient 0.0211(0.0250); x sigma^1.0 = 0.00223(0.00264)
+   R = 3-6  + e/R^4                           3.0/ 6 (0.812)  coefficient 0.0505(0.0611); x sigma^1.5 = 0.00173(0.00210)
+   R = 3-6  + d/R^2 + e/R^4                   2.7/ 5 (0.746)  d 0.0688(0.1320), e -0.313(0.701), correlation -1.00
+   R = 3-6  + area R^-3 + e/R^4               3.1/ 6 (0.795)  coefficient 0.2489(0.0606); x sigma^1.5 = 0.00855(0.00208)
+   R = 3-6  square root                      27.3/ 7 (0.000)  
+   R = 3-6  square root + d/R^2               2.7/ 6 (0.841)  coefficient 0.0564(0.0114); x sigma^0.5 = 0.01832(0.00370)
+   R = 3-6  square root + f/R^3               2.9/ 6 (0.822)  coefficient 0.1219(0.0247); x sigma^1.0 = 0.01288(0.00261)
+   R = 3-6  square root + e/R^4               3.1/ 6 (0.799)  coefficient 0.2973(0.0604); x sigma^1.5 = 0.01021(0.00207)
+   R = 3-6  square root + d/R^2 + e/R^4       2.7/ 5 (0.746)  d 0.0809(0.1320), e -0.131(0.701), correlation -1.00
+
+   scaling between the couplings at matched R sqrt(sigma) >= 0.64 (R >= 3 at 0.73, R >= 2 at 0.70):
+   + d/R^2                      coefficient x sigma^0.5: 0.00956(0.00063) and 0.00751(0.00070); difference +2.2 standard errors
+   + f/R^3                      coefficient x sigma^1.0: 0.00395(0.00026) and 0.00353(0.00033); difference +1.0 standard errors
+   + e/R^4                      coefficient x sigma^1.5: 0.00189(0.00012) and 0.00189(0.00018); difference +0.0 standard errors
+   + area R^-3 + e/R^4          coefficient x sigma^1.5: 0.00601(0.00011) and 0.00648(0.00016); difference -2.3 standard errors
+   square root + d/R^2          coefficient x sigma^0.5: 0.05027(0.00049) and 0.03946(0.00057); difference +14.3 standard errors
+   square root + f/R^3          coefficient x sigma^1.0: 0.02126(0.00021) and 0.01869(0.00027); difference +7.6 standard errors
+   square root + e/R^4          coefficient x sigma^1.5: 0.01038(0.00010) and 0.01006(0.00014); difference +1.8 standard errors
+   stability under the range at beta = 0.73 (R >= 3 against R >= 4):
+   + d/R^2                      0.0447(0.0029) -> 0.0292(0.0100); shift -1.6 standard errors of the difference
+   + f/R^3                      0.0865(0.0056) -> 0.0755(0.0257); shift -0.4 standard errors of the difference
+   + e/R^4                      0.1937(0.0126) -> 0.2230(0.0761); shift +0.4 standard errors of the difference
+   + area R^-3 + e/R^4          0.6158(0.0116) -> 0.7791(0.0747); shift +2.2 standard errors of the difference
+   square root + d/R^2          0.2353(0.0023) -> 0.1320(0.0096); shift -11.1 standard errors of the difference
+   square root + f/R^3          0.4656(0.0045) -> 0.3423(0.0247); shift -5.1 standard errors of the difference
+   square root + e/R^4          1.0637(0.0104) -> 1.0166(0.0734); shift -0.6 standard errors of the difference
+   e sigma^1.5 over the three baselines that fit, both couplings: 0.0019 to 0.0104;  b2 sqrt(sigma) = -(60/pi^3) e sigma^1.5: -0.0037 to -0.0201
+
+2. The first excited level of the open tube (1980, beta = 0.73): one baseline for both levels
+   production 3 rebuilt from the raw files; two-state energies against the stored 1980 values: largest difference 0.0e+00
+   80 jackknife blocks; correlation of the two-state gaps at neighbouring R: +0.79, +0.83, +0.81, +0.86, +0.84
+   R   R sqrt(sigma)   two-state (T = 2-7)   upper bound (T = 4->5)   production 2, T = 8->12   square-root gap   free gap pi/R
+   4   0.85            0.533(0.014)          0.524(0.012)            0.374(0.159)              0.409             0.785
+   5   1.07            0.460(0.019)          0.457(0.012)            0.290(0.116)              0.371             0.628
+   6   1.28            0.408(0.029)          0.415(0.016)            0.235(0.107)              0.340             0.524
+   7   1.50            0.373(0.034)          0.377(0.018)            0.212(0.135)              0.314             0.449
+   8   1.71            0.329(0.048)          0.339(0.020)            0.174(0.197)              0.290             0.393
+   9   1.92            0.298(0.063)          0.319(0.023)            0.098(0.257)              0.270             0.349
+   two-state estimate minus the square-root gap: +0.124(0.014), +0.089(0.019), +0.068(0.029), +0.059(0.034), +0.038(0.048), +0.027(0.063)
+   two-state estimate minus pi/R:                -0.253(0.014), -0.168(0.019), -0.115(0.029), -0.076(0.034), -0.064(0.048), -0.052(0.063)
+   T = 8->12 minus the square-root gap:          -0.035(0.159), -0.081(0.116), -0.105(0.107), -0.102(0.135), -0.117(0.197), -0.172(0.257)
+
+   (a) gap predicted by the ground-state fit on the SAME baseline: baseline gap - 24 d/R^2 + 240 e/R^4, with the errors of sigma, d, e
+       chi2 against the two-state gaps with their jackknife covariance and the prediction's covariance; and prediction minus upper bound
+       + d/R^2                      ground state R >= 3 (chi2 9.3/12):  R >= 4: 198.1/6;  R >= 5: 67.2/5;  R >= 6: 10.9/4;  R >= 7: 3.1/3
+           shift/gap at R = 4..9: -0.13, -0.09, -0.07, -0.06, -0.05, -0.04;   (prediction - upper bound)/error: +15.6, +10.8, +4.9, +2.8, +1.8, +0.7
+       + d/R^2                      ground state R >= 4 (chi2 6.7/10):  R >= 4: 115.3/6;  R >= 5: 62.4/5;  R >= 6: 12.8/4;  R >= 7: 4.0/3
+           shift/gap at R = 4..9: -0.08, -0.06, -0.05, -0.04, -0.03, -0.03;   (prediction - upper bound)/error: +11.5, +9.5, +5.2, +3.1, +2.1, +0.9
+       + e/R^4                      ground state R >= 3 (chi2 6.9/12):  R >= 4: 633.4/6;  R >= 5: 244.4/5;  R >= 6: 34.4/4;  R >= 7: 10.7/3
+           shift/gap at R = 4..9: +0.34, +0.16, +0.09, +0.05, +0.03, +0.02;   (prediction - upper bound)/error: +26.7, +19.5, +9.0, +5.1, +3.2, +1.6
+       + e/R^4                      ground state R >= 4 (chi2 6.7/10):  R >= 4: 58.9/6;  R >= 5: 55.2/5;  R >= 6: 28.0/4;  R >= 7: 10.6/3
+           shift/gap at R = 4..9: +0.39, +0.19, +0.10, +0.06, +0.04, +0.03;   (prediction - upper bound)/error: +6.5, +8.2, +7.1, +4.8, +3.2, +1.7
+       + d/R^2 + e/R^4              ground state R >= 3 (chi2 6.7/11):  R >= 4: 18.4/6;  R >= 5: 13.6/5;  R >= 6: 11.2/4;  R >= 7: 5.7/3
+           shift/gap at R = 4..9: +0.24, +0.11, +0.05, +0.03, +0.02, +0.01;   (prediction - upper bound)/error: +3.2, +3.8, +3.7, +3.1, +2.4, +1.3
+       + d/R^2 + e/R^4              ground state R >= 4 (chi2 6.6/9):  R >= 4: 12.9/6;  R >= 5: 1.5/5;  R >= 6: 0.8/4;  R >= 7: 0.7/3
+           shift/gap at R = 4..9: +0.13, +0.05, +0.02, +0.01, -0.00, -0.00;   (prediction - upper bound)/error: +0.5, +0.7, +0.8, +0.8, +0.9, +0.6
+       square root + d/R^2          ground state R >= 3 (chi2 131.5/12):  R >= 4: 1340.9/6;  R >= 5: 389.0/5;  R >= 6: 70.3/4;  R >= 7: 38.3/3
+           shift/gap at R = 4..9: -0.66, -0.49, -0.38, -0.31, -0.27, -0.23;   (prediction - upper bound)/error: -38.4, -26.0, -14.5, -9.9, -6.6, -5.0
+       square root + d/R^2          ground state R >= 4 (chi2 8.6/10):  R >= 4: 287.3/6;  R >= 5: 139.3/5;  R >= 6: 33.0/4;  R >= 7: 19.7/3
+           shift/gap at R = 4..9: -0.37, -0.28, -0.22, -0.17, -0.15, -0.13;   (prediction - upper bound)/error: -17.2, -14.4, -9.6, -6.9, -4.7, -3.8
+       square root + e/R^4          ground state R >= 3 (chi2 7.3/12):  R >= 4: 3713.5/6;  R >= 5: 585.3/5;  R >= 6: 35.2/4;  R >= 7: 3.8/3
+           shift/gap at R = 4..9: +1.87, +0.89, +0.48, +0.29, +0.19, +0.13;   (prediction - upper bound)/error: +58.4, +26.3, +7.7, +2.4, +0.7, -0.4
+       square root + e/R^4          ground state R >= 4 (chi2 6.8/10):  R >= 4: 155.8/6;  R >= 5: 106.5/5;  R >= 6: 24.0/4;  R >= 7: 2.9/3
+           shift/gap at R = 4..9: +1.79, +0.85, +0.46, +0.27, +0.18, +0.12;   (prediction - upper bound)/error: +12.0, +9.9, +5.4, +2.0, +0.5, -0.5
+       square root + d/R^2 + e/R^4  ground state R >= 3 (chi2 7.0/11):  R >= 4: 102.9/6;  R >= 5: 46.9/5;  R >= 6: 17.7/4;  R >= 7: 3.4/3
+           shift/gap at R = 4..9: +1.99, +0.95, +0.52, +0.31, +0.21, +0.15;   (prediction - upper bound)/error: +7.4, +5.8, +3.8, +1.9, +0.8, -0.2
+       square root + d/R^2 + e/R^4  ground state R >= 4 (chi2 6.6/9):  R >= 4: 26.5/6;  R >= 5: 6.1/5;  R >= 6: 2.6/4;  R >= 7: 0.1/3
+           shift/gap at R = 4..9: +1.27, +0.58, +0.30, +0.16, +0.10, +0.06;   (prediction - upper bound)/error: +0.9, +0.6, +0.3, -0.0, -0.2, -0.6
+       square root, no end term                                       R >= 4: 94.5/6;  R >= 5: 29.9/5;  R >= 6: 7.0/4;  R >= 7: 5.0/3
+       free string, no end term                                       R >= 4: 414.9/6;  R >= 5: 123.6/5;  R >= 6: 19.5/4;  R >= 7: 6.4/3
+
+   (b) joint fits to the ground state (1976 and 1980, R >= 3) and the two-state gaps (R >= R_g), tension constrained; chi2/dof (p)
+       baseline sqrt  R_g = 4  end terms: none   10688.5/19 (0.000)  of which gaps   91.7/6   
+       baseline sqrt  R_g = 4  end terms: d       1472.4/18 (0.000)  of which gaps 1243.6/6   d = +0.2128(0.0022)
+       baseline sqrt  R_g = 4  end terms: e       3721.5/18 (0.000)  of which gaps 2103.4/6   e = +0.6488(0.0078)
+       baseline sqrt  R_g = 4  end terms: de       110.4/17 (0.000)  of which gaps   44.0/6   d = +0.1591(0.0027), e = +0.343(0.009)
+       baseline sqrt  R_g = 5  end terms: none   10625.6/18 (0.000)  of which gaps   28.9/5   
+       baseline sqrt  R_g = 5  end terms: d        520.5/17 (0.000)  of which gaps  381.1/5   d = +0.2289(0.0023)
+       baseline sqrt  R_g = 5  end terms: e        592.6/17 (0.000)  of which gaps  538.6/5   e = +0.9932(0.0099)
+       baseline sqrt  R_g = 5  end terms: de        54.1/16 (0.000)  of which gaps    9.9/5   d = +0.1241(0.0054), e = +0.503(0.023)
+       baseline sqrt  R_g = 6  end terms: none   10603.5/17 (0.000)  of which gaps    6.8/4   
+       baseline sqrt  R_g = 6  end terms: d        201.7/16 (0.000)  of which gaps   70.0/4   d = +0.2342(0.0023)
+       baseline sqrt  R_g = 6  end terms: e         42.4/16 (0.000)  of which gaps   35.0/4   e = +1.0590(0.0103)
+       baseline sqrt  R_g = 6  end terms: de        24.8/15 (0.053)  of which gaps    8.4/4   d = +0.0569(0.0135), e = +0.807(0.061)
+       baseline sqrt  R_g = 7  end terms: none   10601.6/16 (0.000)  of which gaps    4.9/3   
+       baseline sqrt  R_g = 7  end terms: d        169.8/15 (0.000)  of which gaps   38.2/3   d = +0.2347(0.0023)
+       baseline sqrt  R_g = 7  end terms: e         11.1/15 (0.746)  of which gaps    3.8/3   e = +1.0629(0.0103)
+       baseline sqrt  R_g = 7  end terms: de        10.5/14 (0.728)  of which gaps    2.2/3   d = +0.0140(0.0177), e = +1.000(0.080)
+       baseline free  R_g = 4  end terms: none     656.5/19 (0.000)  of which gaps  414.9/6   
+       baseline free  R_g = 4  end terms: d        207.5/18 (0.000)  of which gaps  175.9/6   d = +0.0586(0.0028)
+       baseline free  R_g = 4  end terms: e        640.3/18 (0.000)  of which gaps  307.2/6   e = -0.0347(0.0086)
+       baseline free  R_g = 4  end terms: de        25.0/17 (0.094)  of which gaps    9.3/6   d = +0.0747(0.0030), e = -0.127(0.009)
+       baseline free  R_g = 5  end terms: none     365.1/18 (0.000)  of which gaps  123.6/5   
+       baseline free  R_g = 5  end terms: d         76.5/17 (0.000)  of which gaps   65.0/5   d = +0.0490(0.0029)
+       baseline free  R_g = 5  end terms: e        251.3/17 (0.000)  of which gaps  216.5/5   e = +0.1269(0.0119)
+       baseline free  R_g = 5  end terms: de        20.3/16 (0.209)  of which gaps    1.5/5   d = +0.0849(0.0056), e = -0.173(0.023)
+       baseline free  R_g = 6  end terms: none     261.0/17 (0.000)  of which gaps   19.5/4   
+       baseline free  R_g = 6  end terms: d         20.2/16 (0.211)  of which gaps   10.8/4   d = +0.0454(0.0029)
+       baseline free  R_g = 6  end terms: e         41.2/16 (0.001)  of which gaps   34.1/4   e = +0.1866(0.0126)
+       baseline free  R_g = 6  end terms: de        17.9/15 (0.269)  of which gaps    4.5/4   d = +0.0657(0.0136), e = -0.089(0.058)
+       baseline free  R_g = 7  end terms: none     248.0/16 (0.000)  of which gaps    6.4/3   
+       baseline free  R_g = 7  end terms: d         12.5/15 (0.644)  of which gaps    3.1/3   d = +0.0450(0.0029)
+       baseline free  R_g = 7  end terms: e         17.6/15 (0.285)  of which gaps   10.7/3   e = +0.1916(0.0126)
+       baseline free  R_g = 7  end terms: de        12.4/14 (0.576)  of which gaps    3.7/3   d = +0.0399(0.0175), e = +0.022(0.075)
+
+   (c) production 2, T = 8->12, R = 4-8 (diagonal chi2, 5 separations):
+       square root, no end term: 2.4;  free string: 26.8
+       + d/R^2                      (ground state R >= 3): 20.6
+       + e/R^4                      (ground state R >= 3): 40.8
+       + d/R^2 + e/R^4              (ground state R >= 3): 35.9
+       square root + d/R^2          (ground state R >= 3): 5.6
+       square root + e/R^4          (ground state R >= 3): 71.2
+       square root + d/R^2 + e/R^4  (ground state R >= 3): 79.6
+
+3. The closed tube of 1982: how many modes does it carry?
+   (a) number of massless modes c (square root with c free; the L^-3 term is fixed by Section 2), by range and by version of the data
+       as measured            L >=  7: c = 0.994(0.030) at beta = 0.73, 1.085(0.045) at 0.70; together 1.022(0.025)
+       as measured            L >=  8: c = 0.971(0.036) at beta = 0.73, 1.042(0.058) at 0.70; together 0.991(0.031)
+       as measured            L >= 10: c = 0.878(0.099) at beta = 0.73, 0.953(0.126) at 0.70; together 0.906(0.078)
+       window (-1%)           L >=  7: c = 1.034(0.029) at beta = 0.73, 1.085(0.045) at 0.70; together 1.050(0.025)
+       window (-1%)           L >=  8: c = 1.022(0.036) at beta = 0.73, 1.042(0.058) at 0.70; together 1.027(0.030)
+       window (-1%)           L >= 10: c = 0.962(0.097) at beta = 0.73, 0.953(0.126) at 0.70; together 0.959(0.077)
+       continuum dispersion   L >=  7: c = 0.984(0.030) at beta = 0.73, 1.046(0.045) at 0.70; together 1.003(0.025)
+       continuum dispersion   L >=  8: c = 0.959(0.037) at beta = 0.73, 0.996(0.058) at 0.70; together 0.970(0.031)
+       continuum dispersion   L >= 10: c = 0.862(0.099) at beta = 0.73, 0.885(0.127) at 0.70; together 0.871(0.078)
+       central value (as measured, L >= 8): 0.991(0.031); over ranges and versions: 0.87 to 1.05, half-spread 0.090
+   (b) one more scalar of mass m: its Casimir energy added to the square root, tensions refitted at each coupling.
+       lower limit on m/sqrt(sigma): where chi2 exceeds its value without the scalar by 2.71 (one-sided 95%) and by 3.84
+       as measured            L >=  7: chi2 without the scalar   9.3/8; lowest chi2 with it   9.1 at m = 3.0;  m > 1.91 (2.71), 1.82 (3.84)
+       as measured            L >=  8: chi2 without the scalar   4.3/6; lowest chi2 with it   4.3 at m = 6.0;  m > 2.10 (2.71), 1.96 (3.84)
+       as measured            L >= 10: chi2 without the scalar   3.1/4; lowest chi2 with it   3.1 at m = 6.0;  m > 1.45 (2.71), 1.31 (3.84)
+       window (-1%)           L >=  7: chi2 without the scalar  10.6/8; lowest chi2 with it   7.5 at m = 2.1;  m > 1.45 (2.71), 1.41 (3.84)
+       window (-1%)           L >=  8: chi2 without the scalar   4.8/6; lowest chi2 with it   4.0 at m = 2.3;  m > 1.57 (2.71), 1.51 (3.84)
+       window (-1%)           L >= 10: chi2 without the scalar   3.1/4; lowest chi2 with it   3.1 at m = 2.9;  m > 1.19 (2.71), 1.09 (3.84)
+       continuum dispersion   L >=  7: chi2 without the scalar   8.3/8; lowest chi2 with it   8.3 at m = 3.8;  m > 2.10 (2.71), 1.98 (3.84)
+       continuum dispersion   L >=  8: chi2 without the scalar   5.0/6; lowest chi2 with it   5.0 at m = 6.0;  m > 2.25 (2.71), 2.09 (3.84)
+       continuum dispersion   L >= 10: chi2 without the scalar   4.5/4; lowest chi2 with it   4.5 at m = 6.0;  m > 1.51 (2.71), 1.37 (3.84)
+       limit (2.71) over ranges and versions: 1.19 to 2.25; L >= 10 alone: 1.45, 1.19, 1.51
+
+4. What would decide between the end terms: shifts of the first gap at long distance, in units of sqrt(sigma)
+    R sqrt(sigma)   square-root gap   +240 e/R^4 for e sigma^1.5 = 0.0019, 0.0104   -24 d/R^2 for d sigma^0.5 = 0.0096
+    2.0             1.232             +0.0285 (2.3%), +0.1560 (12.7%)                 -0.0576 (-4.7%)
+    2.5             1.056             +0.0117 (1.1%), +0.0639 (6.1%)                 -0.0369 (-3.5%)
+    3.0             0.920             +0.0056 (0.6%), +0.0308 (3.4%)                 -0.0256 (-2.8%)
+    4.0             0.726             +0.0018 (0.2%), +0.0097 (1.3%)                 -0.0144 (-2.0%)
+    the expansion of the first excited level in 1/sigma R^2 converges for R sqrt(sigma) > 2.45; of the ground state, for R sqrt(sigma) > 0.51

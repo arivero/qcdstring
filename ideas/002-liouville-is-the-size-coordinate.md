@@ -1,5 +1,5 @@
 # 002. The Liouville field is the size coordinate
-**Status:** open
+**Status:** in progress
 **Depends on:** 001
 **Predictions:** P05, P09
 
@@ -51,6 +51,20 @@ A consistent set of three numbers from one metric: the Pomeron intercept,
 the rho intercept, and the hard-scattering exponent. Refuted if no
 warping reproduces all three, or if the Liouville direction can be shown
 to decouple from physical amplitudes.
+
+## 1984 paper
+`outputs/1984-critical-dimension/` (QCDS-84/1). Proposed there: for a long
+string the conformal factor is the induced one, and the anomaly action
+evaluated on the induced metric supplies the missing central charge 26 - d
+with no new field (the count is derived in Appendix B of the paper). The
+closed-tube data of 1982 count c = 0.99(3)(9) massless modes and exclude a
+further scalar lighter than 1.2 sqrt(sigma) in the 3d Z2 theory; they are
+equally consistent with no such field and with a heavier one. A first version
+read this geometrically (a tube at one value of an extra coordinate); the
+referee pointed out that the reading belongs to the years after 1988, and it
+was removed from the paper. The claim above, that the extra coordinate is the
+size or energy scale and that the metric is warped along it, is untouched:
+tests 2 to 4 remain, and the geometric reading waits for its historical date.
 
 ## References
 Polyakov1981, Polyakov1997, Maldacena1997, Witten1998b, KSS1998,
