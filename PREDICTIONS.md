@@ -105,3 +105,38 @@ Registered 6 November 1974 unless stated.
   * P01: the eta_c candidate at 2.98 GeV lies 70 MeV above the singlet implied
     by the first-order spin-spin term of the 1976 potential (a).
 
+* 1982-11 (paper QCDS-82/1, `outputs/1982-hagedorn-deconfinement/`, tag `y1982`):
+  * P07, string side: the wound closed string has E_0(L)^2 = sigma^2 L^2 -
+    pi (d-2) sigma/3 by the 1973 method, and the level density gives the same
+    T_H = sqrt(3 sigma/(pi (d-2))) (checked on exact degeneracies).
+  * P07, gauge side, d = 3: in the Z2 theory T_c/sqrt(sigma) = 1.105(16),
+    1.152(26), 1.175(35) on N_t = 2, 3, 4 time slices (1.19(3) linearly in
+    1/N_t^2), 13 to 22% ABOVE T_H = 0.977 sqrt(sigma). The tube energy vanishes
+    linearly at T_c: effective exponent 1.00 +- 0.07 over fit choices, from
+    points with a correlation length of at most 2.9 tube lengths; the class
+    (two-dimensional Ising) rests on the cumulants. A square-root approach is
+    excluded. The expectation "T_c at or below T_H" (idea 009, item 4, and the
+    reasoning behind P07) is refuted for this theory: the square root does not
+    hold up to its endpoint.
+  * P07, gauge side, d = 4: in SU(2) T_c/T_H lies between 0.87 and 0.98 on
+    N_t = 2, 3, 4, the range coming from the estimator of the zero-temperature
+    tension; no trend with N_t is established and the continuum side is
+    undecided. P07 itself speaks of SU(3) and a first-order transition:
+    untested. Open.
+  * P02 and P03, closed tube, d = 3: a term 1/L with the same coefficient
+    0.58(3) at two lattice spacings (pi/6 = 0.52). Number of massless modes:
+    c = 0.97(4)(10) and 1.04(6)(10) IF the L^-3 term is the square root's;
+    0.99(12) and 1.01(10) with that term free and the shortest tubes kept,
+    0.6(3) without them. c = 2 excluded; c = 0 excluded by the shorter tubes
+    and the comparison of couplings. On lattices with L >= 6 the square root
+    holds within 3% for L sqrt(sigma) >= 1.5; extrapolated to the continuum
+    the tube is heavier by 3 to 6% at 1.35. It exists beyond the endpoint
+    1.023. Supported for the ground state of the closed tube in d = 3, with
+    the L^-3 term as the stated open point (closed in 1984).
+  * P02, open tube, d = 3: with the tension fixed by the closed tube
+    (0.04566(25) at beta = 0.73, total error) the 1/R coefficient fitted alone
+    is 0.116(5) from R = 4, 2.9 standard errors below pi/24; pi/24 with an
+    endpoint term fits equally. Open.
+  * P01, P20: an eta_c' candidate at 3.592 GeV lies 28 MeV above the singlet
+    implied by the 1976 potential; the chi_b(2P) states are seen through
+    photons of about 0.1 GeV (record: 0.082). No weight.

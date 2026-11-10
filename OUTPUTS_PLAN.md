@@ -32,7 +32,7 @@ Agreed 6 November 2026 (machine date).
 | 1976 | The Casimir energy of a flux tube, and an area law on the computer (Z2 in 3d, U(1) in 4d) | 001, 004, 009 | done: `outputs/1976-flux-tube-casimir/`, tag `y1976` |
 | 1978 | SU(2) string tension and asymptotic scaling | 004 | done: `outputs/1978-su2-scaling/`, tag `y1978` |
 | 1980 | Excited flux-tube levels, the square-root spectrum, roughening; longer strings to separate the Casimir coefficient from an endpoint term | 001, 011 | done: `outputs/1980-excited-flux-tube/`, tag `y1980` |
-| 1982 | Hagedorn versus deconfinement: Polyakov loops and T_c below T_H | 005, 009 | |
+| 1982 | Hagedorn versus deconfinement: the closed flux tube at finite temperature (Z2 in 3d through the dual Ising model; SU(2) in 4d) | 005, 009, 001 | done: `outputs/1982-hagedorn-deconfinement/`, tag `y1982` |
 | 1984 | The critical dimension as a statement about the effective string | 002, 012 | |
 | 1986 | The turn to gravity (Green-Schwarz 1984, the heterotic string 1985) read from the hadron side; the flux-tube model of Isgur and Paton (1985) against the measured excited levels; the endpoint term against the Casimir coefficient with longer strings | 001, 012, 017 | drafted after 1980 |
 | 1988 | The rigid string of Polyakov and Kleinert (1986) against the excess of the first gap over the square root at short distance; closed flux tubes in a periodic box | 011, 013 | drafted after 1980 |

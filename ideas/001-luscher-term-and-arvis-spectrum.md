@@ -1,5 +1,5 @@
 # 001. The Luscher term and the Arvis spectrum
-**Status:** in progress
+**Status:** supported in d = 3 for the closed tube; the open tube's end term is open; d = 4 open
 **Depends on:** none
 **Predictions:** P02, P03
 
@@ -83,6 +83,17 @@ worldsheet interior only.
 approaches the square root from above, within errors from R sqrt(sigma) ~ 1.7.
 The ground state, refitted with the 1976 data, still admits both a single 1/R
 coefficient and pi/24 with an endpoint term.
+
+## 1982 paper
+`outputs/1982-hagedorn-deconfinement/` (QCDS-82/1). The closed tube (wound
+around the time circle) in 3d Z2, through the dual Ising model. A term 1/L
+with the same coefficient 0.58(3) at two lattice spacings (pi/6 = 0.52). The
+number of modes depends on the L^-3 term: c = 0.97(4)(10) and 1.04(6)(10) with
+the square root's, 0.6(3) to 1.0(1) with that term free; c = 2 is excluded. On
+lattices with L >= 6 the square root holds within 3% for L sqrt(sigma) >= 1.5.
+No endpoint term exists for a closed tube, so the tension has no such
+ambiguity (0.04566(11)(22) at beta = 0.73); with it the open tube's 1/R
+coefficient fitted alone is 0.116(5) from R = 4.
 
 ## References
 GGRT1973, BrinkNielsen1973, Luscher1981, Alvarez1981, Arvis1983,

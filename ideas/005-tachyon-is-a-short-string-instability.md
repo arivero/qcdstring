@@ -1,5 +1,5 @@
 # 005. The tachyon is a short-string instability
-**Status:** in progress
+**Status:** first half supported; the identification of T_H with deconfinement refuted in 3d Z2
 **Depends on:** 001
 **Predictions:** P07
 
@@ -50,6 +50,21 @@ any R. Refuted by a genuine tachyonic signal in a reflection-positive
 theory, which cannot happen; the real risk is that the short-string
 regime is simply outside the theory, which is a limitation and not a
 refutation.
+
+## 1982 paper
+`outputs/1982-hagedorn-deconfinement/` (QCDS-82/1). Tests 1 to 3 done: the
+wound string's E_0(L)^2 vanishes at L_H, the level density gives the same T_H,
+and positivity of the transfer matrix keeps E_0 real in the gauge theory. Test
+4 done in 3d Z2 and SU(2): the gauge theory does not follow the square root to
+its endpoint. In Z2 the tube exists beyond it (E_0 = 0.38(2) sqrt(sigma) at
+L sqrt(sigma) = 1.05) and its energy vanishes linearly at T_c = 1.2 T_H
+(effective exponent 1.00 +- 0.07; the class rests on the cumulants). The
+second half of the claim, that the tachyon is physical as the Hagedorn
+instability of the confined phase, is therefore wrong as stated for a
+continuous transition: what happens at short length is the critical behaviour
+of the gauge theory, and the tube leaves the square root between
+L sqrt(sigma) = 1.5 and 1.35 in Z2. In SU(2) in d = 4 T_c/T_H is 0.87 to 0.98
+on N_t = 2 to 4, limited by the estimator of the tension.
 
 ## References
 GGRT1973, Hagedorn1965, HuangWeinberg1970, GSO1976, PisarskiAlvarez1982,

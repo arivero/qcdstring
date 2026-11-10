@@ -1,0 +1,34 @@
+Direct gauge-theory check at beta = 0.73: effective energy of the tube between x and x+1
+run                                         lattice      operations   x=1->2        x=2->3        x=3->4
+z2t_b0.7300_Nt8_L48x16_s928_pH.npz           48 x 16     7.55e+09    0.3287(0.0096)  0.3328(0.0144)  0.3345(0.0211)
+z2t_b0.7300_Nt8_L64x12_s927_pG.npz           64 x 12     7.57e+09    0.2695(0.0125)  0.2507(0.0155)  0.2319(0.0189)
+z2w_b0.7300_Nt8_L48x16_s901_p2l.npz          48 x 16     2.99e+09    0.3053(0.0132)  0.2910(0.0162)  0.2932(0.0224)
+z2w_b0.7300_Nt8_L48x16_s902_pplain.npz       48 x 16     2.17e+09    0.3082(0.0168)  0.2962(0.0223)  0.2930(0.0292)
+   Nt = 8: mean over runs, error from their scatter:   x=1: 0.3029(0.0123) [4 runs]   x=2: 0.2927(0.0168) [4 runs]   x=3: 0.2882(0.0211) [4 runs]
+z2t_b0.7300_Nt12_L32x24_s925_pE.npz          32 x 24     1.13e+10    0.5414(0.0211)  0.5555(0.0296)  0.5620(0.0509)
+z2t_b0.7300_Nt12_L48x16_s921_pA.npz          48 x 16     1.13e+10    0.5067(0.0179)  0.4782(0.0242)  0.4674(0.0353)
+z2t_b0.7300_Nt12_L48x16_s922_pB.npz          48 x 16     1.03e+10    0.5364(0.0116)  0.5213(0.0194)  0.5203(0.0341)
+z2t_b0.7300_Nt12_L64x12_s924_pD.npz          64 x 12     1.13e+10    0.5318(0.0172)  0.5175(0.0274)  0.5033(0.0416)
+z2t_b0.7300_Nt12_L96x8_s923_pC.npz           96 x  8     1.13e+10    0.5228(0.0150)  0.5144(0.0203)  0.5321(0.0294)
+z2w_b0.7300_Nt12_L48x16_s911_p2l.npz         48 x 16     6.00e+09    0.5848(0.0236)  0.5454(0.0340)  0.5204(0.0543)
+z2w_b0.7300_Nt12_L48x16_s912_pplain.npz      48 x 16     6.61e+09    0.5863(0.0229)  0.5457(0.0357)  0.5159(0.0559)
+z2w_b0.7300_Nt12_L48x16_s915_p2l25.npz       48 x 16     6.30e+09    0.5933(0.0143)  0.5575(0.0232)  0.5324(0.0396)
+   Nt = 12: mean over runs, error from their scatter:   x=1: 0.5504(0.0117) [8 runs]   x=2: 0.5294(0.0095) [8 runs]   x=3: 0.5192(0.0096) [8 runs]
+z2t_b0.7300_Nt16_L64x12_s926_pF.npz          64 x 12     1.50e+10    0.7492(0.0264)  0.7074(0.0422)  0.6550(0.0867)
+z2w_b0.7300_Nt16_L48x16_s913_p2l.npz         48 x 16     7.40e+09    0.7864(0.0261)  0.7187(0.0416)  0.7459(0.0839)
+z2w_b0.7300_Nt16_L48x16_s914_pplain.npz      48 x 16     8.81e+09    0.8169(0.0325)  0.7252(0.0525)  0.6830(0.1035)
+z2w_b0.7300_Nt16_L48x16_s916_p2l25.npz       48 x 16     7.79e+09    0.8652(0.0235)  0.7520(0.0401)  0.6607(0.0642)
+z2w_b0.7300_Nt16_L48x16_s917_p2l88.npz       48 x 16     6.43e+09    0.8355(0.0283)  0.7335(0.0511)  0.6452(0.0849)
+   Nt = 16: mean over runs, error from their scatter:   x=1: 0.8106(0.0200) [5 runs]   x=2: 0.7273(0.0075) [5 runs]   x=3: 0.6780(0.0181) [5 runs]
+total operations of these runs: 1.402e+11
+
+Autocorrelation times (sweeps) of the mean line and of the plaquette sum in the z2_tube.py runs,
+and the scatter of 1000-sweep averages of the plaquette:
+   Nt 12, 32 x 24: tau(line)   28.8  tau(line^2)   12.7  tau(plaquette)   16.4   plaquette 0.85332, 1000-sweep means between 0.8514 and 0.8551
+   Nt 12, 48 x 16: tau(line)   29.6  tau(line^2)   15.2  tau(plaquette)   26.7   plaquette 0.85379, 1000-sweep means between 0.8499 and 0.8570
+   Nt 12, 48 x 16: tau(line)    9.1  tau(line^2)    4.8  tau(plaquette)    7.2   plaquette 0.85366, 1000-sweep means between 0.8527 and 0.8544
+   Nt 12, 64 x 12: tau(line)   35.7  tau(line^2)   11.0  tau(plaquette)   15.7   plaquette 0.85329, 1000-sweep means between 0.8518 and 0.8553
+   Nt 12, 96 x  8: tau(line)   20.5  tau(line^2)   10.4  tau(plaquette)   25.1   plaquette 0.85365, 1000-sweep means between 0.8518 and 0.8555
+   Nt 16, 64 x 12: tau(line)   15.7  tau(line^2)    6.5  tau(plaquette)   22.5   plaquette 0.85400, 1000-sweep means between 0.8528 and 0.8567
+   Nt  8, 48 x 16: tau(line)   60.1  tau(line^2)   24.9  tau(plaquette)   13.2   plaquette 0.85209, 1000-sweep means between 0.8497 and 0.8563
+   Nt  8, 64 x 12: tau(line)  151.3  tau(line^2)   56.7  tau(plaquette)   33.0   plaquette 0.85727, 1000-sweep means between 0.8530 and 0.8610

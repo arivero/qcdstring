@@ -1,5 +1,5 @@
 # 009. One tension: Regge slope, charmonium, Hagedorn, deconfinement
-**Status:** in progress
+**Status:** in progress; item 4 refuted as an inequality in 3d Z2
 **Depends on:** none
 **Predictions:** P01, P06, P07
 
@@ -66,6 +66,19 @@ the outcome is remembered).
 the 1976 potentials; a joint fit to psi, psi', Upsilon, Upsilon' gives
 sigma = 0.168 GeV^2, 0.91 of the Regge tension, and the chi_c centre within
 12 MeV.
+
+## 1982 paper
+`outputs/1982-hagedorn-deconfinement/` (QCDS-82/1). Item 3 derived both ways.
+Item 4 fails as an inequality: in 3d Z2, T_c/sqrt(sigma) = 1.105(16), 1.152(26),
+1.175(35) for N_t = 2, 3, 4, above T_H = 0.977 sqrt(sigma); by the criterion
+written above ("refuted if T_c comes out above T_H") the item is refuted for
+that theory. In SU(2) in d = 4, T_c/T_H lies between 0.87 and 0.98 on the same
+N_t, the range set by the estimator of the tension, with no established trend.
+What survives of item 4 is that one tension sets the scale of T_c within 20%
+of the string value in both theories, and the first term of the fall
+sigma(T) = sigma - pi (d-2) T^2/6. The closed and the open tube share one
+tension (0.04566(25) against 0.0446-0.0475 from the open-tube fits at
+beta = 0.73).
 
 ## References
 ChewFrautschi1962, Hagedorn1965, HuangWeinberg1970, Olesen1985,

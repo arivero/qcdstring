@@ -1,0 +1,33 @@
+1. Level density
+   c = d-2   N     ln p_c(N)    2 pi sqrt(cN/6) - ((c+3)/4) ln N + const   local slope / (2 pi sqrt(c/6))
+    1        25       7.5797       7.6599                               1.00580
+    1       100      19.0655      19.0991                               1.00196
+    1       400      43.3527      43.3638                               1.00048
+    1      1600      93.2795      93.2795                               1.00012
+   c = 1: T_H / sqrt(sigma) = sqrt(2 pi)/(2 pi sqrt(c/6)) = sqrt(3/(pi c)) = 0.97721; density of states in mass ~ m^(-(c+1)/2) exp(m/T_H)
+    2        25      11.7715      11.8875                               1.00798
+    2       100      28.2428      28.2926                               1.00203
+    2       400      62.8191      62.8357                               1.00051
+    2      1600     133.6548     133.6548                               1.00013
+   c = 2: T_H / sqrt(sigma) = sqrt(2 pi)/(2 pi sqrt(c/6)) = sqrt(3/(pi c)) = 0.69099; density of states in mass ~ m^(-(c+1)/2) exp(m/T_H)
+   24        25      38.3873      40.4369                               1.03821
+   24       100      92.9933      93.9113                               1.01040
+   24       400     209.9043     210.2175                               1.00273
+   24      1600     452.1874     452.1874                               1.00070
+   c = 24: T_H / sqrt(sigma) = sqrt(2 pi)/(2 pi sqrt(c/6)) = sqrt(3/(pi c)) = 0.19947; density of states in mass ~ m^(-(c+1)/2) exp(m/T_H)
+
+2. Wound closed string
+   d = 3: E_0(L)^2 = sigma^2 L^2 - pi c sigma/3 vanishes at L sqrt(sigma) = 1.02333, T_H/sqrt(sigma) = 0.97721  (level density: 0.97721)
+   d = 4: E_0(L)^2 = sigma^2 L^2 - pi c sigma/3 vanishes at L sqrt(sigma) = 1.44720, T_H/sqrt(sigma) = 0.69099  (level density: 0.69099)
+   d = 26: E_0(L)^2 = sigma^2 L^2 - pi c sigma/3 vanishes at L sqrt(sigma) = 5.01326, T_H/sqrt(sigma) = 0.19947  (level density: 0.19947)
+   with sqrt(sigma) = 0.43 GeV (Regge slope): T_H = 0.297 GeV in d = 4
+   effective number of towers that Hagedorn's 0.16 GeV would need at this tension: c = 3 sigma/(pi T^2) = 6.9
+
+3. Open and closed channels of the free string (c = 1; sigma R L removed)
+   R/L    sum over open levels          sum over closed levels        ratio
+   0.25   1.688097681960e+00        1.688097681960e+00       1.000000000000
+   0.50   1.301701259732e+00        1.301701259732e+00       1.000000000000
+   1.00   1.193665318219e+00        1.193665318219e+00       1.000000000000
+   2.00   1.424826954131e+00        1.424826954131e+00       1.000000000000
+   The closed-channel ground level is sigma L - pi c/(6 L); the factor (L/2R)^(c/2) is the
+   transverse-momentum integral of the closed string in c transverse dimensions.
