@@ -30,6 +30,8 @@ Registered 6 November 1974 unless stated.
 | P14 | The extrinsic-curvature (rigidity) term on the worldsheet is irrelevant at long distance and does not change P02 or P03. | MEMORY | `ideas/011` | 1986-2013 | open |
 | P19 | The lowest D-wave level of charmonium lies at 3.78-3.81 GeV, 50-75 MeV above the open-charm threshold, in the potential of the 1976 paper (no coupled-channel shift, no error bar). Registered November 1976. Both lines remember the outcome, so this entry carries no weight as a test. | 1976 calculation | e+e- scans above 3.73 GeV | 1977 | open |
 | P20 | Bottomonium in the joint charmonium-bottomonium potential of the 1978 paper (kappa = 0.515, sigma = 0.168 GeV^2): 3S at 10.35, 1P centre 9.93, 1D 10.17, 2P 10.27, 4S 10.62 GeV; open-bottom threshold 10.57-10.72 GeV, so whether the 4S lies above it is undetermined. Registered November 1978. Both lines remember the outcome; no weight. | 1978 calculation | e+e- scans, radiative transitions | 1980-82 | open |
+| P21 | Conditional model diagnostic: if the same fixed-mass nonchiral Dirac field and common local matching terms describe periodic and antiperiodic closed-tube sectors, their vacuum-energy difference is (4m/pi) sum over positive odd w of K1(wmL)/w, with large-L decay sqrt(8m/(pi L)) exp(-mL). A microscopic realization of both sectors is required. Registered November 1986. | 1986 derivation, QCDS-86/1 Section 5 | Identify physical sectors and test the length dependence; no QCD measurement yet | open | derived in the fixed-mass model; physical application open |
+| P22 | Conditional model result: a homogeneous large-N_f Gross-Neveu sector on a flat tube has NS saddle restoration at m_infinity L = pi exp(-EulerGamma), a larger R mass than its infinite-line mass, and a condensation-energy contribution in addition to the determinant. This is not a finite-N_f or deconfinement prediction. Registered November 1986. | 1986 rederivation of a known large-flavour mechanism, QCDS-86/1 Section 6 | Compare the gap equation with the independently integrated potential; microscopic matching remains required | open | derived and author-checked within the stated saddle approximation |
 
 ## Status log
 
@@ -181,3 +183,37 @@ Registered 6 November 1974 unless stated.
   * P20: the chi_b(1P) centre is seen about 0.44 GeV above the Upsilon (record
     0.47); B mesons at 5.27 GeV put the 4S some 30 MeV above threshold (record:
     undetermined, level 40 MeV high). No weight.
+
+* 1986-11 (paper QCDS-86/1, `outputs/1986-fermionic-flux-tube/`, tag `y1986`):
+  * Review of the first five papers; no earlier raw data reanalysed and no new
+    gauge simulation. Independent referee explicitly waived by the user;
+    published with author checks and that limitation recorded.
+  * P18: the earlier d = 3 Z2 mode count is a sector-dependent effective
+    Casimir coefficient. A free periodic scalar and equal-mass periodic
+    Majorana cancel in their vacuum energy, so the count is not an
+    unrestricted exclusion of all additional massless fields. The 1984 bound
+    remains a bound on its specified additional free scalar. d = 4 remains
+    open; no new fermion mass bound is claimed.
+  * P21-P22 registered as conditional model statements, not empirical
+    predictions already supported in QCD. The determinants, saddle and
+    critical-length expression are derived and checked in the paper.
+  * P03: the direct area-action L^-5 calculation and the beyond-first-order
+    rules of 1984 Section 4.2 remain unfinished. Expanding a square root does
+    not close either task.
+  * P14: equation-of-motion redundancy is a statement in a perturbative
+    effective expansion, with induced operators and boundaries transformed.
+    It is not an equivalence to every nonperturbatively treated rigid-string
+    model at arbitrary energy. The thickness/threshold question is carried
+    to 1988.
+  * P07 and P16: no new deconfinement or meson/baryon Hagedorn equality is
+    inferred from an infrared mode count. P17 is not tested.
+  * New idea 027: dimensional suppression motivated by the special
+    weak-coupling ultraviolet status of four-dimensional Yang-Mills.
+    Derived matching conditions are conditional; no compactification theorem,
+    radius stabilization, or pure four-dimensional spectrum is obtained.
+  * The enhanced Section 8.4 gives a compact-coordinate countertest: for the
+    minimal kinetic matching kappa = sigma r^2, a weak cosine is relevant
+    only for kappa > 1/(8 pi). This restricted model cannot combine that weak
+    pinning with a parametrically large M_KK/sqrt(sigma). Strong pinning or
+    other background/kinetic matching is not excluded. No physical radius
+    bound is registered.

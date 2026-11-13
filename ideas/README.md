@@ -47,6 +47,7 @@ Index:
 | 024 | One heavy quark: a rank-one Yukawa | targets |
 | 025 | A bound on generations that survives removing gravity | targets |
 | 026 | Why the QCD and Fermi scales are only three decades apart | targets |
+| 027 | Hidden dimensions from gauge dynamics: two decoupling conditions | 4, 6 |
 
 Ideas 023-026 come from the second line (`second_line/README.md` maps
 their tests T01-T14 onto this index).

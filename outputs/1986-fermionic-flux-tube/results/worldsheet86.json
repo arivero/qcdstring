@@ -1,0 +1,1190 @@
+{
+  "critical_length": 1.7638769888620456,
+  "fixed_mass": [
+    {
+      "x": 0,
+      "L_E_NS": -0.5235987755982988,
+      "L_E_R": 1.0471975511965976,
+      "L_difference": 1.5707963267948966,
+      "c_eff_NS": 1.0
+    },
+    {
+      "x": 0.25,
+      "L_E_NS": -0.4991572629465891,
+      "L_E_R": 0.8354004907489174,
+      "L_difference": 1.3345577536955064,
+      "c_eff_NS": 0.9533201493380475
+    },
+    {
+      "x": 0.5,
+      "L_E_NS": -0.45302056249452205,
+      "L_E_R": 0.6724864556046571,
+      "L_difference": 1.1255070180991793,
+      "c_eff_NS": 0.8652055421192889
+    },
+    {
+      "x": 1,
+      "L_E_NS": -0.3456042161410259,
+      "L_E_R": 0.4389317862202699,
+      "L_difference": 0.7845360023612957,
+      "c_eff_NS": 0.660055432226929
+    },
+    {
+      "x": 2,
+      "L_E_NS": -0.17066076074478434,
+      "L_E_R": 0.18665514015848822,
+      "L_difference": 0.3573159009032726,
+      "c_eff_NS": 0.3259380439722686
+    },
+    {
+      "x": 3,
+      "L_E_NS": -0.07544287529607645,
+      "L_E_R": 0.07801176333024643,
+      "L_difference": 0.15345463862632286,
+      "c_eff_NS": 0.14408527829323203
+    },
+    {
+      "x": 5,
+      "L_E_NS": -0.012844831151184738,
+      "L_E_R": 0.012904192977081038,
+      "L_difference": 0.025749024128265775,
+      "c_eff_NS": 0.024531820450701736
+    },
+    {
+      "x": 8,
+      "L_E_NS": -0.000791197059161386,
+      "L_E_R": 0.0007913807701720582,
+      "L_difference": 0.0015825778293334443,
+      "c_eff_NS": 0.0015110750751036641
+    }
+  ],
+  "gross_neveu": [
+    {
+      "L": 1,
+      "m_NS": 0.0,
+      "m_R": 1.5784776883223237,
+      "E_NS": -0.44402130405235113,
+      "E_R": 0.33040232598448793,
+      "E_fixed_NS": -0.3456042161410259,
+      "E_fixed_R": 0.4389317862202699
+    },
+    {
+      "L": 1.5,
+      "m_NS": 0.0,
+      "m_R": 1.3062371084816193,
+      "E_NS": -0.22969964307994442,
+      "E_R": 0.15339286740744507,
+      "E_fixed_NS": -0.1651254324706844,
+      "E_fixed_R": 0.19112935358076655
+    },
+    {
+      "L": 1.7638769888620456,
+      "m_NS": 0.0,
+      "m_R": 1.2261883570312198,
+      "E_NS": -0.15648053210664503,
+      "E_R": 0.10731824773386067,
+      "E_fixed_NS": -0.1158171395332421,
+      "E_fixed_R": 0.1296626050216261
+    },
+    {
+      "L": 1.8,
+      "m_NS": 0.2439922110123349,
+      "m_R": 1.217217450328122,
+      "E_NS": -0.14782083188113043,
+      "E_R": 0.1023618157827065,
+      "E_fixed_NS": -0.1104593615249552,
+      "E_fixed_R": 0.1231795193131674
+    },
+    {
+      "L": 2,
+      "m_NS": 0.567338040490533,
+      "m_R": 1.1741667171579182,
+      "E_NS": -0.10889264434727464,
+      "E_R": 0.07921797896394249,
+      "E_fixed_NS": -0.08533038037239217,
+      "E_fixed_R": 0.09332757007924411
+    },
+    {
+      "L": 2.5,
+      "m_NS": 0.8234143559176569,
+      "m_R": 1.101756257732389,
+      "E_NS": -0.05358397876042206,
+      "E_R": 0.042988209025265456,
+      "E_fixed_NS": -0.04580640707319242,
+      "E_fixed_R": 0.04838724566860863
+    },
+    {
+      "L": 3,
+      "m_NS": 0.9143484290536986,
+      "m_R": 1.0599559923678956,
+      "E_NS": -0.027822453732549515,
+      "E_R": 0.023931461630213445,
+      "E_fixed_NS": -0.02514762509869215,
+      "E_fixed_R": 0.026003921110082144
+    },
+    {
+      "L": 5,
+      "m_NS": 0.9923701195046698,
+      "m_R": 1.0071570624846093,
+      "E_NS": -0.002613506168615088,
+      "E_R": 0.002538548913726128,
+      "E_fixed_NS": -0.0025689662302369473,
+      "E_fixed_R": 0.0025808385954162075
+    },
+    {
+      "L": 8,
+      "m_NS": 0.9997064413195642,
+      "m_R": 1.0002923280068303,
+      "E_NS": -9.900909364987147e-05,
+      "E_R": 9.881353115904834e-05,
+      "E_fixed_NS": -9.889963239517325e-05,
+      "E_fixed_R": 9.892259627150728e-05
+    }
+  ],
+  "checks": [
+    {
+      "name": "integral vs sum x=0 NS",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=0 R",
+      "error": 0.0,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "odd winding identity x=0",
+      "error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=0.25 NS",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=0.25 R",
+      "error": -1.1102230246251565e-16,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "odd winding identity x=0.25",
+      "error": -6.661338147750939e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=0.5 NS",
+      "error": 5.551115123125783e-17,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=0.5 R",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "odd winding identity x=0.5",
+      "error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=1 NS",
+      "error": 0.0,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=1 R",
+      "error": -1.1102230246251565e-16,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "odd winding identity x=1",
+      "error": -1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=2 NS",
+      "error": -1.1102230246251565e-16,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=2 R",
+      "error": -5.551115123125783e-17,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "odd winding identity x=2",
+      "error": 5.551115123125783e-17,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=3 NS",
+      "error": -1.3877787807814457e-17,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=3 R",
+      "error": -4.163336342344337e-17,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "odd winding identity x=3",
+      "error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=5 NS",
+      "error": -1.214306433183765e-17,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=5 R",
+      "error": -1.97758476261356e-16,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "odd winding identity x=5",
+      "error": 3.469446951953614e-18,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=8 NS",
+      "error": 0.0,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "integral vs sum x=8 R",
+      "error": 2.6237692574149207e-17,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "odd winding identity x=8",
+      "error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "massless limit NS",
+      "error": 1.199040866595169e-14,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "name": "massless limit R",
+      "error": -2.353672812205332e-14,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "name": "odd sum leading winding x=3",
+      "error": 0.00044573978847122826,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "name": "odd sum leading winding x=5",
+      "error": 8.358393600907565e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "name": "odd sum leading winding x=8",
+      "error": 2.104020335113185e-08,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1 trial=0.01",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1 trial=0.1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1 trial=0.5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1 trial=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1 trial=2",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=1 R",
+      "error": -5.551115123125783e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=1 R",
+      "error": 5.551115123125782e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=1 R",
+      "error": -2.8786737438224463e-09,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=1 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.5 trial=0.01",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.5 trial=0.1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.5 trial=0.5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.5 trial=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.5 trial=2",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=1.5 R",
+      "error": -1.559863349598345e-14,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=1.5 R",
+      "error": 5.2041704279304205e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=1.5 R",
+      "error": -1.3034153756308342e-09,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=1.5 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.7638769888620456 trial=0.01",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.7638769888620456 trial=0.1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.7638769888620456 trial=0.5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.7638769888620456 trial=1",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "zero minimum L=1.7638769888620456 trial=2",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=1.7638769888620456 R",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=1.7638769888620456 R",
+      "error": 6.245004513516505e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=1.7638769888620456 R",
+      "error": 7.128178047821621e-10,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=1.7638769888620456 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=1.8 NS",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=1.8 NS",
+      "error": 1.006139616066548e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=1.8 NS",
+      "error": 3.2939800692632915e-08,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=1.8 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=1.8 R",
+      "error": 5.551115123125783e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=1.8 R",
+      "error": 8.500145032286355e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=1.8 R",
+      "error": 6.571627686469128e-10,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=1.8 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=2 NS",
+      "error": -1.7763568394002505e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=2 NS",
+      "error": 2.3592239273284573e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=2 NS",
+      "error": 1.4436135620243817e-09,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=2 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=2 R",
+      "error": 2.7755575615628914e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=2 R",
+      "error": 6.9388939039072276e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=2 R",
+      "error": 2.699214185497567e-10,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=2 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=2.5 NS",
+      "error": -1.6653345369377348e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=2.5 NS",
+      "error": 3.00974523081976e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=2.5 NS",
+      "error": -5.156448601439934e-10,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=2.5 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=2.5 R",
+      "error": 4.351380367140223e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=2.5 R",
+      "error": 8.153200337090993e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=2.5 R",
+      "error": 1.3197425374755767e-09,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=2.5 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=3 NS",
+      "error": 4.163336342344337e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=3 NS",
+      "error": 3.0574501264091225e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=3 NS",
+      "error": -4.254594010433266e-09,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=3 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=3 R",
+      "error": 1.1171619185290638e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=3 R",
+      "error": 1.0581813203458522e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=3 R",
+      "error": -2.5701218930862524e-11,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=3 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=5 NS",
+      "error": 1.8098370024866028e-14,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=5 NS",
+      "error": 2.4825519244486835e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=5 NS",
+      "error": 5.904960298508399e-09,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=5 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=5 R",
+      "error": 5.585809592645319e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=5 R",
+      "error": 1.819020194887555e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=5 R",
+      "error": -1.0020588803172359e-09,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=5 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=8 NS",
+      "error": 7.718679211413115e-14,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=8 NS",
+      "error": 2.133764932593044e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=8 NS",
+      "error": -3.558423000704636e-09,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=8 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "gap residual L=8 R",
+      "error": -9.535558107010011e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "integral stationary L=8 R",
+      "error": 2.051479916932025e-11,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "independent minimizer L=8 R",
+      "error": -2.8148168240704763e-09,
+      "tolerance": 3e-06,
+      "passed": true
+    },
+    {
+      "name": "nonzero saddle below zero L=8 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "critical curvature L=1",
+      "error": -1.1241285680085866e-12,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "critical curvature L=1.7638769888620456",
+      "error": -6.989964163039986e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "critical curvature L=3",
+      "error": 4.88192819503297e-13,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "critical quartic coefficient",
+      "error": 6.81016947845503e-05,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.3 L=1 NS",
+      "error": -2.2896060047905564e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.3 L=1 R",
+      "error": 2.4896751327219135e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.7 L=1 NS",
+      "error": -2.330025061780816e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.7 L=1 R",
+      "error": 1.4454659691409688e-11,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=1.2 L=1 NS",
+      "error": -2.0904389330667072e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=1.2 L=1 R",
+      "error": 4.328204461501173e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.3 L=2 NS",
+      "error": 1.1930820914551887e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.3 L=2 R",
+      "error": 2.8756441672328492e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.7 L=2 NS",
+      "error": 9.211426760247221e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.7 L=2 R",
+      "error": 1.8990087280457146e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=1.2 L=2 NS",
+      "error": 6.404779484547873e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=1.2 L=2 R",
+      "error": 1.8127842976722874e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.3 L=5 NS",
+      "error": 1.5194484559444277e-11,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.3 L=5 R",
+      "error": 2.072730875823936e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.7 L=5 NS",
+      "error": 1.0849293685666339e-11,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=0.7 L=5 R",
+      "error": 5.986308670991036e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=1.2 L=5 NS",
+      "error": 5.29866428511383e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "V derivative m=1.2 L=5 R",
+      "error": 4.648226248349374e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=1 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=1 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=1.5 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=1.5 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=1.7638769888620456 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=1.7638769888620456 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=1.8 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=1.8 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=2 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=2 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=2.5 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=2.5 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=3 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=3 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=5 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=5 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=8 NS",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "self-consistency lowers E L=8 R",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "SO(2n) to U(n), n=3",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "SO(2n) to U(n), n=5",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "SO(2n) to U(n), n=16",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "epsilon fixed point Nc=2 eps=0.01",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "epsilon UV eigenvalue Nc=2 eps=0.01",
+      "error": 1.734723475976807e-18,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "epsilon fixed point Nc=2 eps=0.1",
+      "error": 6.938893903907228e-18,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "epsilon UV eigenvalue Nc=2 eps=0.1",
+      "error": 1.3877787807814457e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Lambda4 invariant Nc=2 g=0.4",
+      "error": 1.3322676295501878e-14,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Lambda4 invariant Nc=2 g=0.8",
+      "error": 2.6645352591003757e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "epsilon fixed point Nc=3 eps=0.01",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "epsilon UV eigenvalue Nc=3 eps=0.01",
+      "error": 1.734723475976807e-18,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "epsilon fixed point Nc=3 eps=0.1",
+      "error": -6.938893903907228e-18,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "epsilon UV eigenvalue Nc=3 eps=0.1",
+      "error": -1.3877787807814457e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Lambda4 invariant Nc=3 g=0.4",
+      "error": -8.881784197001252e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Lambda4 invariant Nc=3 g=0.8",
+      "error": 8.881784197001252e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "rotating-string energy integral",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "rotating-string angular momentum integral",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Regge slope from independent integrals",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "vertex dimension kappa=0.02",
+      "error": 3.552713678800501e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "weak pinning flow kappa=0.02",
+      "error": 1.3322676295501878e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical pinning Hessian kappa=0.02",
+      "error": -4.166666589533463e-08,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "vertex dimension kappa=0.1",
+      "error": 5.551115123125783e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "weak pinning flow kappa=0.1",
+      "error": 5.10702591327572e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical pinning Hessian kappa=0.1",
+      "error": -8.333333023635703e-09,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "vertex dimension kappa=1",
+      "error": 5.551115123125783e-17,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "weak pinning flow kappa=1",
+      "error": 9.547918011776346e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical pinning Hessian kappa=1",
+      "error": -8.333331802390376e-10,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "vertex dimension kappa=10",
+      "error": 6.938893903907228e-18,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "weak pinning flow kappa=10",
+      "error": 5.773159728050814e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical pinning Hessian kappa=10",
+      "error": -8.333311818375932e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    }
+  ]
+}

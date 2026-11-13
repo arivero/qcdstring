@@ -27,6 +27,9 @@ Agreed 6 November 2026 (machine date).
   the response. (The referees of 1976 to 1984 reran programs, and those of
   1976 to 1982 ran small simulations of their own.) Since 1982 the referee is
   a different model from the author.
+  **1986 exception:** the user explicitly waived the independent referee on
+  13 November 2026 and requested author checks and publication without it.
+  The 1986 package records that absence; the general rule remains unchanged.
 * **Evidence.** Remembered numbers choose the work and sit in the ledger
   as predictions. A paper closes a ledger entry only by computing it.
 * **Only the next slots are fixed.** Later slots are rewritten as results
@@ -68,5 +71,5 @@ Agreed 6 November 2026 (machine date).
 | 1980 | Excited flux-tube levels, the square-root spectrum, roughening; longer strings to separate the Casimir coefficient from an endpoint term | 001, 011 | done: `outputs/1980-excited-flux-tube/`, tag `y1980` |
 | 1982 | Hagedorn versus deconfinement: the closed flux tube at finite temperature (Z2 in 3d through the dual Ising model; SU(2) in 4d) | 005, 009, 001 | done: `outputs/1982-hagedorn-deconfinement/`, tag `y1982` |
 | 1984 | The critical dimension as a statement about the effective string (theory; refits of the 1976-1982 data) | 002, 011, 012, 001 | done: `outputs/1984-critical-dimension/`, tag `y1984` |
-| 1986 | The turn to ten dimensions read from the hadron side: Green-Schwarz (1984), the heterotic string and Calabi-Yau vacua (1985). What the number 10 means for a long fermionic tube, as 26 does in the 1984 paper; world-sheet fermions against the measured mode count; SO(32) as a statement about the charges of string ends. Also Olesen (1985) on the string's Hagedorn temperature against our 1982 result, and the flux-tube model of Isgur and Paton (1985) against the end term of 1984. Carried over from 1984: the level of the area action at order L^-5, and the rules of its Section 4.2 beyond first order | 017, 020, 022, 012 | drafted after 1984 |
-| 1988 | The rigid string of Polyakov and Kleinert (1986) against Section 2.3 of the 1984 paper (by Gauss's equation a stiffness changes no level); the Casimir energy as the central charge (Blöte, Cardy and Nightingale; Affleck, 1986); the Regge intercept as the zero-point energy of a rotating string | 011, 013, 006 | drafted after 1984 |
+| 1986 | Ten years of QCD strings: fermions, hidden dimensions, and the long flux tube. Review of 1976-1986; massive determinants and a homogeneous large-flavour Gross-Neveu sector; dimensional suppression as a conditional consistency requirement | 017, 020, 022, 027, 012 | done, author-checked and unrefereed by explicit user waiver: `outputs/1986-fermionic-flux-tube/`, tag `y1986` |
+| 1988 | Thickness and curvature: a healthy massive internal field versus a local rigidity expansion, responding to Polyakov and Kleinert (1986). Distinguish perturbative equation-of-motion redundancy from threshold physics. Rotating-string intercept if endpoint treatment is controlled. Carried over: direct area-action L^-5 calculation and the rules of 1984 Section 4.2 beyond first order | 011, 013, 006, 012 | proposed after 1986 |

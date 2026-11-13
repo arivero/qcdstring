@@ -19,6 +19,11 @@ conjectures until re-derived with the tools and data of 1974. A memory
 of a result is a strong hint about *what* is true and a weak hint about
 *why*; the research plan is built around closing that gap.
 
+Latest paper: **[QCDS-86/1: Ten years of QCD strings](outputs/1986-fermionic-flux-tube/paper.md)**
+([PDF](outputs/1986-fermionic-flux-tube/paper.pdf)). A review of 1976-1986 with
+massive worldsheet calculations and a proposal on dimensional suppression.
+Author-checked; the independent referee was expressly waived for this slot.
+
 ## Layout
 
 | Path | Contents |
@@ -40,6 +45,8 @@ of a result is a strong hint about *what* is true and a weak hint about
 | `GLOSSARY.md` | Terms, with the 1974 name and the later name side by side. |
 
 ## Conventions
+
+* Writing: avoid personal possessive attribution of theories and ideas; use neutral wording or collective first person. See [the project writing note](AGENTS.md).
 
 * Units: GeV, with hbar = c = 1. alpha' is the Regge slope; sigma = 1/(2 pi alpha') is the string tension.
 * Remembered numbers are predictions, never inputs or evidence (see `second_line/README.md` for the mapping onto the second line's six status labels).

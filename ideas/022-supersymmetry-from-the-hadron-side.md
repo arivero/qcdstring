@@ -70,3 +70,22 @@ another is rejected under their rule, and under ours from now on.
 ## References
 Miyazawa1966, ASV2003a, ASV2003b, ArmoniPatella2009, KutasovSeiberg1991,
 BroniowskiFlorkowski2000, CattoGursey1985, BdTDE2015, Rivero2024.
+
+## 1986 correction and calculation
+
+QCDS-86/1 (`outputs/1986-fermionic-flux-tube/`) corrects the opening necessity
+claim: AGMV1986 and DixonHarvey1986 give tachyon-free strings without spacetime
+supersymmetry. They still contain gravity and do not establish a stable quantum
+vacuum. No inference from this fact to a completed QCD string is made.
+
+The paper derives fixed-mass NS/R vacuum energies and a homogeneous
+large-flavour Gross-Neveu mechanism on the induced metric. An internal
+nonchiral fermion sector can become massive while translation modes remain
+light. This is an effective model, not a derivation from QCD or a
+supersymmetric worldsheet construction. It cannot simply gap a chiral
+heterotic current sector; anomaly and projection conditions remain.
+
+A periodic scalar-Majorana cancellation shows why one vacuum Casimir
+coefficient does not count every possible massless field. P18 remains open
+in four dimensions. P16 and P17 are not closed by this paper. The paper was
+author-checked; its independent referee was explicitly waived by the user.

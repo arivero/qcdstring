@@ -1,0 +1,7 @@
+Machine date: 2026-11-13
+Python: 3.14.4
+NumPy: 2.3.5
+SciPy: 1.16.3
+Matplotlib: 3.10.7+dfsg1
+pandoc 3.7.0.2
+XeTeX 3.141592653-2.6-0.999997 (TeX Live 2025/Debian)

@@ -178,3 +178,24 @@ decoupled. A result that needs a compact gravitational vacuum stays
 outside. The claim is that the
 same formalism, applied to confining vacua, is the theory of the QCD
 string, and that this is the application where the formalism meets data.
+
+## 1986 update: the scope of the superstring reading
+
+QCDS-86/1 (`outputs/1986-fermionic-flux-tube/`) corrects Section 4's statement
+that spacetime supersymmetry is the necessary price of removing the tachyon.
+The tachyon-free nonsupersymmetric SO(16)xSO(16) constructions are now published
+(AGMV1986, DixonHarvey1986). They retain gravity and do not solve the quantum
+vacuum problem; they are counterexamples to that necessity claim, not a QCD
+construction.
+
+The new paper gives a nonchiral effective worldsheet mass mechanism and
+states why it does not automatically apply to the chiral heterotic sector or
+complete a critical string. Its SO(32) decomposition is an algebraic starting
+point, not a proof of the flavour dictionaries in the table above. Those
+entries remain memory-guided proposed identifications.
+
+The user-suggested dimensional-selection question is recorded as idea 027.
+Four-dimensional Yang-Mills power counting motivates a conditional
+four-dimensional regime but neither proves higher-dimensional triviality nor
+dynamically compactifies a dimension. A small compact target coordinate also
+need not be a massive local worldsheet field. Both decouplings must be shown.

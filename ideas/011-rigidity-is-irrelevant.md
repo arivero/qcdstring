@@ -53,3 +53,12 @@ running, and U(1) against SU(2)) remain.
 
 ## References
 Polyakov1986, Kleinert1986, AharonyKomargodski2013, DFG2012a, Polyakov1977.
+
+## 1986 qualification
+
+QCDS-86/1 Section 3.3 restricts "changes no level" to perturbative
+operator redundancy with field-redefinition-induced operators and boundary
+conditions included. It does not identify a finite-stiffness theory treated
+nonperturbatively with the area theory at every energy. Massive thresholds
+and the local curvature expansion are the proposed 1988 calculation. No new
+rigidity fit or running-coupling calculation is claimed in 1986.

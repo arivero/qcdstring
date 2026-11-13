@@ -1,0 +1,1 @@
+PASS: 174 numerical author checks; 17 printed numerical rows; 46 unique equation labels; 12 main sections; 36 cited references; 31 verified external identifiers dated no later than 1986; local figures and earlier-paper paths present; referee waiver explicit.

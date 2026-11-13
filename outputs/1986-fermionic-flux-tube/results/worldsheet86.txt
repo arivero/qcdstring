@@ -1,0 +1,54 @@
+QCDS-86/1: author calculations (not an independent referee report)
+A. Closed-string vacuum energies for one nonchiral Dirac fermion
+x=mL     L E_NS       L E_R        L(E_R-E_NS)    c_eff_NS
+ 0.00   -0.52359878   1.04719755     1.57079633   1.00000000
+ 0.25   -0.49915726   0.83540049     1.33455775   0.95332015
+ 0.50   -0.45302056   0.67248646     1.12550702   0.86520554
+ 1.00   -0.34560422   0.43893179     0.78453600   0.66005543
+ 2.00   -0.17066076   0.18665514     0.35731590   0.32593804
+ 3.00   -0.07544288   0.07801176     0.15345464   0.14408528
+ 5.00   -0.01284483   0.01290419     0.02574902   0.02453182
+ 8.00   -0.00079120   0.00079138     0.00158258   0.00151108
+Scalar periodic contribution is -1/2 of the Dirac R contribution.
+Thus one real scalar and one equal-mass Majorana in R cancel exactly at this order.
+
+B. Homogeneous large-N Gross-Neveu saddle, m_infinity=1
+m_infinity L_c = pi exp(-EulerGamma) = 1.7638769889
+L       m_NS/m_inf   m_R/m_inf    E_NS/N/m_inf  E_R/N/m_inf   fixed_NS
+ 1.0000   0.00000000   1.57847769    -0.44402130     0.33040233  -0.34560422
+ 1.5000   0.00000000   1.30623711    -0.22969964     0.15339287  -0.16512543
+ 1.7639   0.00000000   1.22618836    -0.15648053     0.10731825  -0.11581714
+ 1.8000   0.24399221   1.21721745    -0.14782083     0.10236182  -0.11045936
+ 2.0000   0.56733804   1.17416672    -0.10889264     0.07921798  -0.08533038
+ 2.5000   0.82341436   1.10175626    -0.05358398     0.04298821  -0.04580641
+ 3.0000   0.91434843   1.05995599    -0.02782245     0.02393146  -0.02514763
+ 5.0000   0.99237012   1.00715706    -0.00261351     0.00253855  -0.00256897
+ 8.0000   0.99970644   1.00029233    -0.00009901     0.00009881  -0.00009890
+
+C. Critical curvature from a spatial momentum cutoff
+L=1.00000000: cutoff V''(0)=0.1806453871, analytic=0.1806453871
+L=1.76387699: cutoff V''(0)=-0.0000000000, analytic=0.0000000000
+L=3.00000000: cutoff V''(0)=-0.1690537655, analytic=-0.1690537655
+Quartic coefficient at L_c: 7 zeta(3) L_c^2/(32 pi^3) = 0.0263851799
+
+D. Determinant derivative and variational energy
+
+E. Group dimensions and critical central-charge bookkeeping
+SO(6) adjoint: 15 = 9 + 3 + 3
+SO(10) adjoint: 45 = 25 + 10 + 10
+SO(32) adjoint: 496 = 256 + 120 + 120
+RNS flat matter c=3D/2; reparametrization+superconformal ghosts c=-15; D=10.
+Four free embedding supermultiplets have c=6; a critical internal sector must supply c=9.
+Heterotic left internal deficit: 26-10=16; 32 real chiral fermions supply c=16.
+These are critical gauge-fixed counts, not the physical cylinder Casimir count.
+
+F. Dimensional matching and rotating-string checks
+Formal epsilon fixed point and UV slope checked; Lambda4 is invariant under one-loop running.
+Rotating-string integrals give E=pi sigma/omega and J=pi sigma/(2 omega^2).
+
+G. Compact-coordinate pinning: local Hessian and Gaussian scaling
+Weak pinning relevance threshold: kappa > 1/(8 pi) = 0.0397887358
+For kappa=sigma r^2 this requires M_KK/sqrt(sigma) < sqrt(8 pi) = 5.0132565493.
+This is a weak-deformation test, not a bound on all compactifications or an exact quantum mass.
+
+PASS: 174 author checks. No claim of an independent proof or referee review.

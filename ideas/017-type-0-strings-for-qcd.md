@@ -44,3 +44,12 @@ tachyon in any confining background.
 
 ## References
 Polyakov1998, KlebanovTseytlin1998a, KlebanovTseytlin1998b, GSO1976.
+
+## 1986 scope correction
+
+QCDS-86/1 (`outputs/1986-fermionic-flux-tube/`) uses AGMV1986 and
+DixonHarvey1986 as period counterexamples to "no spacetime supersymmetry
+implies a tachyon." They are heterotic constructions, not confirmations of
+the type-0 QCD identification above. They retain gravity and a quantum-vacuum
+problem. The type-0 claims remain memory-guided proposals; no type-0
+background is derived in the 1986 paper.
