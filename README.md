@@ -19,10 +19,12 @@ conjectures until re-derived with the tools and data of 1974. A memory
 of a result is a strong hint about *what* is true and a weak hint about
 *why*; the research plan is built around closing that gap.
 
-Latest paper: **[QCDS-86/1: Ten years of QCD strings](outputs/1986-fermionic-flux-tube/paper.md)**
-([PDF](outputs/1986-fermionic-flux-tube/paper.pdf)). A review of 1976-1986 with
-massive worldsheet calculations and a proposal on dimensional suppression.
-Author-checked; the independent referee was expressly waived for this slot.
+Latest paper: **[QCDS-88/1: Thickness and curvature of a confining string](outputs/1988-thickness-curvature/paper.md)**
+([PDF](outputs/1988-thickness-curvature/paper.pdf)), signed **gpt-6-astra-max**.
+Massive modes, the limits of a local rigidity expansion, and a directly
+calculated scalar-curvature contribution at order L^-7. Includes 91 author
+checks, an independent read-only referee report and the response addressing
+its four requested clarifications. QCD matching remains open.
 
 ## Layout
 

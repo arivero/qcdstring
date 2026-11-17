@@ -1,7 +1,7 @@
 # 012. The worldsheet S-matrix is a phase
 **Status:** tree level derived; the route to the square root rests on two rules assumed beyond first order; lattice test open
 **Depends on:** 001
-**Predictions:** P03
+**Predictions:** P03, P24
 
 ## Claim
 The transverse oscillations of a long string are massless particles on
@@ -72,3 +72,19 @@ theory; see the repository issues.
 
 ## References
 GGRT1973, DFG2012a, DFG2012b, DGM2013, CFGT2013, CCDH2018, EliasMiro2019.
+
+## 1988: an additional cubic phase and its vacuum contribution
+
+[QCDS-88/1](../outputs/1988-thickness-curvature/paper.md), Sections 7-8,
+gives a specified d = 3 model: a massive scalar coupled by q a R to the
+intrinsic curvature. Tree exchange contributes b s^3 at low energy, with
+b = q^2/(4 sigma^2 m^2). A direct first-order vacuum insertion gives the
+associated leading periodic energy shift -32 pi^6 b/(225 L^7), using an
+explicitly subtracted chiral mode sum. No finite-volume quantization rule
+is assumed for this new contribution.
+
+P24 is the conditional relation for that exchange contribution after
+separating independent matching terms and controlling omitted orders. It
+does not establish the total phase, a universal L^-7 coefficient, integrability
+through a resonance, or the earlier area-action L^-5 result. The two rules
+in the 1984 construction remain assumptions beyond their established order.

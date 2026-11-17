@@ -50,3 +50,16 @@ is a scalar rather than a pseudoscalar.
 
 ## References
 ABT2010, ABT2011, DFG2013, DubovskyGorbenko2015, AT2017, Polyakov1986.
+
+## 1988 boundary of the calculation
+
+[QCDS-88/1](../outputs/1988-thickness-curvature/paper.md) derives a healthy
+quadratic normal-field model and a separate scalar coupled to intrinsic
+curvature. Neither field has the transverse-rotation and parity assignment
+of the pseudoscalar conjectured here. Their thresholds and local corrections
+therefore do not support the remembered mass or coupling in P04.
+
+The proposed next step is to derive the pseudoscalar curvature coupling and
+its four-dimensional scattering channels while leaving its mass and coupling
+as matching parameters. An anomaly argument must be established independently;
+the scalar-curvature calculation does not provide it.

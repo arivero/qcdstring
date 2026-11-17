@@ -32,6 +32,8 @@ Registered 6 November 1974 unless stated.
 | P20 | Bottomonium in the joint charmonium-bottomonium potential of the 1978 paper (kappa = 0.515, sigma = 0.168 GeV^2): 3S at 10.35, 1P centre 9.93, 1D 10.17, 2P 10.27, 4S 10.62 GeV; open-bottom threshold 10.57-10.72 GeV, so whether the 4S lies above it is undetermined. Registered November 1978. Both lines remember the outcome; no weight. | 1978 calculation | e+e- scans, radiative transitions | 1980-82 | open |
 | P21 | Conditional model diagnostic: if the same fixed-mass nonchiral Dirac field and common local matching terms describe periodic and antiperiodic closed-tube sectors, their vacuum-energy difference is (4m/pi) sum over positive odd w of K1(wmL)/w, with large-L decay sqrt(8m/(pi L)) exp(-mL). A microscopic realization of both sectors is required. Registered November 1986. | 1986 derivation, QCDS-86/1 Section 5 | Identify physical sectors and test the length dependence; no QCD measurement yet | open | derived in the fixed-mass model; physical application open |
 | P22 | Conditional model result: a homogeneous large-N_f Gross-Neveu sector on a flat tube has NS saddle restoration at m_infinity L = pi exp(-EulerGamma), a larger R mass than its infinite-line mass, and a condensation-energy contribution in addition to the determinant. This is not a finite-N_f or deconfinement prediction. Registered November 1986. | 1986 rederivation of a known large-flavour mechanism, QCDS-86/1 Section 6 | Compare the gap equation with the independently integrated potential; microscopic matching remains required | open | derived and author-checked within the stated saddle approximation |
+| P23 | Conditional normal-field model: a canonical displacement y and a massive normal field phi with derivative mixing -g d(phi).d(y), m > 0 and abs(g) < 1 have a massive pole M = m/sqrt(1-g^2) with positive displacement residue g^2/(1-g^2). Integrating out phi induces a negative local p^4 coefficient, although the exact quadratic theory is stable. Each periodic massive mode contributes -(M/pi) sum K1(wML)/w after tension subtraction. Registered November 1988, before the numerical checks. | 1988 derivation, QCDS-88/1 Sections 3-5 | Compare normal modes, propagator residues and finite-size determinant; QCD matching required | open | registered conditional model statement |
+| P24 | Conditional scalar-curvature model, d = 3: for a canonical scalar of mass m coupled by q a R to the induced intrinsic curvature, tree exchange gives an additional low-energy phase b s^3, b = q^2/(4 sigma^2 m^2). Its leading coupling-dependent periodic vacuum shift is -32 pi^6 b/(225 L^7), at first order in the matched operator. The scalar determinant and independent matching coefficients are not included in this difference. Registered November 1988, before the numerical checks. | 1988 derivation, QCDS-88/1 Sections 7-8 | Compare the exchange amplitude and directly regulated vacuum contraction; no QCD mass or coupling input | open | registered conditional model statement |
 
 ## Status log
 
@@ -217,3 +219,29 @@ Registered 6 November 1974 unless stated.
     pinning with a parametrically large M_KK/sqrt(sigma). Strong pinning or
     other background/kinetic matching is not excluded. No physical radius
     bound is registered.
+
+* 1988-11 (paper QCDS-88/1, `outputs/1988-thickness-curvature/`, tag `y1988`):
+  * P23-P24 registered before numerical checking and derived in the specified
+    effective models; 91 author checks pass. The independent read-only referee
+    recommends acceptance after four clarifications, all addressed in the
+    revised paper and response; no coefficient changed.
+    Neither entry is empirical evidence for a QCD mass or coupling.
+  * P14: a positive quadratic normal-field model generates a negative local
+    p^4 coefficient. The unstable pole of its first truncation lies outside
+    the derivative expansion. The full determinant retains the positive
+    massive mode. A positive exact p^4 kernel supplies the converse warning:
+    its vacuum determinant can imitate an extra boson despite a negative
+    spectral residue in the displacement correlator.
+  * P24: in d = 3, scalar-curvature exchange gives a phase b s^3 and the
+    directly calculated leading vacuum shift -32 pi^6 b/(225 L^7).
+    This is the q-dependent contribution at tree matching and first-order
+    insertion; independent coefficients and the scalar determinant remain
+    separate. No total QCD L^-7 coefficient is predicted.
+  * P03: the direct area-action L^-5 result and the 1984 quantization rules
+    beyond first order remain unfinished. The new L^-7 calculation does not
+    replace them.
+  * P04-P05: no pseudoscalar identification or rotating-string intercept is
+    obtained. The normal vector and intrinsic-curvature scalar have different
+    quantum numbers from the proposed four-dimensional pseudoscalar.
+  * No new simulation or fit; earlier gauge-theory conclusions retain their
+    original dimensional, boundary and systematic limitations.

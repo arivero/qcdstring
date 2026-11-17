@@ -1,25 +1,28 @@
 # 011. Rigidity is irrelevant
-**Status:** supported by derivation (1984); lattice comparison open
+**Status:** perturbative redundancy supported (1984); explicit massive-field examples derived (1988); microscopic matching and lattice comparison open
 **Depends on:** 001
-**Predictions:** P14
+**Predictions:** P14, P23, P24
 
 ## Claim
-One may add to the Nambu-Goto action a term proportional to the square
-of the extrinsic curvature of the worldsheet. For a non-Abelian flux
-tube the coefficient runs to zero at long distance (the coupling is
-asymptotically free on the worldsheet), so the term changes nothing in
-P02 and P03, and the lattice spectra of SU(N) flux tubes show no trace
-of it. In the compact U(1) theory in d = 3, where confinement is by a
-monopole plasma, the flux tube is different: a rigidity term is needed
-to fit its spectrum. The comparison between the two is itself a test of
-what kind of string a gauge theory makes.
+In a long-string derivative expansion, a mean-curvature-square operator
+is removable order by order when all induced operators, sources and
+boundary conditions are transformed. This does not exclude a massive
+internal sector. Its finite-length winding contribution can be exponential,
+while its nonredundant local interactions give power corrections.
+
+The 1988 examples establish this distinction in specified effective models.
+They do not determine the stiffness or massive spectrum of a non-Abelian
+flux tube. The remembered comparison between compact U(1) and SU(N) theories
+remains a separate lattice target; a running-coupling statement is not a
+substitute for that comparison.
 
 ## Known in 1974
 * Nothing. The Nambu-Goto action is the only one in use.
 
 ## What the memory says
-* Polyakov 1986, Kleinert 1986: the rigid string; one-loop running of the
-  rigidity coupling; the term is irrelevant in the infrared.
+* Polyakov 1986, Kleinert 1986: the rigid string and running of the
+  rigidity coupling. The ultraviolet asymptotic-freedom statement is not
+  by itself an exclusion of massive infrared degrees of freedom.
 * Aharony et al, Dubovsky et al: the long-string expansion in d = 3 and
   d = 4 has no free parameter until O(1/R^7) in E_0, which rules out any
   rigidity effect at the orders probed.
@@ -35,8 +38,11 @@ what kind of string a gauge theory makes.
    the square-root formula that scales as a rigidity term would.
 
 ## Expected outcome, and what would refute it
-No deviation in SU(2); a measurable one in U(1). Refuted if the
-non-Abelian spectrum needs rigidity, which would also damage 001.
+The remembered target is a difference between the two gauge theories.
+A massive threshold in a non-Abelian spectrum would not by itself refute
+the long-string expansion or idea 001; it would require retaining the
+additional sector and testing its domain of validity. The microscopic
+comparison remains open.
 
 ## 1984 paper
 `outputs/1984-critical-dimension/` (QCDS-84/1), Section 2.3. A stronger and
@@ -62,3 +68,23 @@ conditions included. It does not identify a finite-stiffness theory treated
 nonperturbatively with the area theory at every energy. Massive thresholds
 and the local curvature expansion are the proposed 1988 calculation. No new
 rigidity fit or running-coupling calculation is claimed in 1986.
+
+## 1988 construction
+
+[QCDS-88/1](../outputs/1988-thickness-curvature/paper.md) makes the
+qualification constructive. A normal field with derivative mixing has a
+positive quadratic kinetic matrix for abs(g) < 1, a physical mass
+M = m/sqrt(1-g^2), and a negative induced local p^4 coefficient. The apparent
+unstable pole of that truncation is outside its convergence disk. Retaining
+both Gaussian determinants gives the finite-length energy at mass M.
+Conversely, an exact positive-p^4 kernel can have the same determinant as
+an extra scalar while its displacement propagator has a negative residue.
+
+A separate scalar coupled to intrinsic curvature gives a nonredundant
+R^2 interaction. In d = 3 its q-dependent tree-matching contribution has
+phase b s^3 and directly calculated periodic vacuum shift
+-32 pi^6 b/(225 L^7), with b = q^2/(4 sigma^2 m^2). This is conditional on
+the model and the subtraction of other matching contributions. It does not
+close the area-action L^-5 calculation, identify the pseudoscalar of idea
+013, or supply a QCD mass, coupling or thickness. P23-P24 record the model
+statements; the source, checks and review status are in the paper package.

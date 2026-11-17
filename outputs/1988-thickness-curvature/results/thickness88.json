@@ -1,0 +1,585 @@
+{
+  "checks": [
+    {
+      "name": "generalized masses g=0.0",
+      "error": 0.0,
+      "tolerance": 1.1000000000000001e-10,
+      "passed": true
+    },
+    {
+      "name": "source residues g=0.0",
+      "error": 0.0,
+      "tolerance": 1.1000000000000001e-10,
+      "passed": true
+    },
+    {
+      "name": "canonical kinetic matrix g=0.0",
+      "error": 0.0,
+      "tolerance": 1.1000000000000001e-10,
+      "passed": true
+    },
+    {
+      "name": "canonical mass matrix g=0.0",
+      "error": 0.0,
+      "tolerance": 1.1000000000000001e-10,
+      "passed": true
+    },
+    {
+      "name": "positive kinetic eigenvalues g=0.0",
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.0 z=0.03",
+      "error": 0.0,
+      "tolerance": 1.309e-11,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.0 z=0.03",
+      "error": 0.0,
+      "tolerance": 3.343333333333334e-09,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.0 z=0.4",
+      "error": 0.0,
+      "tolerance": 6.599999999999999e-11,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.0 z=0.4",
+      "error": 0.0,
+      "tolerance": 2.6000000000000003e-10,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.0 z=2.0",
+      "error": 0.0,
+      "tolerance": 6.1e-10,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.0 z=2.0",
+      "error": 0.0,
+      "tolerance": 6e-11,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.0 z=10.0",
+      "error": 4.263256414560601e-14,
+      "tolerance": 1.101e-08,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.0 z=10.0",
+      "error": 0.0,
+      "tolerance": 2.0000000000000002e-11,
+      "passed": true
+    },
+    {
+      "name": "generalized masses g=0.3",
+      "error": 0.0,
+      "tolerance": 1.1989010989010987e-10,
+      "passed": true
+    },
+    {
+      "name": "source residues g=0.3",
+      "error": 2.7755575615628914e-17,
+      "tolerance": 1.1000000000000001e-10,
+      "passed": true
+    },
+    {
+      "name": "canonical kinetic matrix g=0.3",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1.1000000000000001e-10,
+      "passed": true
+    },
+    {
+      "name": "canonical mass matrix g=0.3",
+      "error": 0.0,
+      "tolerance": 1.1989010989010987e-10,
+      "passed": true
+    },
+    {
+      "name": "positive kinetic eigenvalues g=0.3",
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.3 z=0.03",
+      "error": 3.469446951953614e-18,
+      "tolerance": 1.30819e-11,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.3 z=0.03",
+      "error": 0.0,
+      "tolerance": 3.3520941626918464e-09,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.3 z=0.4",
+      "error": 0.0,
+      "tolerance": 6.456e-11,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.3 z=0.4",
+      "error": 0.0,
+      "tolerance": 2.6659824046920823e-10,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.3 z=2.0",
+      "error": 0.0,
+      "tolerance": 5.74e-10,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.3 z=2.0",
+      "error": 0.0,
+      "tolerance": 6.319148936170214e-11,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.3 z=10.0",
+      "error": 2.842170943040401e-14,
+      "tolerance": 1.0110000000000001e-08,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.3 z=10.0",
+      "error": 1.3877787807814457e-17,
+      "tolerance": 2.089108910891089e-11,
+      "passed": true
+    },
+    {
+      "name": "generalized masses g=0.6",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1.6625e-10,
+      "passed": true
+    },
+    {
+      "name": "source residues g=0.6",
+      "error": 0.0,
+      "tolerance": 1.1000000000000001e-10,
+      "passed": true
+    },
+    {
+      "name": "canonical kinetic matrix g=0.6",
+      "error": 8.326672684688674e-17,
+      "tolerance": 1.1000000000000001e-10,
+      "passed": true
+    },
+    {
+      "name": "canonical mass matrix g=0.6",
+      "error": 0.0,
+      "tolerance": 1.6625e-10,
+      "passed": true
+    },
+    {
+      "name": "positive kinetic eigenvalues g=0.6",
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.6 z=0.03",
+      "error": 3.469446951953614e-18,
+      "tolerance": 1.3057599999999999e-11,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.6 z=0.03",
+      "error": 7.105427357601002e-15,
+      "tolerance": 3.378655154369441e-09,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.6 z=0.4",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 6.024e-11,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.6 z=0.4",
+      "error": 0.0,
+      "tolerance": 2.8866242038216565e-10,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.6 z=2.0",
+      "error": 8.881784197001252e-16,
+      "tolerance": 4.66e-10,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.6 z=2.0",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 7.578947368421054e-11,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.6 z=10.0",
+      "error": 2.842170943040401e-14,
+      "tolerance": 7.41e-09,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.6 z=10.0",
+      "error": 0.0,
+      "tolerance": 2.4864864864864863e-11,
+      "passed": true
+    },
+    {
+      "name": "generalized masses g=0.9",
+      "error": 8.881784197001252e-16,
+      "tolerance": 5.363157894736843e-10,
+      "passed": true
+    },
+    {
+      "name": "source residues g=0.9",
+      "error": 8.881784197001252e-16,
+      "tolerance": 4.363157894736844e-10,
+      "passed": true
+    },
+    {
+      "name": "canonical kinetic matrix g=0.9",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1.1000000000000001e-10,
+      "passed": true
+    },
+    {
+      "name": "canonical mass matrix g=0.9",
+      "error": 0.0,
+      "tolerance": 5.363157894736843e-10,
+      "passed": true
+    },
+    {
+      "name": "positive kinetic eigenvalues g=0.9",
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.9 z=0.03",
+      "error": 0.0,
+      "tolerance": 1.30171e-11,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.9 z=0.03",
+      "error": 0.0,
+      "tolerance": 3.42387425010772e-09,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.9 z=0.4",
+      "error": 5.551115123125783e-17,
+      "tolerance": 5.304e-11,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.9 z=0.4",
+      "error": 4.440892098500626e-16,
+      "tolerance": 3.3527881040892193e-10,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.9 z=2.0",
+      "error": 4.440892098500626e-16,
+      "tolerance": 2.86e-10,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.9 z=2.0",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1.1869565217391303e-10,
+      "passed": true
+    },
+    {
+      "name": "integrated determinant g=0.9 z=10.0",
+      "error": 3.197442310920451e-14,
+      "tolerance": 2.909999999999999e-09,
+      "passed": true
+    },
+    {
+      "name": "displacement spectral form g=0.9 z=10.0",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 4.793103448275863e-11,
+      "passed": true
+    },
+    {
+      "name": "positive-stiffness reflection counterexample",
+      "passed": true
+    },
+    {
+      "name": "kernel determinant",
+      "passed": true
+    },
+    {
+      "name": "integrating out a field",
+      "passed": true
+    },
+    {
+      "name": "first-order field redefinition",
+      "passed": true
+    },
+    {
+      "name": "on-shell curvature vertex",
+      "passed": true
+    },
+    {
+      "name": "crossed scalar exchange",
+      "passed": true
+    },
+    {
+      "name": "phase is odd",
+      "passed": true
+    },
+    {
+      "name": "low-energy phase coefficient",
+      "passed": true
+    },
+    {
+      "name": "intrinsic curvature on free waves",
+      "passed": true
+    },
+    {
+      "name": "direct vacuum shift versus scattering coefficient",
+      "passed": true
+    },
+    {
+      "name": "finite regulated chiral contraction",
+      "passed": true
+    },
+    {
+      "name": "periodic Bessel versus momentum integral x=0.5",
+      "error": 5.551115123125783e-17,
+      "tolerance": 4.3624322780232853e-11,
+      "passed": true
+    },
+    {
+      "name": "periodic quadrature error x=0.5",
+      "passed": true
+    },
+    {
+      "name": "DD versus periodic at double length x=0.5",
+      "error": 0.0,
+      "tolerance": 1.5486647327753373e-11,
+      "passed": true
+    },
+    {
+      "name": "DD quadrature error x=0.5",
+      "passed": true
+    },
+    {
+      "name": "periodic Bessel versus momentum integral x=1.0",
+      "error": 2.7755575615628914e-17,
+      "tolerance": 3.19465893110135e-11,
+      "passed": true
+    },
+    {
+      "name": "periodic quadrature error x=1.0",
+      "passed": true
+    },
+    {
+      "name": "DD versus periodic at double length x=1.0",
+      "error": 3.469446951953614e-18,
+      "tolerance": 1.2333189251981103e-11,
+      "passed": true
+    },
+    {
+      "name": "DD quadrature error x=1.0",
+      "passed": true
+    },
+    {
+      "name": "periodic Bessel versus momentum integral x=2.0",
+      "error": 2.7755575615628914e-17,
+      "tolerance": 1.9332757007924414e-11,
+      "passed": true
+    },
+    {
+      "name": "periodic quadrature error x=2.0",
+      "passed": true
+    },
+    {
+      "name": "DD versus periodic at double length x=2.0",
+      "error": 1.734723475976807e-17,
+      "tolerance": 1.0399859485342598e-11,
+      "passed": true
+    },
+    {
+      "name": "DD quadrature error x=2.0",
+      "passed": true
+    },
+    {
+      "name": "periodic Bessel versus momentum integral x=4.0",
+      "error": 1.734723475976807e-17,
+      "tolerance": 1.1599437941370396e-11,
+      "passed": true
+    },
+    {
+      "name": "periodic quadrature error x=4.0",
+      "passed": true
+    },
+    {
+      "name": "DD versus periodic at double length x=4.0",
+      "error": 1.3715157481941631e-17,
+      "tolerance": 1.000989225962715e-11,
+      "passed": true
+    },
+    {
+      "name": "DD quadrature error x=4.0",
+      "passed": true
+    },
+    {
+      "name": "periodic Bessel versus momentum integral x=8.0",
+      "error": 8.890457814381136e-18,
+      "tolerance": 1.0039569038508602e-11,
+      "passed": true
+    },
+    {
+      "name": "periodic quadrature error x=8.0",
+      "passed": true
+    },
+    {
+      "name": "DD versus periodic at double length x=8.0",
+      "error": 3.627038093534767e-17,
+      "tolerance": 1.0000004592775266e-11,
+      "passed": true
+    },
+    {
+      "name": "DD quadrature error x=8.0",
+      "passed": true
+    },
+    {
+      "name": "massless periodic limit",
+      "error": 0.0,
+      "tolerance": 6.235987755982989e-11,
+      "passed": true
+    },
+    {
+      "name": "massless DD limit",
+      "error": 0.0,
+      "tolerance": 2.3089969389957468e-11,
+      "passed": true
+    },
+    {
+      "name": "small-mass leading linear term",
+      "error": 7.449695823558145e-07,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "large-mass asymptotics",
+      "error": 1.7228990709366002e-16,
+      "tolerance": 2.81127823700515e-16,
+      "passed": true
+    },
+    {
+      "name": "regulated mode sum a=0.2",
+      "error": 2.77105713980888e-07,
+      "tolerance": 3.2e-07,
+      "passed": true
+    },
+    {
+      "name": "regulated mode sum a=0.1",
+      "error": 1.735059445596987e-08,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "regulated mode sum a=0.05",
+      "error": 1.084905059886565e-09,
+      "tolerance": 1.25e-09,
+      "passed": true
+    },
+    {
+      "name": "regulated mode sum a=0.025",
+      "error": 6.781427155932995e-11,
+      "tolerance": 7.8125e-11,
+      "passed": true
+    }
+  ],
+  "normal_modes": [
+    {
+      "g": 0.0,
+      "M_over_m": 1.0,
+      "residue": 0.0,
+      "spurious_p_over_m": null
+    },
+    {
+      "g": 0.3,
+      "M_over_m": 1.0482848367219182,
+      "residue": 0.0989010989010989,
+      "spurious_p_over_m": 3.3333333333333335
+    },
+    {
+      "g": 0.6,
+      "M_over_m": 1.25,
+      "residue": 0.5625,
+      "spurious_p_over_m": 1.6666666666666667
+    },
+    {
+      "g": 0.9,
+      "M_over_m": 2.294157338705618,
+      "residue": 4.263157894736843,
+      "spurious_p_over_m": 1.1111111111111112
+    }
+  ],
+  "reflection_eigenvalues": [
+    -0.005783940729225272,
+    0.18690659727523862
+  ],
+  "finite_size": [
+    {
+      "x": 0.5,
+      "L_E": -0.33624322780232857,
+      "c_eff": 0.6421772614309776,
+      "R_E_DD": -0.05486647327753374
+    },
+    {
+      "x": 1.0,
+      "L_E": -0.21946589311013495,
+      "c_eff": 0.41914898074266616,
+      "R_E_DD": -0.023331892519811024
+    },
+    {
+      "x": 2.0,
+      "L_E": -0.09332757007924411,
+      "c_eff": 0.17824252925840367,
+      "R_E_DD": -0.003998594853426005
+    },
+    {
+      "x": 4.0,
+      "L_E": -0.01599437941370395,
+      "c_eff": 0.030547014544538814,
+      "R_E_DD": -9.892259627152101e-05
+    },
+    {
+      "x": 8.0,
+      "L_E": -0.0003956903850860292,
+      "c_eff": 0.0007557129686445254,
+      "R_E_DD": -4.5927752631816275e-08
+    }
+  ],
+  "regulator": [
+    {
+      "a": 0.2,
+      "subtracted_sum": 0.008254245359682236,
+      "limit": 0.008333333333333333
+    },
+    {
+      "a": 0.1,
+      "subtracted_sum": 0.008313509414086519,
+      "limit": 0.008333333333333333
+    },
+    {
+      "a": 0.05,
+      "subtracted_sum": 0.008328374100778076,
+      "limit": 0.008333333333333333
+    },
+    {
+      "a": 0.025,
+      "subtracted_sum": 0.008332093321782525,
+      "limit": 0.008333333333333333
+    }
+  ],
+  "scalar_vacuum_shift": "-8*pi**6*q**2/(225*L**7*m**2*sigma**2)"
+}

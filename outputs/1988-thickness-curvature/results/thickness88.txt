@@ -1,0 +1,95 @@
+91/91 author checks passed.
+Reflection matrix eigenvalues: [-0.005783940729225272, 0.18690659727523862]
+Coupling-dependent scalar vacuum shift: -8*pi**6*q**2/(225*L**7*m**2*sigma**2)
+
+PASS generalized masses g=0.0
+PASS source residues g=0.0
+PASS canonical kinetic matrix g=0.0
+PASS canonical mass matrix g=0.0
+PASS positive kinetic eigenvalues g=0.0
+PASS integrated determinant g=0.0 z=0.03
+PASS displacement spectral form g=0.0 z=0.03
+PASS integrated determinant g=0.0 z=0.4
+PASS displacement spectral form g=0.0 z=0.4
+PASS integrated determinant g=0.0 z=2.0
+PASS displacement spectral form g=0.0 z=2.0
+PASS integrated determinant g=0.0 z=10.0
+PASS displacement spectral form g=0.0 z=10.0
+PASS generalized masses g=0.3
+PASS source residues g=0.3
+PASS canonical kinetic matrix g=0.3
+PASS canonical mass matrix g=0.3
+PASS positive kinetic eigenvalues g=0.3
+PASS integrated determinant g=0.3 z=0.03
+PASS displacement spectral form g=0.3 z=0.03
+PASS integrated determinant g=0.3 z=0.4
+PASS displacement spectral form g=0.3 z=0.4
+PASS integrated determinant g=0.3 z=2.0
+PASS displacement spectral form g=0.3 z=2.0
+PASS integrated determinant g=0.3 z=10.0
+PASS displacement spectral form g=0.3 z=10.0
+PASS generalized masses g=0.6
+PASS source residues g=0.6
+PASS canonical kinetic matrix g=0.6
+PASS canonical mass matrix g=0.6
+PASS positive kinetic eigenvalues g=0.6
+PASS integrated determinant g=0.6 z=0.03
+PASS displacement spectral form g=0.6 z=0.03
+PASS integrated determinant g=0.6 z=0.4
+PASS displacement spectral form g=0.6 z=0.4
+PASS integrated determinant g=0.6 z=2.0
+PASS displacement spectral form g=0.6 z=2.0
+PASS integrated determinant g=0.6 z=10.0
+PASS displacement spectral form g=0.6 z=10.0
+PASS generalized masses g=0.9
+PASS source residues g=0.9
+PASS canonical kinetic matrix g=0.9
+PASS canonical mass matrix g=0.9
+PASS positive kinetic eigenvalues g=0.9
+PASS integrated determinant g=0.9 z=0.03
+PASS displacement spectral form g=0.9 z=0.03
+PASS integrated determinant g=0.9 z=0.4
+PASS displacement spectral form g=0.9 z=0.4
+PASS integrated determinant g=0.9 z=2.0
+PASS displacement spectral form g=0.9 z=2.0
+PASS integrated determinant g=0.9 z=10.0
+PASS displacement spectral form g=0.9 z=10.0
+PASS positive-stiffness reflection counterexample
+PASS kernel determinant
+PASS integrating out a field
+PASS first-order field redefinition
+PASS on-shell curvature vertex
+PASS crossed scalar exchange
+PASS phase is odd
+PASS low-energy phase coefficient
+PASS intrinsic curvature on free waves
+PASS direct vacuum shift versus scattering coefficient
+PASS finite regulated chiral contraction
+PASS periodic Bessel versus momentum integral x=0.5
+PASS periodic quadrature error x=0.5
+PASS DD versus periodic at double length x=0.5
+PASS DD quadrature error x=0.5
+PASS periodic Bessel versus momentum integral x=1.0
+PASS periodic quadrature error x=1.0
+PASS DD versus periodic at double length x=1.0
+PASS DD quadrature error x=1.0
+PASS periodic Bessel versus momentum integral x=2.0
+PASS periodic quadrature error x=2.0
+PASS DD versus periodic at double length x=2.0
+PASS DD quadrature error x=2.0
+PASS periodic Bessel versus momentum integral x=4.0
+PASS periodic quadrature error x=4.0
+PASS DD versus periodic at double length x=4.0
+PASS DD quadrature error x=4.0
+PASS periodic Bessel versus momentum integral x=8.0
+PASS periodic quadrature error x=8.0
+PASS DD versus periodic at double length x=8.0
+PASS DD quadrature error x=8.0
+PASS massless periodic limit
+PASS massless DD limit
+PASS small-mass leading linear term
+PASS large-mass asymptotics
+PASS regulated mode sum a=0.2
+PASS regulated mode sum a=0.1
+PASS regulated mode sum a=0.05
+PASS regulated mode sum a=0.025
