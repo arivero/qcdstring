@@ -199,3 +199,72 @@ Four-dimensional Yang-Mills power counting motivates a conditional
 four-dimensional regime but neither proves higher-dimensional triviality nor
 dynamically compactifies a dimension. A small compact target coordinate also
 need not be a massive local worldsheet field. Both decouplings must be shown.
+
+## After 1988: reconnecting the calculations to the superstring programme
+
+Strategic discussion recorded 17 November 2026 (machine date), after
+QCDS-88/1. The later discoveries below remain `[MEMORY]` until their
+historical dates. This is a revisable research direction, not a commitment
+to a particular next article.
+
+The 1986 paper does engage with superstrings: critical RNS bookkeeping,
+heterotic current sectors, compactification, tachyon-free nonsupersymmetric
+constructions, and SO(32). Its new massive-fermion calculations nevertheless
+belong to an effective worldsheet model; they do not construct a descent
+from a critical superstring to a confining tube. The 1988 paper develops
+massive normal modes and scalar-curvature exchange, with little direct
+engagement with superstrings. Those calculations are useful, but a succession
+of such papers could leave the central ambition of this roadmap untouched.
+Correctness within the scope of an individual paper does not establish that
+its subject is the most useful next step for the programme.
+
+The proposed response is to make the connection constructive. A subsequent
+paper could choose a concrete string or internal-sector construction using
+the tools available in its year, determine its fields and projections,
+examine anomaly conditions, and calculate a mechanism for lifting unwanted
+internal modes while retaining the desired long tube. The 1986-1988 results
+would then test that construction through its fluctuation spectrum and
+finite-length observables. Giving extra fields a mass in an effective action
+does not by itself settle the consistency of a critical worldsheet theory.
+The appropriate first construction and its historical slot remain open.
+
+The expected changes around 1994-1998 make this preparation worthwhile:
+
+- **1994:** Seiberg-Witten supplies a controlled supersymmetric gauge-theory
+  setting in which a suitable deformation produces monopole condensation
+  and confinement. It gives a concrete mechanism to investigate before
+  attempting its continuation toward QCD.
+- **1995:** the strong-coupling analysis of type IIA introduces an
+  eleven-dimensional low-energy description. The work of Polchinski and
+  Witten identifies the heterotic worldsheet structure on a type I D1.
+  These results motivate tracking the same physical object through
+  different descriptions, with its charges, tensions and modes matched.
+  They also make the dynamical role of additional dimensions a central
+  question for the hadronic reading.
+- **1997-1998:** brane constructions and geometric descriptions of
+  confinement offer settings in which vacuum structure, strings and
+  domain walls can be studied together. Their relation to supersymmetric
+  gauge theories, unwanted light sectors and the limits needed to approach
+  QCD must be established for each construction.
+
+These are anticipated opportunities, not evidence already available to the
+1988 paper. The original references are [Seiberg-Witten 1994](https://arxiv.org/abs/hep-th/9407087),
+[Witten 1995](https://arxiv.org/abs/hep-th/9503124),
+[Polchinski-Witten 1995](https://arxiv.org/abs/hep-th/9510169),
+[Witten 1997](https://arxiv.org/abs/hep-th/9706109), and
+[Witten 1998](https://arxiv.org/abs/hep-th/9803131).
+
+Section 0's statement that the five theories are coordinate charts on the
+same hadronic physics must therefore be read as an aspiration of this
+programme. The duality web does not automatically identify a QCD sector.
+Such an identification requires an explicit dictionary and a controlled
+account of the additional degrees of freedom. Likewise, using a geometric
+description with gravitational fields requires explaining its relation to
+the hadronic observables; terminology alone does not remove a physical
+massless spin-two state.
+
+The strategic aim is to reach the duality years with a concrete physical
+proposal that the new results can transform, constrain or reject. The
+planned pseudoscalar calculation, the unresolved area-action L^-5 work and
+the endpoint problem remain available projects. Their order can change
+when a more informative route toward the broader construction is found.

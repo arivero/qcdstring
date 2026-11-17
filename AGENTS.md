@@ -14,3 +14,26 @@ Apply the rule to new and revised text; do not rewrite archived papers or the
 unaltered second-line package solely for style.
 
 This project-wide note records the user instruction of 13 November 2026.
+
+# Planning a paper
+
+Before choosing the scope of a new paper, read `LONG_MARCH.md`,
+`RESEARCH_PLAN.md`, `OUTPUTS_PLAN.md` and `TIMELINE.md`. Consult `THESIS.md`,
+`PREDICTIONS.md`, the latest paper and its response, and the relevant idea
+files and second-line research plan to recover the scientific context.
+
+Reading the plans is required; following their proposed research agenda is
+not. Their topics, priorities, sequencing and interpretations are revisable
+guidance, not binding commitments or established scientific results. Choose
+the next question from the current evidence, unresolved mechanisms and the
+discoveries available at the paper's historical date. Explain a material
+change of direction briefly and update the active plan when useful. Current
+user instructions take precedence.
+
+In particular, consider how a proposed effective-string calculation advances
+the broader connection to superstrings, gauge dynamics and confinement
+discussed in `LONG_MARCH.md`. A focused effective-theory paper can be justified;
+the broader construction should remain visible when choosing successive
+papers. This reminder does not prescribe the subject of the next paper.
+
+Recorded at the user's request on 17 November 2026.
