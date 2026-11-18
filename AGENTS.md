@@ -22,6 +22,9 @@ Before choosing the scope of a new paper, read `LONG_MARCH.md`,
 `PREDICTIONS.md`, the latest paper and its response, and the relevant idea
 files and second-line research plan to recover the scientific context.
 
+Starting with the 1990 paper, each completed manuscript must meet the
+15,000-token minimum defined in `OUTPUTS_PLAN.md`.
+
 Reading the plans is required; following their proposed research agenda is
 not. Their topics, priorities, sequencing and interpretations are revisable
 guidance, not binding commitments or established scientific results. Choose

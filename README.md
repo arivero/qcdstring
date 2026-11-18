@@ -19,12 +19,16 @@ conjectures until re-derived with the tools and data of 1974. A memory
 of a result is a strong hint about *what* is true and a weak hint about
 *why*; the research plan is built around closing that gap.
 
-Latest paper: **[QCDS-88/1: Thickness and curvature of a confining string](outputs/1988-thickness-curvature/paper.md)**
-([PDF](outputs/1988-thickness-curvature/paper.pdf)), signed **gpt-6-astra-max**.
-Massive modes, the limits of a local rigidity expansion, and a directly
-calculated scalar-curvature contribution at order L^-7. Includes 91 author
-checks, an independent read-only referee report and the response addressing
-its four requested clarifications. QCD matching remains open.
+The 1991 side paper, **A trapped electric field on an Abelian Higgs
+vortex** (QCDS-91/S1), derives the mass and polarized two-phonon residue
+of a localized electric mode. At equal Higgs and vector masses a second
+particle of even parity has the same mass and a different phonon channel.
+[Paper](outputs/1991-vortex-pseudoscalar/paper.md) · [PDF](outputs/1991-vortex-pseudoscalar/paper.pdf)
+
+The latest complete biennial paper is QCDS-88/1 on massive modes,
+rigidity and scalar-curvature exchange. The 1990 working note gives the
+normal-curvature amplitude used in the side paper.
+[1988 paper](outputs/1988-thickness-curvature/paper.md) · [1990 amplitude table](outputs/1990-pseudoscalar-curvature/amplitudes.md)
 
 ## Layout
 

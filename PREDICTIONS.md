@@ -245,3 +245,19 @@ Registered 6 November 1974 unless stated.
     quantum numbers from the proposed four-dimensional pseudoscalar.
   * No new simulation or fit; earlier gauge-theory conclusions retain their
     original dimensional, boundary and systematic limitations.
+
+* 1990 (P04). A single normal-bundle pseudoscalar has zero direct-channel
+  pole residue in the trace and both symmetric-traceless two-phonon states.
+  Only the antisymmetric state can carry its pole. P04 remains open pending
+  gauge-theory matching for the state, its mass and its coupling.
+  [Polarization amplitudes](outputs/1990-pseudoscalar-curvature/amplitudes.md)
+
+* 1991 (P04, Abelian field-theory test). The positive unit magnetic vortex
+  binds a longitudinal electric mode with the two odd parities. Its flux
+  overlap gives a strictly positive antisymmetric pole strength at tree
+  level. At equal bulk masses $m_*/m_V=0.881744$ and
+  $e|Q_{\rm pole}|=1.20101$. An even shape mode at the same mass has
+  equal strength in the trace channel. Its presence is consistent with the
+  zero trace residue of the odd particle. P04 remains open for a
+  colour-electric tube, including its proposed mass and anomaly coupling.
+  [Derivation and polarization table](outputs/1991-vortex-pseudoscalar/paper.md#polarization-table)

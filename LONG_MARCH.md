@@ -12,26 +12,23 @@ the subject is geometry: Calabi-Yau threefolds, G2 holonomy, conifolds,
 orientifold planes, branes wrapped on cycles. There is no sense in which
 a 1974 hadron physicist can refuse that. The claim of this repository is
 narrower and sharper: **the geometry that matters is the geometry of the
-confining vacuum**, read in dual variables. Every piece of the duality
-web that touches a confining gauge theory has a hadronic reading, and the
-pieces that do not touch one (heterotic strings on Calabi-Yau manifolds
-as a theory of our world's gravity and particle content) are the part of
-the subject this programme leaves alone.
+confining vacuum**, read in dual variables. A hadronic interpretation
+requires an observable in that vacuum that we can identify in both
+descriptions.
 
-The organising fact, from the memory: a four-dimensional confining gauge
-theory at large N and strong coupling is described by a critical
-superstring in a ten-dimensional curved space, or by M-theory in eleven.
-The flux tube of 1974 is the fundamental string, or a D-string, or a
-membrane, of that description, depending on which corner of the web one
-stands in. The five theories are five coordinate charts on the same
-hadronic physics.
+Our working hypothesis is that one can follow a four-dimensional
+confining flux tube into a critical superstring or M-theory construction.
+Which object carries its flux, which excitations survive on it, and what
+its tension predicts are questions for each proposed background. One
+worked example would establish a connection for that gauge theory.
+[Target for the 1998 paper](#target-for-the-1998-paper)
 
-## 1. The dictionary: where each theory meets a confining gauge theory
+## 1. Candidate connections to confining gauge theories
 
-| Theory | Confining model in the memory | What the QCD string is there | What the geometry encodes |
+| Theory | Setting in the memory | Candidate flux tube or hadronic interpretation | Proposed gauge-theory dictionary |
 |---|---|---|---|
-| Type IIA | D4-branes on a thermal circle (Witten 1998); with D8 flavour branes (Sakai-Sugimoto 2004) | Fundamental string hanging into the capped geometry | Radius of the circle = 1/Lambda; D8 joining = chiral symmetry breaking |
-| M-theory | The IIA circle decompactifies: M5-brane on a holomorphic curve, "MQCD" (Witten 1997) | An M2 membrane stretched between sheets of the M5 (Witten 1997; Hanany-Strassler-Zaffaroni 1998) | Shape of the curve = gluino condensate, N vacua, domain walls, sine-law k-strings |
+| Type IIA | D4-branes on a spatial circle with antiperiodic fermions (Witten 1998). Probe D8-branes add flavour in the 2004 proposal of Sakai and Sugimoto. | Fundamental string near the tip of the capped geometry | The circle sets the Kaluza–Klein scale. The gauge coupling also enters the flux tension. Joined flavour branes encode chiral symmetry breaking in the later model. |
+| M-theory | M5-brane on a holomorphic curve (the fivebrane model called MQCD, Witten 1997) | M2 membrane with its boundary on the M5 | The construction relates the $N$ vacua, domain walls and flux conserved modulo $N$. Tension ratios require a dynamical calculation in a specified regime. |
 | Type IIB | Deformed conifold with fluxes (Klebanov-Strassler 2000); wrapped D5 (Maldacena-Nunez 2000); N=1* (Polchinski-Strassler 2000) | F-string; D-strings and (p,q) strings are the k-strings (Herzog-Klebanov 2001) | Deformation parameter of the conifold = Lambda^3; S-duality = electric-magnetic duality of 't Hooft and Mandelstam |
 | Type I / Type I' | Orientifold of IIB / IIA. D8-O8 systems carry the flavour groups at the ends | Open string with Chan-Paton ends on flavour branes | SO(32) and SO(16)xSO(16) are the maximal flavour symmetries a stack of ends can carry |
 | Heterotic E8xE8 | Horava-Witten 1996: M-theory on an interval, one E8 on each wall | A membrane stretched across the interval | The two walls are the left-handed and right-handed flavour groups; the interval is the chiral direction (idea 020) |
@@ -47,8 +44,8 @@ classical geometry is trustworthy (`numerics/d4_tensor.py`). The chart
 shows the mechanism; it cannot yet be a controlled description of pure
 Yang-Mills.
 
-The confining examples are all supersymmetric or nearly so (N=1 SYM,
-softly broken N=2, Witten's D4 model with its Kaluza-Klein tower).
+The softly broken supersymmetric gauge theory and the nonsupersymmetric
+D4 compactification with its Kaluza–Klein tower give distinct comparisons.
 Pure QCD with light quarks has no exact geometric dual in the memory.
 The bridges are planar equivalence (Armoni-Shifman-Veneziano 2003: N=1 SYM
 and QCD with antisymmetric-representation quarks coincide at large N in
@@ -57,22 +54,23 @@ to rederive.
 
 ## 2. The dualities, read as hadronic statements
 
-* **S-duality (IIB, N=4, Montonen-Olive).** The 1974 statement is 't
-  Hooft's and Mandelstam's: confinement is the dual Meissner effect, the
-  flux tube is a magnetic vortex in an electric superconductor, or an
-  electric string in a condensate of monopoles. Seiberg-Witten 1994 proves
-  it in N=2 and Douglas-Shenker 1995 derive the k-string sine law from it.
-  In IIB the (p,q) string web is the same algebra. `ideas/019`.
-* **T-duality.** A string on a circle of radius R equals one on 1/R. The
-  hadronic reading: the thermal circle of Witten's model, whose radius is
-  the inverse confinement scale, and the Hagedorn/deconfinement transition
-  as the point where the winding string becomes light. `ideas/005`.
-* **The M-theory lift.** The IIA coupling is the radius of an eleventh
-  dimension. In Witten's D4 model g_s is fixed by N and the 't Hooft
-  coupling; at large lambda the circle opens and the string is a
-  membrane. The hadronic reading: the string coupling is 1/N (003), and
-  the membrane is what a flux tube becomes when its thickness can no
-  longer be ignored. `ideas/018`.
+* **Electric–magnetic duality.** A small mass for the adjoint chiral
+  multiplet in the 1994 $\mathcal N=2$ $SU(2)$ theory selects vacua in
+  which a magnetic description explains confinement. This realizes the
+  dual-superconductor idea of 't Hooft and Mandelstam. Identifying a
+  four-dimensional flux sector with an IIB $(p,q)$ string would require
+  a map of charges in a specified background. [Seiberg and Witten (1994)](https://arxiv.org/abs/hep-th/9407087) · [Idea 019](ideas/019-k-strings-are-pq-strings.md)
+* **T-duality.** A circle of radius $R$ is dual to one of radius
+  $\alpha'/R$. In the four-dimensional D4 construction the spatial
+  compactification circle fixes a Kaluza–Klein scale. The circumference
+  of Euclidean time fixes the temperature. Winding around the latter
+  provides the thermal test in idea 005. [Witten (1998), §4](https://arxiv.org/pdf/hep-th/9803131#page=19)
+* **The M-theory lift.** An M2 wrapped on the eleventh circle gives the
+  type IIA fundamental string. The proposed confining string in MQCD is
+  an M2 ending on a fivebrane. Its center charge follows from the allowed
+  membrane boundaries. Interpreting the circle radius as a tube width
+  would require a calculation of the transverse flux profile.
+  [Witten (1997), §3.1](https://arxiv.org/pdf/hep-th/9706109#page=14) · [Idea 018](ideas/018-the-flux-tube-as-a-membrane.md)
 * **Heterotic-Type I.** Open-string flavour at the ends versus internal
   current algebra on a closed string. For the flux tube: quarks at the
   ends versus an internal sector carried along the tube. `ideas/020`.
@@ -100,9 +98,10 @@ A dictionary to be filled, entry by entry, as each paper is rederived:
 
 ## 4. Supersymmetry
 
-Spacetime supersymmetry in ten dimensions is the price of removing the
-tachyon (GSO 1976). Two hadronic readings exist, and the plan pursues
-both:
+The GSO projection gives a tachyon-free supersymmetric spectrum. The
+tachyon-free nonsupersymmetric constructions published in 1986 leave the
+realization of supersymmetry on a confining tube a question for each
+model. Two proposed hadronic readings follow. [QCDS-86/1, §4.4](outputs/1986-fermionic-flux-tube/paper.md#44-what-changed-in-1986)
 
 1. **Supersymmetry as a large-N accident of the bosonic sector.**
    Planar equivalence says that the glueball and meson sectors of QCD
@@ -137,7 +136,8 @@ previous one from the hadronic side:
    flux-tube spectrum (1976).
 4. 1/N as the genus parameter; the baryon as an N-string junction with a
    vertex (1979: Witten; later the D5 baryon vertex).
-5. Monopole condensation made exact in N=2 (1994); the sine law (1995).
+5. Monopole condensation after a small $\mathcal N=2$-breaking deformation
+   (1994), followed by the leading $SU(N)$ tension ratios (1995).
 6. Branes as the surfaces where the ends live (1995); brane
    constructions of the gauge theory (1996).
 7. The flux tube as a membrane in MQCD (1997); the Pomeron and the
@@ -148,8 +148,12 @@ previous one from the hadronic side:
 
 ## 6. Tests
 
-* k-string tensions: sine law exact in N=1 SYM, within a few percent in
-  QCD (P10).
+* For $SU(4)$ the sine formula gives $\sigma_2/\sigma_1=\sqrt{2}$.
+  Its derivation on the gauge side is at leading order in a small adjoint
+  mass, and the fivebrane calculation is semiclassical. Extending the
+  ratio to pure $\mathcal N=1$ Yang–Mills requires control of corrections
+  to an unprotected tension. P10 registers the further conjecture for QCD.
+  [Douglas and Shenker (1995), §2](https://arxiv.org/pdf/hep-th/9503163#page=12) · [Hanany, Strassler and Zaffaroni (1998), §9](https://arxiv.org/pdf/hep-th/9707244#page=33)
 * The three-quark potential is a Y-junction with the meson tension (P15).
 * Equal Hagedorn slopes for mesons and baryons (P16).
 * The 2^{++} glueball on the Pomeron trajectory (006).
@@ -181,8 +185,8 @@ string, and that this is the application where the formalism meets data.
 
 ## 1986 update: the scope of the superstring reading
 
-QCDS-86/1 (`outputs/1986-fermionic-flux-tube/`) corrects Section 4's statement
-that spacetime supersymmetry is the necessary price of removing the tachyon.
+QCDS-86/1 (`outputs/1986-fermionic-flux-tube/`) revised the original premise
+that removing the tachyon requires spacetime supersymmetry.
 The tachyon-free nonsupersymmetric SO(16)xSO(16) constructions are now published
 (AGMV1986, DixonHarvey1986). They retain gravity and do not solve the quantum
 vacuum problem; they are counterexamples to that necessity claim, not a QCD
@@ -226,45 +230,74 @@ internal modes while retaining the desired long tube. The 1986-1988 results
 would then test that construction through its fluctuation spectrum and
 finite-length observables. Giving extra fields a mass in an effective action
 does not by itself settle the consistency of a critical worldsheet theory.
-The appropriate first construction and its historical slot remain open.
+The open area-action $L^{-5}$ calculation and the mixed endpoint problem
+can be taken up where they distinguish candidate spectra.
 
-The expected changes around 1994-1998 make this preparation worthwhile:
+## Target for the 1998 paper
 
-- **1994:** Seiberg-Witten supplies a controlled supersymmetric gauge-theory
-  setting in which a suitable deformation produces monopole condensation
-  and confinement. It gives a concrete mechanism to investigate before
-  attempting its continuation toward QCD.
-- **1995:** the strong-coupling analysis of type IIA introduces an
-  eleven-dimensional low-energy description. The work of Polchinski and
-  Witten identifies the heterotic worldsheet structure on a type I D1.
-  These results motivate tracking the same physical object through
-  different descriptions, with its charges, tensions and modes matched.
-  They also make the dynamical role of additional dimensions a central
-  question for the hadronic reading.
-- **1997-1998:** brane constructions and geometric descriptions of
-  confinement offer settings in which vacuum structure, strings and
-  domain walls can be studied together. Their relation to supersymmetric
-  gauge theories, unwanted light sectors and the limits needed to approach
-  QCD must be established for each construction.
+Revised 18 November 2026 (machine date). **Aim to publish one controlled
+derivation of a four-dimensional confining tube from a superstring or
+M-theory construction by the 1998 paper**, the last biennial slot before
+2000. Identify the flux carried between external colour sources and derive
+the tension $\sigma_1>0$ of the unit-flux tube. Recover its two transverse
+translations, account for any modes required by symmetry, and calculate
+how unwanted internal modes acquire a gap. Show the energy range in which
+these statements and the microscopic approximation hold together. Where
+the descriptions apply in different regimes, identify which observables
+can be carried between them by a controlled continuation or a protection
+argument.
 
-These are anticipated opportunities, not evidence already available to the
-1988 paper. The original references are [Seiberg-Witten 1994](https://arxiv.org/abs/hep-th/9407087),
-[Witten 1995](https://arxiv.org/abs/hep-th/9503124),
-[Polchinski-Witten 1995](https://arxiv.org/abs/hep-th/9510169),
-[Witten 1997](https://arxiv.org/abs/hep-th/9706109), and
-[Witten 1998](https://arxiv.org/abs/hep-th/9803131).
+Use $\sigma_1$ to set units and fix the remaining dimensionless inputs
+independently of a second observable. One choice is the lowest closed-tube
+excitation energy in a specified polarization and spin structure. Predict
+$(E_{\mathrm{exc}}(L)-E_0(L))/\sqrt{\sigma_1}$ at a stated $L\sqrt{\sigma_1}$
+where the level is sensitive to the internal spectrum. A gauge-theory
+interpretation requires bulk gravity to decouple from the measured
+sector. Extending a result to pure Yang–Mills also requires decoupling
+extra bulk states, including Kaluza–Klein modes, at the confinement scale.
 
-Section 0's statement that the five theories are coordinate charts on the
-same hadronic physics must therefore be read as an aspiration of this
-programme. The duality web does not automatically identify a QCD sector.
-Such an identification requires an explicit dictionary and a controlled
-account of the additional degrees of freedom. Likewise, using a geometric
-description with gravitational fields requires explaining its relation to
-the hadronic observables; terminology alone does not remove a physical
-massless spin-two state.
+The following sequence is a working choice. Results become evidence in a
+slot only once available at its historical date. A different construction
+can replace the proposed one if it gives better control.
 
-The strategic aim is to reach the duality years with a concrete physical
-proposal that the new results can transform, constrain or reject. The
-planned pseudoscalar calculation, the unresolved area-action L^-5 work and
-the endpoint problem remain available projects. Their order can change
-when a more informative route toward the broader construction is found.
+- **1990–1992.** The 1990 note fixes the polarization projector. The extra
+  1991 paper matches its pole in a unit Abelian Higgs vortex. At equal
+  bulk masses a scalar of the same mass couples to a different channel.
+  Carry the parity-resolved measurement into the 1992 main slot. Calculate
+  the potential of external magnetic probes with one quantum of flux in
+  the Higgs model, and the screened electric-probe potential. Identify
+  which charge and scale a dual gauge description must reproduce.
+  [1990 amplitude table](outputs/1990-pseudoscalar-curvature/amplitudes.md) · [1991 vortex calculation](outputs/1991-vortex-pseudoscalar/paper.md)
+- **1994.** Use the monopole vacuum of $SU(2)$ with a small adjoint mass
+  to trace an electric probe to a vortex in the dual gauge theory.
+  Determine its tension and the range of energies where the Abelian
+  description controls its fluctuations. [Seiberg and Witten (1994)](https://arxiv.org/abs/hep-th/9407087)
+- **1996.** Use the 1995 $SU(N)$ result to compare distinct fluxes for
+  $N\ge4$. Record which tension relations depend on weak breaking. The
+  type IIA lift gives a membrane interpretation of the fundamental string.
+  Ask which object could carry the center flux seen by the gauge-theory
+  probe. The type I D1 and heterotic string also give
+  an example of matching actual worldsheet fields across a duality.
+  [Douglas and Shenker (1995)](https://arxiv.org/abs/hep-th/9503163) · [Witten (1995)](https://arxiv.org/abs/hep-th/9503124) · [Polchinski and Witten (1995 preprint)](https://arxiv.org/abs/hep-th/9510169)
+- **1998.** Try the M2 ending on the M5 in MQCD. Its flux is conserved
+  modulo $N$. Its extra angular worldsheet field has a shift symmetry
+  that forbids the explicit pinning potential used in the 1986 paper.
+  The topology permits the angle to unwind. Calculate the strength
+  and relevance of the winding-changing interaction at the
+  stiffness set by $\sigma_1 R_{11}^2$, where $R_{11}$ is the M-theory
+  circle radius. Can it gap the angle while the membrane calculation
+  remains reliable? An identification with the 1990 pseudoscalar would
+  require its parities and two-phonon matrix element. Count the Goldstone
+  fermions of the supersymmetric tube in the finite-length prediction.
+  A tube with only bosonic gapless modes would require a deformation
+  that lifts those fermions as well.
+  [QCDS-86/1, §8.4](outputs/1986-fermionic-flux-tube/paper.md#84-a-pinned-compact-coordinate-a-constructive-test) · [Witten (1997), §3.2](https://arxiv.org/pdf/hep-th/9706109#page=16) · [Hanany, Strassler and Zaffaroni (1998), §9](https://arxiv.org/pdf/hep-th/9707244#page=33)
+
+If the available limits conflict, the 1998 paper can identify the
+surviving light mode or the incompatible scale inequalities and give
+the range of parameters they exclude. That would settle a question about
+the candidate while leaving the positive construction open. An
+uncalculated winding amplitude leaves the gap undecided. The 1998 D4
+compactification offers another calculation within the period, with
+the Kaluza–Klein limitation described in Section 1. The confining IIB
+backgrounds of 2000 and later offer subsequent tests.

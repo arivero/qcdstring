@@ -37,7 +37,7 @@ typically a year earlier.
 | 1985 | Heterotic string (Gross-Harvey-Martinec-Rohm); Calabi-Yau vacua. Isgur-Paton flux-tube model. Olesen: Hagedorn and deconfinement from the string. Catto-Gursey: hadronic supersymmetry. | |
 | 1986 | Polyakov, Kleinert: the rigid string. | Worth examining early; the extrinsic-curvature term is irrelevant in the infrared (memory), which is itself a useful result. |
 | 1987 | Polyakov, "Gauge Fields and Strings". | |
-| 1991 | Polchinski-Strominger: effective string theory in any d. | Core of Phase 1. |
+| 1991 | Polchinski–Strominger on effective strings. Arodź derives vector bound states on the Abelian Higgs vortex, following a flux-twist proposal in 1987. | Extra paper on the polarized two-phonon residue. The 1992 main slot takes up the gauge probe. [Vector bound states](https://ruj.uj.edu.pl/server/api/core/bitstreams/9c989e24-b7c6-4852-8608-2ed28f1defc6/content) · [QCDS-91/S1](outputs/1991-vortex-pseudoscalar/paper.md) |
 | 1992 | Polchinski, "Strings and QCD?". Donnachie-Landshoff: Pomeron intercept 1.08. | |
 | 1993 | Gross-Taylor: 2d QCD as a string theory. |
 | 1994-95 | Seiberg-Witten: monopole condensation exact in N=2. Hull-Townsend, Witten: the duality web and the eleventh dimension. Douglas-Shenker: sine law. Polchinski: D-branes. Polchinski-Witten: heterotic equals type I. | `LONG_MARCH.md`, ideas 018-019. |

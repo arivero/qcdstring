@@ -63,3 +63,15 @@ The proposed next step is to derive the pseudoscalar curvature coupling and
 its four-dimensional scattering channels while leaving its mass and coupling
 as matching parameters. An anomaly argument must be established independently;
 the scalar-curvature calculation does not provide it.
+
+## 1991 field-theory calculation
+
+The core of the unit Abelian Higgs vortex traps a longitudinal electric
+oscillation with both required odd parities. Its overlap with magnetic flux
+fixes a nonzero antisymmetric two-phonon residue. At equal bulk masses the
+tree results are $m_*/m_V=0.881744$ and $e|Q_{\rm pole}|=1.20101$
+in the conventions of the 1990 amplitude. An even scalar of the same mass
+has an equal residue in the trace channel. The winding sector uses a
+transverse reflection combined with charge conjugation. Identifying the
+relevant symmetry and matching the pole on a colour-electric tube remain
+open. [1991 paper](../outputs/1991-vortex-pseudoscalar/paper.md)
