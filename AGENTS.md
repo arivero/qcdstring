@@ -40,3 +40,11 @@ the broader construction should remain visible when choosing successive
 papers. This reminder does not prescribe the subject of the next paper.
 
 Recorded at the user's request on 17 November 2026.
+
+# Integration without pull requests
+
+Integrate finished work directly on the default branch (`main` or
+`master`). Fast-forward when the history allows it, otherwise merge
+locally, then push the default branch. Do not open pull requests. A side
+branch is for work in progress only; merge it back as soon as the work
+is complete and delete it afterwards. User instruction of 20 November 2026.
