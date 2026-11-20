@@ -474,7 +474,9 @@ Extension to a different flux tube requires identifying its field that plays the
 
 At critical coupling the even mode realizes the scalar-curvature model of [8]. For canonical phonons, the magnitude of the ordered on-shell vertex of $q h_s R$ is $2|q|(p\cdot q_2)^2/\sigma$, where $q_2$ is the second phonon momentum. Comparing with (28) and using $|p\cdot q_2|=m_*^2/2$ gives $|q|=|N'(0)|/m_*^2=|Q_{\rm pole}|$. The resulting charge-independent product is $0.59747$. The approximate colour-tube inputs $0.37$ and $1.85$ registered in idea 013 give $0.68$ for the corresponding product. These theories have different flux and particle content. P04 remains open.
 
-The computed longitudinal mass and the critical shape spectrum have precedents. The spectral factorization leading to (26) also appears in the BPS vortex literature. The contribution examined here is the equality of the two *polarized residues* with canonical fields. Priority for the odd cubic coupling has not been surveyed. [Goodband and Hindmarsh (1995)](https://arxiv.org/abs/hep-ph/9503457) · [Agia (2015)](https://arxiv.org/abs/1512.03404) · [Alonso-Izquierdo, García Fuertes and Mateos Guilarte (2016)](https://arxiv.org/abs/1602.09084)
+The computed longitudinal mass and the critical shape spectrum have precedents. The spectral factorization leading to (26) also appears in the BPS vortex literature. The calculation here compares the two polarized residues using canonical fields. [Goodband and Hindmarsh (1995)](https://arxiv.org/abs/hep-ph/9503457) · [Agia (2015)](https://arxiv.org/abs/1512.03404) · [Alonso-Izquierdo, García Fuertes and Mateos Guilarte (2016)](https://arxiv.org/abs/1602.09084)
+
+The July 2026 vector study finds binding on either side of critical coupling and observes energy transfer into transverse waves. Its radial shape mode reaches the bulk continuum near $\beta=1.5$. [Alameda-Calvo, Blanco-Pillado and Queiruga, §§2 and 4](https://arxiv.org/abs/2607.16120)
 
 **Normalization of the later curvature coefficient.** Equations (3), (16), (27) and (29) of Aurrekoetxea et al. use $\eta=\sqrt2 v$, $e\eta=m_V$, $\alpha_{\rm bg}=a$ and a worldsheet kinetic term $-(\partial\chi)^2/2$. With the overall dimensionless action convention $e=1$, the unit-plane-norm profiles are $(\varphi,a_{\rm mode})=(fu,-u')/\mu$, up to their common sign. Indeed (11) gives $2\pi\int\rho(f^2u^2+u'^2)\,d\rho=\mu^2$. Substitution in their (27) gives
 
@@ -482,10 +484,12 @@ $$
  |\kappa|=\frac{\pi}{\mu}\int_0^\infty
  [\rho^2 f'f u-\rho a'u']\,d\rho
  =\frac{2\pi}{\mu}\int_0^\infty a'u\,d\rho
- =\frac{\alpha}{\mu}=1.20101=0.38230\pi .
+ =\frac{\alpha}{\mu}\simeq1.20101\simeq0.3823\pi .
 $$
 
-The surface term vanishes at both ends. The reduction uses $\rho f'=(1-a)f$ and $a''-a'/\rho=-f^2(1-a)$ for the positive unit vortex. Thus the **integral** in their (27) and the canonical action (29) agree with the pole match; the **number** printed beside that integral, $-0.7646\pi$, has twice its magnitude. Reversing the mode sign only changes the sign. Doubling the eigenfunction would reproduce the number but quadruple its kinetic norm. Their stated conventions settle the canonical coefficient, while the origin of the printed numerical value cannot be inferred from those equations. [Aurrekoetxea et al., Sec. III B and Appendix B, v1](https://arxiv.org/html/2603.05243v1)
+The surface term vanishes at both ends. The reduction uses $\rho f'=(1-a)f$ and $a''-a'/\rho=-f^2(1-a)$ for the positive unit vortex. The March preprint prints $-0.7646\pi$ beside the integral. The published article of 10 November gives $-0.3823\pi$ in Eq. (27), in agreement with the magnitude above. The common sign of the shape eigenfunction is conventional. [March preprint, Eqs. (27)–(29)](https://arxiv.org/html/2603.05243v1) · [Published article, Eq. (27)](https://doi.org/10.1103/8d2s-t5b9)
+
+A preprint submitted on 19 November 2026 derives both cubic couplings in the same microscopic theory. With the overall action factor $1/e^2$ extracted, its Eq. (14) gives $\kappa_S\simeq1.2005$. Its normal curvature density is $\mathcal T=\varepsilon^{ab}F_{ab}/2$ in the notation of [1]. Canonical normalization of the massive field and the curvature convention in [1] therefore give $e|Q_{\rm pole}|=|\omega_b\kappa_V|/2$. The BPS identity (101) sets this equal to $|\kappa_S|$, within $0.05\%$ of our radial value. Their Eq. (51) and field simulations resolve the same even and odd polarization responses. Parallel incoming waves source the shape mode and perpendicular waves source the vector. The two calculations thus agree on the critical equal-strength result. [Alameda-Calvo et al., §§III–IV and Appendix A.9](https://arxiv.org/html/2611.26013v1)
 
 ## References
 

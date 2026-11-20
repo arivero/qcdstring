@@ -21,11 +21,13 @@ of a result is a strong hint about *what* is true and a weak hint about
 
 The 1991 side paper, **A trapped electric field on an Abelian Higgs
 vortex** (QCDS-91/S1), reproduces the known bound-state mass and critical shape partner.
-Arodź gives the flux-overlap integral on p. 518. The calculation here
-matches the pole residue to polarized phonon amplitudes and gives a
-sum rule and an equal projected strength for the even partner. Priority
-for the odd coupling has not been surveyed. The reviews are AI-only.
-[Paper](outputs/1991-vortex-pseudoscalar/paper.md) · [PDF](outputs/1991-vortex-pseudoscalar/paper.pdf)
+Arodź gives the flux-overlap integral on p. 518. The sum rule in Eq. (17)
+relates the magnetic flux overlap to the charged current, fixing the
+polarized two-phonon residue. A July 2026 study also couples the localized vector to transverse motion. A November 19
+preprint derives the same equality of the scalar and pseudoscalar strengths
+at critical coupling and tests their polarization dependence in simulations.
+The repository manuscript has had AI review only.
+[July vector study](https://arxiv.org/abs/2607.16120) · [November worldsheet calculation](https://arxiv.org/html/2611.26013v1) · [Paper](outputs/1991-vortex-pseudoscalar/paper.md) · [PDF](outputs/1991-vortex-pseudoscalar/paper.pdf)
 
 The latest complete biennial paper is QCDS-88/1 on massive modes,
 rigidity and scalar-curvature exchange. The 1990 working note gives the
