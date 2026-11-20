@@ -32,7 +32,13 @@ The scalar kinetic terms have coefficients $1,1,1/g^2$ for $q,\tilde q,a_D$. Def
 $$
  \frac{m_\pm}{m_\gamma}=\sqrt{1+w^2/4}\ \pm w/2.
 $$
-For example, on the real D-flat slice the squared mass matrix in photon units has diagonal $(1,1+w^2)$ and off-diagonal $w$. The conjugate chiral pair gives the same eigenvalues. One other real scalar has mass $m_\gamma$ and the gauge phase is eaten. Thus the lowest one-particle bulk threshold drops *linearly* in $w$, even though the change in tension begins at second order. Taking $w$ small at fixed $m_\gamma$ is convenient in effective-theory units. Along the microscopic trajectory $m_\gamma/|\Lambda|$ and $w$ both vanish as $g\sqrt{|\mu/\Lambda|}$, and $g$ runs logarithmically. The Wilsonian coupling is evaluated at the light mass scale. Inserting the singular, monopole-integrated-out Coulomb-branch metric at $a_D=0$ would count the light monopole loop twice.
+For example, on the real D-flat slice the squared mass matrix in photon units has diagonal $(1,1+w^2)$ and off-diagonal $w$. The conjugate chiral pair gives the same eigenvalues. One other real scalar has mass $m_\gamma$ and the gauge phase is eaten. Thus the lowest one-particle bulk threshold drops *linearly* in $w$, even though the change in tension begins at second order. Taking $w$ small at fixed $m_\gamma$ is convenient in effective-theory units. In the period convention above the microscopic parameters obey
+$$
+ \frac{m_\gamma}{|\Lambda|}=2\,2^{1/4}g\sqrt{|\mu/\Lambda|},
+ \qquad w=\frac{g}{4\,2^{1/4}}\sqrt{|\mu/\Lambda|},
+ \qquad \frac{m_\gamma}{|\Lambda|}=8\sqrt2\,w .
+$$
+Thus the derivative expansion in the core requires $8\sqrt2\,w\ll1$. The dual coupling runs logarithmically. The Wilsonian coupling is evaluated at the light mass scale. Inserting the singular, monopole-integrated-out Coulomb-branch metric at $a_D=0$ would count the light monopole loop twice.
 
 With $\mu_D$ real, the action is invariant under $(q,\tilde q,a_D)\mapsto(\tilde q^*,q^*,a_D^*)$ at fixed $A$. Its fixed fields allow the unit-string ansatz
 $$

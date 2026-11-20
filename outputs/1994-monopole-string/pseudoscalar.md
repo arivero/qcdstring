@@ -56,13 +56,14 @@ The small positive last coefficient reflects a cancellation. The magnetic overla
 | $w$ | $\sigma/(2\pi v^2)$ | $m_{\rm odd}/m_\gamma$ | $m_-/m_\gamma$ | $g\lvert Q_{\rm odd}\rvert$ | $\mathcal C$ |
 |---:|---:|---:|---:|---:|---:|
 | 0 | 1 | 0.881744 | 1 | 1.201013 | 0.597469 |
+| 0.001 | 0.99999975 | 0.88174403 | 0.99950012 | 1.20101265 | 0.59746880 |
 | 0.025 | 0.999844 | 0.881648 | 0.987578 | 1.201068 | 0.597478 |
 | 0.05 | 0.999375 | 0.881361 | 0.975312 | 1.201232 | 0.597505 |
 | 0.10 | 0.997508 | 0.880212 | 0.951249 | 1.201884 | 0.597608 |
 | 0.20 | 0.990124 | 0.875638 | 0.904988 | 1.204384 | 0.597957 |
 | 0.30 | 0.978129 | 0.868104 | 0.861187 | 1.208196 | 0.598324 |
 
-The rows solve the nonlinear three-profile background anew at each input. They independently test the expansion. The table also shows why using the photon threshold alone would be misleading. The odd mass equals the lightest scalar bulk mass near $w=0.27974$ in this action. The longitudinal vector channel still binds above this equality, since it is an invariant linear sector. Establishing an actual decay there requires a coupling, phase space, and the appropriate conserved quantum numbers. The larger values of $w$ are effective-theory controls. They do not define a new boundary of the microscopic Seiberg–Witten regime.
+The rows solve the nonlinear three-profile background anew at each input. They independently test the expansion. The table also shows why using the photon threshold alone would be misleading. The odd mass equals the lightest scalar bulk mass near $w=0.27974$ in this action. The longitudinal vector channel still binds above this equality, since it is an invariant linear sector. Establishing an actual decay there requires a coupling, phase space, and the appropriate conserved quantum numbers. The example $w=0.001$ has $m_\gamma/|\Lambda|=0.01131$ in the period convention of the vacuum note. There the odd level is $0.8817440\,m_\gamma$ and the lightest bulk particle is $0.9995001\,m_\gamma$. This comparison can be taken to arbitrarily smaller $w$ along the microscopic trajectory. Already at $w=0.10$ the same conversion would give $m_\gamma/|\Lambda|=1.13$. That row and the threshold crossing at $0.27974$ test the local SQED action outside the small-core-energy hierarchy of the microscopic theory.
 
 At $w=0.10$ the lightest bulk mass exceeds the odd mass by $0.07104\,m_\gamma$. On a periodically closed straight tube the first free counterpropagating phonon pair meets the odd mode at $L m_\gamma=4\pi/\nu=14.277$. The off-diagonal two-state matrix element follows from canonical external legs and the antisymmetric polarization. With only these levels in the crossing it gives $2|v_A|/m_{\rm odd}=0.08382g$. The two-phonon partial width is $\Gamma_{12}/m_{\rm odd}=0.01104g^2$. Extra degenerate states would require diagonalizing the full mixing matrix, in particular in a supersymmetric spin sector. [Finite-volume normalization, QCDS-91/S1, Eq. (31)](../1991-vortex-pseudoscalar/paper.md#102-a-test-on-a-periodic-tube)
 

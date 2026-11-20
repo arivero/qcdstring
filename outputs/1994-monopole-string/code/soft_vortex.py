@@ -76,7 +76,7 @@ def observables(w, outer, critical):
     if not (0 < nu < 1 and np.min(u) > 0 and abs(integral(da) - 1) < 1e-7):
         raise ArithmeticError("Expected a normalized unit vortex and a nodeless bound mode")
     return {
-        "w": w, "outer": outer, "tau": tau, "nu_squared": eigenvalue,
+        "w": w, "outer": outer, "SW_mgamma_over_Lambda": 8 * np.sqrt(2) * w, "tau": tau, "nu_squared": eigenvalue,
         "nu": nu, "lightest_bulk_mass": bulk_mass(w), "alpha": alpha,
         "g_Qodd": alpha / nu, "pole_product": alpha / np.sqrt(np.pi * tau),
         "virial_error": virial_error, "current_relative_error": current / (alpha * eigenvalue) - 1,
@@ -175,22 +175,22 @@ def main():
     outer = 36.0
     critical = background(1, outer)
     response = background_response(outer, critical)
-    rows = [observables(w, outer, critical) for w in (0, 0.01, 0.025, 0.05, 0.1, 0.2, 0.3)]
+    rows = {w: observables(w, outer, critical) for w in (0, 0.001, 0.01, 0.025, 0.05, 0.1, 0.2, 0.3)}
     slopes = [critical_slopes(outer, h, critical, response) for h in (0.04, 0.02, 0.01)]
     even = [even_levels(w, outer, 0.01, critical) for w in (0, 0.01, 0.025, 0.05)]
     outer_check = observables(0.1, 28., background(1, 28.))
-    if abs(outer_check["pole_product"] - rows[4]["pole_product"]) > 5e-8:
+    if abs(outer_check["pole_product"] - rows[0.1]["pole_product"]) > 5e-8:
         raise ArithmeticError("Exterior interval affects the quoted pole product")
-    if abs((rows[1]["tau"] - rows[0]["tau"]) / 0.01**2 + 0.25) > 1e-4:
+    if abs((rows[0.01]["tau"] - rows[0]["tau"]) / 0.01**2 + 0.25) > 1e-4:
         raise ArithmeticError("Tension disagrees with the boundary term")
     for key, slope_key in (("nu_squared", "nu_squared_w2"), ("pole_product", "product_w2")):
-        finite_slope = (rows[1][key] - rows[0][key]) / 0.01**2
+        finite_slope = (rows[0.01][key] - rows[0][key]) / 0.01**2
         if abs(finite_slope - slopes[-1][slope_key]) > 2e-4:
             raise ArithmeticError(f"Nonlinear solve disagrees with the linear response for {key}")
     split = (even[1]["nu_squared"][1] - even[1]["nu_squared"][0]) / (2 * even[1]["w"])
     if abs(split - slopes[-1]["even_mass_squared_linear_split"]) > 5e-4:
         raise ArithmeticError("Even Hessian disagrees with degenerate perturbation theory")
-    if max(abs(row["tau_work_identity_error"]) for row in rows) > 1e-7:
+    if max(abs(row["tau_work_identity_error"]) for row in rows.values()) > 1e-7:
         raise ArithmeticError("Neutral equation and tension derivative disagree")
     if abs(slopes[-1]["even_mass_squared_linear_split"] - rows[0]["nu"]) > 1e-5:
         raise ArithmeticError("Radial matrix element disagrees with the critical virial identity")
@@ -199,7 +199,7 @@ def main():
         return observables(w, outer, critical)["nu"] - bulk_mass(w)
 
     crossing = brentq(threshold_difference, 0.2, 0.3, xtol=2e-8)
-    print(json.dumps({"bulk_threshold_equality_w": crossing, "backgrounds": rows, "linear_response": slopes, "even_levels": even,
+    print(json.dumps({"bulk_threshold_equality_w": crossing, "backgrounds": list(rows.values()), "linear_response": slopes, "even_levels": even,
                       "exterior_check": outer_check}, indent=2, allow_nan=False))
 
 
