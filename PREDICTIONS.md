@@ -261,3 +261,10 @@ Registered 6 November 1974 unless stated.
   zero trace residue of the odd particle. P04 remains open for a
   colour-electric tube, including its proposed mass and anomaly coupling.
   [Derivation and polarization table](outputs/1991-vortex-pseudoscalar/paper.md#polarization-table)
+
+* 1994 working calculation (P04, weakly broken supersymmetric gauge theory).
+  A fundamental electric probe carries one dual vortex period. In the leading
+  monopole action its odd localized mode lies below the lightest bulk particle
+  for sufficiently small breaking and couples to the antisymmetric two-phonon
+  channel. The limiting pole product is 0.597469. P04 remains open for pure
+  Yang–Mills. [Electric-string pole](outputs/1994-monopole-string/pseudoscalar.md)
