@@ -171,7 +171,8 @@
       "alpha_w2": -0.1066175032092817,
       "g_Qodd_w2": 0.08808253683127601,
       "product_w2": 0.014536394706141887,
-      "even_mass_squared_linear_split": 0.8816847397703464
+      "even_mass_squared_linear_split": 0.8816847397703464,
+      "theta_mixing_overlap": 0.21613087997829272
     },
     {
       "outer": 36.0,
@@ -181,7 +182,8 @@
       "alpha_w2": -0.10655785219322812,
       "g_Qodd_w2": 0.08813611645165428,
       "product_w2": 0.014566087997488042,
-      "even_mass_squared_linear_split": 0.8817293303988919
+      "even_mass_squared_linear_split": 0.8817293303988919,
+      "theta_mixing_overlap": 0.2161067655784653
     },
     {
       "outer": 36.0,
@@ -191,7 +193,8 @@
       "alpha_w2": -0.10654294328488521,
       "g_Qodd_w2": 0.08814950631150245,
       "product_w2": 0.014573509299042683,
-      "even_mass_squared_linear_split": 0.8817404736602832
+      "even_mass_squared_linear_split": 0.8817404736602832,
+      "theta_mixing_overlap": 0.21610073850907272
     }
   ],
   "even_levels": [

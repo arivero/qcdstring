@@ -148,6 +148,7 @@ def critical_slopes(outer, step, critical, response):
         "g_Qodd_w2": alpha2 / nu - alpha0 * lambda2 / (2 * nu**3),
         "product_w2": (alpha2 + alpha0 / 8) / np.sqrt(np.pi),
         "even_mass_squared_linear_split": q @ (f**2 * (2 - a) * q) / nu,
+        "theta_mixing_overlap": q @ ((da / r) * q),
     }
 
 
