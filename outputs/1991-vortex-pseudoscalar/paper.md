@@ -1,6 +1,6 @@
 # A trapped electric field on an Abelian Higgs vortex
 
-**Codex · qcdstring programme**
+**Codex (GPT-6.2 Astra) · qcdstring programme**
 
 *QCDS-91/S1, November 1991. A paper outside the biennial series.*
 
@@ -41,7 +41,7 @@ $$
  \beta=\frac{m_H^2}{m_V^2}=\frac{\lambda}{e^2},\qquad \rho=m_V r . \tag{2}
 $$
 
-We will vary $\beta$ without changing the definition of the unit of radius. Describing a frequency as a fraction of the Higgs mass would change its dimensionless value by $1/\sqrt{\beta}$. The threshold in the electric eigenvalue problem is the vector mass even on the side with a lighter Higgs particle. The coupling $\beta=1$ will be called critical or Bogomolny coupling. The model (1) contains only bosons. The first-order static equations at this coupling follow by completing squares in an energy.
+We will vary $\beta$ without changing the definition of the unit of radius. Describing a frequency as a fraction of the Higgs mass would change its dimensionless value by $1/\sqrt{\beta}$. The threshold in the electric eigenvalue problem is the vector mass even on the side with a lighter Higgs particle. The coupling $\beta=1$ will be called critical or Bogomolny coupling. The first-order vortex bound is given in E. B. Bogomolny, *Stability of Classical Solutions*, Sov. J. Nucl. Phys. **24**, 449 (1976). The model (1) contains only bosons. The first-order static equations at this coupling follow by completing squares in an energy.
 
 In regular gauge the positive unit vortex has the profiles
 
@@ -376,6 +376,8 @@ The numerical work is one-dimensional. We solve (5) for the scalar amplitude and
 | $1$   | 1.000000 | 0.777473 | 0.881744 | 1.05899 | 1.20101 |
 | $2$   | 1.156761 | 0.880501 | 0.938350 | 1.06908 | 1.13931 |
 
+At $\beta=1$ the maximum residual of the two first-order background equations is $1.1\times10^{-6}$ in the units of (6). The digits tabulated describe the computed profiles.
+
 Increasing $\beta$ between the selected values makes the condensate recover over a shorter distance in vector units. The electric bound state then approaches its own bulk threshold, as the smaller $\kappa$ confirms. This is an observed trend at the tabulated points. The existence proof applies throughout the positive parameter range without requiring a monotonicity theorem for the eigenvalue. In particular the calculation at $\beta=2$ gives positive binding although the potential rises rapidly over the inner region. At $\beta=1/2$ emission of an individual free bulk Higgs quantum would be kinematically possible by its mass alone. For a scalar that is longitudinal-parity even at zero longitudinal momentum it is excluded as a linear mixing with the electric mode. The equality or ordering of two masses in different sectors needs a symmetry check before it is interpreted as a decay threshold.
 
 ![At critical coupling the left panel compares the radial potential and the normalized shape of the bound wave with the squared frequency. The right panel gives densities for the norm and the flux overlap, each with unit integral in the scaled radial coordinate.](figures/profiles.png){width=94%}
@@ -466,9 +468,24 @@ Extension to a different flux tube requires identifying its field that plays the
 
 **Memory used to select the question.** The programme recorded a possible odd excitation of a four-dimensional colour flux tube. It suggested choosing this representation of the two transverse displacements. No remembered colour-tube frequency, anomaly coefficient or scattering fit sets a potential, a boundary condition, a charge or an entry in Section 9. The 1990 note [1] sets the convention in which we express the answer. The 1988 scalar-curvature example [8] supplied a reason to separate physical poles from coefficients in a derivative expansion.
 
-**Results supported here by calculation.** The sign-definite flux overlap, its equality to the current projection, the charge-independent product at specified $\beta$, and the critical equal-strength scalar partner are derived above. We have no prior value for these matrix elements in the conventions of [1] to use as an input or a check. This describes the evidence in this paper and makes no claim of first publication. The transversely localized vector itself has a documented period precedent. In the critical equal-strength statement both the mass degeneracy and equality of *normalized* residues matter.
+**Results supported here by calculation.** The sign-definite flux overlap, its equality to the current projection, the charge-independent product at specified $\beta$, and the critical equal-strength scalar partner are derived above. Equation $M^{12}$ on p. 518 of [4] already contains the radial flux overlap, written as $4\pi\sum W^0\int\rho\,\varphi_l(H'+H/\rho)\,d\rho$. With the mode amplitude restored it gives $2b_0\mathcal I$. Here we normalize the propagating state and use the overlap to compute its two-phonon residue. This describes the evidence in this paper and makes no claim of first publication. The transversely localized vector itself has a documented period precedent. In the critical equal-strength statement both the mass degeneracy and equality of *normalized* residues matter.
 
 **Retrospective bibliographic note, outside the 1991 argument.** Subsequent work on the longitudinal excitation treats nonlinear backreaction and radiation. A later study of flux tubes also discusses pseudoscalars in the minimal Abelian Higgs model and the comparison with Yang–Mills. Their existence reinforces the need to distinguish historical priority, binding of a linear excitation and its decay. Neither their numerical inputs nor any later lattice measurement enter (1)–(31). [Arodź and Hadasz, 1995 preprint](https://arxiv.org/abs/hep-th/9506021) · [Gaikwad, 2026 thesis](https://escholarship.org/uc/item/7ms0x3br)
+
+At critical coupling the even mode realizes the scalar-curvature model of [8]. For canonical phonons, the magnitude of the ordered on-shell vertex of $q h_s R$ is $2|q|(p\cdot q_2)^2/\sigma$, where $q_2$ is the second phonon momentum. Comparing with (28) and using $|p\cdot q_2|=m_*^2/2$ gives $|q|=|N'(0)|/m_*^2=|Q_{\rm pole}|$. The resulting charge-independent product is $0.59747$. The approximate colour-tube inputs $0.37$ and $1.85$ registered in idea 013 give $0.68$ for the corresponding product. These theories have different flux and particle content. P04 remains open.
+
+The computed longitudinal mass and the critical shape spectrum have precedents. The spectral factorization leading to (26) also appears in the BPS vortex literature. The contribution examined here is the equality of the two *polarized residues* with canonical fields. Priority for the odd cubic coupling has not been surveyed. [Goodband and Hindmarsh (1995)](https://arxiv.org/abs/hep-ph/9503457) · [Agia (2015)](https://arxiv.org/abs/1512.03404) · [Alonso-Izquierdo, García Fuertes and Mateos Guilarte (2016)](https://arxiv.org/abs/1602.09084)
+
+**Normalization of the later curvature coefficient.** Equations (3), (16), (27) and (29) of Aurrekoetxea et al. use $\eta=\sqrt2 v$, $e\eta=m_V$, $\alpha_{\rm bg}=a$ and a worldsheet kinetic term $-(\partial\chi)^2/2$. With the overall dimensionless action convention $e=1$, the unit-plane-norm profiles are $(\varphi,a_{\rm mode})=(fu,-u')/\mu$, up to their common sign. Indeed (11) gives $2\pi\int\rho(f^2u^2+u'^2)\,d\rho=\mu^2$. Substitution in their (27) gives
+
+$$
+ |\kappa|=\frac{\pi}{\mu}\int_0^\infty
+ [\rho^2 f'f u-\rho a'u']\,d\rho
+ =\frac{2\pi}{\mu}\int_0^\infty a'u\,d\rho
+ =\frac{\alpha}{\mu}=1.20101=0.38230\pi .
+$$
+
+The surface term vanishes at both ends. The reduction uses $\rho f'=(1-a)f$ and $a''-a'/\rho=-f^2(1-a)$ for the positive unit vortex. Thus the **integral** in their (27) and the canonical action (29) agree with the pole match; the **number** printed beside that integral, $-0.7646\pi$, has twice its magnitude. Reversing the mode sign only changes the sign. Doubling the eigenfunction would reproduce the number but quadruple its kinetic norm. Their stated conventions settle the canonical coefficient, while the origin of the printed numerical value cannot be inferred from those equations. [Aurrekoetxea et al., Sec. III B and Appendix B, v1](https://arxiv.org/html/2603.05243v1)
 
 ## References
 

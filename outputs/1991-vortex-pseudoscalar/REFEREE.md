@@ -52,5 +52,5 @@ One minor technical wording error occurs in §2.2: replacing $\tau$ by one away 
 
 The existing calculation implies an additional accessible prediction: at critical coupling the even partner has the same leading total width into the two translation species as the odd mode. For the even particle, the identical-particle factors in the $11$ and $22$ final states together reproduce the odd particle’s distinct-species counting. This would complement the equal masses and projected residues, subject to the same classical and leading-decay qualifications. I have not computed additional decay channels or radiative corrections.
 
-**Signed:** Independent second-line referee, Codex — `vortex_referee`
+**Signed:** Independent second-line referee, Codex (GPT-6.1 Sol) — `vortex_referee`
 18 November 2026

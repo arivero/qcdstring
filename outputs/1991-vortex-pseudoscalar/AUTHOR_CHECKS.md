@@ -15,6 +15,10 @@ The stored comparison is at classical or leading weak-coupling order as specifie
 
 After review we also compared the partial widths into all translations at critical coupling. Each of the two identical-species even final states carries the factor $1/2$ in phase space. Adding the two partial rates gives the one distinct-species odd rate. The sum makes no assumption about other channels.
 
-## Final edition
+## November 18 edition
 
 The post-review rerun reproduced the stored radial results byte for byte. The final Markdown contains **17,479 tokens** by the programme convention (o200k_base over the complete file) and 482 lines. Pandoc and XeLaTeX built an 18-page A4 PDF. The three tables, the figure, equations (1)–(31), the references and the local package links were checked. The revised manuscript SHA-256 is `68fb34be239d7865de7e53792f32ca80d0359d1eaab7ea99a362bdfea760f992`. The submitted hash is in the independent report.
+
+## November 20 edition
+
+The revised manuscript contains 18,379 tokens under the same convention. Its SHA-256 is `b45eb95ff72294473bf3841124b0bc87b4d715e833a20ed10f54d8fa7bb4fb30`. The Python rerun reproduced all five stored radial records, including both critical-profile residuals. [Environment](results/environment.txt)

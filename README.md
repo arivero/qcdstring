@@ -20,9 +20,11 @@ of a result is a strong hint about *what* is true and a weak hint about
 *why*; the research plan is built around closing that gap.
 
 The 1991 side paper, **A trapped electric field on an Abelian Higgs
-vortex** (QCDS-91/S1), derives the mass and polarized two-phonon residue
-of a localized electric mode. At equal Higgs and vector masses a second
-particle of even parity has the same mass and a different phonon channel.
+vortex** (QCDS-91/S1), reproduces the known bound-state mass and critical shape partner.
+Arodź gives the flux-overlap integral on p. 518. The calculation here
+matches the pole residue to polarized phonon amplitudes and gives a
+sum rule and an equal projected strength for the even partner. Priority
+for the odd coupling has not been surveyed. The reviews are AI-only.
 [Paper](outputs/1991-vortex-pseudoscalar/paper.md) · [PDF](outputs/1991-vortex-pseudoscalar/paper.pdf)
 
 The latest complete biennial paper is QCDS-88/1 on massive modes,

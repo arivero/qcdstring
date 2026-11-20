@@ -719,6 +719,8 @@ comparing it with a local curvature expansion. It does not close the
 carried-over $L^{-5}$ tasks, establish a critical string, or construct QCD
 from a worldsheet theory.
 
+Two contemporary field-theory calculations treated finite-width corrections for a Nielsen–Olesen string. Their microscopic model supplies a comparison for the independent massive-field examples in §§3 and 7. [Maeda and Turok, Phys. Lett. B 202, 376 (1988)](https://doi.org/10.1016/0370-2693(88)90488-1) · [Gregory, Phys. Lett. B 206, 199 (1988)](https://doi.org/10.1016/0370-2693(88)91492-X)
+
 ## References
 
 1. qcdstring programme, *The critical dimension as a statement about the effective string*, QCDS-84/1 (November 1984), revised after the independent report. [Paper](../1984-critical-dimension/paper.md), [response](../1984-critical-dimension/RESPONSE.md).
