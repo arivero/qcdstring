@@ -22,3 +22,5 @@ The post-review rerun reproduced the stored radial results byte for byte. The fi
 ## November 20 edition
 
 The revised manuscript contains 18,379 tokens under the same convention. Its SHA-256 is `b45eb95ff72294473bf3841124b0bc87b4d715e833a20ed10f54d8fa7bb4fb30`. The Python rerun reproduced all five stored radial records, including both critical-profile residuals. [Environment](results/environment.txt)
+
+A direct quadrature of the two terms in Eq. (27) of arXiv:2603.05243v1 checks the integration by parts in the retrospective note. On the critical profile, sample 18,001 points from the inner cutoff to 36 vector lengths. Normalize the decaying eigenfunction with the plane measure, form the canonical pair in (27) of this paper, and integrate with Simpson quadrature. The pair has squared plane norm 1.000000003. Its scalar and vector peaks are 0.16258 and 0.10250, consistent with Fig. 1 of the preprint. The unreduced integral gives $|\kappa|/\pi=0.3822942$, or 0.3823 at the precision of the external comparison. The factor of two persists when evaluating the plotted mode convention directly. [Preprint, Fig. 1 and Eqs. (27)–(29)](https://arxiv.org/html/2603.05243v1)
