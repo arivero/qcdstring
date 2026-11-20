@@ -65,6 +65,12 @@ $$
 $$
 Holding the neutral scalar fixed at zero misses this correction. Its sign also follows variationally by allowing the neutral field to relax on the Bogomolny core. The expansion concerns the local classical action above. Quantum and higher-derivative corrections to microscopic string observables have their own power counting.
 
+There is also an on-shell response at finite $w$. At fixed $v,g$ stationarity permits differentiation in the explicit coefficient alone. Multiply the neutral equation by $s$, integrate by parts, and insert it in the derivative of the tension. For $w>0$ this gives
+$$
+ w\,\frac{d\tau}{dw}=-2\int_0^\infty\rho\,d\rho\,[(s')^2+f^2s^2]<0 .
+$$
+The strict inequality holds on a nontrivial relaxed branch since the source $w(1-f^2)/2$ is nonzero in the core. At $w=0.10$ the nonlinear solution gives $\tau=0.997508$ and $d\tau/dw=-0.0496894$. Along a microscopic trajectory the prefactor $2\pi v^2$ also varies. [Profiles and numerical check](results/spectrum.json)
+
 ## Retrospective source comparison
 
 Vainshtein and Yung derive the dual mass splitting and the type-I behavior, and give the neutral-field equation in (67). Their arXiv v2 Eq. (3) has the period expansion used here. The coefficient of $a_D^2$ in $\mu u$ is $-\mu/4$; with the explicit factor $1/2$ in their Eq. (9), Eq. (10) as printed differs by a factor of two in $\mu_D$. Defining $w$ by the second derivative of the superpotential fixes the conversion. Hou also finds a downward tension correction. The coefficient above follows from the exact radial boundary term in our stated normalization. [Vainshtein and Yung, Eqs. (3)–(12), (59)–(67)](https://arxiv.org/pdf/hep-th/0012250v2) · [Hou, Eqs. (14)–(22)](https://arxiv.org/pdf/hep-th/0005119v2)
