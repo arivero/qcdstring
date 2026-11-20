@@ -68,6 +68,36 @@ At $w=0.10$ the lightest bulk mass exceeds the odd mass by $0.07104\,m_\gamma$. 
 
 The Python/SciPy calculation uses the earlier Bessel-tail solver for the odd state, nonlinear collocation for the relaxed background, and a separate cell-centered linear-response calculation with a normalization constraint. It checks unit flux, the magnetic/current identity, the scale virial identity, the on-shell tension derivative, and the effect of changing the outer radius from 36 to 28 at $w=0.10$. At mesh spacings $0.04,0.02,0.01$ the derivative of $\mathcal C$ with respect to $w^2$ is $0.0145364,0.0145661,0.0145735$. The nonlinear difference between $w=0$ and $0.01$ gives $0.01457$. These are mesh and range comparisons without rigorous numerical error bars. From the repository root run `OPENBLAS_NUM_THREADS=1 python3 outputs/1994-monopole-string/code/soft_vortex.py`. [Source](code/soft_vortex.py) · [Numerical results](results/spectrum.json)
 
+## The scalar partner splits
+
+In the trace channel the additional neutral scalar changes the answer already at first order. Consider the axially symmetric real sector of the two charged fields and $a_D$ fixed by the involution in the vacuum calculation. This is the sector excited by a transverse trace. In photon units let $(h,c,n)=(\delta f,\delta a/\rho,\delta s)$ with equal kinetic weights in the measure $2\pi\rho\,d\rho$. The time derivatives follow from the two charged kinetic terms, the Maxwell electric energy and the neutral kinetic coefficient, respectively. A real amplitude change in $H$ carries no sheet gauge current. The azimuthal vector variation is divergence free. Radial gauge therefore leaves the physical scalar profiles unconstrained by a temporal Maxwell field.
+
+At $w=0$ the charged shape operator in $(h,c)$ is $D^\dagger D$, where
+$$
+ D=\begin{pmatrix}\partial_\rho-(1-a_0)/\rho & f_0\\
+ f_0 & \partial_\rho+1/\rho\end{pmatrix}.
+$$
+Its partner $DD^\dagger$ is diagonal by the two Bogomolny equations. The lower entry is $L_{f_0}$, and the upper is $1+T^\dagger T$ with $T=\partial_\rho-(2-a_0)/\rho$. At the positive simple eigenvalue $\nu_0^2<1$ the charged block thus has exactly one radial eigenvector, $D^\dagger(0,u_0)/\nu_0$. The neutral block provides a second one. An orthonormal basis of this isolated eigenspace is
+$$
+ S=\frac1{\nu_0}(f_0u_0,-u'_0,0),\qquad N=(0,0,u_0).
+$$
+The wavefunctions obey $h,c=O(\rho)$ at the axis and $n'(0)=0$. Integration by parts has no boundary terms. At $w=0$ only $S$ has a direct coupling to two translations. $N$ is an oscillation of a vanishing background with energy even in the neutral field.
+
+With $s=w(1-a_0)/2+O(w^3)$, the $h,n$ entry of the fluctuation operator is $f(2s+w)$. It follows from half the mixed second derivative of $f^2s^2+(f^2-1+2ws)^2/4$ in the energy. All diagonal entries are even in $w$, and $c,n$ have no direct coupling. First-order perturbation restricted to $(S,N)$ has off-diagonal entry
+$$
+ w C,\qquad C=\frac{1}{\nu_0}\langle u_0,f_0^2(2-a_0)u_0\rangle=\nu_0 .
+$$
+For the last equality, vary the normalized bound wave as $u_0(\rho)\mapsto t u_0(t\rho)$ at fixed potential. Stationarity gives $2\langle |\nabla u_0|^2\rangle=\langle u_0,\rho(f_0^2)'u_0\rangle$, with the left side denoting twice the integrated gradient norm. The first Bogomolny equation gives $\rho(f_0^2)'=2(1-a_0)f_0^2$. Adding the potential expectation yields $\nu_0^2=\langle u_0,(2-a_0)f_0^2u_0\rangle$.
+
+Consequently the two masses in the trace sector are
+$$
+ \frac{m_{{\rm even},\pm}^2}{m_\gamma^2}=\nu_0^2\pm w\nu_0+O(w^2),
+ \qquad \frac{m_{{\rm even},\pm}}{m_\gamma}=\nu_0\pm\frac{w}{2}+O(w^2).
+$$
+The eigenvectors approach $(S\pm N)/\sqrt2$ from $w>0$. Each carries half of the former trace pole residue to leading order; the sum tends to the critical odd-channel residue. The odd vector has no linear mass shift in this action. Thus the single even pole of the minimal bosonic comparison resolves into two trace poles on the electric string. At $w=0.01$ a separate three-component radial Hessian gives squared masses $0.76865$ and $0.78629$ in photon units; the odd squared mass is $0.77745$. The difference of the even squared masses divided by $2w$ is $0.88167$, compared with the exact slope $\nu_0\simeq0.88174$. The calculation concerns tree poles. Resolving two peaks in a finite-length measurement additionally requires their separation to exceed the relevant widths or level mixings.
+
 ## Microscopic scope
 
 Along the small-$|\mu|/|\Lambda|$ trajectory, the Higgs and photon masses are parametrically below $|\Lambda|$ and the renormalized dual coupling is weak asymptotically. The leading bound-state separation from the bulk is finite in $m_\gamma$ units. Small corrections respecting the symmetries can shift or split a degenerate localized multiplet while preserving subthreshold spectral weight in the odd channel. The parity-resolved residue and its numerical corrections below refer to the specified classical dual action. Field dependence of the gauge kinetic function, including a possible coupling of a neutral fluctuation to $F^c\widetilde F^c$, higher-derivative operators, and loop corrections can modify the pole and its distribution among nearby states. No continuation of this unprotected mass or residue to large soft breaking or to pure Yang–Mills has been established.
+
+In particular $m_{\rm odd}/\sqrt\sigma$ scales as $g$ toward the weak monopole limit. The finite limiting product $\mathcal C(0)$ coexists with a pole light in tension units. The scalar doublet separation scales as $w m_\gamma$ whereas the two-phonon partial width scales as $g^2 m_\gamma$. On the microscopic trajectory $w/g^2$ tends to zero with $|\mu/\Lambda|$. The classical splitting and $w^2$ derivatives are predictions of the stated action; resolving or extracting these subleading effects in the microscopic quantum theory requires control of loops and other operators at the same accuracy.

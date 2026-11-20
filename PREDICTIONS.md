@@ -266,5 +266,7 @@ Registered 6 November 1974 unless stated.
   A fundamental electric probe carries one dual vortex period. In the leading
   monopole action its odd localized mode lies below the lightest bulk particle
   for sufficiently small breaking and couples to the antisymmetric two-phonon
-  channel. The limiting pole product is 0.597469. P04 remains open for pure
+  channel. The limiting pole product is 0.597469. In the local dual action the
+  two trace-channel masses split by $w m_\gamma+O(w^2m_\gamma)$ while the odd
+  mass changes quadratically. P04 remains open for pure
   Yang–Mills. [Electric-string pole](outputs/1994-monopole-string/pseudoscalar.md)
