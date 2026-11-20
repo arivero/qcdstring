@@ -32,7 +32,7 @@ The scalar kinetic terms have coefficients $1,1,1/g^2$ for $q,\tilde q,a_D$. Def
 $$
  \frac{m_\pm}{m_\gamma}=\sqrt{1+w^2/4}\ \pm w/2.
 $$
-For example, on the real D-flat slice the squared mass matrix in photon units has diagonal $(1,1+w^2)$ and off-diagonal $w$. The conjugate chiral pair gives the same eigenvalues. One other real scalar has mass $m_\gamma$ and the gauge phase is eaten. Thus the lowest one-particle bulk threshold drops *linearly* in $w$, even though the change in tension begins at second order. Taking $w$ small at fixed $m_\gamma$ is convenient in effective-theory units. In the period convention above the microscopic parameters obey
+For example, on the real D-flat slice the squared mass matrix in photon units has diagonal $(1,1+w^2)$ and off-diagonal $w$. The conjugate chiral pair gives the same eigenvalues. One other real scalar has mass $m_\gamma$ and the gauge phase is eaten. Unbroken $\mathcal N=1$ supersymmetry pairs the massive vector and the two chiral multiplets with fermions at the same masses. Thus the lowest one-particle bulk threshold drops *linearly* in $w$, even though the change in tension begins at second order. Taking $w$ small at fixed $m_\gamma$ is convenient in effective-theory units. In the period convention above the microscopic parameters obey
 $$
  \frac{m_\gamma}{|\Lambda|}=2\,2^{1/4}g\sqrt{|\mu/\Lambda|},
  \qquad w=\frac{g}{4\,2^{1/4}}\sqrt{|\mu/\Lambda|},

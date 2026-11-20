@@ -34,7 +34,7 @@ rigidity and scalar-curvature exchange. The 1990 working note gives the
 normal-curvature amplitude used in the side paper.
 [1988 paper](outputs/1988-thickness-curvature/paper.md) · [1990 amplitude table](outputs/1990-pseudoscalar-curvature/amplitudes.md)
 
-The 1994 working calculation follows a fundamental electric probe into the monopole vacuum of softly broken $\mathcal N=2$ $SU(2)$. [Charge, vacuum and tension](outputs/1994-monopole-string/monopole-vacuum.md) · [Pseudoscalar on the electric string](outputs/1994-monopole-string/pseudoscalar.md)
+The 1994 working calculation follows a fundamental electric probe into the monopole vacuum of softly broken $\mathcal N=2$ $SU(2)$. [Charge, vacuum and tension](outputs/1994-monopole-string/monopole-vacuum.md) · [Pseudoscalar on the electric string](outputs/1994-monopole-string/pseudoscalar.md) · [Independent check](outputs/1994-monopole-string/REFEREE.md)
 
 ## Layout
 
