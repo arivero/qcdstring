@@ -184,8 +184,7 @@ the range of the construction they exclude. Extension to pure Yang–Mills
 requires decoupling the extra bulk states. [Long march, target for 1998](LONG_MARCH.md#target-for-the-1998-paper)
 
 The extra 1991 study supplies a worked example of pole matching in an
-ordinary magnetic vortex. The 1992 slot can calculate the potential of
-external magnetic probes at unit flux and the screened electric potential.
+ordinary magnetic vortex. The [1992 article](outputs/1992-scalar-doublet/paper.md) distinguishes unit magnetic probes from screened electric probes and predicts how a neutral field divides a localized trace pole.
 In 1994 test confinement in the weakly deformed monopole
 vacuum. In 1996 compare charge sectors, leading small-deformation tension
 ratios and the type IIA lift. In 1998 attempt the membrane ending on the

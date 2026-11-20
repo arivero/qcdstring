@@ -263,10 +263,7 @@ can replace the proposed one if it gives better control.
 - **1990–1992.** The 1990 note fixes the polarization projector. The extra
   1991 paper matches its pole in a unit Abelian Higgs vortex. At equal
   bulk masses a scalar of the same mass couples to a different channel.
-  Carry the parity-resolved measurement into the 1992 main slot. Calculate
-  the potential of external magnetic probes with one quantum of flux in
-  the Higgs model, and the screened electric-probe potential. Identify
-  which charge and scale a dual gauge description must reproduce.
+  The [1992 article](outputs/1992-scalar-doublet/paper.md) carries the polarization measurement into a deformed Abelian matter theory, resolves a scalar doublet and distinguishes the linear magnetic-probe potential from screened electric exchange. This fixes the flux and width to match in a dual gauge description.
   [1990 amplitude table](outputs/1990-pseudoscalar-curvature/amplitudes.md) · [1991 vortex calculation](outputs/1991-vortex-pseudoscalar/paper.md)
 - **1994.** Use the monopole vacuum of $SU(2)$ with a small adjoint mass
   to trace an electric probe to a vortex in the dual gauge theory.

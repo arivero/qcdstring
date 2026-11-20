@@ -34,6 +34,7 @@ Registered 6 November 1974 unless stated.
 | P22 | Conditional model result: a homogeneous large-N_f Gross-Neveu sector on a flat tube has NS saddle restoration at m_infinity L = pi exp(-EulerGamma), a larger R mass than its infinite-line mass, and a condensation-energy contribution in addition to the determinant. This is not a finite-N_f or deconfinement prediction. Registered November 1986. | 1986 rederivation of a known large-flavour mechanism, QCDS-86/1 Section 6 | Compare the gap equation with the independently integrated potential; microscopic matching remains required | open | derived and author-checked within the stated saddle approximation |
 | P23 | Conditional normal-field model: a canonical displacement y and a massive normal field phi with derivative mixing -g d(phi).d(y), m > 0 and abs(g) < 1 have a massive pole M = m/sqrt(1-g^2) with positive displacement residue g^2/(1-g^2). Integrating out phi induces a negative local p^4 coefficient, although the exact quadratic theory is stable. Each periodic massive mode contributes -(M/pi) sum K1(wML)/w after tension subtraction. Registered November 1988, before the numerical checks. | 1988 derivation, QCDS-88/1 Sections 3-5 | Compare normal modes, propagator residues and finite-size determinant; QCD matching required | open | registered conditional model statement |
 | P24 | Conditional scalar-curvature model, d = 3: for a canonical scalar of mass m coupled by q a R to the induced intrinsic curvature, tree exchange gives an additional low-energy phase b s^3, b = q^2/(4 sigma^2 m^2). Its leading coupling-dependent periodic vacuum shift is -32 pi^6 b/(225 L^7), at first order in the matched operator. The scalar determinant and independent matching coefficients are not included in this difference. Registered November 1988, before the numerical checks. | 1988 derivation, QCDS-88/1 Sections 7-8 | Compare the exchange amplitude and directly regulated vacuum contraction; no QCD mass or coupling input | open | registered conditional model statement |
+| P25 | Conditional on the specified local vortex action, the two localized even masses shift by ± half the canonically scaled soft mass at fixed photon mass, and each takes half the critical trace residue in the small-breaking limit; the odd vector has zero linear shift. | QCDS-92/1, analytic result | Direct trace-source spectra, neutral detuning and fixed winding | 1992 | derived and checked in the local model |
 
 ## Status log
 
@@ -261,6 +262,8 @@ Registered 6 November 1974 unless stated.
   zero trace residue of the odd particle. P04 remains open for a
   colour-electric tube, including its proposed mass and anomaly coupling.
   [Derivation and polarization table](outputs/1991-vortex-pseudoscalar/paper.md#polarization-table)
+
+* 1992 (P25). The circular vortex calculation gives the two mass slopes and trace shares. Independent radial elements test both eigenfunctions and residues, and a lifted neutral level changes the allocation. The result is restricted to the stated classical action. [QCDS-92/1](outputs/1992-scalar-doublet/paper.md) · [Referee](outputs/1992-scalar-doublet/REFEREE.md)
 
 * 1994 working calculation (P04, weakly broken supersymmetric gauge theory).
   A fundamental electric probe carries one dual vortex period. In the leading

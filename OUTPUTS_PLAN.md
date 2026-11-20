@@ -8,7 +8,7 @@ Agreed 6 November 2026 (machine date).
   `y<year>`. Commit dates stay real; the fictional year lives in the
   tag and the folder name.
   QCDS-91/S1 is a separately numbered 1991 side paper. The biennial
-  sequence continues with the 1990 manuscript and the 1992 main slot.
+  sequence includes the 1990 amplitude working note and the completed 1992 main article.
 * **Paper length.** Starting with the 1990 paper, each completed manuscript
   must contain at least 15,000 tokens. Count the full `paper.md`, including
   equations, appendices and references, with the `o200k_base` encoding.
@@ -80,7 +80,7 @@ Agreed 6 November 2026 (machine date).
 | 1988 | Thickness and curvature of a confining string: massive modes and the limits of rigidity. Exact quadratic normal-field model, determinant and boundary tests; scalar-curvature exchange and its leading L^-7 vacuum shift in d = 3 | 011, 012; boundary of 013 | done: `outputs/1988-thickness-curvature/`, tag `y1988`; independent read-only report and four clarifications addressed |
 | 1990 | A pseudoscalar curvature coupling on the four-dimensional tube: derive the allowed normal-bundle interaction and its scattering channels, with mass and coupling left to matching. Compare physical exchange with the anomaly proposal of 1984. Carried over: direct area-action L^-5 calculation and the rules of 1984 Section 4.2 beyond first order. Solve the mixed endpoint problem before a rotating intercept is attempted | 013, 012, 011; 006 only if endpoints are controlled | Proposed paper. [Normal-bundle vertex and polarization amplitudes](outputs/1990-pseudoscalar-curvature/amplitudes.md) derived (working note, tag `y1990`). The 1988 referee also suggested the mixed endpoint calculation. |
 | 1991 (extra) | A trapped electric field on an Abelian Higgs vortex. Match the odd pole to two transverse phonons and resolve the degenerate even partner at critical coupling. | 013, 012 | [QCDS-91/S1](outputs/1991-vortex-pseudoscalar/paper.md), outside the biennial march. The original manuscript and referee report used GPT-6.2 Astra and GPT-6.1 Sol respectively. Tag `y1991` identifies the reviewed edition. |
-| 1992 | From magnetic flux to a confining probe. Calculate the magnetic-probe potential at unit flux and electric screening, then identify the charges and scales to match in a dual description. | 013, 018, 027 | Proposed main slot. |
+| 1992 | Two scalar poles from a single vortex shape resonance. Exact localized slopes, trace residues, probe charges and a detuning control, before the Seiberg–Witten identification. | 012, 013, 018 | [QCDS-92/1](outputs/1992-scalar-doublet/paper.md), tag `y1992`. Independent read-only referee and author response. |
 | 1994 | Calculate the flux tube and its validity range in a softly deformed monopole vacuum. | 018, 019 | [Working calculation of the monopole vacuum, electric flux and tension](outputs/1994-monopole-string/monopole-vacuum.md) and [test of the odd pole](outputs/1994-monopole-string/pseudoscalar.md). |
 | 1996 | Compare flux sectors at weak deformation and identify a candidate carrier of center charge in the type IIA construction. | 018, 019 | Proposed. Track unprotected tension corrections. |
 | 1998 | Attempt the controlled superstring or M-theory tube before 2000. Derive the tension and light fields, then predict a polarized finite-length excitation from independent inputs. | 018, 019, 027 | Target. Test the extra angle, symmetry-required fermions and overlap of scales in MQCD. [Success conditions](LONG_MARCH.md#target-for-the-1998-paper) |

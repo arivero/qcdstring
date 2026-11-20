@@ -38,7 +38,7 @@ typically a year earlier.
 | 1986 | Polyakov, Kleinert: the rigid string. | Worth examining early; the extrinsic-curvature term is irrelevant in the infrared (memory), which is itself a useful result. |
 | 1987 | Polyakov, "Gauge Fields and Strings". | |
 | 1991 | Polchinski–Strominger on effective strings. Arodź derives vector bound states on the Abelian Higgs vortex, and notes in proof an earlier flux-twist proposal from 1987. | Extra paper on the polarized two-phonon residue. The 1992 main slot takes up the gauge probe. [Vector bound states](https://ruj.uj.edu.pl/server/api/core/bitstreams/9c989e24-b7c6-4852-8608-2ed28f1defc6/content) · [QCDS-91/S1](outputs/1991-vortex-pseudoscalar/paper.md) |
-| 1992 | Polchinski, "Strings and QCD?". Donnachie-Landshoff: Pomeron intercept 1.08. | |
+| 1992 | Polchinski, "Strings and QCD?". Donnachie-Landshoff: Pomeron intercept 1.08. | [QCDS-92/1](outputs/1992-scalar-doublet/paper.md) derives a localized scalar doublet and its two trace residues in a deformed Abelian vortex. |
 | 1993 | Gross-Taylor: 2d QCD as a string theory. |
 | 1994-95 | Seiberg-Witten: monopole condensation exact in N=2. Hull-Townsend, Witten: the duality web and the eleventh dimension. Douglas-Shenker: sine law. Polchinski: D-branes. Polchinski-Witten: heterotic equals type I. | `LONG_MARCH.md`, ideas 018-019. |
 | 1996 | Horava-Witten: E8xE8 from an interval. Hanany-Witten: brane constructions. | Idea 020. |

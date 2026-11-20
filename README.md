@@ -29,10 +29,7 @@ at critical coupling and tests their polarization dependence in simulations.
 The repository manuscript has had AI review only.
 [July vector study](https://arxiv.org/abs/2607.16120) · [November worldsheet calculation](https://arxiv.org/html/2611.26013v1) · [Paper](outputs/1991-vortex-pseudoscalar/paper.md) · [PDF](outputs/1991-vortex-pseudoscalar/paper.pdf)
 
-The latest complete biennial paper is QCDS-88/1 on massive modes,
-rigidity and scalar-curvature exchange. The 1990 working note gives the
-normal-curvature amplitude used in the side paper.
-[1988 paper](outputs/1988-thickness-curvature/paper.md) · [1990 amplitude table](outputs/1990-pseudoscalar-curvature/amplitudes.md)
+The latest complete biennial paper is **Two scalar poles from a single vortex shape resonance** (QCDS-92/1). It derives the localized mass slopes and half-residues and tests them with deformed radial eigenfunctions. The 1990 amplitude note defines the polarization projectors. [1992 paper](outputs/1992-scalar-doublet/paper.md) · [PDF](outputs/1992-scalar-doublet/paper.pdf) · [1990 note](outputs/1990-pseudoscalar-curvature/amplitudes.md)
 
 The 1994 working calculation follows a fundamental electric probe into the monopole vacuum of softly broken $\mathcal N=2$ $SU(2)$. [Charge, vacuum and tension](outputs/1994-monopole-string/monopole-vacuum.md) · [Pseudoscalar on the electric string](outputs/1994-monopole-string/pseudoscalar.md) · [Independent check](outputs/1994-monopole-string/REFEREE.md)
 
