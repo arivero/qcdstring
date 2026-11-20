@@ -14,3 +14,5 @@ numerics/out/
 .idea/
 # raw Monte Carlo results of the papers are kept
 !outputs/**/*.npz
+# local chart of paper lengths (not tracked)
+outputs/paper-lengths.png
