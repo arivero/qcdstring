@@ -1,0 +1,188 @@
+{
+  "critical": [
+    {
+      "w": 0,
+      "radius": 32,
+      "step": 0.04,
+      "lambda_b": 0.7774797254455372,
+      "lambda_n": 0.7774797254455382,
+      "neutral_norm": 1.0000000000000004,
+      "magnetic_overlap": 0.21609124123693507,
+      "relative_mass_squared_w2": -0.577517822791642,
+      "complement_response": 1.577517822791642
+    },
+    {
+      "w": 0,
+      "radius": 32,
+      "step": 0.02,
+      "lambda_b": 0.7774745419673119,
+      "lambda_n": 0.7774745419673113,
+      "neutral_norm": 1.0000000000000002,
+      "magnetic_overlap": 0.21609685605984943,
+      "relative_mass_squared_w2": -0.577475293684323,
+      "complement_response": 1.577475293684323
+    },
+    {
+      "w": 0,
+      "radius": 32,
+      "step": 0.01,
+      "lambda_b": 0.7774732449842267,
+      "lambda_n": 0.7774732449842277,
+      "neutral_norm": 1.0,
+      "magnetic_overlap": 0.21609826112835356,
+      "relative_mass_squared_w2": -0.5774646463058395,
+      "complement_response": 1.5774646463058395
+    },
+    {
+      "w": 0,
+      "radius": 32,
+      "step": 0.005,
+      "lambda_b": 0.7774729206571062,
+      "lambda_n": 0.7774729206571057,
+      "neutral_norm": 1.0,
+      "magnetic_overlap": 0.21609861249479756,
+      "relative_mass_squared_w2": -0.5774619833571437,
+      "complement_response": 1.5774619833571437
+    }
+  ],
+  "radial": [
+    {
+      "w": 0.001,
+      "radius": 32,
+      "step": 0.01,
+      "lambda_b": 0.777472974418114,
+      "lambda_n": 0.7774723969532082,
+      "neutral_norm": 0.9999949041176752,
+      "magnetic_overlap": 0.216097334377738,
+      "relative_mass_squared_w2": -0.5774649057821435,
+      "lightest_bulk_mass": 0.9995001249999922,
+      "m_gamma_over_Lambda": 0.011313708498984762,
+      "one_term_projection": {
+        "ell": 4.481740147022328,
+        "h_over_mgamma": 0.00014465184992127218,
+        "lower_mass": 0.8816717926207004,
+        "upper_mass": 0.881816444841261,
+        "lower_vector_weight": 0.4988271135212873,
+        "upper_vector_weight": 0.5011728864787127
+      }
+    },
+    {
+      "w": 0.005,
+      "radius": 32,
+      "step": 0.01,
+      "lambda_b": 0.7774664808708899,
+      "lambda_n": 0.7774520441059964,
+      "neutral_norm": 0.9998726101896995,
+      "magnetic_overlap": 0.21607509268047187,
+      "relative_mass_squared_w2": -0.5774705957373172,
+      "lightest_bulk_mass": 0.9975031249951172,
+      "m_gamma_over_Lambda": 0.05656854249492381,
+      "one_term_projection": {
+        "ell": 2.872302234588228,
+        "h_over_mgamma": 0.0011284071540861801,
+        "lower_mass": 0.8811724660773119,
+        "upper_mass": 0.8823009029275786,
+        "lower_vector_weight": 0.4960526840226495,
+        "upper_vector_weight": 0.5039473159773505
+      }
+    },
+    {
+      "w": 0.01,
+      "radius": 32,
+      "step": 0.01,
+      "lambda_b": 0.7774461889492433,
+      "lambda_n": 0.7773884401085052,
+      "neutral_norm": 0.9994905313988798,
+      "magnetic_overlap": 0.21600559133124722,
+      "relative_mass_squared_w2": -0.5774884073816988,
+      "lightest_bulk_mass": 0.995012499921876,
+      "m_gamma_over_Lambda": 0.11313708498984762
+    },
+    {
+      "w": 0.025,
+      "radius": 32,
+      "step": 0.01,
+      "lambda_b": 0.7773041630564846,
+      "lambda_n": 0.776943156038194,
+      "neutral_norm": 0.9968197979308446,
+      "magnetic_overlap": 0.21551925183856083,
+      "relative_mass_squared_w2": -0.5776112292650736,
+      "lightest_bulk_mass": 0.9875781219484807,
+      "m_gamma_over_Lambda": 0.28284271247461906
+    },
+    {
+      "w": 0.05,
+      "radius": 32,
+      "step": 0.01,
+      "lambda_b": 0.7767971790858239,
+      "lambda_n": 0.775352120147204,
+      "neutral_norm": 0.9873366286282015,
+      "magnetic_overlap": 0.21378487593914655,
+      "relative_mass_squared_w2": -0.5780235754479611,
+      "lightest_bulk_mass": 0.975312451187128,
+      "m_gamma_over_Lambda": 0.5656854249492381
+    },
+    {
+      "w": 0.1,
+      "radius": 32,
+      "step": 0.01,
+      "lambda_b": 0.774773203183559,
+      "lambda_n": 0.7689805102947205,
+      "neutral_norm": 0.9503016924599074,
+      "magnetic_overlap": 0.20689469865924556,
+      "relative_mass_squared_w2": -0.5792692888838545,
+      "lightest_bulk_mass": 0.9512492197250393,
+      "m_gamma_over_Lambda": 1.1313708498984762
+    }
+  ],
+  "exterior_check": {
+    "w": 0.01,
+    "radius": 40,
+    "step": 0.01,
+    "lambda_b": 0.7774461889491046,
+    "lambda_n": 0.7773884401082121,
+    "neutral_norm": 0.999490531397615,
+    "magnetic_overlap": 0.21600559132737376,
+    "relative_mass_squared_w2": -0.5774884089249088
+  },
+  "tension_gap_check": [
+    {
+      "w": 0.01,
+      "gap_squared_over_tension_loss": 3.9995898843849824
+    },
+    {
+      "w": 0.025,
+      "gap_squared_over_tension_loss": 3.9974439629807135
+    },
+    {
+      "w": 0.05,
+      "gap_squared_over_tension_loss": 3.9896973920963914
+    }
+  ],
+  "leading_log_examples": [
+    {
+      "ell": 10,
+      "w": 4.0128247750557506e-06,
+      "g": 1.98691765315922,
+      "gap_over_bright_partial_width": 0.0001043932816256254
+    },
+    {
+      "ell": 20,
+      "w": 1.8218196293669012e-10,
+      "g": 1.4049629462081452,
+      "gap_over_bright_partial_width": 9.478895306957386e-09
+    },
+    {
+      "ell": 40,
+      "w": 3.7550501284992593e-19,
+      "g": 0.99345882657961,
+      "gap_over_bright_partial_width": 3.907491879730212e-17
+    },
+    {
+      "ell": 80,
+      "w": 1.5952783192243056e-36,
+      "g": 0.7024814731040726,
+      "gap_over_bright_partial_width": 3.3200819509538353e-34
+    }
+  ]
+}

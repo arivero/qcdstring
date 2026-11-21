@@ -31,7 +31,7 @@ The repository manuscript has had AI review only.
 
 The latest complete biennial paper is **Two scalar poles from a single vortex shape resonance** (QCDS-92/1). It derives the localized mass slopes and half-residues and tests them with deformed radial eigenfunctions. The 1990 amplitude note defines the polarization projectors. [1992 paper](outputs/1992-scalar-doublet/paper.md) · [PDF](outputs/1992-scalar-doublet/paper.pdf) · [1990 note](outputs/1990-pseudoscalar-curvature/amplitudes.md)
 
-The 1994 working calculation follows a fundamental electric probe into the monopole vacuum of softly broken $\mathcal N=2$ $SU(2)$. [Charge, vacuum and tension](outputs/1994-monopole-string/monopole-vacuum.md) · [Pseudoscalar on the electric string](outputs/1994-monopole-string/pseudoscalar.md) · [Independent check](outputs/1994-monopole-string/REFEREE.md)
+The odd-year **1995 corollary** identifies the 1992 vortex with an electric confining string in the weak monopole vacuum of Seiberg–Witten theory. It matches the physical splitting, calculates the second odd state, and distinguishes subthreshold spectral weight from two separately resolvable peaks. [1995 paper](outputs/1995-electric-string-corollary/paper.md) · [PDF](outputs/1995-electric-string-corollary/paper.pdf) · [1994 working calculation](outputs/1994-monopole-string/monopole-vacuum.md)
 
 ## Layout
 

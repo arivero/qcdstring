@@ -40,7 +40,7 @@ typically a year earlier.
 | 1991 | Polchinski–Strominger on effective strings. Arodź derives vector bound states on the Abelian Higgs vortex, and notes in proof an earlier flux-twist proposal from 1987. | Extra paper on the polarized two-phonon residue. The 1992 main slot takes up the gauge probe. [Vector bound states](https://ruj.uj.edu.pl/server/api/core/bitstreams/9c989e24-b7c6-4852-8608-2ed28f1defc6/content) · [QCDS-91/S1](outputs/1991-vortex-pseudoscalar/paper.md) |
 | 1992 | Polchinski, "Strings and QCD?". Donnachie-Landshoff: Pomeron intercept 1.08. | [QCDS-92/1](outputs/1992-scalar-doublet/paper.md) derives a localized scalar doublet and its two trace residues in a deformed Abelian vortex. |
 | 1993 | Gross-Taylor: 2d QCD as a string theory. |
-| 1994-95 | Seiberg-Witten: monopole condensation exact in N=2. Hull-Townsend, Witten: the duality web and the eleventh dimension. Douglas-Shenker: sine law. Polchinski: D-branes. Polchinski-Witten: heterotic equals type I. | `LONG_MARCH.md`, ideas 018-019. |
+| 1994-95 | Seiberg-Witten: monopole condensation exact in N=2. Hull-Townsend, Witten: the duality web and the eleventh dimension. Douglas-Shenker: sine law. Polchinski: D-branes. Polchinski-Witten: heterotic equals type I. | [QCDS-95/S1](outputs/1995-electric-string-corollary/paper.md) applies the local doublet to a fundamental electric string. Ideas 018–019. |
 | 1996 | Horava-Witten: E8xE8 from an interval. Hanany-Witten: brane constructions. | Idea 020. |
 | 1997 | Witten: MQCD, the string as a membrane. Hanany-Strassler-Zaffaroni: sine law from MQCD. | Idea 018. | |
 | 1997 | Maldacena. Polyakov: the fifth dimension is the Liouville field. | Phase 4 is the attempt to get here from the gauge side. |

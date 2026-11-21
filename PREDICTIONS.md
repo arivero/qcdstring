@@ -273,3 +273,11 @@ Registered 6 November 1974 unless stated.
   two trace-channel masses split by $w m_\gamma+O(w^2m_\gamma)$ while the odd
   mass changes quadratically. P04 remains open for pure
   Yang–Mills. [Electric-string pole](outputs/1994-monopole-string/pseudoscalar.md)
+
+* 1995 (odd-year corollary, P04 and P25). A fundamental Wilson source selects
+  the unit electric string in the weak monopole vacuum. The 1992 doublet
+  has leading local mass difference $g^2|\mu|/2$. The gauge-theory trajectory
+  sends that separation below the critical partial-width scale. A neutral
+  odd state and the longitudinal vector can share the subthreshold weight.
+  The quoted partition in the projected kinetic model uses one specified
+  interaction. P04 remains open in pure Yang–Mills. [QCDS-95/S1](outputs/1995-electric-string-corollary/paper.md)

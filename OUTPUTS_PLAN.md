@@ -8,7 +8,7 @@ Agreed 6 November 2026 (machine date).
   `y<year>`. Commit dates stay real; the fictional year lives in the
   tag and the folder name.
   QCDS-91/S1 is a separately numbered 1991 side paper. The biennial
-  sequence includes the 1990 amplitude working note and the completed 1992 main article.
+  sequence includes the 1990 amplitude working note and the completed 1992 main article. QCDS-95/S1 is an odd-year corollary applying QCDS-92/1 after the 1994 gauge-theory result.
 * **Paper length.** Starting with the 1990 paper, each completed manuscript
   must contain at least 15,000 tokens. Count the full `paper.md`, including
   equations, appendices and references, with the `o200k_base` encoding.
@@ -82,5 +82,6 @@ Agreed 6 November 2026 (machine date).
 | 1991 (extra) | A trapped electric field on an Abelian Higgs vortex. Match the odd pole to two transverse phonons and resolve the degenerate even partner at critical coupling. | 013, 012 | [QCDS-91/S1](outputs/1991-vortex-pseudoscalar/paper.md), outside the biennial march. The original manuscript and referee report used GPT-6.2 Astra and GPT-6.1 Sol respectively. Tag `y1991` identifies the reviewed edition. |
 | 1992 | Two scalar poles from a single vortex shape resonance. Exact localized slopes, trace residues, probe charges and a detuning control, before the Seiberg–Witten identification. | 012, 013, 018 | [QCDS-92/1](outputs/1992-scalar-doublet/paper.md), tag `y1992`. Independent read-only referee and author response. |
 | 1994 | Calculate the flux tube and its validity range in a softly deformed monopole vacuum. | 018, 019 | [Working calculation of the monopole vacuum, electric flux and tension](outputs/1994-monopole-string/monopole-vacuum.md) and [test of the odd pole](outputs/1994-monopole-string/pseudoscalar.md). |
+| 1995 (corollary) | What the vortex doublet predicts on a Seiberg–Witten electric string. Fundamental-source matching, odd spectral weight and the resolution hierarchy. | 013, 018, 019 | [QCDS-95/S1](outputs/1995-electric-string-corollary/paper.md), tag `y1995`. Independent read-only referee and author response. |
 | 1996 | Compare flux sectors at weak deformation and identify a candidate carrier of center charge in the type IIA construction. | 018, 019 | Proposed. Track unprotected tension corrections. |
 | 1998 | Attempt the controlled superstring or M-theory tube before 2000. Derive the tension and light fields, then predict a polarized finite-length excitation from independent inputs. | 018, 019, 027 | Target. Test the extra angle, symmetry-required fermions and overlap of scales in MQCD. [Success conditions](LONG_MARCH.md#target-for-the-1998-paper) |
