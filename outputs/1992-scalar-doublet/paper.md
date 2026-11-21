@@ -123,7 +123,7 @@ For the first sector perturb $f,a,s$ by $(h,\rho c,n)$ on a fixed member of (3).
 For a canonically normalized sheet field $\chi(t,z)$ take
 $$
  \delta f=g h\chi,\qquad \delta a=g\rho c\chi,\qquad
- \delta s=g n\chi,qquad 2\pi\int_0^\infty\rho(h^2+c^2+n^2)d\rho=1.
+ \delta s=g n\chi,\qquad 2\pi\int_0^\infty\rho(h^2+c^2+n^2)d\rho=1.
                                                                     \tag{11}
 $$
 The sheet kinetic energy in the three variations has prefactor $v^2/m_\gamma^2=1/(2g^2)$ before the $g$ in (11) is included. For $c$ this can be seen directly from the Maxwell component $F_{a\theta}/r$, where the index $a$ here is on the sheet. For $n$ it follows from the $1/g^2$ in the four-dimensional kinetic term of $Z$. Thus each component of a normalized eigenvector has the same radial measure. An erroneous factor of two in the neutral kinetic term, for instance, would change the normalized off-diagonal entry in §6 and spoil the predicted splitting. The boundary behavior is $h=O(\rho^N)$, $c=O(\rho)$, $n'(0)=0$, with all components decaying for a localized particle.
