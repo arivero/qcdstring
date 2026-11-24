@@ -28,7 +28,7 @@ for target in re.findall(r"!?\[[^\]]*\]\(([^)]+)\)", paper):
 
 body, refs = paper.split("## References\n", 1)
 ref_ids = [int(v) for v in re.findall(r"^(\d+)\. ", refs, re.M)]
-assert ref_ids == list(range(1, 6))
+assert ref_ids == list(range(1, 8))
 cited = set()
 for group in re.findall(r"\[([0-9, -]+)\]", body):
     for part in group.split(","):
@@ -37,12 +37,12 @@ for group in re.findall(r"\[([0-9, -]+)\]", body):
 assert cited == set(ref_ids), f"Unmatched citations: {cited ^ set(ref_ids)}"
 manifest = list(csv.DictReader((ROOT / "sources.tsv").open(), delimiter="\t"))
 assert [r["doi"] for r in manifest] == re.findall(r"DOI: \[([^\]]+)\]", refs)
-assert [int(r["ref"]) for r in manifest] == [3, 4, 5]
+assert [int(r["ref"]) for r in manifest] == ref_ids[2:]
 assert all(int(r["year"]) <= 1988 and r["record"] and r["coverage"] for r in manifest)
 
 report = (f"PASS: {len(computed['checks'])} calculation checks; {printed_rows} printed "
-          f"rows; {len(labels)} unique equations; 9 main sections; 5 cited references; "
-          "3 external source records within the 1988 cutoff; local assets and "
+          f"rows; {len(labels)} unique equations; 9 main sections; {len(ref_ids)} cited references; "
+          f"{len(manifest)} external source records within the 1988 cutoff; local assets and "
           "requested author signature present.\n")
 (ROOT / "results/document_checks.txt").write_text(report)
 print(report, end="")

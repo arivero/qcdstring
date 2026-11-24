@@ -78,6 +78,13 @@
     },
     "bps_first": 1.8190365533299335e-10,
     "bps_second": 1.13725428302347e-06,
+    "bps_second_off_axis": 2.0771400224828263e-10,
+    "curvature_eq27": {
+      "shape_norm": 0.999999999999677,
+      "scalar_term": 0.7856357164040029,
+      "vector_term": 0.4153768478598853,
+      "journal_kappa": -1.2010125642638882
+    },
     "even_norm_derivative": 0.9337546163790122,
     "even_over_odd_vertex": 1.0000000001368672
   },
@@ -160,6 +167,13 @@
     },
     "bps_first": 1.5258130389528885e-08,
     "bps_second": 1.1371436688945025e-06,
+    "bps_second_off_axis": 1.570068724833375e-08,
+    "curvature_eq27": {
+      "shape_norm": 0.9999999999994214,
+      "scalar_term": 0.7856357167227369,
+      "vector_term": 0.41537684804026836,
+      "journal_kappa": -1.2010125647630052
+    },
     "even_norm_derivative": 0.9337546163457056,
     "even_over_odd_vertex": 1.0000000000663833
   },
@@ -203,6 +217,13 @@
     },
     "bps_first": 1.1296462376630956e-10,
     "bps_second": 1.1372245384277946e-06,
+    "bps_second_off_axis": 1.776892452620693e-10,
+    "curvature_eq27": {
+      "shape_norm": 0.9999999999989984,
+      "scalar_term": 0.7856357164196465,
+      "vector_term": 0.41537684786466256,
+      "journal_kappa": -1.201012564284309
+    },
     "even_norm_derivative": 0.9337546163901145,
     "even_over_odd_vertex": 1.000000000137676
   }

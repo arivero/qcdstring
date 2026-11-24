@@ -1,6 +1,6 @@
 # Independent second-line referee report — QCDS-91/S1
 
-Referee model: gpt-6.1-sol. The report below was returned by the independent referee on the submitted draft.
+Referee model: gpt-6.1-sol (high reasoning effort). The report below was returned by the independent referee on the submitted draft.
 
 **Recommendation: accept with minor textual revisions.**
 

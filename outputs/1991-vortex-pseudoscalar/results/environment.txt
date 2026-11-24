@@ -6,3 +6,15 @@ SciPy 1.16.3
 Matplotlib 3.10.7+dfsg1
 Compared all five calculation(beta, outer) results with results/radial.json.
 Exact equality of parsed records: True
+
+24 November 2026 reproduction and source comparison
+Linux-7.0.0-44-generic-x86_64-with-glibc2.43
+Python 3.14.4
+NumPy 2.3.5
+SciPy 1.16.3
+Matplotlib 3.10.7+dfsg1
+OPENBLAS_NUM_THREADS=1
+All previously stored fields of the five 1991 records reproduced exactly.
+The off-axis second BPS residual is recorded separately. New curvature_eq27 fields use their original profiles, Simpson quadrature and the exterior Bessel tail for the norm.
+Second numerical method: code/check_critical.py, logarithmic BPS background, 30-vector-length Dirichlet disk, 5000/10000/20000 cells.
+Finest disk: mu^2=0.7774727634, partner norm=0.9999999625, direct |kappa|/pi=0.3822941750, flux/pi=0.3822942228.

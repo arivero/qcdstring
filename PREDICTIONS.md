@@ -249,7 +249,8 @@ Registered 6 November 1974 unless stated.
 
 * 1990 (P04, AI review only). A single normal-bundle pseudoscalar has zero direct-channel
   pole residue in the trace and both symmetric-traceless two-phonon states.
-  Only the antisymmetric state can carry its pole. P04 remains open pending
+  The normalized antisymmetric channel has the direct pole. Crossed exchange
+  still contributes finite terms to the other channels. P04 remains open pending
   gauge-theory matching for the state, its mass and its coupling.
   [Polarization amplitudes](outputs/1990-pseudoscalar-curvature/amplitudes.md)
 
@@ -259,8 +260,10 @@ Registered 6 November 1974 unless stated.
   level. At equal bulk masses $m_*/m_V=0.881744$ and
   $e|Q_{\rm pole}|=1.20101$. An even shape mode at the same mass has
   equal strength in the trace channel. Its presence is consistent with the
-  zero trace residue of the odd particle. P04 remains open for a
-  colour-electric tube, including its proposed mass and anomaly coupling.
+  zero trace residue of the odd particle. The critical product
+  $\lvert Q_{\rm pole}\rvert m_*/\sqrt\sigma=0.59747$ is about 13% below
+  the registered $0.37\times1.85\simeq0.68$. P04 remains open for the
+  pure Yang–Mills colour-electric tube, including its proposed mass and coupling.
   [Derivation and polarization table](outputs/1991-vortex-pseudoscalar/paper.md#polarization-table)
 
 * 1992 (P25). The circular vortex calculation gives the two mass slopes and trace shares. Independent radial elements test both eigenfunctions and residues, and a lifted neutral level changes the allocation. The result is restricted to the stated classical action. [QCDS-92/1](outputs/1992-scalar-doublet/paper.md) · [Referee](outputs/1992-scalar-doublet/REFEREE.md)

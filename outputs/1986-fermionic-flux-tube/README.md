@@ -35,3 +35,5 @@ used for this edition are recorded in `results/environment.txt`.
 
 Commit credit requested by the user: **Astra 6 max**. Review status is unaffected
 by that credit: there was no independent agent or different-model referee.
+
+The waiver records the status of the 1986 edition at publication. On 20 November 2026 Claude Fable 5.2 checked the homogeneous Neveu–Schwarz curvature, its quartic coefficient and the reported table values by hand. The subsequent numerical reproduction is recorded with its scope in the [joint review response](../1991-vortex-pseudoscalar/RESPONSE.md#response-to-the-joint-review-of-20-november-2026).

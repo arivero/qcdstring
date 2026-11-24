@@ -26,3 +26,19 @@ The revised manuscript contains 18,379 tokens under the same convention. Its SHA
 A direct quadrature of the two terms in Eq. (27) of arXiv:2603.05243v1 checks the integration by parts in the retrospective note. On the critical profile, sample 18,001 points from the inner cutoff to 36 vector lengths. Normalize the decaying eigenfunction with the plane measure, form the canonical pair in (27) of this paper, and integrate with Simpson quadrature. The pair has squared plane norm 1.000000003. Its scalar and vector peaks are 0.16258 and 0.10250, consistent with Fig. 1 of the preprint. The unreduced integral gives $|\kappa|/\pi=0.3822942$, or 0.3823 at the precision of the external comparison. The direct evaluation differs by a factor of two from the March v1 number and agrees with published Eq. (27). [Preprint, Fig. 1 and Eqs. (27)–(29)](https://arxiv.org/html/2603.05243v1)
 
 The journal comparison and November preprint were added after tag `y1991`. The updated manuscript has 18,655 tokens and SHA-256 `590a50f79ba08effad4f4467329ada6075004eb257433d6166cb120f99341ca2`. The rebuilt 19-page PDF contains the two numerical comparisons. [Source passages](SOURCES.md#retrospective-comparison-checked-on-20-november-2026)
+
+## November 24 source and radial checks
+
+The five numerical runs reproduced every previously stored field exactly. For the three critical radii the radial program now also evaluates the scalar and vector terms in the published curvature integral before integration by parts. At $\rho_{\max}=36$ they are $0.7856357164$ and $0.4153768479$. With $u(0)>0$ the published Eq. (27) gives $\kappa=-1.2010125643$, while the flux projection independently gives $\alpha/\mu=1.2010125643$ to the digits shown. The shape norm includes the exterior Bessel tail. The associated BPS residual of about $1.1\times10^{-6}$ occurs at the axis where the code substitutes its first nonzero sample for the magnetic field. At nonzero radii this residual is at most $2.08\times10^{-10}$ on the longest grid. [Radial calculation](code/vortex.py) · [Stored terms](results/radial.json) · [Journal coefficient](https://doi.org/10.1103/8d2s-t5b9)
+
+A separate calculation sets $q=\log(f/\rho)$ and solves $q''+q'/\rho=(\rho^2e^{2q}-1)/2$ at the BPS point. It uses regular inner derivative $q'(\rho)=-\rho/4+O(\rho^3)$ and $f(30)=1$. A cell-centred flux stencil solves the electric radial equation with a Dirichlet outer face. A centred difference of the resulting normalized wave supplies the vector part of the critical partner. Three meshes give the following values. [Disk calculation](code/check_critical.py)
+
+| Cells at $R=30$ | $m_*^2/m_V^2$ | Partner norm | Direct $\lvert\kappa\rvert/\pi$ | Flux projection divided by $\pi$ |
+|---:|---:|---:|---:|---:|
+| 5,000 | 0.7774720266 | 0.9999993992 | 0.3822942105 | 0.3822949741 |
+| 10,000 | 0.7774726160 | 0.9999998498 | 0.3822941821 | 0.3822943730 |
+| 20,000 | 0.7774727634 | 0.9999999625 | 0.3822941750 | 0.3822942228 |
+
+These are convergence diagnostics for the classical equations. The finest squared frequency reproduces the review's $0.77747276$. The main collocation calculation uses the full second-order background and a matched vector tail, giving $0.7774728125$ at 36 vector lengths. The journal comparison quotes four decimals for $\lvert\kappa\rvert/\pi$. [Environment](results/environment.txt)
+
+The present 20-page PDF is built from the complete 20,124-token manuscript (`o200k_base`). Its Markdown SHA-256 is `80ccb32f51773ab5d664f71f4fe536608ae0dbd515a5c5d4c89ef3bebdfbece6`. All 31 numbered equations have been retained. [Eight review observations](RESPONSE.md#response-to-the-joint-review-of-20-november-2026)

@@ -719,7 +719,7 @@ comparing it with a local curvature expansion. It does not close the
 carried-over $L^{-5}$ tasks, establish a critical string, or construct QCD
 from a worldsheet theory.
 
-Two contemporary field-theory calculations treated finite-width corrections for a Nielsen–Olesen string. Their microscopic model supplies a comparison for the independent massive-field examples in §§3 and 7. [Maeda and Turok, Phys. Lett. B 202, 376 (1988)](https://doi.org/10.1016/0370-2693(88)90488-1) · [Gregory, Phys. Lett. B 206, 199 (1988)](https://doi.org/10.1016/0370-2693(88)91492-X)
+Two contemporary calculations integrate across the finite core of a Nielsen–Olesen string. Maeda and Turok report extrinsic-curvature and twist terms in the action for its centre [6]. Gregory reports a rigidity term [7]. The independent scalar in §7 instead has a propagator with a pole and a coupling $q h_s R$ (with $h_s$ denoting the scalar). Its low-energy exchange coefficient $b$ requires that mass and vertex. The centre-line derivative terms alone leave them undetermined.
 
 ## References
 
@@ -728,3 +728,5 @@ Two contemporary field-theory calculations treated finite-width corrections for 
 3. A. M. Polyakov, *Fine structure of strings*, Nucl. Phys. B **268** (1986), 406-412. DOI: [10.1016/0550-3213(86)90162-8](https://doi.org/10.1016/0550-3213(86)90162-8).
 4. H. Kleinert, *The membrane properties of condensing strings*, Phys. Lett. B **174** (1986), 335-338. DOI: [10.1016/0370-2693(86)91111-1](https://doi.org/10.1016/0370-2693(86)91111-1).
 5. F. Alonso and D. Espriu, *On the fine structure of strings*, Nucl. Phys. B **283** (1987), 393-412. DOI: [10.1016/0550-3213(87)90280-X](https://doi.org/10.1016/0550-3213(87)90280-X).
+6. K. Maeda and N. Turok, *Finite-width corrections to the Nambu action for the Nielsen-Olesen string*, Phys. Lett. B **202** (1988), 376–380. DOI: [10.1016/0370-2693(88)90488-1](https://doi.org/10.1016/0370-2693%2888%2990488-1).
+7. R. Gregory, *Effective action for a cosmic string*, Phys. Lett. B **206** (1988), 199–204. DOI: [10.1016/0370-2693(88)91492-X](https://doi.org/10.1016/0370-2693%2888%2991492-X).

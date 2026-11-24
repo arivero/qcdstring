@@ -19,15 +19,14 @@ conjectures until re-derived with the tools and data of 1974. A memory
 of a result is a strong hint about *what* is true and a weak hint about
 *why*; the research plan is built around closing that gap.
 
-The 1991 side paper, **A trapped electric field on an Abelian Higgs
-vortex** (QCDS-91/S1), reproduces the known bound-state mass and critical shape partner.
-Arodź gives the flux-overlap integral on p. 518. The sum rule in Eq. (17)
-relates the magnetic flux overlap to the charged current, fixing the
-polarized two-phonon residue. A July 2026 study also couples the localized vector to transverse motion. A November 19
-preprint derives the same equality of the scalar and pseudoscalar strengths
-at critical coupling and tests their polarization dependence in simulations.
-The repository manuscript has had AI review only.
-[July vector study](https://arxiv.org/abs/2607.16120) · [November worldsheet calculation](https://arxiv.org/html/2611.26013v1) · [Paper](outputs/1991-vortex-pseudoscalar/paper.md) · [PDF](outputs/1991-vortex-pseudoscalar/paper.pdf)
+The 1991 side paper, **A trapped electric field on an Abelian Higgs vortex** (QCDS-91/S1), matches a known bound mode to a polarized scattering observable. The historical setting is November 1991. The retrospective comparisons use the actual publication dates. The original author was GPT-6.2 Astra and the independent textual referee was GPT-6.1 Sol. Subsequent review was also by AI. [Paper](outputs/1991-vortex-pseudoscalar/paper.md) · [PDF](outputs/1991-vortex-pseudoscalar/paper.pdf) · [Joint review and response](outputs/1991-vortex-pseudoscalar/RESPONSE.md#response-to-the-joint-review-of-20-november-2026)
+
+| Result | What the evidence supports |
+|---|---|
+| Trapped electric polarization and mass | Established. Arodź derives the bound mode in 1991. Goodband and Hindmarsh explicitly identify the surviving longitudinal polarization in $3+1$ dimensions. The critical radial partner, including a squared mass near $0.77747\,m_V^2$, also has a published construction. [1991 scan, p. 516](https://ruj.uj.edu.pl/server/api/core/bitstreams/9c989e24-b7c6-4852-8608-2ed28f1defc6/content#page=6) · [1995 calculation](https://arxiv.org/pdf/hep-ph/9503457#page=14) · [2016 factorization and spectrum](https://arxiv.org/abs/1602.09084) |
+| Flux integral and polarized residue | The angular-momentum matrix element on p. 518 of Arodź contains the flux overlap. Eqs. (17)–(21) here connect that overlap to the microscopic current and the normalized antisymmetric pole residue. This explicit pole match is a candidate contribution. Wider priority is open. [1991 scan, p. 518](https://ruj.uj.edu.pl/server/api/core/bitstreams/9c989e24-b7c6-4852-8608-2ed28f1defc6/content#page=8) · [Pole convention](outputs/1990-pseudoscalar-curvature/amplitudes.md) |
+| Odd coupling and equal critical strengths | A July 2026 study couples the vector to transverse waves. A November preprint independently derives both couplings and tests their complementary polarizations. Its critical equality agrees with the translation-norm derivative in Eq. (28). The published scalar-curvature coefficient has magnitude $0.3823\pi$. [July study](https://arxiv.org/abs/2607.16120v1) · [November action and simulations](https://arxiv.org/html/2611.26013v1) · [Journal Eq. (27)](https://doi.org/10.1103/8d2s-t5b9) |
+| Widths, finite length and P04 | The normalized residue fixes the two-translation partial widths and the first isolated crossing at tree level. The charge-independent critical product is $0.59747$ compared with the registered colour-tube benchmark near $0.68$. These are model-specific tests. Priority for the particular finite-volume formulation is open, and P04 still requires a pure Yang–Mills flux-tube match. [Polarization and finite-length calculation](outputs/1991-vortex-pseudoscalar/paper.md) · [Registered prediction](ideas/013-a-pseudoscalar-on-the-worldsheet.md) |
 
 The latest complete biennial paper is **Two scalar poles from a single vortex shape resonance** (QCDS-92/1). It derives the localized mass slopes and half-residues and tests them with deformed radial eigenfunctions. The 1990 amplitude note defines the polarization projectors. [1992 paper](outputs/1992-scalar-doublet/paper.md) · [PDF](outputs/1992-scalar-doublet/paper.pdf) · [1990 note](outputs/1990-pseudoscalar-curvature/amplitudes.md)
 

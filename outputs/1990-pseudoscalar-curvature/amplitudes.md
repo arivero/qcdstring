@@ -112,3 +112,5 @@ matching. Its pole position determines $m$ and its antisymmetric residue
 determines $\lvert Q\rvert$ at tree level. Symmetry also permits $Q=0$.
 For nonzero $Q$, decay to two phonons gives the resonance a width beyond
 this tree approximation.
+
+**Review provenance, 20 November 2026.** The joint AI review checked the three reduced channel amplitudes and the distinction between a finite crossed term and a direct-channel residue. This is the 1990 working note in the series. [Joint report](../1991-vortex-pseudoscalar/JOINT_REVIEW_2026-11-20.md) · [Response](../1991-vortex-pseudoscalar/RESPONSE.md#response-to-the-joint-review-of-20-november-2026)

@@ -25,6 +25,9 @@ input. All new calculations are derived in the paper.
   F. Alonso and D. Espriu. The classical and large-dimension calculations
   mentioned in the abstract were not read in full or used as equations here.
 
+- Maeda and Turok [6], *Finite-width corrections to the Nambu action for the Nielsen-Olesen string*. The abstract and effective-action discussion of the Fermilab preprint identify the extrinsic-curvature and twist terms. The published record gives March 1988, pp. 376–380. [Original preprint](https://inspirehep.net/files/4bf5aa43239f5b3dc40527f9bba8ce95) · [Publication](https://doi.org/10.1016/0370-2693%2888%2990488-1)
+- Gregory [7], *Effective action for a cosmic string*. The publisher abstract and INSPIRE record report a rigidity term for the history of the centre of a field-theory vortex. This reading establishes the historical comparison only. [Publication and abstract](https://inspirehep.net/literature/23226)
+
 The selected historical statements concern the scope of those papers. The
 present paper does not claim to reproduce their running-coupling results or
 to rule out every Euclidean statistical-surface construction. Its pole test

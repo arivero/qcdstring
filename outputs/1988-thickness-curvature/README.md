@@ -37,3 +37,5 @@ python3 code/build.py
 The programs also work from another current directory. No earlier simulation
 or second-line file is changed. The downloaded historical scan is kept in
 the ignored source library and is not redistributed.
+
+The 20 November 2026 second referee also hand-checked the scalar-curvature vacuum shift and table entries. The subsequent revision identifies the 1988 finite-width calculations of Maeda–Turok and Gregory in the period bibliography. [Source record](SOURCES.md) · [Joint review response](../1991-vortex-pseudoscalar/RESPONSE.md#response-to-the-joint-review-of-20-november-2026)

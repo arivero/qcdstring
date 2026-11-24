@@ -66,3 +66,7 @@ records author revisions addressing every requested change; it does not
 claim a second independent review of the revised edition. The author
 document checks, PDF build and layout inspection are repeated for the
 revised publication. The numerical formulas are unchanged.
+
+## November 2026 joint review
+
+The second referee on 20 November checked the scalar-curvature contribution $-32\pi^6b/(225L^7)$ and table entries by hand. On 24 November the author checks reproduced the stored numerical record. Maeda–Turok and Gregory are now references [6] and [7], with the distinct scope of their finite-width results recorded in the source manifest. The revised 12-page PDF and the document check cover all seven references. [Sources](SOURCES.md) · [Joint review and response](../1991-vortex-pseudoscalar/RESPONSE.md#response-to-the-joint-review-of-20-november-2026)

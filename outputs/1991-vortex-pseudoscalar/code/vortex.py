@@ -125,7 +125,25 @@ def calculation(beta, outer, draw=False):
                   matrix_dirichlet=matrix)
     if beta == 1:
         result['bps_first'] = float(np.max(np.abs(df - angular)))
-        result['bps_second'] = float(np.max(np.abs(mag - (1 - f*f) / 2)))
+        field_residual = np.abs(mag - (1 - f*f) / 2)
+        result['bps_second'] = float(np.max(field_residual))
+        result['bps_second_off_axis'] = float(np.max(field_residual[1:]))
+        # Canonical BPS partner in Eq. (16) of the curvature comparison.
+        # The azimuthal potential perturbation is r times the vector profile.
+        scalar_shape = f * u / mu
+        vector_shape = -du / mu
+        tail_du = -k * kve(1, k * tail_r) / kve(0, k * tail_r) * tail_u
+        norm_inside = integral(r * (scalar_shape**2 + vector_shape**2))
+        norm_outside = simpson(tail_r * (tail_u**2 + tail_du**2), x=tail_r) / eigenvalue
+        shape_norm = 2 * np.pi * (norm_inside + norm_outside)
+        scalar_term = np.pi * integral(r**2 * df * scalar_shape)
+        vector_term = np.pi * integral(r * da * vector_shape)
+        journal_kappa = -(scalar_term + vector_term)
+        result['curvature_eq27'] = dict(shape_norm=shape_norm, scalar_term=scalar_term,
+                                        vector_term=vector_term, journal_kappa=journal_kappa)
+        if abs(shape_norm - 1) > 3e-6 or abs(journal_kappa + Qe) > 3e-6:
+            raise ArithmeticError("Canonical shape norm or curvature/flux comparison failed")
+
         # Change the static profiles along the normalized even partner at e=m_V=1.
         def translational_norm(delta):
             shifted_f = f + delta * f * u / mu
