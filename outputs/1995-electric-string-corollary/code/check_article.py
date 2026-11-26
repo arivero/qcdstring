@@ -28,8 +28,27 @@ for row in data["radial"]:
         assert abs(low+high-row["lambda_n"]-row["lambda_b"]-projection["h_over_mgamma"]**2)<1e-12
         assert abs(projection["lower_vector_weight"] + projection["upper_vector_weight"] - 1)<1e-12
 
-assert [int(n) for n in re.findall(r'\\tag\{(\d+)\}',text)]==list(range(1,25))
+assert [int(n) for n in re.findall(r'\\tag\{(\d+)\}',text)]==list(range(1,35))
+
+# Section 11: printed values against results/spin-structure.json
+spin = json.loads((ROOT / "results/spin-structure.json").read_text())
+expect = {
+    "T/\\pi=0.9999994": round(spin["profile"]["tension_over_pi"], 7) == 0.9999994,
+    "0.777464": abs(spin["neutral_block"]["0"]["lowest"] - 0.777464) < 5e-7,
+    "$-0.5235985$": abs(spin["casimir"]["chiral_sum_finite_part_periodic"][-1] + 0.5235985) < 5e-8,
+    "$+0.2617992$": abs(spin["casimir"]["chiral_sum_finite_part_antiperiodic"][-1] - 0.2617992) < 5e-8,
+    "$0.99936$": abs(spin["casimir"]["massive_dirac_difference_times_2L_over_pi"]["0.001"] - 0.99936) < 5e-6,
+    "1.00404,1.00063,1.00016": [round(r["difference_times_2L_over_pi"], 5) for r in spin["estimator"]["rows"][:3]] == [1.00404, 1.00063, 1.00016],
+    "-0.50478,-0.50068,-0.50017": [round(r["a_NS_hat_over_pi"], 5) for r in spin["estimator"]["rows"][:3]] == [-0.50478, -0.50068, -0.50017],
+    "0.49830,0.49977,0.49994": [round(r["ratio_2L_to_L"], 5) for r in spin["estimator"]["rows"][:3]] == [0.4983, 0.49977, 0.49994],
+}
+for label, ok in expect.items():
+    assert label in text, label
+    assert ok, label
+assert spin["neutral_block"]["1"]["below_one"] == [] and spin["neutral_block"]["2"]["below_one"] == []
+assert abs(spin["casimir"]["difference_two_majoranas_over_pi"] - 0.5) < 1e-15
+assert spin["casimir"]["cft_E_R_times_L_over_pi"] == 0 and spin["casimir"]["cft_E_NS_times_L_over_pi"] == -0.5
 for u in re.findall(r'!?\[[^\]\n]+\]\(([^)\s]+)\)',text):
     if not u.startswith(('http://','https://','#')):
         assert (ROOT/u.split('#')[0]).is_file(),u
-print("Verified six spectral rows, both projected examples, 24 equation labels and local manuscript links.")
+print("Verified six spectral rows, both projected examples, 34 equation labels, the Section 11 values and local manuscript links.")
