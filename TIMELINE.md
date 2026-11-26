@@ -47,11 +47,13 @@ slots 1976-1984 are in [`LATE_1976-1984.md`](LATE_1976-1984.md).
 | 1997 | Witten: MQCD, the string as a membrane. Hanany-Strassler-Zaffaroni: sine law from MQCD. | Idea 018. | |
 | 1997 | Maldacena. Polyakov: the fifth dimension is the Liouville field. | Phase 4 is the attempt to get here from the gauge side. |
 | 1998 | Polyakov: the wall of the cave; Klebanov-Tseytlin: type 0 duals. Witten: baryon vertex. Gopakumar-Vafa: geometric transition. Witten: confinement from a thermal AdS geometry. Maldacena, Rey-Yee: Wilson loops as minimal surfaces. Kinar-Schreiber-Sonnenschein: the Q-Qbar potential in holography. | [QCDS-98/1](outputs/1998-colour-across-dualities/paper.md) follows the IIA winding source to relative center flux, derives free-end tension and angular inertia, and compares IIB, heterotic and nonsupersymmetric D4 probes. |
+| 1998–99 | DeTar et al. find screening of the static-pair free energy below the thermal transition in lattice QCD with dynamical quarks. | [1998 preprint](https://arxiv.org/abs/hep-lat/9808028) |
 | 2000-01 | Klebanov-Strassler, Maldacena-Nunez: confining IIB geometries. Vafa, Atiyah-Maldacena-Vafa: the geometric transition as confinement, on a G2 manifold. | Idea 021. |
 | 2001 | Polchinski-Strassler: hard scattering from a warped string. Lucini-Teper: large-N lattice. | Phase 4. |
 | 2002-04 | Luscher-Weisz: the Luscher term confirmed on the lattice in SU(3); boundary terms. | Phase 2 stretch goal. |
 | 2003 | Armoni-Shifman-Veneziano: planar equivalence. Non-Abelian vortices (Hanany-Tong; Auzzi et al). | Ideas 019, 022. |
 | 2004 | Sakai-Sugimoto: chiral symmetry breaking from joined branes. Kruczenski et al: Regge trajectories from rotating strings in confining backgrounds. | Phase 5. |
+| 2005 | Bali et al. resolve breaking in two-flavour, zero-temperature QCD. Prkacin et al. visualize the spatial action density. | [Spectrum](https://arxiv.org/abs/hep-lat/0505012) · [Spatial distribution](https://arxiv.org/abs/hep-lat/0510051) |
 | 2006 | Brower-Polchinski-Strassler-Tan: the Pomeron as the Reggeised graviton, intercept 2 - 2/sqrt(lambda). | Phase 3 and 4. |
 | 2007-11 | Athenodorou-Bringoltz-Teper: closed flux-tube spectra on the lattice, in D = 2+1 from 2007 ([0709.0693](https://arxiv.org/abs/0709.0693)) and in D = 3+1 from 2010 ([1007.4720](https://arxiv.org/abs/1007.4720)); an anomalous 0^{--} state. | |
 | 2009-13 | Aharony and collaborators: closed-string levels universal through O(1/L^5); in D = 3 they agree with Nambu-Goto to that order ([0903.1927](https://arxiv.org/abs/0903.1927)), in D > 3 excited levels deviate from the Nambu-Goto formula at 1/L^5 by a universal amount ([1302.6257](https://arxiv.org/abs/1302.6257)); open strings first deviate at 1/R^4 ([1008.2636](https://arxiv.org/abs/1008.2636)). | Phase 1. |
@@ -59,6 +61,8 @@ slots 1976-1984 are in [`LATE_1976-1984.md`](LATE_1976-1984.md).
 | 2014-16 | Sonnenschein et al: massive-endpoint strings fit the meson ([1402.5603](https://arxiv.org/abs/1402.5603)) and baryon tables. Brodsky-de Teramond-Dosch: light-front holography and hadronic supersymmetry. | Phase 3. |
 | 2017-21 | Athenodorou-Teper: large-N glueballs, string tensions, the axion mass. Brandt: the 3d potential and its boundary coefficient ([1705.03828](https://arxiv.org/abs/1705.03828)), after excited open-tube levels in 3d SU(2) from 2010 ([1010.3625](https://arxiv.org/abs/1010.3625)). | |
 | 2018-19 | Chen et al: undressing the flux tube with TTbar. Elias Miro et al: flux-tube S-matrix bootstrap. | |
+| 2019, 2024 | Bulava et al. resolve distinct light and strange breaking scales, then extend the analysis to three quark-mass ensembles. Giliberti et al. study holographic screening along an internal quiver coordinate in 2024. | [2019 QCD](https://arxiv.org/abs/1902.04006) · [2024 QCD](https://arxiv.org/abs/2403.00754) · [2024 holography](https://arxiv.org/abs/2409.04539) |
+| 2025 (supplement) | Where does the QCD string live before it breaks? | [QCDS-25/S1](outputs/2025-where-the-flux-lives/paper.md) tests what a measured spectrum can establish and defines a separate local probe. |
 
 ## Reading of the timeline
 

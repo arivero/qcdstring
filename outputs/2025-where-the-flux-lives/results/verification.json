@@ -1,0 +1,11 @@
+{
+  "decimal_held_out_energies": [
+    "-0.0156279290687200890771732696644344153067785421",
+    "0.0286835070014894894500610057130581901211468869"
+  ],
+  "decimal_difference_from_numpy": 1.3450061005713058e-17,
+  "common_energy_origin_error": 2.95e-42,
+  "outside_spectra_interlace": true,
+  "middle_slope_error": 4.074196535697183e-11,
+  "two_harmonic_trigonometric_check": 1.1102230246251565e-16
+}

@@ -8,7 +8,7 @@ Agreed 6 November 2026 (machine date).
   `y<year>`. Commit dates stay real; the fictional year lives in the
   tag and the folder name.
   QCDS-91/S1 is a separately numbered 1991 side paper. The biennial
-  sequence includes the 1990 amplitude working note and the completed 1992 main article. QCDS-95/S1 is an odd-year corollary applying QCDS-92/1 after the 1994 gauge-theory result.
+  sequence includes the 1990 amplitude working note and the completed 1992 main article. QCDS-95/S1 is an odd-year corollary applying QCDS-92/1 after the 1994 gauge-theory result. QCDS-25/S1 uses the 2024 literature for a retrospective on the QCD flux tube and its breaking, outside the even-year sequence.
 * **Paper length.** Starting with the 1990 paper, each completed manuscript
   must contain at least 15,000 tokens. Count the full `paper.md`, including
   equations, appendices and references, with the `o200k_base` encoding.
@@ -95,3 +95,4 @@ Agreed 6 November 2026 (machine date).
 | 1995 (corollary) | What the vortex doublet predicts on a Seiberg–Witten electric string. Fundamental-source matching, odd spectral weight and the resolution hierarchy. | 013, 018, 019 | [QCDS-95/S1](outputs/1995-electric-string-corollary/paper.md), tag `y1995`. Independent read-only referee and author response. |
 | 1996 | Compare flux sectors at weak deformation and identify a candidate carrier of center charge in the type IIA construction. | 018, 019 | [QCDS-96/1](outputs/1996-center-flux-response/paper.md), tag `y1996`. Derived the screened quartic-source response and narrowed the flat IIA candidate. [Referee and response](outputs/1996-center-flux-response/RESPONSE.md). |
 | 1998 | Attempt the controlled superstring or M-theory tube before 2000. Derive the tension and light fields, then predict a polarized finite-length excitation from independent inputs. | 018, 019, 027 | Published [QCDS-98/1](outputs/1998-colour-across-dualities/paper.md), tag `y1998`. Center charge reached. The fixed-probe angular level is computed, and the scale-window test narrows the dynamical construction. The pure four-dimensional polarized spectrum remains open. [Referee and response](outputs/1998-colour-across-dualities/RESPONSE.md) |
+| 2025 (supplement) | What could locate the QCD string in an internal dimension before dynamical quarks screen its sources? | 018, 021, 026, 027 | [QCDS-25/S1](outputs/2025-where-the-flux-lives/paper.md), tag `y2025`. The 2024 lattice and holographic papers set the earliest free odd year for this comparison. Conditional reanalysis of N200 levels and a local-probe calculation. [Referee and response](outputs/2025-where-the-flux-lives/RESPONSE.md) |

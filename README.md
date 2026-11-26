@@ -36,6 +36,8 @@ The **1996 biennial paper** asks when two units of electric flux bind in softly 
 
 The latest biennial article is **Where does the color go when a string is lifted?** (QCDS-98/1). It follows a fundamental source through the 1995 duality web and the 1997 fivebrane construction. Free bulk winding and the bound strip have the same relative center charge. Their tensions and supersymmetry properties differ. The free-end calculation predicts an internal rotational level in the fixed membrane probe and identifies the scale obstruction to carrying it into four-dimensional Yang–Mills. [1998 paper](outputs/1998-colour-across-dualities/paper.md) · [PDF](outputs/1998-colour-across-dualities/paper.pdf) · [Referee and response](outputs/1998-colour-across-dualities/RESPONSE.md)
 
+The **2025 odd-year supplement** follows the QCD string up to its breaking into two static-light mesons. It traces the finite-temperature lattice evidence to 1998 and the zero-temperature spectrum to 2005, then uses two 2024 studies to ask how one could establish where its flux sits in an extra dimension. It tests a conditional prediction on measured lattice levels and derives a case where equal forces coexist with opposite midpoint field profiles. [Article](outputs/2025-where-the-flux-lives/paper.md) · [PDF](outputs/2025-where-the-flux-lives/paper.pdf) · [Data and primary sources](outputs/2025-where-the-flux-lives/SOURCES.md)
+
 ## Layout
 
 | Path | Contents |
