@@ -41,6 +41,22 @@ papers. This reminder does not prescribe the subject of the next paper.
 
 Recorded at the user's request on 17 November 2026.
 
+# What counts as progress
+
+`PREDICTIONS.md` is the measure. A paper or a calculation advances the
+programme in one of three ways: a registered prediction is reproduced or
+refuted inside the programme; a new prediction with its derivation is
+registered before its test; or an input that an earlier paper took by hand
+is derived. Checks, restatements and results in a simplified model are
+support, and the text says that the programme stands where it was. After a
+negative result, list its escapes and attempt the most promising one in a
+later paper. When a ticket closes, classify the exit as reached, narrowed
+(a candidate eliminated, the next one named) or blocked (the decisive
+computation remains and is stated as the next target), and state what
+research stays open.
+
+Recorded at the user's request on 26 November 2026.
+
 # Integration without pull requests
 
 Integrate finished work directly on the repository's default branch as
