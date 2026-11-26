@@ -1,0 +1,34 @@
+{
+  "mass_matrix": {
+    "alpha=0.000": {
+      "max_singular_value_minus_f": 4.440892098500626e-16,
+      "max_cross_sector_entry": 4.041566846595246e-17
+    },
+    "alpha=0.700": {
+      "max_singular_value_minus_f": 4.440892098500626e-16,
+      "max_cross_sector_entry": 9.15960278627676e-17
+    },
+    "alpha=3.142": {
+      "max_singular_value_minus_f": 4.440892098500626e-16,
+      "max_cross_sector_entry": 5.3796223386177266e-17
+    }
+  },
+  "sector_1_identity": {
+    "(dt+d3)v_X - (Du)_X": "-I * R_psi2",
+    "(dt+d3)v_Z - (Du)_Z": "1 * conj(R_chi2)",
+    "(dt-d3)u_B + (D^dag v)_B": "I * conj(R_chi1)",
+    "(dt-d3)u_eta + (D^dag v)_eta": "-I * R_psi1"
+  },
+  "sector_2_identity": {
+    "(dt-d3)v_X - (Du)_X": "I * conj(R_psi1)",
+    "(dt-d3)v_Z - (Du)_Z": "-1 * R_chi1",
+    "(dt+d3)u_B + (D^dag v)_B": "-I * R_chi2",
+    "(dt+d3)u_eta + (D^dag v)_eta": "I * conj(R_psi2)"
+  },
+  "relabelling": {
+    "sector_1": "u = (conj chi_+1, psi_q1), v = (psi_q2, -i conj chi_+2); left-moving kernel",
+    "sector_2": "u = (chi_-2, conj psi_qt2), v = (conj psi_qt1, -i chi_-1); right-moving kernel",
+    "chi_pm": "(exp(i alpha) psi_A +- lambda)/sqrt2 for superpotential phase alpha; alpha = 0 here",
+    "components": "1, 2 are the sigma_3 = +1, -1 components of the lower-index Weyl spinor"
+  }
+}

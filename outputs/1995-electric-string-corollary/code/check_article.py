@@ -28,7 +28,7 @@ for row in data["radial"]:
         assert abs(low+high-row["lambda_n"]-row["lambda_b"]-projection["h_over_mgamma"]**2)<1e-12
         assert abs(projection["lower_vector_weight"] + projection["upper_vector_weight"] - 1)<1e-12
 
-assert [int(n) for n in re.findall(r'\\tag\{(\d+)\}',text)]==list(range(1,35))
+assert [int(n) for n in re.findall(r'\\tag\{(\d+)\}',text)]==list(range(1,38))
 
 # Section 11: printed values against results/spin-structure.json
 spin = json.loads((ROOT / "results/spin-structure.json").read_text())
@@ -41,7 +41,17 @@ expect = {
     "1.00404,1.00063,1.00016": [round(r["difference_times_2L_over_pi"], 5) for r in spin["estimator"]["rows"][:3]] == [1.00404, 1.00063, 1.00016],
     "-0.50478,-0.50068,-0.50017": [round(r["a_NS_hat_over_pi"], 5) for r in spin["estimator"]["rows"][:3]] == [-0.50478, -0.50068, -0.50017],
     "0.49830,0.49977,0.49994": [round(r["ratio_2L_to_L"], 5) for r in spin["estimator"]["rows"][:3]] == [0.4983, 0.49977, 0.49994],
+    "$B=0.01004,0.10356,0.21413,0.33141,0.45488$": [round(r["bound"], 5) for r in spin["deformation"]["rows"] if r["w"] in (0.01, 0.1, 0.2, 0.3, 0.4)] == [0.01004, 0.10356, 0.21413, 0.33141, 0.45488],
+    "$w_*=0.3889$": round(spin["deformation"]["w_star"], 4) == 0.3889,
+    "$0<w\\le0.388$": spin["deformation"]["w_star"] > 0.388,
+    "2.70\\times10^{-3}": abs(spin["deformation"]["rows"][2]["sup_df"] - 2.70e-3) < 5e-6,
 }
+assert all(r["sup_s"] <= r["w"] / 2 + 1e-12 for r in spin["deformation"]["rows"])
+variants = spin["deformation"]["bound_at_w_star_variants"]
+assert max(variants.values()) - min(variants.values()) < 1e-8
+ferm = json.loads((ROOT / "results/fermion-operator.json").read_text())
+assert all(v is not None for k in ("sector_1_identity", "sector_2_identity") for v in ferm[k].values())
+assert all(m["max_singular_value_minus_f"] < 1e-12 and m["max_cross_sector_entry"] < 1e-12 for m in ferm["mass_matrix"].values())
 for label, ok in expect.items():
     assert label in text, label
     assert ok, label
@@ -51,4 +61,4 @@ assert spin["casimir"]["cft_E_R_times_L_over_pi"] == 0 and spin["casimir"]["cft_
 for u in re.findall(r'!?\[[^\]\n]+\]\(([^)\s]+)\)',text):
     if not u.startswith(('http://','https://','#')):
         assert (ROOT/u.split('#')[0]).is_file(),u
-print("Verified six spectral rows, both projected examples, 34 equation labels, the Section 11 values and local manuscript links.")
+print("Verified six spectral rows, both projected examples, 37 equation labels, the Section 11 values and local manuscript links.")

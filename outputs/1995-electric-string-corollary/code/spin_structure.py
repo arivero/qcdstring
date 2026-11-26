@@ -29,6 +29,8 @@ from scipy.special import k1
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT.parents[0] / "1991-vortex-pseudoscalar" / "code"))
 from vortex import background  # noqa: E402
+sys.path.insert(0, str(ROOT.parents[0] / "1992-scalar-doublet" / "code"))
+from trace_spectrum import static_solution  # noqa: E402
 
 OUTER = 30.0
 
@@ -171,6 +173,46 @@ def estimator_checks(nu0):
                 + str(massive), rows=rows)
 
 
+NU0 = 0.8817442  # sqrt(0.7774728), QCDS-91/S1
+
+
+def profile_response(w, radius, points):
+    """sup|f_w - f_0|, sup|a_w - a_0|/rho, sup|s_w| on the deformed branch of Eq. (6)."""
+    r = np.exp(np.linspace(np.log(1e-4), np.log(0.999 * radius), points))
+    y0 = static_solution(0.0, radius, 0.0, 1).sol(np.log(r))
+    yw = static_solution(w, radius, 0.0, 1).sol(np.log(r))
+    df = float(np.max(np.abs(yw[0] - y0[0])))
+    da = float(np.max(np.abs(yw[2] - y0[2]) / r))
+    sm = float(np.max(np.abs(yw[4])))
+    return df, da, sm
+
+
+def perturbation_bound():
+    """||V_w|| <= max(w, sup|s|) + sup|df| + sup|da|/rho, and the largest w with bound < nu0/2."""
+    rows = []
+    for w in (0.01, 0.05, 0.1, 0.2, 0.3, 0.35, 0.4):
+        df, da, sm = profile_response(w, 25.0, 20001)
+        rows.append(dict(w=w, sup_df=df, sup_da_over_rho=da, sup_s=sm,
+                         bound=max(w, sm) + df + da))
+    def excess(w, radius=25.0, points=20001):
+        df, da, sm = profile_response(w, radius, points)
+        return max(w, sm) + df + da - NU0 / 2
+    lo, hi = 0.3, 0.45
+    for _ in range(30):
+        mid = 0.5 * (lo + hi)
+        if excess(mid) < 0:
+            lo = mid
+        else:
+            hi = mid
+    w_star = lo
+    # error budget: outer radius and sampling of the supremum at w_star
+    budget = dict(radius_35=excess(w_star, 35.0) + NU0 / 2, points_40001=excess(w_star, 25.0, 40001) + NU0 / 2,
+                  reference=excess(w_star) + NU0 / 2)
+    gap_at = {str(r["w"]): NU0 - r["bound"] for r in rows}
+    return dict(nu0=NU0, half_gap=NU0 / 2, rows=rows, w_star=w_star,
+                bound_at_w_star_variants=budget, lower_bound_on_fermion_gap=gap_at)
+
+
 def main():
     sol = background(1.0, OUTER)
     out = {"profile": profile_checks(sol), "kernel": kernel_check(sol)}
@@ -189,6 +231,7 @@ def main():
     out["gap"] = dict(nu0=nu0, contour_radius=nu0 / 2)
     out["casimir"] = casimir_checks()
     out["estimator"] = estimator_checks(nu0)
+    out["deformation"] = perturbation_bound()
     (ROOT / "results" / "spin-structure.json").write_text(json.dumps(out, indent=2) + "\n")
     print(json.dumps(out, indent=2))
 
