@@ -298,3 +298,9 @@ uncalculated winding amplitude leaves the gap undecided. The 1998 D4
 compactification offers another calculation within the period, with
 the Kaluza–Klein limitation described in Section 1. The confining IIB
 backgrounds of 2000 and later offer subsequent tests.
+
+### Disposition after the 1998 paper
+
+The fundamental IIA string maps to a wrapped M2. In the presence of the pure MQCD fivebrane, the same relative class has a cheaper open representative bound to the four-dimensional sector. The inclusion of the curve winds $N$ times around the ambient circle. This **reaches** the center-charge test in the historical construction. QCDS-98/1 derives the shift of the free membrane endpoints, its angular inertia and a finite-length level in a specified probe. All four vacuum supercharges are broken by the supersymmetric color string. The extra angular mode can evade a test that measures only the difference between spatial spin structures. [QCDS-98/1](outputs/1998-colour-across-dualities/paper.md)
+
+The dynamical target is **narrowed**. Classical large radii drive $\sigma_1 R_{11}^2$ large, keeping even the conservative angular winding dimension above the Gaussian relevance threshold and the KK scale below the tension scale. The more decisive continuation would calculate the coupled M2–M5 norm and a finite-action winding defect with its fermionic insertions. Its amplitude and the extrapolation of the unprotected gap to an autonomous four-dimensional theory remain open. [Scale test and next calculation](outputs/1998-colour-across-dualities/paper.md#9-disposition-of-the-geometric-target)

@@ -46,7 +46,7 @@ slots 1976-1984 are in [`LATE_1976-1984.md`](LATE_1976-1984.md).
 | 1996 | Horava-Witten: E8xE8 from an interval. Hanany-Witten: brane constructions. | Idea 020. |
 | 1997 | Witten: MQCD, the string as a membrane. Hanany-Strassler-Zaffaroni: sine law from MQCD. | Idea 018. | |
 | 1997 | Maldacena. Polyakov: the fifth dimension is the Liouville field. | Phase 4 is the attempt to get here from the gauge side. |
-| 1998 | Polyakov: the wall of the cave; Klebanov-Tseytlin: type 0 duals. Witten: baryon vertex. Gopakumar-Vafa: geometric transition. Witten: confinement from a thermal AdS geometry. Maldacena, Rey-Yee: Wilson loops as minimal surfaces. Kinar-Schreiber-Sonnenschein: the Q-Qbar potential in holography. | |
+| 1998 | Polyakov: the wall of the cave; Klebanov-Tseytlin: type 0 duals. Witten: baryon vertex. Gopakumar-Vafa: geometric transition. Witten: confinement from a thermal AdS geometry. Maldacena, Rey-Yee: Wilson loops as minimal surfaces. Kinar-Schreiber-Sonnenschein: the Q-Qbar potential in holography. | [QCDS-98/1](outputs/1998-colour-across-dualities/paper.md) follows the IIA winding source to relative center flux, derives free-end tension and angular inertia, and compares IIB, heterotic and nonsupersymmetric D4 probes. |
 | 2000-01 | Klebanov-Strassler, Maldacena-Nunez: confining IIB geometries. Vafa, Atiyah-Maldacena-Vafa: the geometric transition as confinement, on a G2 manifold. | Idea 021. |
 | 2001 | Polchinski-Strassler: hard scattering from a warped string. Lucini-Teper: large-N lattice. | Phase 4. |
 | 2002-04 | Luscher-Weisz: the Luscher term confirmed on the lattice in SU(3); boundary terms. | Phase 2 stretch goal. |

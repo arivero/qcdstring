@@ -1,0 +1,3 @@
+# Response to the independent referee
+
+The referee recommended publication after clarifying the inference from the vanishing relative homology group. The paragraph following (6) now distinguishes equality of homology classes from a continuous contraction of a fixed-topology strip. The endpoint loops may each wind, and a physical change of winding may require membrane reconnection and an allowed finite-action core. Sections 6 and 9 and the abstract now use the same interpretation. The annular calculation determines a Gaussian scaling dimension. The existence and amplitude of a microscopic unwinding event remain open. [Independent report](REFEREE.md)

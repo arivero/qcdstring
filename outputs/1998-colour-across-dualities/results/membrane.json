@@ -1,0 +1,99 @@
+{
+  "distance_scan": [
+    {
+      "eta": 0.005,
+      "delta_1": 1.565796389,
+      "length_1_over_a": 1.997498456,
+      "length_2_over_1": 1.415984636,
+      "linear_coefficient": 0.25046764
+    },
+    {
+      "eta": 0.02,
+      "delta_1": 1.550800325,
+      "length_1_over_a": 1.989976214,
+      "length_2_over_1": 1.421337152,
+      "linear_coefficient": 0.25185693
+    },
+    {
+      "eta": 0.03125,
+      "delta_1": 1.539561569,
+      "length_1_over_a": 1.984318606,
+      "length_2_over_1": 1.425389611,
+      "linear_coefficient": 0.2528851
+    },
+    {
+      "eta": 0.1,
+      "delta_1": 1.471290984,
+      "length_1_over_a": 1.949528505,
+      "length_2_over_1": 1.450826247,
+      "linear_coefficient": 0.25889078
+    },
+    {
+      "eta": 0.25,
+      "delta_1": 1.328121646,
+      "length_1_over_a": 1.873480407,
+      "length_2_over_1": 1.509718017,
+      "linear_coefficient": 0.27012739
+    },
+    {
+      "eta": 0.5,
+      "delta_1": 1.120612716,
+      "length_1_over_a": 1.752180841,
+      "length_2_over_1": 1.614232423,
+      "linear_coefficient": 0.28286939
+    },
+    {
+      "eta": 0.9,
+      "delta_1": 0.878177547,
+      "length_1_over_a": 1.584874532,
+      "length_2_over_1": 1.78463788,
+      "linear_coefficient": 0.29103283
+    }
+  ],
+  "example": {
+    "N": 4,
+    "R_over_lp": 40.0,
+    "a_over_lp": 20.0,
+    "delta": 1.539561569,
+    "length_over_lp": 39.686372115,
+    "sigma_lp2": 1.005267549,
+    "K_phi": 26279.363737,
+    "K_phi_over_N2": 1642.4602336,
+    "sigma_R2": 1608.4280789,
+    "rotor_gap_over_sqrt_sigma_at_Lsqrt_sigma_1000": 1.9026335835377458e-08,
+    "unit_vortex_dimension_gaussian": 82559.056057,
+    "tilt_checks": [
+      {
+        "slope_times_NR": 0.08,
+        "stiffness": 26236.566001,
+        "relative_error": -0.0016285682
+      },
+      {
+        "slope_times_NR": 0.04,
+        "stiffness": 26268.638128,
+        "relative_error": -0.0004081381
+      },
+      {
+        "slope_times_NR": 0.02,
+        "stiffness": 26276.680692,
+        "relative_error": -0.000102097
+      },
+      {
+        "slope_times_NR": 0.01,
+        "stiffness": 26278.692873,
+        "relative_error": -2.55282e-05
+      },
+      {
+        "slope_times_NR": 0.005,
+        "stiffness": 26279.196014,
+        "relative_error": -6.3823e-06
+      }
+    ],
+    "endpoint_start_spread": 0.0
+  },
+  "iib": {
+    "charge_pairs": 49,
+    "matrices": 3,
+    "max_tension_difference": 1.3322676295501878e-15
+  }
+}

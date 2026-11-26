@@ -34,6 +34,8 @@ The odd-year **1995 corollary** identifies the 1992 vortex with an electric conf
 
 The **1996 biennial paper** asks when two units of electric flux bind in softly deformed supersymmetric $SU(4)$. It derives a change of minimizing channel under a quartic perturbation, registers P26, and tests the freely wrapped flat IIA membrane against the gauge-theory charge and tension. [1996 paper](outputs/1996-center-flux-response/paper.md) · [PDF](outputs/1996-center-flux-response/paper.pdf) · [Referee and response](outputs/1996-center-flux-response/RESPONSE.md)
 
+The latest biennial article is **Where does the color go when a string is lifted?** (QCDS-98/1). It follows a fundamental source through the 1995 duality web and the 1997 fivebrane construction. Free bulk winding and the bound strip have the same relative center charge. Their tensions and supersymmetry properties differ. The free-end calculation predicts an internal rotational level in the fixed membrane probe and identifies the scale obstruction to carrying it into four-dimensional Yang–Mills. [1998 paper](outputs/1998-colour-across-dualities/paper.md) · [PDF](outputs/1998-colour-across-dualities/paper.pdf) · [Referee and response](outputs/1998-colour-across-dualities/RESPONSE.md)
+
 ## Layout
 
 | Path | Contents |

@@ -43,3 +43,7 @@ show tension ratios equal to k (no binding at all).
 
 ## References
 Witten1997, HSZ1998, HananyWitten1996, Townsend1995, Duff1996, Witten1998c.
+
+## December 1998 update
+
+The pure fivebrane curve gives the required center quotient, and the freely sliding unit strip gives a definite tension and angular inertia in the fixed classical metric. The equal-circle sine ratio is its leading small-$\eta$ result. The earlier expectation of an exact ratio in supersymmetric Yang–Mills has no protection argument. The pure-QCD spectral test is open. [Calculation](../outputs/1998-colour-across-dualities/paper.md) · [Ledger](../PREDICTIONS.md#december-1998--color-and-supersymmetry-across-the-dualities)
