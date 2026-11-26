@@ -50,3 +50,19 @@ MPLBACKEND=Agg OPENBLAS_NUM_THREADS=1 python3 code/check.py
 | VRensembles_fig.tex | 2e59bd72ae8a6fa2234dfc1d9d08cf4c2ca74a241d1ae356733734fb338c3096 |
 
 The archive also contains model.tex, method.tex and massdep.tex. The Fig. 4 caption in model.tex identifies the markers as estimates of levels from the generalized eigenvalue analysis and the bands as the seven-parameter fits. The middle-panel labels in VRensembles_fig.tex identify N200 and the integer separations. Its vertical axis is the static energy minus twice the static-light energy in lattice units. The graphic has size 481 by 198 PDF points. The black bottom ticks for 17, 19 and 21 have abscissae 204.398, 249.648 and 294.898 points. The same tick-to-energy calibration applies in each panel. At each of those abscissae the code identifies three filled point markers, matches them to the three vertical error strokes and ignores the polygons for the model bands. Printed coordinates at about 0.05 point resolution make rounding on the order of 0.00005 in energy visible. These checks preserve the provenance of a vector digitization from an existing publication. Only the markers, axes and marginal errors are available through this route. [Digitized data](data/n200.csv) · [Extraction code](code/digitize.py) · [Results](results/checks.json)
+
+## The QCD midpoint and the SU(3) calculation in the revised edition
+
+Z. Prkacin et al. reported the vacuum-subtracted transverse profiles at a static-source separation of 1.2 fm in their Fig. 2. Section 3 and Fig. 3 describe spatial action-density measurements on the two levels and the interpolation used in their animations. The transverse coordinates are ordinary spatial distances. In Fig. 2 the square markers show the action density and the circles show the energy density multiplied by 29. The ratio in our Eq. (23) refers the square-marker heights to the mean of the two outer markers at ±1 fm. The x-axis ticks fix one fm at 2012 drawing units and the origin at 2520. The drawing gives heights 2882, 2077, 1292 and 1086 at 0, 0.25, 0.50 and 1.00 fm. There is no absolute action unit or joint covariance in this extraction. [2005 paper](https://arxiv.org/abs/hep-lat/0510051v1) · [Original source](https://arxiv.org/src/hep-lat/0510051v1) · [25 published markers](data/qcd-midplane.csv)
+
+~~~sh
+profile_dir=$(mktemp -d)
+curl -fL https://arxiv.org/src/hep-lat/0510051v1 -o "$profile_dir/source.tar.gz"
+tar -xzf "$profile_dir/source.tar.gz" -C "$profile_dir" transverse.ps
+sha256sum "$profile_dir/source.tar.gz" "$profile_dir/transverse.ps"
+python3 code/qcd_profile.py "$profile_dir/transverse.ps"
+~~~
+
+The version 1 archive hash is 53ac3f1112e92646f55062fbb2c8e937132f4e0c99352488c629b3b9fcdfd6e6 and the member hash is 1f513a0ab0696b33d9280b13c81a95bdf34f1090176c902530f943bd08d85d4c.
+
+Kogut and Susskind give the electric-Casimir and matter-hopping framework of Hamiltonian lattice gauge theory. Drummond treats strong-coupling mixing between a string and two screened sources. Our two-row action omits magnetic plaquettes, projects each hop onto an empty-to-occupied electric link transition and uses group-valued scalar matter. The geometry, variational basis, parameters and outputs are those defined in Section 9. The computation uses no lattice QCD fit parameters. [Hamiltonian formulation (1975)](https://doi.org/10.1103/PhysRevD.11.395) · [String breaking at strong coupling (1998)](https://arxiv.org/abs/hep-lat/9805012) · [Prior registration](https://github.com/arivero/qcdstring/commit/827633aca323713e2e58e09c9769b6c03b602f2f)

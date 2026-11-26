@@ -15,3 +15,18 @@ The referee considered a matched nonperturbative parent calculation, an operatio
 ## Final disposition after revision
 
 **Accept within the explicitly stated scope.** The referee reread the abstract, conclusion, dated registration, source register, author checks and response. It found no remaining consequential defect in the revised text and provenance records. The versioned source, member hashes, axes, figure elements and linked prior registration addressed its reproducibility requests. The referee did not independently retrieve the external archive or commit or run the calculations. Correlated resampling and a matched internal operator remain open scientific questions. [Author verification](AUTHOR_CHECKS.md)
+
+## Independent referee for the displacement experiment
+
+GPT-6.1 Sol, a fresh second-line referee, read the revised article and its source, code, registration and printouts as text. It ran no calculations and consulted no external sources.
+
+**First disposition. Minor revision.** The new calculation supplies gauge-covariant basis states contracted with external indices, derives the projected local hop, compares references at identical couplings, and discloses a sizeable failure of the variational energies to subtract between sectors. The referee identified no definite algebraic or implementation error. It requested four changes.
+
+1. Identify the six-hop coefficient and the finite-hopping minimum as results within the ordered-contraction variational space at their first appearance.
+2. Describe the four-sector difference as a reference-subtracted variational diagnostic. The sectors use the same Hamiltonian parameters, but their spectator fluctuations are represented unequally.
+3. Identify the stored second-order calculation as arithmetic evaluation of a derivation. Supply the Haar integrals, their two vacuum orientations and the corresponding rotor energy costs.
+4. Check that the stationary gap is a minimum in the sampled window by comparison with neighbouring masses or curvature.
+
+The referee also requested a spectator-compatible or exactly soluble small-strip check before interpreting the small screened signal quantitatively. It cautioned that the full-parent gap would require control of the omitted flavour contractions. [Response to the revision review](RESPONSE.md#displacement-experiment)
+
+**Final disposition after revision. Accept within the stated finite-model scope.** The referee found the variational qualification, neighbouring gaps, Haar factors and spectator-factorization check sufficient for the claims made. It emphasized that the isolated-link repair gives no error bound on the connected strip and the full-parent second-order response has an unquantified fourth-order remainder at the reported hopping. No publication-blocking defect remained. This disposition is a read-only scientific assessment.

@@ -1,0 +1,25 @@
+{
+  "path_orders": 720,
+  "coefficient_exact": "71991296/258084225",
+  "coefficient_decimal": 0.27894496844973765,
+  "effective_gap_exponents": [
+    5.8807968741416365,
+    5.94003900894527
+  ],
+  "full_parent_second_order": {
+    "t": 0.45,
+    "screened_raw": 0.0072,
+    "connected_raw": 0.9992561983471074,
+    "connected_subtracted": 0.9920561983471075,
+    "screened_subtracted": 0
+  },
+  "displaced_ground_subtracted_energy_L5": -0.4717504952969742,
+  "displaced_ground_raw_mid_L5": [
+    0.0004004289105064453,
+    0.00031140831908953414
+  ],
+  "displaced_first_raw_mid_L5": [
+    0.9992457894967754,
+    8.779108606101279e-08
+  ]
+}

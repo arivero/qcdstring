@@ -1,0 +1,61 @@
+{
+  "haar_first_moment_error": 2.5940875344208914e-16,
+  "spectator_controls": [
+    {
+      "orientations": 1,
+      "complete_product_contraction": false,
+      "raw_vacuum": [
+        -0.02690349360425147,
+        0.003561580756538976
+      ],
+      "raw_screened_pair": [
+        -0.0029988009590410734,
+        0.0003995206391052883
+      ],
+      "subtracted_energy": -0.023904692645210397,
+      "subtracted_midpoint": 0.0031620601174336877
+    },
+    {
+      "orientations": 1,
+      "complete_product_contraction": true,
+      "raw_vacuum": [
+        -0.02690349360425147,
+        0.003561580756538976
+      ],
+      "raw_screened_pair": [
+        -0.02690349360425147,
+        0.003561580756538976
+      ],
+      "subtracted_energy": 0.0,
+      "subtracted_midpoint": 0.0
+    },
+    {
+      "orientations": 2,
+      "complete_product_contraction": false,
+      "raw_vacuum": [
+        -0.053616699931789934,
+        0.007048120796813127
+      ],
+      "raw_screened_pair": [
+        -0.005995207664674324,
+        0.0007980851057051664
+      ],
+      "subtracted_energy": -0.04762149226711561,
+      "subtracted_midpoint": 0.006250035691107961
+    },
+    {
+      "orientations": 2,
+      "complete_product_contraction": true,
+      "raw_vacuum": [
+        -0.053616699931789934,
+        0.007048120796813127
+      ],
+      "raw_screened_pair": [
+        -0.053616699931789934,
+        0.007048120796813127
+      ],
+      "subtracted_energy": 0.0,
+      "subtracted_midpoint": 0.0
+    }
+  ]
+}

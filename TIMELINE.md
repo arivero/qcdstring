@@ -62,7 +62,7 @@ slots 1976-1984 are in [`LATE_1976-1984.md`](LATE_1976-1984.md).
 | 2017-21 | Athenodorou-Teper: large-N glueballs, string tensions, the axion mass. Brandt: the 3d potential and its boundary coefficient ([1705.03828](https://arxiv.org/abs/1705.03828)), after excited open-tube levels in 3d SU(2) from 2010 ([1010.3625](https://arxiv.org/abs/1010.3625)). | |
 | 2018-19 | Chen et al: undressing the flux tube with TTbar. Elias Miro et al: flux-tube S-matrix bootstrap. | |
 | 2019, 2024 | Bulava et al. resolve distinct light and strange breaking scales, then extend the analysis to three quark-mass ensembles. Giliberti et al. study holographic screening along an internal quiver coordinate in 2024. | [2019 QCD](https://arxiv.org/abs/1902.04006) · [2024 QCD](https://arxiv.org/abs/2403.00754) · [2024 holography](https://arxiv.org/abs/2409.04539) |
-| 2025 (supplement) | Where does the QCD string live before it breaks? | [QCDS-25/S1](outputs/2025-where-the-flux-lives/paper.md) tests what a measured spectrum can establish and defines a separate local probe. |
+| 2025 (supplement) | Where does the QCD string live before it breaks? | [QCDS-25/S1](outputs/2025-where-the-flux-lives/paper.md) reanalyses measured four-dimensional QCD energies and a midpoint profile. Its revised Section 9 performs the displaced-source experiment in a two-row SU(3) strip. |
 
 ## Reading of the timeline
 
