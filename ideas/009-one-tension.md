@@ -80,6 +80,22 @@ sigma(T) = sigma - pi (d-2) T^2/6. The closed and the open tube share one
 tension (0.04566(25) against 0.0446-0.0475 from the open-tube fits at
 beta = 0.73).
 
+## Tension for the nucleon-scale test (idea 026, issue #2)
+The pooled slope of `numerics/regge_fit.py` includes the N trajectory and
+the nucleon, so it is not independent of a nucleon benchmark. For idea 026
+the tension comes from mesons alone: a joint fit of the rho and omega
+leading natural-parity trajectories, J = 1 to 4 (rho, a2, rho3, a4; omega,
+f2, omega3, f4), common slope, separate intercepts, least squares on M^2
+with residual-scaled errors, sigma = 1/(2 pi alpha')
+(`numerics/nucleon_scale_026.py`, inputs `data/trajectories_pdg.tsv`).
+PDG 2025: alpha' = 0.8905(203) GeV^-2, sqrt(sigma) = 422.8(4.8) MeV;
+PDG 1996: alpha' = 0.8457(213) GeV^-2, sqrt(sigma) = 433.8(5.5) MeV. Each
+trajectory alone and the rho5 variant give 416.9-431.6 MeV (2025). The
+static-potential values 0.168 GeV^2 (QCDS-78/1) and 0.183 GeV^2 (Cornell,
+from memory) serve as variants. With this tension the leading N trajectory,
+fitted with the nucleon held out, predicts M_N = 770 (733-804) MeV; the
+same procedure gives Delta(1232) to 1.3%. Details in idea 026.
+
 ## References
 ChewFrautschi1962, Hagedorn1965, HuangWeinberg1970, Olesen1985,
 PisarskiAlvarez1982, LTW2004a, PDG1974.

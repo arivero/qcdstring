@@ -11,6 +11,7 @@ memory it should be compared with. Pure Python unless stated.
 | `z2_lattice.py` | Heat-bath Monte Carlo of 3d Z2 gauge theory (numpy); Wilson loops, Creutz ratios, strong-coupling and Ising-duality checks | 004 |
 | `d4_tensor.py` | D4 tensor glueball levels by outward shooting from the tip (numpy, scipy); independent check of the second line's benchmark; m(2++)/sqrt(sigma) as a function of lambda | 006, 010, 021 |
 | `thooft2d.py` | 't Hooft's 2d meson equation by Galerkin (numpy); asymptotic slope pi^2 | 015 |
+| `nucleon_scale_026.py` | Meson-only tension; rotating string with one massive end; nucleon, Delta and Lambda predicted with the low-spin member held out; electroweak benchmark, shared-tension covariance and weak-side controls. Output in `nucleon_scale_026.txt` | 026, 009, 008 |
 
 Planned, in rough order: strong-coupling series for sigma(beta) with ratio
 tests (004); U(1) and SU(2) in four dimensions (004, 014); the rotating

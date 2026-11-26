@@ -16,3 +16,11 @@ scanned 1974 edition (Phys. Lett. B50, 1).
 
 Columns: trajectory, sector, name_1974, name_now, J, P, L, mass, dmass,
 width, status, pool, note.
+
+`trajectories_pdg.tsv`: masses of the rho, omega, N, Delta and Lambda
+leading-trajectory states from the PDG database (`pdgall` SQLite, as
+archived in arivero/pdghist), editions 1996 and 2025, with the PDG
+identifier of each entry. `role` marks the states used for the tension,
+the held-out baryon fits, the controls and the nucleon benchmark. Two 1996
+entries have no error in the database; the 100 MeV used for them is an
+assumption, flagged in `note`. Used by `numerics/nucleon_scale_026.py`.

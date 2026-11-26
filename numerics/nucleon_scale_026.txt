@@ -1,0 +1,126 @@
+Idea 026 / issue #2: the 313 MeV nucleon scale against an independent tension.
+
+==============================================================================
+Edition 2025: present (W, Z: PDG 2026 pdgLive; hadrons: PDG 2025 database)
+==============================================================================
+
+1. Tension from meson trajectories (nucleon not used)
+-----------------------------------------------------
+  rho+omega, J=1-4 (primary)   alpha' = 0.8905 +/- 0.0203 GeV^-2  sqrt(sigma) =  422.8 +/-  4.8 MeV  intercepts 0.483, 0.476  max |res| = 0.116 GeV^2 (dof 5)
+  rho only                     alpha' = 0.9156 +/- 0.0163 GeV^-2  sqrt(sigma) =  416.9 +/-  3.7 MeV  intercepts 0.426  max |res| = 0.041 GeV^2 (dof 2)
+  omega only                   alpha' = 0.8667 +/- 0.0333 GeV^-2  sqrt(sigma) =  428.5 +/-  8.2 MeV  intercepts 0.530  max |res| = 0.071 GeV^2 (dof 2)
+  rho incl. rho5 + omega       alpha' = 0.8544 +/- 0.0244 GeV^-2  sqrt(sigma) =  431.6 +/-  6.2 MeV  intercepts 0.524, 0.558  max |res| = 0.198 GeV^2 (dof 6)
+  static potential, QCDS-78/1 joint fit    sigma = 0.168 GeV^2, sqrt(sigma) = 409.9 MeV
+  static potential, Cornell 1975 (memory)  sigma = 0.183 GeV^2, sqrt(sigma) = 427.8 MeV
+
+2. Baryon trajectories with the low-spin member held out
+--------------------------------------------------------
+  held-out N states: N(1680), N(2220);  benchmark (m_p+m_n)/2 = 938.9188 MeV
+  primary tension; end mass m carries the diquark and junction rest energy
+
+  m [GeV] |     a_N  chi2  M_N pred R_N pred pred/obs | Delta(1232) pred/obs | Lambda pred/obs
+     0.00 |  -0.028  0.01     770.2   0.6073   0.8203 |   1216.2      0.9872 | 1031.6   0.9246
+     0.10 |   0.056  0.03     747.8   0.5896   0.7964 |   1206.9      0.9796 | 1018.3   0.9127
+     0.20 |   0.202  0.09     696.2   0.5490   0.7415 |   1187.9      0.9642 |  990.3   0.8876
+     0.30 |   0.380  0.24     592.9   0.4675   0.6315 |   1159.1      0.9408 |  945.7   0.8476
+     0.40 |   0.577  0.54       nan      nan      nan |   1117.3      0.9069 |  873.6   0.7830
+     0.50 |   0.786  1.06       nan      nan      nan |   1054.7      0.8561 |  728.4   0.6528
+     0.60 |   1.001  1.94       nan      nan      nan |    947.1      0.7688 |    nan      nan
+
+2a. Uncertainty (Monte Carlo over slope and held-out masses), median and 68% interval
+-------------------------------------------------------------------------------------
+  m = 0.0 GeV: M_N = 770 (733-804) MeV,  R_N = M_N/(3 sqrt(sigma)) = 0.607 (0.572-0.641)
+  m = 0.3 GeV: M_N = 593 (525-649) MeV,  R_N = M_N/(3 sqrt(sigma)) = 0.467 (0.409-0.517)
+  tension variant rho+omega, J=1-4 (primary): m = 0: a_N = -0.028, M_N = 770 MeV, R_N = 0.607, pred/obs = 0.820
+  tension variant rho only: m = 0: a_N = -0.100, M_N = 809 MeV, R_N = 0.647, pred/obs = 0.862
+  tension variant omega only: m = 0: a_N = 0.040, M_N = 729 MeV, R_N = 0.567, pred/obs = 0.776
+  tension variant rho incl. rho5 + omega: m = 0: a_N = 0.075, M_N = 705 MeV, R_N = 0.545, pred/obs = 0.751
+  static potential, QCDS-78/1 joint fit: m = 0: a_N = -0.190, M_N = 854 MeV, R_N = 0.694, pred/obs = 0.909
+  static potential, Cornell 1975 (memory): m = 0: a_N = 0.031, M_N = 734 MeV, R_N = 0.572, pred/obs = 0.782
+  free slope through the two held-out N states: alpha'_N = 0.900 GeV^-2, a_N = -0.054, M_N = 785 MeV (pred/obs 0.836)
+  intercept and end mass both through the two N states: no solution with 0 <= m < 1 GeV
+
+2b. Inverse checks (the benchmark inserted by hand)
+---------------------------------------------------
+  R_N = 0.728 at J = 1/2 on a massless-end line selects a_B = 1/2 - (3 R_N)^2/(2 pi) = -0.259
+  the observed nucleon on the primary slope selects a_B = -0.285; the held-out fit gives a_N = -0.028 +/- 0.015
+
+3. Electroweak benchmark, shared tension, held-out lepton sum
+-------------------------------------------------------------
+  H_N  = (m_p+m_n)/6           = 312.9729 MeV
+  H_EW = alpha(0) sqrt(MZ^2-MW^2) = 314.4729 +/- 0.1092 MeV  (fractional 0.000347)
+  H_EW/H_N = 1.004793 +/- 0.000349;  R_N/R_EW = 0.995230 +/- 0.000346
+  with the primary tension, sqrt(sigma) = 422.8 +/- 4.8 MeV (fractional 0.0114):
+    R_N  = 0.7403 +/- 0.0085
+    R_EW = 0.7439 +/- 0.0085
+    cov(R_N, R_EW) = 7.187e-05, correlation 0.99954; the quotient carries none of it
+  held out, not used above: H_l = (m_e+m_mu+m_tau)/6 = 313.8499 MeV, R_l = 0.7424, H_l/H_EW = 0.998019
+
+3a. Deformation controls on the weak side (tension held fixed)
+--------------------------------------------------------------
+  tree-level on-shell: sqrt(MZ^2-MW^2) = g' v/2 with v = (sqrt2 G_F)^(-1/2) = 246.2196 GeV, so g' = 0.3500
+  R_EW = [alpha(0) g'/2] (v/sqrt(sigma)) = 0.001277 x 582.4
+  two-wall family: sqrt(sigma) ~ M e^(-k y1), v ~ M e^(-k y2): d ln R_EW / d(k (y2 - y1)) = -1;
+    any R_EW is reached by moving one wall; the string data must fix k (y2 - y1), g' at the wall
+    and the running of the photon coupling to the Thomson limit.
+  threshold control (second line, FLAVOUR_AND_SCALES.md section 4): at fixed Lambda_6,
+    d ln Lambda_3 / d ln v = 2/9; with sqrt(sigma) ~ Lambda_3 and alpha(0), g' fixed,
+    d ln R_EW / d ln v = 7/9, d ln R_N / d ln v = 0, d ln(R_N/R_EW) / d ln v = -7/9.
+    holding R_N/R_EW to its measured fractional error 0.000347 needs v/Lambda_6 fixed to 0.000447: ordinary QCD supplies no such relation.
+
+==============================================================================
+Edition 1996: period (PDG 1996 edition)
+==============================================================================
+
+1. Tension from meson trajectories (nucleon not used)
+-----------------------------------------------------
+  rho+omega, J=1-4 (primary)   alpha' = 0.8457 +/- 0.0213 GeV^-2  sqrt(sigma) =  433.8 +/-  5.5 MeV  intercepts 0.526, 0.556  max |res| = 0.110 GeV^2 (dof 5)
+  rho only                     alpha' = 0.8474 +/- 0.0192 GeV^-2  sqrt(sigma) =  433.4 +/-  4.9 MeV  intercepts 0.521  max |res| = 0.065 GeV^2 (dof 2)
+  omega only                   alpha' = 0.8439 +/- 0.0434 GeV^-2  sqrt(sigma) =  434.3 +/- 11.2 MeV  intercepts 0.560  max |res| = 0.111 GeV^2 (dof 2)
+  rho incl. rho5 + omega       alpha' = 0.8327 +/- 0.0171 GeV^-2  sqrt(sigma) =  437.2 +/-  4.5 MeV  intercepts 0.540, 0.586  max |res| = 0.119 GeV^2 (dof 6)
+  static potential, QCDS-78/1 joint fit    sigma = 0.168 GeV^2, sqrt(sigma) = 409.9 MeV
+  static potential, Cornell 1975 (memory)  sigma = 0.183 GeV^2, sqrt(sigma) = 427.8 MeV
+
+2. Baryon trajectories with the low-spin member held out
+--------------------------------------------------------
+  held-out N states: N(1680), N(2220);  benchmark (m_p+m_n)/2 = 938.9190 MeV
+  primary tension; end mass m carries the diquark and junction rest energy
+
+  m [GeV] |     a_N  chi2  M_N pred R_N pred pred/obs | Delta(1232) pred/obs | Lambda pred/obs
+     0.00 |   0.115  0.80     674.9   0.5186   0.7188 |   1198.1      0.9725 |  968.4   0.8680
+     0.10 |   0.194  0.90     645.5   0.4960   0.6875 |   1188.2      0.9644 |  952.9   0.8541
+     0.20 |   0.333  1.13     572.7   0.4401   0.6100 |   1167.8      0.9479 |  919.7   0.8244
+     0.30 |   0.501  1.47       nan      nan      nan |   1136.8      0.9227 |  865.1   0.7754
+     0.40 |   0.689  1.99       nan      nan      nan |   1091.5      0.8860 |  769.8   0.6899
+     0.50 |   0.887  2.74       nan      nan      nan |   1022.3      0.8298 |    nan      nan
+     0.60 |   1.090  3.80       nan      nan      nan |    896.5      0.7277 |    nan      nan
+
+2a. Uncertainty (Monte Carlo over slope and held-out masses), median and 68% interval
+-------------------------------------------------------------------------------------
+  m = 0.0 GeV: M_N = 673 (624-720) MeV,  R_N = M_N/(3 sqrt(sigma)) = 0.517 (0.474-0.559)
+  m = 0.3 GeV: M_N = 456 (380-534) MeV,  R_N = M_N/(3 sqrt(sigma)) = 0.353 (0.293-0.417)
+  variant with N(2700) (error assumed): m = 0: a_N = 0.115, chi2 = 1.03, M_N = 674 MeV, R_N = 0.518
+  tension variant rho+omega, J=1-4 (primary): m = 0: a_N = 0.115, M_N = 675 MeV, R_N = 0.519, pred/obs = 0.719
+  tension variant rho only: m = 0: a_N = 0.110, M_N = 679 MeV, R_N = 0.522, pred/obs = 0.723
+  tension variant omega only: m = 0: a_N = 0.120, M_N = 671 MeV, R_N = 0.515, pred/obs = 0.715
+  tension variant rho incl. rho5 + omega: m = 0: a_N = 0.152, M_N = 647 MeV, R_N = 0.493, pred/obs = 0.689
+  static potential, QCDS-78/1 joint fit: m = 0: a_N = -0.174, M_N = 843 MeV, R_N = 0.686, pred/obs = 0.898
+  static potential, Cornell 1975 (memory): m = 0: a_N = 0.047, M_N = 722 MeV, R_N = 0.563, pred/obs = 0.769
+  free slope through the two held-out N states: alpha'_N = 0.950 GeV^-2, a_N = -0.180, M_N = 846 MeV (pred/obs 0.901)
+  intercept and end mass both through the two N states: no solution with 0 <= m < 1 GeV
+
+2b. Inverse checks (the benchmark inserted by hand)
+---------------------------------------------------
+  R_N = 0.728 at J = 1/2 on a massless-end line selects a_B = 1/2 - (3 R_N)^2/(2 pi) = -0.259
+  the observed nucleon on the primary slope selects a_B = -0.246; the held-out fit gives a_N = 0.115 +/- 0.021
+
+3. Electroweak benchmark, shared tension, held-out lepton sum
+-------------------------------------------------------------
+  H_N  = (m_p+m_n)/6           = 312.9730 MeV
+  H_EW = alpha(0) sqrt(MZ^2-MW^2) = 314.8642 +/- 2.0394 MeV  (fractional 0.006477)
+  H_EW/H_N = 1.006043 +/- 0.006516;  R_N/R_EW = 0.993994 +/- 0.006438
+  with the primary tension, sqrt(sigma) = 433.8 +/- 5.5 MeV (fractional 0.0126):
+    R_N  = 0.7214 +/- 0.0091
+    R_EW = 0.7258 +/- 0.0103
+    cov(R_N, R_EW) = 8.307e-05, correlation 0.88930; the quotient carries none of it
+  held out, not used above: H_l = (m_e+m_mu+m_tau)/6 = 313.8616 MeV, R_l = 0.7235, H_l/H_EW = 0.996816
