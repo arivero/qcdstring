@@ -8,6 +8,8 @@ November 1995, a corollary outside the biennial sequence. The fundamental electr
 | Even doublet on the electric tube | A corollary of the 1992 local result in the leading dual action. Matching gives a tree separation $g^2\lvert\mu\rvert/2$. The microscopic limit also sends the separation below the critical translation width scale. [Matching and resolution](paper.md#10-how-well-can-the-even-corollary-be-resolved) |
 | Odd neutral and vector poles | A technical calculation in the specified local action. The relative squared-mass coefficient is about $-0.57746$. A matched topological term can redistribute the visible weight within the subthreshold cluster. The individual quantum pole masses and total widths require further input, and priority for the combined calculation is open. [Odd spectrum](paper.md#7-a-second-odd-state-and-its-constant-coupling-displacement) |
 
+The [three-length spin-structure diagnostic](../../PREDICTIONS.md#a-finite-length-test-of-the-massless-p21-sector) distinguishes an additional neutral massless scalar from the minimal content without fitting the tension. The full microscopic kernel count remains open.
+
 ## Reproduction
 
 From this directory use Python 3, NumPy, SciPy, Matplotlib, Pandoc and XeLaTeX.

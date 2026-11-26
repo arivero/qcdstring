@@ -284,3 +284,15 @@ Registered 6 November 1974 unless stated.
   odd state and the longitudinal vector can share the subthreshold weight.
   The quoted partition in the projected kinetic model uses one specified
   interaction. P04 remains open in pure Yang–Mills. [QCDS-95/S1](outputs/1995-electric-string-corollary/paper.md)
+
+## A finite-length test of the massless P21 sector
+
+For a winding tube at fixed nonzero microscopic deformation, subtract the zero-flux vacuum separately in each spatial spin structure. Let $\mathcal E_\alpha(L)=\sigma L+c_\alpha+a_\alpha/L+o(1/L)$ for $\alpha=R,NS$, with $L$ times every nonzero mass gap large. The observable
+$$
+\widehat a_\alpha(L)=\frac{4L}{3}
+ [2\mathcal E_\alpha(L)-3\mathcal E_\alpha(2L)+\mathcal E_\alpha(4L)]
+ \longrightarrow a_\alpha
+$$
+cancels both the tension and a length-independent offset. The coefficient of $a_\alpha/L$ in the bracket is $2-3/2+1/4=3/4$.
+
+For $b$ periodic real massless bosons and $f$ nonchiral Majoranas inheriting the microscopic spin choice, with unit limiting velocity and ordinary ground sectors, the 1986 oscillator sums give $a_R=\pi(f-b)/6$ and $a_{NS}=-\pi b/6-\pi f/12$. Thus $f=4(a_R-a_{NS})/\pi$ and $b=f-6a_R/\pi$. The minimal two-translation, two-Majorana branch gives $(0,-\pi/2)$; one additional neutral periodic scalar gives $(-\pi/6,-2\pi/3)$. Both give the same spin difference $\pi/(2L)$. The separate three-length observables discriminate these two spectra. An interacting infrared theory requires interpreting its Casimir coefficients as such; completeness of the microscopic fermion kernel and removal of additional bosons are separate questions. [1986 determinant](outputs/1986-fermionic-flux-tube/paper.md#54-a-difference-which-selects-odd-windings) · [1995 unit-flux setting](outputs/1995-electric-string-corollary/paper.md) · [Worked test](https://github.com/arivero/qcdstring/issues/3#issuecomment-7192993166)
