@@ -27,3 +27,5 @@ After rereading the revision, the referee accepted the finite-model result. Cont
 4. The strange comparison uses the finite mass chord of $a_{\rm lat}(V_n-2E_{Qs})$. After multiplying by the geometric overlap its central value is +0.00108 on the first excited level at 21 spacings. A correlated error for that difference cannot be read from the publication. The manuscript and summary identify the threshold as a separate observable measured on the same ensembles. [Level chords and threshold](results/mass-response.json)
 
 The referee subsequently accepted the revised manuscript within these limits. [Report](REFEREE.md#independent-referee-for-the-first-harmonic)
+
+For the editorial clarification tagged y2025-v3.1, the same referee reread the abstract and conclusion against (31) and (35). It agreed that a resolved signal could exclude the factorized description of this one observable and that an equatorial distribution and equal polar caps give the same zero odd moment. The energetic preference of the QCD string requires separate evidence. The clarified PDF has 32 pages.
