@@ -43,6 +43,7 @@ The odd-year **1995 corollary** identifies the 1992 vortex with an electric conf
 | `second_line/` | The independent package of Astra 6.0 on the same premise, unmodified, with provenance and a memo on how it was integrated. |
 | `TIMELINE.md` | What the memory says happens next (1974 to 2026), and where to intervene. |
 | `PREDICTIONS.md` | Registered predictions with dates. The honesty ledger. |
+| `LATE_1976-1984.md` | Topics the slots 1976-1984 passed over, each with the dated later publication from a primary source, or marked unresolved (issue #1). |
 | `OUTPUTS_PLAN.md` | The plan for one paper every two years, 1976 to 2026: the rules (the world moves as it did, era-bound computing, a cold referee) and the next slots. |
 | `papers/` | Two manifests. `library-1974.tsv`: papers that exist now and should be on the shelf. `memory-future.tsv`: papers that do not exist yet; their results must be rederived. `fetch.py` resolves identifiers through INSPIRE and downloads what is freely available. |
 | `ideas/` | One file per idea to test. Each has a claim, its 1974 status, what the memory says, a concrete test, and a status line. |

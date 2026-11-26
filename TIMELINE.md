@@ -3,7 +3,9 @@
 What the memory says happens, year by year, and where a 1974 worker with
 that memory could act. Every entry below is `[MEMORY]` except the ones
 dated 1974 or earlier. Dates are those of publication; preprints are
-typically a year earlier.
+typically a year earlier. Entries that carry an arXiv link were checked
+against the source on 26 November 2026 for issue #1; the sourced dates for
+slots 1976-1984 are in [`LATE_1976-1984.md`](LATE_1976-1984.md).
 
 ## Already happened (the shelf)
 
@@ -38,7 +40,7 @@ typically a year earlier.
 | 1986 | Polyakov, Kleinert: the rigid string. | Worth examining early; the extrinsic-curvature term is irrelevant in the infrared (memory), which is itself a useful result. |
 | 1987 | Polyakov, "Gauge Fields and Strings". | |
 | 1991 | Polchinski–Strominger on effective strings. Arodź derives vector bound states on the Abelian Higgs vortex. The note added in proof says the 1987 Davis proposal became known to the author after the paper was written. | Extra paper on the polarized two-phonon residue. The 1992 main slot takes up the gauge probe. [Vector bound states](https://ruj.uj.edu.pl/server/api/core/bitstreams/9c989e24-b7c6-4852-8608-2ed28f1defc6/content) · [QCDS-91/S1](outputs/1991-vortex-pseudoscalar/paper.md) |
-| 1992 | Polchinski, "Strings and QCD?". Donnachie-Landshoff: Pomeron intercept 1.08. | [QCDS-92/1](outputs/1992-scalar-doublet/paper.md) derives a localized scalar doublet and its two trace residues in a deformed Abelian vortex. |
+| 1992 | Polchinski, "Strings and QCD?". Donnachie-Landshoff: one effective power s^0.0808 fits all total cross-sections ([hep-ph/9209205](https://arxiv.org/abs/hep-ph/9209205)); the paper cites their 1984 analysis (Nucl. Phys. B231, 189) for a power near 0.08. | [QCDS-92/1](outputs/1992-scalar-doublet/paper.md) derives a localized scalar doublet and its two trace residues in a deformed Abelian vortex. |
 | 1993 | Gross-Taylor: 2d QCD as a string theory. |
 | 1994-95 | Seiberg-Witten: monopole condensation exact in N=2. Hull-Townsend, Witten: the duality web and the eleventh dimension. Douglas-Shenker: sine law. Polchinski: D-branes. Polchinski-Witten: heterotic equals type I. | [QCDS-95/S1](outputs/1995-electric-string-corollary/paper.md) applies the local doublet to a fundamental electric string. Ideas 018–019. |
 | 1996 | Horava-Witten: E8xE8 from an interval. Hanany-Witten: brane constructions. | Idea 020. |
@@ -51,11 +53,11 @@ typically a year earlier.
 | 2003 | Armoni-Shifman-Veneziano: planar equivalence. Non-Abelian vortices (Hanany-Tong; Auzzi et al). | Ideas 019, 022. |
 | 2004 | Sakai-Sugimoto: chiral symmetry breaking from joined branes. Kruczenski et al: Regge trajectories from rotating strings in confining backgrounds. | Phase 5. |
 | 2006 | Brower-Polchinski-Strassler-Tan: the Pomeron as the Reggeised graviton, intercept 2 - 2/sqrt(lambda). | Phase 3 and 4. |
-| 2009-13 | Aharony and collaborators: the Nambu-Goto spectrum is universal to O(1/R^5) in d = 4. | Phase 1. |
-| 2010-11 | Athenodorou-Bringoltz-Teper: closed flux-tube spectra on the lattice; an anomalous 0^{--} state. | |
-| 2012-13 | Dubovsky-Flauger-Gorbenko: the worldsheet S-matrix exp(i l_s^2 s/4), the TTbar structure of Nambu-Goto, and the worldsheet axion at ~1.85 sqrt(sigma). | `ideas/012`, `ideas/013`. |
-| 2014-16 | Sonnenschein et al: massive-endpoint strings fit the meson and baryon tables. Brodsky-de Teramond-Dosch: light-front holography and hadronic supersymmetry. | Phase 3. |
-| 2017-21 | Athenodorou-Teper: large-N glueballs, string tensions, the axion mass. Brandt: open flux-tube spectra. | |
+| 2007-11 | Athenodorou-Bringoltz-Teper: closed flux-tube spectra on the lattice, in D = 2+1 from 2007 ([0709.0693](https://arxiv.org/abs/0709.0693)) and in D = 3+1 from 2010 ([1007.4720](https://arxiv.org/abs/1007.4720)); an anomalous 0^{--} state. | |
+| 2009-13 | Aharony and collaborators: closed-string levels universal through O(1/L^5); in D = 3 they agree with Nambu-Goto to that order ([0903.1927](https://arxiv.org/abs/0903.1927)), in D > 3 excited levels deviate from the Nambu-Goto formula at 1/L^5 by a universal amount ([1302.6257](https://arxiv.org/abs/1302.6257)); open strings first deviate at 1/R^4 ([1008.2636](https://arxiv.org/abs/1008.2636)). | Phase 1. |
+| 2012-13 | Dubovsky-Flauger-Gorbenko: the worldsheet S-matrix exp(i l_s^2 s/4), the TTbar structure of Nambu-Goto, and the worldsheet axion at ~1.85 sqrt(sigma); two-phonon phase shifts by channel from the SU(3) closed-tube spectrum, figure 3 of [1301.2325](https://arxiv.org/abs/1301.2325). | `ideas/012`, `ideas/013`. |
+| 2014-16 | Sonnenschein et al: massive-endpoint strings fit the meson ([1402.5603](https://arxiv.org/abs/1402.5603)) and baryon tables. Brodsky-de Teramond-Dosch: light-front holography and hadronic supersymmetry. | Phase 3. |
+| 2017-21 | Athenodorou-Teper: large-N glueballs, string tensions, the axion mass. Brandt: the 3d potential and its boundary coefficient ([1705.03828](https://arxiv.org/abs/1705.03828)), after excited open-tube levels in 3d SU(2) from 2010 ([1010.3625](https://arxiv.org/abs/1010.3625)). | |
 | 2018-19 | Chen et al: undressing the flux tube with TTbar. Elias Miro et al: flux-tube S-matrix bootstrap. | |
 
 ## Reading of the timeline

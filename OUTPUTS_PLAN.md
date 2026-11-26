@@ -68,6 +68,16 @@ Agreed 6 November 2026 (machine date).
   and are minor; they are collected in one issue per stretch of slots
   (label `late-to-chronology`). What the world had already published
   before our slot is neither.
+  *Slots 1976-1984:* [issue #1](https://github.com/arivero/qcdstring/issues/1)
+  holds the list; [`LATE_1976-1984.md`](LATE_1976-1984.md) gives the nine
+  items their dated dispositions from primary sources (checked 26 November
+  2026), with the unresolved parts named, the four controls the world had
+  already published, and the related 1991 Abelian Higgs result. The two
+  items the 1984 revision left for 1986, the direct area-action level at
+  order L^-5 and the rules of QCDS-84/1 Section 4.2 beyond first order, are
+  recorded unfinished by the 1986 and 1988 papers and carried in the 1990 row
+  below; the world publishes them in 2009 and 2012-13, so they are neither
+  late nor lost while the march stays before those dates.
 
 | Year | Working title | Ideas | Status |
 |---|---|---|---|
