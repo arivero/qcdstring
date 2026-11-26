@@ -1,0 +1,150 @@
+{
+  "odd_coefficient": 1.282114569357871,
+  "even_over_odd": -0.7619084271039417,
+  "mass_coordinates": {
+    "D200": 0.2384879,
+    "N200": 0.4734313,
+    "N203": 0.7013214
+  },
+  "interpolation_fraction": 0.5076196947714459,
+  "levels": [
+    {
+      "r_over_a": 17,
+      "level": 0,
+      "outer": {
+        "value": -0.013431865074378681,
+        "marginal_error": 0.008212447145496085
+      },
+      "equal_volume": {
+        "value": -0.021486338159642057,
+        "marginal_error": 0.01801065470334677
+      },
+      "middle_residual": 0.0014316463760077856,
+      "middle_error": 0.0030093288798713888
+    },
+    {
+      "r_over_a": 17,
+      "level": 1,
+      "outer": {
+        "value": -0.005698182325110737,
+        "marginal_error": 0.0016596781638111395
+      },
+      "equal_volume": {
+        "value": -0.0038532620265347437,
+        "marginal_error": 0.0031448806189623047
+      },
+      "middle_residual": -0.0003279262878551361,
+      "middle_error": 0.0005313661848847991
+    },
+    {
+      "r_over_a": 17,
+      "level": 2,
+      "outer": {
+        "value": -0.061744805599087633,
+        "marginal_error": 0.0027877651714776227
+      },
+      "equal_volume": {
+        "value": -0.05098694374051167,
+        "marginal_error": 0.00969611838414053
+      },
+      "middle_residual": -0.0019121615753613323,
+      "middle_error": 0.001669416525923745
+    },
+    {
+      "r_over_a": 19,
+      "level": 0,
+      "outer": {
+        "value": -0.006515097234043718,
+        "marginal_error": 0.009869497776549599
+      },
+      "equal_volume": {
+        "value": 0.00026779861653242936,
+        "marginal_error": 0.02180630237489236
+      },
+      "middle_residual": -0.0012056292398670357,
+      "middle_error": 0.0029002821185397545
+    },
+    {
+      "r_over_a": 19,
+      "level": 1,
+      "outer": {
+        "value": -0.01981510354387439,
+        "marginal_error": 0.0034161396572887884
+      },
+      "equal_volume": {
+        "value": -0.025352540035294968,
+        "marginal_error": 0.00799140869650185
+      },
+      "middle_residual": 0.0009842544386696288,
+      "middle_error": 0.0015011367399043404
+    },
+    {
+      "r_over_a": 19,
+      "level": 2,
+      "outer": {
+        "value": -0.054419441797180564,
+        "marginal_error": 0.0035168166018979406
+      },
+      "equal_volume": {
+        "value": -0.03775510411398652,
+        "marginal_error": 0.00788569398315519
+      },
+      "middle_residual": -0.0029620110962149445,
+      "middle_error": 0.0011874271174673694
+    },
+    {
+      "r_over_a": 21,
+      "level": 0,
+      "outer": {
+        "value": 0.00013850710561766536,
+        "marginal_error": 0.002193310727001797
+      },
+      "equal_volume": {
+        "value": -0.001096511562230431,
+        "marginal_error": 0.005650951506087648
+      },
+      "middle_residual": 0.0002195190152614278,
+      "middle_error": 0.000793198055504261
+    },
+    {
+      "r_over_a": 21,
+      "level": 1,
+      "outer": {
+        "value": -0.060796031925606626,
+        "marginal_error": 0.002751944251650939
+      },
+      "equal_volume": {
+        "value": -0.05953624579266849,
+        "marginal_error": 0.00782939532939144
+      },
+      "middle_residual": -0.00022392132082055,
+      "middle_error": 0.0013441454690455998
+    },
+    {
+      "r_over_a": 21,
+      "level": 2,
+      "outer": {
+        "value": -0.018728376793198203,
+        "marginal_error": 0.019369037576046338
+      },
+      "equal_volume": {
+        "value": -0.05842566917704876,
+        "marginal_error": 0.04243033739792767
+      },
+      "middle_residual": 0.007056015232410794,
+      "middle_error": 0.005420927877194212
+    }
+  ],
+  "two_strange_threshold": {
+    "outer": {
+      "value": -0.061873370937210063,
+      "marginal_error": 0.008253471082787706,
+      "flow_error_bound_linearized": 0.00012029476734899562
+    },
+    "equal_volume": {
+      "value": -0.05474048655206054,
+      "marginal_error": 0.024208465982594626,
+      "flow_error_bound_linearized": 0.00018837030461099207
+    }
+  }
+}

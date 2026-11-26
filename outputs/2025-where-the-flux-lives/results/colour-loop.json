@@ -1,0 +1,113 @@
+{
+  "mass_function": [
+    {
+      "mass_times_separation": 0,
+      "parameter": 1.0,
+      "spectral": 1.0
+    },
+    {
+      "mass_times_separation": 0.1,
+      "parameter": 0.9752394150925487,
+      "spectral": 0.9752394150925491
+    },
+    {
+      "mass_times_separation": 0.5,
+      "parameter": 0.6756090733045305,
+      "spectral": 0.6756090733045309
+    },
+    {
+      "mass_times_separation": 1.0,
+      "parameter": 0.33653835177829383,
+      "spectral": 0.33653835177829394
+    },
+    {
+      "mass_times_separation": 2.0,
+      "parameter": 0.06443563791442755,
+      "spectral": 0.06443563791442758
+    },
+    {
+      "mass_times_separation": 5.0,
+      "parameter": 0.0002586935823135461,
+      "spectral": 0.00025869358231354634
+    },
+    {
+      "mass_times_separation": 10.0,
+      "parameter": 1.6894211043628093e-08,
+      "spectral": 1.68942110436375e-08
+    }
+  ],
+  "inverse_kernel_checks": [
+    {
+      "q2": 0.03,
+      "finite_difference": 0.021080808043638655,
+      "analytic": 0.021080808063177865
+    },
+    {
+      "q2": 0.4,
+      "finite_difference": 0.24155781747081662,
+      "analytic": 0.24155781741525112
+    },
+    {
+      "q2": 2.0,
+      "finite_difference": 0.769268741688626,
+      "analytic": 0.7692687416147226
+    }
+  ],
+  "finite_poles": [
+    {
+      "mR": 0.5,
+      "M1R": 20.0,
+      "M2R": 60.0,
+      "finite_over_soft": 1.0206052886307038
+    },
+    {
+      "mR": 0.5,
+      "M1R": 40.0,
+      "M2R": 120.0,
+      "finite_over_soft": 1.0049335685207685
+    },
+    {
+      "mR": 0.5,
+      "M1R": 80.0,
+      "M2R": 240.0,
+      "finite_over_soft": 1.001221302565826
+    },
+    {
+      "mR": 1.0,
+      "M1R": 20.0,
+      "M2R": 60.0,
+      "finite_over_soft": 1.0341529638968563
+    },
+    {
+      "mR": 1.0,
+      "M1R": 40.0,
+      "M2R": 120.0,
+      "finite_over_soft": 1.0081160434138023
+    },
+    {
+      "mR": 1.0,
+      "M1R": 80.0,
+      "M2R": 240.0,
+      "finite_over_soft": 1.0020056798755932
+    },
+    {
+      "mR": 2.0,
+      "M1R": 20.0,
+      "M2R": 60.0,
+      "finite_over_soft": 1.0802351312383682
+    },
+    {
+      "mR": 2.0,
+      "M1R": 40.0,
+      "M2R": 120.0,
+      "finite_over_soft": 1.018432506763544
+    },
+    {
+      "mR": 2.0,
+      "M1R": 80.0,
+      "M2R": 240.0,
+      "finite_over_soft": 1.004521120382769
+    }
+  ],
+  "coefficient_of_K_alpha_s_squared_over_R_cubed": 0.18138210784305944
+}

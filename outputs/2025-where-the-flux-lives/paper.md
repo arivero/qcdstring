@@ -1,10 +1,10 @@
 # Where does the QCD string live before it breaks?
 
-**QCDS-25/S1 · December 2025 · Revised odd-year article in the counterfactual QCD string series**
+**QCDS-25/S1 · December 2025 · Third edition of the odd-year article in the counterfactual QCD string series**
 
 ## Abstract
 
-We follow the QCD string between a static fundamental quark and antiquark as it mixes with two static-light mesons. Thermal screening was seen in lattice QCD in 1998 and the two-flavour zero-temperature spectrum resolved in 2005. What would reveal an internal position of the tube before it breaks? On a flat circle two source profiles give identical forces and opposite midpoint electric-energy moments. In published QCD spectra a rank-one mixing condition predicts two reserved levels with residuals $+0.00304$ and $+0.00077$ in lattice units. In the published two-flavour midpoint profile at $1.2$ fm the action contrast falls to $0.552$ of its axial value by transverse distance $0.25$ fm. To perform the internal-position experiment we use a confining $SU(3)$ strip with scalar screening matter and two rows of unequal electric cost. We move both sources onto the more expensive row and calculate the local electric Casimir on the two lowest levels. At three bonds the ground-state tube still runs down the cheaper row. At five bonds its raw midpoint signal is $0.00040$ on the screened ground state and $0.99925$ on the first excitation, in units of a fundamental link. At the tuned avoided crossing the local signal is shared equally. Six local hops generate the leading mixing amplitude within the ordered-line variational space. A uniform strip and a strong-coupling calculation before variational projection test the interpretation. The strip demonstrates how a local probe separates source motion, pinning and screening. Its layer costs and scalar matter are model inputs. A relation between this internal observable and four-dimensional QCD requires independent matching.
+We follow the QCD string between static colour sources as it breaks into two static-light mesons. Lattice QCD had resolved this transition and its ordinary-space field profile by 2005. To test what an additional internal coordinate would measure, we match the first axial harmonic of a specified polar compactification to four-dimensional QCD. Its signed overlaps at a finite neck are zero on the static source and $+1.28211,-1.28211$ on the two light polar partners. For the external colour curvature these signs give a dimension-six isovector insertion. Its diagonal and transition matrix elements vanish between isosinglets throughout two-flavour string breaking. A strange current survives in three-flavour QCD. At short distance we calculate its nonzero one-loop static-potential response and its quark-mass dependence. At hadronic distances a separately matched scalar mass probe can be read from the 2024 three-ensemble QCD data. At $1.33$ fm the ground-level response relative to two isolated light mesons is $+0.0001(22)$ and the first-excited response is $-0.0608(28)$ in the stated lattice normalization. The separately measured two-strange-meson value is $-0.0619(83)$. These are finite mass intervals. A compact-circle counterexample, a conditional reconstruction of QCD energy levels and a displaced-source calculation in a confining two-row $SU(3)$ model establish which inferences require spatially resolved information. In physical $2+1$-flavour QCD the gluonic midpoint question now reduces, at this order, to a specific strange-current three-point function.
 
 ## 1. Following a pair of colour sources
 
@@ -21,6 +21,8 @@ In the earlier QCDS-98/1 article the string carried an electric centre class in 
 We use the term *internal position* only when it has an operational specification. On a circle it is a coordinate relative to the phase of a laboratory probe such as $\cos\theta$. On a domain wall it can be the proper distance from a wall identified by a scalar profile. In a string dual it may be specified by a boundary operator and a bulk reconstruction prescription. In ordinary four-dimensional lattice QCD there are Euclidean time and three spatial coordinates. There a midpoint flux profile refers to ordinary transverse space. Supplying a fifth label requires defining an extra operator or a theory with an extra coordinate. Gauge rotations of a four-dimensional colour field cannot supply such a label. The gauge-invariant energy of a field configuration is a colour singlet even when the source representation is fundamental.
 
 We give a quantitative counterexample to inferring internal position from static forces. It uses a compact, completely soluble Maxwell problem, chosen so that the assumptions are inspectable. We then use measured QCD energies to test what *can* be reconstructed without spatial information. A rank-one condition on the separation dependence of the low-energy Hamiltonian suffices to make a nontrivial prediction between three separations. The condition comes from a published lattice parametrization and is testable without a Cornell interpolation. We evaluate the ordinary-space action profile from a published QCD figure, then carry out the source displacement and local field measurement in a finite, confining $SU(3)$ parent. The programme registered the choice of levels, the analytical predictions and the tolerances in a public parent commit before evaluating the first two tests. A separate public record fixed the strip calculation before diagonalization. We use the published 2024 spectra as existing data throughout. [Registration commit](https://github.com/arivero/qcdstring/commit/5a558ca8dbe9f715ec8a15a267e7261817db9dc0) · [Lattice spectra](https://arxiv.org/abs/2403.00754) · [Strip registration](https://github.com/arivero/qcdstring/commit/827633aca323713e2e58e09c9769b6c03b602f2f)
+
+The first nonconstant colour mode also admits a test directly in the four-dimensional theory. Section 10 derives its signed coupling from the polar wavefunctions, follows it into QCD and compares the string and the screened levels. A strange-quark loop gives an analytic answer at short separation. The scalar mass derivative gives a hadronic comparison at the measured separations. Each calculation specifies its source and the observable that could test it.
 
 ## 2. The chronology of a breaking string
 
@@ -454,15 +456,172 @@ $$
    \int d^3x\,m(\mathbf x)\,{\cal O}_{g}^{(4)}(\mathbf x).
  \tag{31}
 $$
-For $\int w f=0$ its diagonal and transition matrix elements vanish on both the tube and the meson states, regardless of their nonperturbative four-dimensional mixing. An internal profile proportional to $w$ can still be present in a probe with nonzero weighted mean. A tube-specific signal in the orthogonal probe therefore requires a contribution outside this factorized action, such as a matched nonconstant mode or another local operator. The numerical results here apply to the regulated strip. The midpoint profile in Section 8.3 and the light- and strange-channel spectra in Section 7 are the measurements that apply to QCD.
+For $\int w f=0$ its diagonal and transition matrix elements vanish on both the tube and the meson states, regardless of their nonperturbative four-dimensional mixing. An internal profile proportional to $w$ can still be present in a probe with nonzero weighted mean. A tube-specific signal in the orthogonal probe therefore requires a contribution outside this factorized action, such as a matched nonconstant mode or another local operator. The displacement numbers in this section apply to the regulated strip. The measured QCD midpoint in Section 8.3 and the spectra in Section 7 motivate matching the first omitted mode explicitly.
 
-## 10. Conclusion
+## 10. What the first internal mode measures in QCD
+
+### 10.1 A signed coupling from the two polar wavefunctions
+
+Equation (31) gives zero when the probe has no constant component. The next question is whether the first mode omitted in that equation can distinguish the two static-source states. We specify its internal wavefunctions, the parent field whose curvature is measured, and the light particles retained in four dimensions. There are two calculations one can already do in this setting. A colour-field insertion has an isospin selection rule and a calculable short-distance tail. An independently applied quark-mass insertion can be evaluated on both sides of the hadronic crossing using existing QCD measurements.
+
+Take an axially symmetric two-sphere with line element $a^2 f^2(t)(dt^2+d\varphi^2)$. The poles are at $t=\pm\infty$ and the equator is at zero. The length $a$ belongs to the internal metric. We use $a_{\rm lat}$ for the lattice spacing below. Define an explicit reflection-symmetric family by
+$$
+ \epsilon=e^{-b},\quad p=\epsilon e^{-v},\quad
+ f^2=2\exp[-v-\epsilon(e^{-v}-1)],\qquad
+ v''=f^2(1-p),\quad v(0)=v'(0)=0 .
+ \tag{32}
+$$
+Write $d\nu=f^2dt/\int_{\mathbb R} f^2dt$ and use brackets for this normalized area average after the azimuthal integral. A regular neutral axial mode solves $-\phi_n''=\lambda_n f^2\phi_n$, with $\phi_n$ bounded and $\phi'_n\to0$ at the poles. Its physical mass squared in the scalar Laplacian is $\mu_n=\lambda_n/a^2$. Choose $\langle\phi_n^2\rangle=1$. We call the first odd solution $o$ and orient it to be positive for $t>0$. The first excited even solution $e$ is positive at the equator. Angular or charged towers have a different eigenproblem. The constant axial mode is one.
+
+The model has a normalized right-handed zero mode $e_1$ with probability density $s_R=e^{p/2}/\langle e^{p/2}\rangle$ relative to $d\nu$. The two left-handed partners are the orthogonal sections $e_{2,\pm}=r_\pm e_1/\sqrt{\langle s_R|r_\pm|^2\rangle}$, where $|r_\pm|^2=\sqrt p\,e^{\pm t}$ in a common normalization. The azimuthal characters distinguish the two sections. The minimal colour current couples to their probability densities. For an external real scalar profile multiplying the corresponding Yukawa link, the signed matrix element divided by its uniform-source value is the same integral:
+$$
+\begin{aligned}
+ c_{Rn}&=\langle s_R\phi_n\rangle,\\
+ c_{\pm n}&=\frac{\langle s_R |r_\pm|^2\phi_n\rangle}
+                  {\langle s_R |r_\pm|^2\rangle}
+ =\frac{\langle e_{2,\pm}\vert\phi_n r_\pm\vert e_1\rangle}
+        {\langle e_{2,\pm}\vert r_\pm\vert e_1\rangle}.
+\end{aligned}
+\tag{33}
+$$
+Here the last brackets are normalized Hilbert-space matrix elements. The mass probe is an externally prescribed change of a gauge-covariant mass term. Multiplication by $\phi_n$ need not preserve a holomorphic vacuum equation. We project onto the light chiral modes before including Yukawa mixing with the other fermions. Admixtures are perturbative when the mass operator is small compared with the gap to those modes. The results below use this leading projection. Their numerical precision measures the integration error at fixed geometry.
+
+Reflection gives $c_{Ro}=0$ and $c_{-o}=-c_{+o}$. The numerator for $c_{+o}$ restricted to $t>0$ contains $\phi_o(t)(e^t-e^{-t})$ times a positive weight, so $c_{+o}>0$. Both even overlaps agree. There is a normalization check independent of the neck computation. As $\epsilon\to0$, $f^2\to2\,{\rm sech}^2t$, the variable $y=\tanh t$ has measure $dy/2$, and the normalized two left densities become $1\pm y$. The first two profiles are $\sqrt3\,y$ and $\sqrt5(1-3y^2)/2$, with $\lambda_o=1,\lambda_e=3$. Thus $c_{\pm o}=\pm1/\sqrt3$ and all three even overlaps vanish in this limit. These are limits of normalized matrix elements. At the exact point where the roots vanish the unnormalized holomorphic mass link also vanishes.
+
+| Axial mode at $b=0.001$ | $\lambda_n$ | Right $c_{Rn}$ | Left $c_{+n}$ | Left $c_{-n}$ |
+|:--|--:|--:|--:|--:|
+| First odd, north positive | 0.0349204 | 0 | +1.282115 | −1.282115 |
+| First excited even, equator positive | 0.1380022 | +0.094237 | −0.976854 | −0.976854 |
+
+Unit mean square permits a local signed overlap greater than one. Shooting from the equator gives zero interior nodes on the positive half of the first odd mode and one on the first excited even mode. An independently assembled linear finite-element problem with meridian step 0.01 gives the displayed overlaps to $2.1\times10^{-7}$ and the eigenvalues to relative $2.0\times10^{-6}$. Moving the cutoff from 25 to 32 provides an additional tail check with a second mesh. The round check at $b=19$ gives $c_{+o}=0.577350270$. Squaring the small even right-hand overlap would retain a residue of 0.008881. Squaring the odd left-hand overlaps would discard exactly the sign needed in the following experiment. [Numerical results](results/harmonics.json) · [Mode solver](code/harmonic.py)
+
+### 10.2 Matching a colour-field insertion and the isospin zero
+
+We measure the external components of the colour curvature of the metric connection. In canonical four-dimensional fields define
+$$
+ {\cal O}_{n}=\frac14\int d\nu\,\phi_n\,
+ {\cal F}_{\mu\nu}^{a}(t){\cal F}^{a\mu\nu}(t),\qquad
+ K_n=\frac1{\mu_n}+\frac1{\mu_n+16/B^2}.
+ \tag{34}
+$$
+Indices $\mu,\nu$ run over ordinary spacetime. $B$ is the colour radius of the specified two-vector model. This choice of external $F^2$ fixes the probe. Perturbing the entire internal metric or including $F_{\mu t}^2$ would require its own matching. For each normalized axial mode let $a_n,b_n$ be the unrescaled metric and form connections. Suppress the colour index and a common transverse projector. The Euclidean quadratic action and minimal matter source, including $n=0$ with $\mu_0=0$, are
+$$
+ S_{2,n}=\frac{\kappa}{2}
+ (a_n,b_n)\left[(Q^2+\mu_n){\bf1}
+ +\frac{8}{B^2}
+ \begin{pmatrix}1&-1\\-1&1\end{pmatrix}\right]
+ \binom{a_n}{b_n}-a_n j_n .
+ \tag{34a}
+$$
+The canonical fields are $V_n=\sqrt{\kappa/2}(a_n+b_n)$ and $U_n=\sqrt{\kappa/2}(a_n-b_n)$. Their squared masses are $\mu_n$ and $\mu_n+16/B^2$. The measured massless-pole residue of $a_0$ is $g_s^2=1/(2\kappa)$. Thus $a_n=g_s(V_n+U_n)$ for every normalized $n$. Each pole has unit residue relative to the massless colour coupling, including the factor $1/\sqrt2$ from the rotation. For the probe (34) the canonically normalized metric connection is $\sum_n\phi_n a_n/g_s$. Its zero-mode massless field is $A=V_0$. The term linear in the two massive fields is $\phi_n(V_n+U_n)$, and the minimal source is $-g_s(V_n+U_n)j_n$. In a transverse Fourier mode the cross kinetic term of the positive Euclidean insertion is therefore $+h Q^2 V_0(V_n+U_n)$. This fixes its normalization independently of the static-potential convention.
+
+At momenta below both poles the linear response is $(V+U)_\nu^a=g_s K_n j_{n,\nu}^a$ to leading order in the soft expansion, using a source term $-g_s(V+U)j_n$ in the quadratic Euclidean action. The term proportional to $G^2$, where $G$ is the curvature of $A$, vanishes because $\langle\phi_n\rangle=0$. The interference of $G$ with $D_\mu(V+U)_\nu-D_\nu(V+U)_\mu$ gives
+$$
+ {\cal O}_{n}^{(6)}=g_s K_n G^{a\mu\nu}(D_\mu j_{n,\nu})^a,\qquad
+ j_{n,\nu}^a=\sum_q \bar q\gamma_\nu T^a(c_{qn,L}P_L+c_{qn,R}P_R)q
+              +c_{{\rm ext},n}j_{{\rm ext},\nu}^a .
+ \tag{35}
+$$
+Here $T^a$ is a colour generator, $P_{L,R}=(1\mp\gamma_5)/2$, and the static endpoints have the specified even $s_R$. The normalization uses the factor $2/4$ from the cross term and the second factor of two from the antisymmetry of $G$. The dimension-six insertion is a local colour singlet. A constant or gradient in the external test function requires care. Integrating $m G^{\mu\nu}D_\mu j_\nu$ by parts gives $-m(D_\mu G^{\mu\nu})j_\nu-(\partial_\mu m)G^{\mu\nu}j_\nu$ under the spacetime integral. The Yang–Mills equation trades the first term for a product of currents, including static-line contacts in a source correlation function. A midpoint mask also retains the second term. Either representation requires a common renormalization and contact prescription. Removing a heavy pole gives a local term of order $K_n$ even when direct propagation of that pole between distant endpoints is exponentially small.
+
+Assign the positive polar partner to up, and the negative partner to down and strange. Write $c=c_{+o}$. In QCD with two equal-mass flavours, with electromagnetism and the weak interactions switched off, $j_o^a=c(j_{uL}^a-j_{dL}^a)$. The right-handed and static coefficients vanish. The gluon field, static sources and spatial mask are isoscalars. An isospin rotation exchanging $u,d$ reverses the entire insertion and leaves both isosinglet external states invariant. Thus for any two such eigenstates, any separation and any flavour-independent spatial mask,
+$$
+ \langle i,I=0\vert\int d^3x\,m(\mathbf x)\,{\cal O}^{(6)}_o
+                    \vert j,I=0\rangle=0 .
+ \tag{36}
+$$
+This includes the transition matrix element as well as each diagonal response on the two mixed levels across light string breaking. The isoscalar two-meson operator uses the sum over the two light flavours. Tagging an individual flavour changes the isospin quantum numbers. Equation (36) is exact under QCD time evolution for the indicated isovector operator. Its derivation from the parent uses the specified tree-level matching.
+
+In $2+1$ flavours the light pair still cancels between isosinglets. The current left over is $-c\,\bar s\gamma_\nu T^aP_Ls$. The next even mode has a light isoscalar component already with two flavours. Equal-force data from an even static source could never have selected between these two responses. For the odd midpoint experiment in $2+1$ QCD one can insert $G^{a\mu\nu}(D_\mu j_{sL,\nu})^a$, $j^a_{sL,\nu}=\bar s\gamma_\nu T^aP_Ls$, with coefficient $-g_sK_oc$ in the string, light-meson and strange-meson correlation matrix of Section 8. A strange loop occurs even when the interpolators contain only gluons and light valence quarks. With strange-meson interpolators there are also valence contractions. A reference with the same static lines and two isolated mesons fixes the common subtraction. The energy spectrum alone supplies none of these local three-point functions.
+
+### 10.3 A separated-source signal from the strange-quark loop
+
+There is one regime where the three-flavour colour response itself can be calculated. Use the spatially uniform source $S_E\mapsto S_E+h\int d^4x\,{\cal O}_o$ and the static singlet potential, up to its separation-independent self-energy. Hold the renormalized colour normalization fixed. Take $R$ larger than the inverse masses of the removed poles and small enough that $\alpha_s(1/R)$ is perturbative. Work in the three-flavour effective theory with heavier flavours integrated out. The expansion also needs $2m_s\ll M$, where $M$ is the lightest removed mass, so that the strange-pair cut is resolved well below the heavy poles. The hierarchy in physical QCD below charm is limited. The result is the light-quark cut of the matched insertion at short distance.
+
+Let $Q=|\mathbf q|$ be the exchanged spatial momentum. The cross kinetic term in (34) adds $+hQ^2$ to the off-diagonal entries coupling the massless field to each of its two heavy partners. The linear change of the inverse quadratic form is $-D(\partial_hD^{-1})D$. A static line of zero odd overlap connected to a light vector current of overlap $c_V$ therefore acquires the relative correction
+$$
+ -h\,c_V Q^2\left(\frac1{Q^2+\mu_o}
+                 +\frac1{Q^2+\mu_o+16/B^2}\right)
+ =-h\,c_V Q^2 K_o+O(h Q^4/M^4).
+ \tag{37}
+$$
+Here $M$ denotes the lowest heavy mass entering this expansion. Other massive components of the even static source first contribute at the higher derivative order in (37). The parity-even vacuum polarization couples to $c_V=(c_L+c_R)/2$. A single axial and a single vector current have zero two-point function in a parity-invariant vacuum. Both ends of the quark loop receive (37). The resulting factor of two matters for the normalization. Direct exchange between two static sources gives zero to first order in the odd source in this block.
+
+For one Dirac quark the spacelike one-loop polarization multiplying the Coulomb kernel can be written, up to a subtraction constant,
+$$
+ P_m(Q^2)=\frac{g_s^2T_F}{2\pi^2}\int_0^1 dx\,w
+              \log\frac{m^2+wQ^2}{\mu_{\rm sub}^2},\qquad w=x(1-x).
+ \tag{38}
+$$
+Our convention for the one-loop potential is $-C_Fg_s^2 P_m(Q^2)/Q^2$ per flavour, with $T_F=1/2$ and $C_F=4/3$. Its massless logarithm has coefficient $g_s^2T_F/(12\pi^2)$ in $P_m$. Together with (37) this gives $\partial_h\widetilde V_{\rm loop}=2C_Fg_s^2K_o\sum_q c_{Vq}P_{m_q}$. The equal-mass $u,d$ terms cancel and $c_{Vs}=-c/2$. A subtraction constant here is a spatial contact. For $R>0$ the Fourier transform of $\log(Q^2+\kappa^2)$ is $-(1+\kappa R)e^{-\kappa R}/(2\pi R^3)$, as can be checked by differentiating with respect to $\kappa^2$ and transforming a Yukawa propagator. This gives the separated part of the potential response
+$$
+ \left.\partial_h V(R)\right|_{\rm strange\ cut}=
+ \frac{2C_F T_F\,c}{3\pi}\,
+ \frac{\alpha_s^2 K_o}{R^3}\,{\cal F}(m_sR),\qquad
+ {\cal F}(z)=6\int_0^1 dx\,w
+       \left(1+\frac{z}{\sqrt w}\right)e^{-z/\sqrt w}.
+ \tag{39}
+$$
+Here $\alpha_s=g_s^2/(4\pi)$. The sign refers to the positive-north harmonic and the positive source in the Euclidean action. At $b=0.001$ the coefficient multiplying $\alpha_s^2K_o/R^3$ at zero quark mass is $+0.18138$. Its units are energy since $K_o$ has units of length squared. A difference between two short-distance potentials removes an arbitrary static self-energy. The calculated term can equally be tested in the force by differentiating (39). In two-flavour QCD the entire term is zero. A fourth active quark would require its own polar assignment and mass threshold. [Static potential in perturbative QCD](https://arxiv.org/abs/hep-ph/9702245) · [Massive fermion polarization in the static potential](https://arxiv.org/abs/hep-ph/0001295)
+
+The timelike cut gives an independent check with a different integration variable. The normalized spectral weight of a Dirac pair above $s=4m^2$ is $(1+2m^2/s)\sqrt{1-4m^2/s}$. A subtracted dispersion relation and the spatial Yukawa kernel give
+$$
+ {\cal F}(z)=\int_{2z}^{\infty}dt\,e^{-t}
+       (t+2z^2/t)\sqrt{1-4z^2/t^2}.
+ \tag{40}
+$$
+At $z=0$ this is $\int_0^\infty t e^{-t}dt=1$. Both representations give 0.675609 at $z=0.5$, 0.336538 at $z=1$ and 0.064436 at $z=2$. They agree to relative $6\times10^{-13}$ or better for the seven stored points through $z=10$. Heavy strange quarks decouple exponentially in this contribution. Direct differentiation of the three-field inverse checks the sign and the two possible insertion sites. We also kept both denominators in (37) through the Fourier transformation. For this check choose the subtraction $P_m(0)=0$ at positive $m$. In a subtracted dispersion integral the product of one heavy propagator and the light polarization has the elementary spatial kernel
+$$
+ \int\frac{d^3q}{(2\pi)^3}
+ \frac{Q^2 e^{i\mathbf q\cdot\mathbf R}}{(Q^2+s)(Q^2+M_i^2)}
+ =\frac{M_i^2 e^{-M_iR}-s e^{-\sqrt{s}R}}{4\pi R(M_i^2-s)}
+ \qquad (R>0).
+ \tag{40a}
+$$
+Integrate this combined kernel against the positive spectral weight divided by $s$. The apparent singularity at $s=M_i^2$ is removable. A change of the constant subtraction adds only a heavy Yukawa kernel here and a point contact after the soft expansion. The light-threshold contribution survives at separated points after the heavy exponential falls. For $M_2/M_1=3$ and $m_s R=1$, the finite-pole value divided by (39) is 1.03415, 1.00812 and 1.00201 at $M_1 R=20,40,80$. With $m_s R=2$ the ratios are 1.08024, 1.01843 and 1.00452. These tests concern the two propagators multiplying the specified light-quark loop. They exhibit the effects both of finite $M_i R$ and of the location of $2m_s$ relative to the poles.
+
+Higher loops, higher powers of $1/(MR)$ and additional parent matching can change the full response. Terms fixing the zero-mode gauge coupling, separation-independent energies and point contacts have distinct prescriptions from the separated light-quark cut. Extrapolating (39) to the avoided crossing would require perturbative control where the QCD string is strongly coupled. [Two evaluations and the kernel check](results/colour-loop.json) · [Calculation](code/colour_loop.py)
+
+### 10.4 A scalar response on the measured levels across breaking
+
+A different source with the same internal profile couples to a four-dimensional operator for which there already are hadronic data. On a fixed geometry write $\bar m=(2m_l+m_s)/3$ in a common mass-independent scheme. Normalize a unit uniform variation of any one of the three ordinary Yukawa links to an additive mass change $\bar m h$ in the projected theory. Reflection gives equal uniform-link factors for the two roots. For the odd profile apply external link amplitudes $(1,-1,2)$ to $(u,d,s)$. Multiplying by $(+c,-c,-c)$ from (33) then produces
+$$
+ \partial_{h_o}{\cal L}_{m}=c\,\bar m(\bar uu+\bar dd-2\bar ss).
+ \tag{41}
+$$
+This is a choice of a source that follows a measured trajectory. A uniform internal profile with amplitudes $(1,1,-2)$ produces the same flavour octet with coefficient one. The first excited even profile with those latter amplitudes produces it with coefficient $c_{+e}=-0.976854$. Thus for any matrix element of these projected scalar sources the even-to-odd ratio is $-0.76191$ with the stated orientations. The size of a gluon-curvature response is independent of this identity. No compact coordinate was varied in the lattice simulations.
+
+Set $u=3m_\pi^2/(m_\pi^2+2m_K^2)$ and $\mathcal E_n=a_{\rm lat}(V_n-2E_{Q l})$ at fixed $R/a_{\rm lat}$. On the constant-trace mass trajectory, calibrate the uniform source by the measured change of $u$. The Feynman–Hellmann identity then gives
+$$
+ {\cal R}_{n,o}=\frac{\partial_{h_o}\mathcal E_n}{\partial_{h_0}u}
+              =c\,\frac{d\mathcal E_n}{du}.
+ \tag{42}
+$$
+The derivatives on the left are taken at the same masses with the same regulator and volume. This ratio cancels the local change of variable between a quark mass and the meson-mass coordinate. It does not require $u=m_l/\bar m$ beyond leading chiral order. It does require the same direction in quark-mass space. In the simulation the trace of the **subtracted bare** Wilson quark masses is held fixed at common bare coupling. At leading mass-independent matching, $m_i^R=Z_{\rm NS}(m_i^{b}-\bar m^{b})+Z_{\rm S}\bar m^{b}$. A fixed bare trace therefore varies only the renormalized nonsinglet component even for $Z_{\rm S}\ne Z_{\rm NS}$. At finite lattice spacing, mass-dependent improvement terms of order $a_{\rm lat}m^2$ and tuning errors can move the renormalized trace $\tau=2m_l^R+m_s^R$. Along such a path the derivative includes $(\partial\mathcal E_n/\partial\tau)_u\,d\tau/du$ in addition to the derivative at fixed $\tau$. Using the measured $u$ cannot cancel that term. The finite chords measure the change along the simulated trajectory. Their interpretation as pure octet responses assumes that the residual trace and other tuning effects are small. The published graphics do not determine this correction. The subtraction compares the scalar matrix element on the resolved level with the sum on two isolated static-light mesons. The operator is integrated over ordinary space. A single straight Wilson loop would not give the derivatives of all three energy levels. [Lattice mass trajectory and measured levels](https://arxiv.org/abs/2403.00754v2) · [CLS mass tuning and scale setting](https://arxiv.org/abs/1608.08900) · [Euclidean source derivatives](https://arxiv.org/abs/1612.06963)
+
+Figure 4 of the published $2+1$-flavour calculation supplies three ordered energy levels at each specified separation on each of three ensembles. Figure 5 gives $u=0.23849,\ 0.47343,\ 0.70132$ for D200, N200 and N203. At common bare coupling the spacing is $0.0633(4)(6)$ fm. We use the registered finite chord $c[\mathcal E_n({\rm N203})-\mathcal E_n({\rm D200})]/[u({\rm N203})-u({\rm D200})]$. For identical physical volumes and tuning it would be the $u$-average of (42) over the interval. D200 has $64^3$ spatial sites and N203 has $48^3$. We repeat the calculation from N200 to N203, both $48^3$, over the shorter upper mass interval. The checks address volume and mass curvature together. The table reports the outer chord. The parentheses propagate the displayed one-ensemble marginal errors in quadrature between independent ensembles at fixed abscissae.
+
+| $R/a_{\rm lat}$ | $R$ (fm) | Ground level | First excitation | Second excitation |
+|--:|--:|--:|--:|--:|
+| 17 | 1.076 | −0.0134(82) | −0.0057(17) | −0.0617(28) |
+| 19 | 1.203 | −0.0065(99) | −0.0198(34) | −0.0544(35) |
+| 21 | 1.329 | +0.0001(22) | −0.0608(28) | −0.0187(194) |
+
+The publication also reports a separately measured observable on the same ensembles. Two isolated light mesons have zero differential response by the definition of $\mathcal E_n$. Two isolated strange mesons give the slope of $2a_{\rm lat}(E_{Qs}-E_{Ql})$. The measured static-meson splitting in Fig. 5 and the three $t_0/a_{\rm lat}^2$ values in Table 1 give $-0.0619(83)$ on the outer interval and $-0.0547(242)$ on the equal-volume interval. The flow-scale uncertainty contributes at most 0.00013 and 0.00019 respectively in a separate linearized error estimate. At $R/a_{\rm lat}=17$ the second excitation has the strange-threshold response within the displayed precision. At 21 the first excitation has that response, while the ground level follows the light threshold. On the equal-volume interval the corresponding ground and first-excited values at 21 are $-0.0011(56)$ and $-0.0595(78)$. Without the geometric factor $c$, the directly extracted outer slopes at 21 are $+0.00011(171)$ and $-0.04742(215)$ for levels 0 and 1. The comparison with the strange pair is the chord of $a_{\rm lat}(V_n-2E_{Qs})$. Multiplying it by $c$ gives central differences $+0.00013$ on level 2 at 17 and $+0.00108$ on level 1 at 21. The level and meson measurements share ensembles and subtractions, and their covariance is unavailable. These differences therefore have no assigned significance. The two intervals overlap and share N203. The values describe which levels carry the mass sensitivity. The slopes alone cannot assign channel probabilities or locate colour flux inside the compact space.
+
+![Response of each static-pair level to the odd-profile scalar source, in lattice energy units per unit change of the uniform mass coordinate. The dashed line and band give the separately measured two-strange-meson threshold. The light threshold is zero. The two panels share N203. Horizontal offsets separate markers at the same physical distance.](results/mass-response.png)
+
+The intermediate mass tests the straight-line interpretation. Interpolating the two outer energies at the N200 value of $u$, the largest standardized middle residual is $-0.00296$ with displayed marginal error $0.00119$, on level 2 at $R/a_{\rm lat}=19$. The other eight lie within $1.4$ propagated marginal standard errors. Finite-volume effects, mass curvature and statistical fluctuations can all contribute. Quoting a local mass derivative or a joint confidence for the pattern would require more information. The artwork has rounding of order $5\times10^{-5}$ in energy, the common scale and bare-mass trajectory have systematic uncertainties, and the figures supply no joint covariance between levels, thresholds, or abscissae. These limitations apply before the leading-mode approximation in (41) is used to interpret the numbers. [27 measured levels](data/mass-scan-levels.csv) · [Mass coordinates and thresholds](data/mass-scan-ensembles.csv) · [All chords and interpolation residuals](results/mass-response.json)
+
+## 11. Conclusion
 
 We identify the QCD string through a rising static-source energy and an extended field distribution over the separations where the flux tube is appreciable. In full QCD its mixing with static-meson pairs makes the assignment of a channel to an eigenstate separation dependent. DeTar et al. reported screening of the finite-temperature static-pair free energy in 1998. Bali et al. resolved the transition to static-light mesons spectroscopically in zero-temperature two-flavour QCD in 2005. The 2019 and 2024 calculations separated light and strange channels and studied their quark-mass dependence. A local action-density study had already followed the field distribution through breaking in ordinary space in 2005. This history provides both a clear physical target for higher-dimensional accounts and concrete measurements against which such accounts can be judged.
 
 The flat-circle example proves that even perfect knowledge of a static force can fail to identify the sign or shape of an internal energy distribution. A specified local probe resolves it in the very same theory. The calculation with measured QCD energies establishes a different positive result. Given the rank-one hypothesis, two triplets of levels determine the two compressed thresholds and the mixing magnitudes, and one additional level predicts the other two at its separation. In lattice units the two differences on N200 are $0.00304$ and $0.00077$. Testing their statistical significance requires correlated data. Under (12) the algebra recovers the spectral weights of the varying direction in channel space. Its identification with a physical string requires the source and meson operators. An operator that resolves an internal position remains an independent ingredient.
 
 We performed the internal-position experiment for a specified confining $SU(3)$ Hamiltonian. Moving both sources off the preferred row leaves its ground-state midpoint occupied over the shorter separation. Beyond breaking, that signal passes to an excited level. At a resolved avoided crossing both levels share it. The homogeneous control moves the midpoint with the sources. The comparison measures an effect of the imposed row costs. It does not derive them from an internal compactification. The small residual background and the failure of the variational energies to subtract cleanly between two distant mesons prevent a precise interpretation of the screened tail. The leading unprojected local response independently resolves the order-one change. In four-dimensional QCD we can already follow the ordinary-space redistribution. Establishing an internal preference there requires a matched parent with a physically defined probe, light-quark dynamics and independent control of its strong scale.
+
+For the first odd axial harmonic the compact geometry fixes the size and the relative signs of the couplings. The resulting colour-curvature insertion vanishes between isosinglets in two-flavour QCD at the matched order, including at the avoided crossing. With a dynamical strange quark we obtain a positive separated-source term proportional to $\alpha_s^2 K_o/R^3$ in the short-distance singlet potential for the orientation chosen here. The independent scalar mass probe distinguishes the responses of the measured hadronic levels. At $1.33$ fm the ground level follows the light threshold and its first excitation has a response consistent with the strange threshold. The full colour-field answer at that separation requires the strange-current insertion in (35) in a resolved three-point function. Measuring it on the ground and first-excited levels with a central mask would determine whether any of this particular odd colour response follows the breaking tube.
 
 ## Appendix A. Reading the published markers
 
@@ -482,9 +641,11 @@ For a theory with metric backreaction one must state which parameters define the
 
 **Published mechanisms re-derived here.** The relative charge argument of Witten, the compact propagator, the Euclidean source derivative and the determinant of an arrowhead matrix are established ingredients. The original QCD papers measured the static-meson systems and published the spectra. Our checks use the published fit as an implementation control and the reported finite-spacing measurements as data. The coincidence of a wrapped type IIA string and a bound strip in relative homology was already known in 1997 and was recovered by this programme in QCDS-98/1.
 
-**Published work that selected the question.** Lattice studies of walls and of compactified non-Abelian gauge theory motivated the distinction between a localized force and dimensional reduction. The work on compact transverse fluctuations motivated the distinction between an internal profile and a world-sheet mass gap. QCD measurements of a spatial action density and the 2024 holographic computation motivated the use of a local probe on both sides of breaking. No future-dated source or independent model calibration enters the historical calculation.
+**Published work that selected the question.** Lattice studies of walls and of compactified non-Abelian gauge theory motivated the distinction between a localized force and dimensional reduction. The work on compact transverse fluctuations motivated the distinction between an internal profile and a world-sheet mass gap. QCD measurements of a spatial action density and the 2024 holographic computation motivated the use of a local probe on both sides of breaking. The historical QCD inputs stop with the 2024 measurements. Section 10 defines a dimensionless parent and source in full. The modern project from which that choice was drawn and its dimensional calibration are identified separately in the editorial notes.
 
 **Results whose support is the derivation or comparison in this paper.** P28 registers the equal-force, opposite-moment test and its two distance dependences for specified sources. P29 registers the conditional recovery of two held-out levels under (12), applied here to specified N200 markers. Rank-one eigenvalue theory and the physical three-channel Hamiltonian predate this paper. We make no priority claim for either mathematical technique. The inverse and the source calculation narrow the proposed inference from a force to the location of the QCD string. P30 registers the displaced-source signal, the transfer to the first excitation and the six-hop gap in a finite $SU(3)$ strip. These are derived and tested in the model in Section 9. Its imposed anisotropy, truncation background and incomplete QCD matching limit the physical inference. A continuum QCD comparison and a covariance-based spectral test also remain open.
+
+P31 fixes the polar profiles and the test of their signed overlaps, and specifies the mass intervals and separations for the QCD comparison. Equation (36) and the soft strange-quark contribution (39) concern the external colour curvature. Equation (42) concerns an independently chosen flavour scalar. The known vacuum polarization and the lattice energies are inputs. The signed matching, its symmetry consequence, its contribution to the static potential and the projected finite-interval responses are derived here. [Mode and data registration](HARMONIC_REGISTRATION.md) · [Editorial provenance](README.md#present-day-editorial-cross-reference)
 
 ## Selected primary sources
 
@@ -498,5 +659,7 @@ For a theory with metric backreaction one must state which parameters define the
 - F. Bigazzi et al., *The Klebanov-Strassler model with massive dynamical flavors* (2008 preprint, 2009 journal). M. Giliberti, A. Fatemiabhari and C. Núñez, *Confinement and screening via holographic Wilson loops* (2024). [Massive flavour](https://arxiv.org/abs/0812.3399) · [Internal coordinate](https://arxiv.org/abs/2409.04539)
 - L. J. Dixon, V. Kaplunovsky and J. Louis, moduli dependence of gauge couplings in four-dimensional heterotic vacua (1991). R. Contino et al., *Running and Matching from 5 to 4 Dimensions* (2001 preprint, 2002 journal). [Heterotic thresholds](https://doi.org/10.1016/0550-3213(91)90490-O) · [KK matching](https://arxiv.org/abs/hep-ph/0108102)
 - C. Michael, *Lattice sum rules for the colour fields* (1995 preprint, 1996 journal). C. Bouchard et al., Euclidean Feynman–Hellmann matrix elements (2016 preprint, 2017 journal). [Static sum rules](https://arxiv.org/abs/hep-lat/9504016) · [Correlation functions](https://arxiv.org/abs/1612.06963)
+
+- M. Peter, *The static potential in QCD – a full two-loop calculation* (1997). M. Melles, *The static QCD potential in coordinate space with quark masses through two loops* (2000). [Perturbative normalization](https://arxiv.org/abs/hep-ph/9702245) · [Massive fermion contribution](https://arxiv.org/abs/hep-ph/0001295)
 
 The primary-source register gives the evidence for each historical comparison and the version and axes used for the quantitative reanalysis. [Source register](SOURCES.md)

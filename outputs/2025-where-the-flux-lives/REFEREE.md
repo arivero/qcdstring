@@ -30,3 +30,16 @@ GPT-6.1 Sol, a fresh second-line referee, read the revised article and its sourc
 The referee also requested a spectator-compatible or exactly soluble small-strip check before interpreting the small screened signal quantitatively. It cautioned that the full-parent gap would require control of the omitted flavour contractions. [Response to the revision review](RESPONSE.md#displacement-experiment)
 
 **Final disposition after revision. Accept within the stated finite-model scope.** The referee found the variational qualification, neighbouring gaps, Haar factors and spectator-factorization check sufficient for the claims made. It emphasized that the isolated-link repair gives no error bound on the connected strip and the full-parent second-order response has an unquantified fourth-order remainder at the reported hopping. No publication-blocking defect remained. This disposition is a read-only scientific assessment.
+
+## Independent referee for the first harmonic
+
+GPT-6.1 Sol served as the fresh, read-only second-line referee for this edition. The referee read the manuscript, calculations and stored results without running programs or consulting outside work.
+
+**First disposition. Minor revisions.** The referee found the reflection argument, the normalized round-sphere limit and the two-flavour selection rule convincing. With the declared conventions it found no demonstrated error in the sign of the strange loop, its chiral factor or the two places where the kinetic mixing is inserted. It requested four changes.
+
+1. Derive the equal residues relative to the measured massless coupling by canonicalizing the metric and form fields, including their constant mode.
+2. Compare the finite-pole Fourier transform with the soft result at separated points and state the hierarchy between the strange threshold and the removed poles.
+3. State how a simulated constant bare-mass trace maps onto the renormalized octet direction and what a drift of the renormalized trace would change.
+4. Give the chord relative to two strange mesons and its statistical status, since levels and thresholds share gauge ensembles and subtractions.
+
+**Final disposition. Accept.** After rereading the changes the referee found each request addressed, including the finite-pole convergence and the trajectory chain rule. It found no remaining substantive issue. Its acceptance is limited to the specified matching and comparisons. Full parent matching, a quantitative correction for the mass trajectory and the hadronic strange-current three-point function remain open. [Author response](RESPONSE.md#first-harmonic)

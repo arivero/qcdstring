@@ -1,4 +1,4 @@
-# Primary sources and the provenance of the nine measurements
+# Primary sources and provenance of the QCD measurements
 
 The article is set in December 2025. The first free odd year after the two 2024 publications cited below is 2025. The source dates are actual publication or preprint dates. The series date describes a counterfactual paper. The [registration commit](https://github.com/arivero/qcdstring/commit/5a558ca8dbe9f715ec8a15a267e7261817db9dc0) is part of the real repository history.
 
@@ -30,16 +30,17 @@ The article is set in December 2025. The first free odd year after the two 2024 
 | [Dixon, Kaplunovsky and Louis, 1991](https://doi.org/10.1016/0550-3213(91)90490-O) and [Contino et al., preprint 2001, journal 2002](https://arxiv.org/abs/hep-ph/0108102) | Moduli-dependent gauge thresholds and explicit matching after integration over a KK tower, in their stated ultraviolet theories. |
 | [Michael, 1995 preprint](https://arxiv.org/abs/hep-lat/9504016) and [Bouchard et al., 2016 preprint](https://arxiv.org/abs/1612.06963) | Lattice action and energy sum rules, and the Euclidean Feynman–Hellmann identity for matrix elements. |
 
-## Reproducing the Fig. 4 extraction
+## Reproducing the 2024 lattice figures
 
-The primary archive is [arXiv:2403.00754v2, source download](https://arxiv.org/src/2403.00754v2). From the article directory the following commands obtain just the two needed members in a temporary directory, regenerate the numeric CSV and rerun the predictions. Python dependencies are NumPy, Matplotlib and PyMuPDF.
+The primary archive is [arXiv:2403.00754v2, source download](https://arxiv.org/src/2403.00754v2). From the article directory the following commands obtain the two vector drawings and their axes in a temporary directory and regenerate the energy, coordinate and threshold tables. Python dependencies are NumPy, SciPy, Matplotlib and PyMuPDF.
 
 ~~~sh
 source_dir=$(mktemp -d)
 curl -fL https://arxiv.org/src/2403.00754v2 -o "$source_dir/source.tar.gz"
-tar -xzf "$source_dir/source.tar.gz" -C "$source_dir" VRensembles.pdf VRensembles_fig.tex
-sha256sum "$source_dir/source.tar.gz" "$source_dir/VRensembles.pdf" "$source_dir/VRensembles_fig.tex"
+tar -xzf "$source_dir/source.tar.gz" -C "$source_dir" VRensembles.pdf VRensembles_fig.tex dStatMassdep.pdf dStatMassdep_fig.tex
+sha256sum "$source_dir/source.tar.gz" "$source_dir/VRensembles.pdf" "$source_dir/VRensembles_fig.tex" "$source_dir/dStatMassdep.pdf" "$source_dir/dStatMassdep_fig.tex"
 python3 code/digitize.py "$source_dir/VRensembles.pdf"
+python3 code/mass_scan.py "$source_dir"
 MPLBACKEND=Agg OPENBLAS_NUM_THREADS=1 python3 code/check.py
 ~~~
 
@@ -48,6 +49,8 @@ MPLBACKEND=Agg OPENBLAS_NUM_THREADS=1 python3 code/check.py
 | Version 2 source archive | 2abca11623f10491e763d0a774100c9102f2d6fcf4c8d7617235f03968fe64b5 |
 | VRensembles.pdf | abeae9c810a8b0b00250328c87951fbdb4739de0cf400d9a60f89c88c3981783 |
 | VRensembles_fig.tex | 2e59bd72ae8a6fa2234dfc1d9d08cf4c2ca74a241d1ae356733734fb338c3096 |
+| dStatMassdep.pdf | 19b476120004e98a315277f49c0fe3b36a1f5f8708fcd3a946cf3be0f8d9755c |
+| dStatMassdep_fig.tex | 1b35e447e7bb89ddd9dc509c542df4e8c0fb3b7172dbfd435e1535da9008b012 |
 
 The archive also contains model.tex, method.tex and massdep.tex. The Fig. 4 caption in model.tex identifies the markers as estimates of levels from the generalized eigenvalue analysis and the bands as the seven-parameter fits. The middle-panel labels in VRensembles_fig.tex identify N200 and the integer separations. Its vertical axis is the static energy minus twice the static-light energy in lattice units. The graphic has size 481 by 198 PDF points. The black bottom ticks for 17, 19 and 21 have abscissae 204.398, 249.648 and 294.898 points. The same tick-to-energy calibration applies in each panel. At each of those abscissae the code identifies three filled point markers, matches them to the three vertical error strokes and ignores the polygons for the model bands. Printed coordinates at about 0.05 point resolution make rounding on the order of 0.00005 in energy visible. These checks preserve the provenance of a vector digitization from an existing publication. Only the markers, axes and marginal errors are available through this route. [Digitized data](data/n200.csv) · [Extraction code](code/digitize.py) · [Results](results/checks.json)
 
@@ -66,3 +69,13 @@ python3 code/qcd_profile.py "$profile_dir/transverse.ps"
 The version 1 archive hash is 53ac3f1112e92646f55062fbb2c8e937132f4e0c99352488c629b3b9fcdfd6e6 and the member hash is 1f513a0ab0696b33d9280b13c81a95bdf34f1090176c902530f943bd08d85d4c.
 
 Kogut and Susskind give the electric-Casimir and matter-hopping framework of Hamiltonian lattice gauge theory. Drummond treats strong-coupling mixing between a string and two screened sources. Our two-row action omits magnetic plaquettes, projects each hop onto an empty-to-occupied electric link transition and uses group-valued scalar matter. The geometry, variational basis, parameters and outputs are those defined in Section 9. The computation uses no lattice QCD fit parameters. [Hamiltonian formulation (1975)](https://doi.org/10.1103/PhysRevD.11.395) · [String breaking at strong coupling (1998)](https://arxiv.org/abs/hep-lat/9805012) · [Prior registration](https://github.com/arivero/qcdstring/commit/827633aca323713e2e58e09c9769b6c03b602f2f)
+
+## The first harmonic, three ensembles and a strange vacuum polarization
+
+The 2024 analysis specifies a constant sum of subtracted bare quark masses at common bare coupling $\beta=3.55$. Table 1 gives $a_{\rm lat}=0.0633(4)(6)$ fm and spatial extents 64, 48 and 48 lattice sites for D200, N200 and N203. Each Fig. 4 panel has six bottom ticks from 17 through 22. At 17, 19 and 21 we match each of the three ordered measured levels to its vertical error stroke. The older N200-only extraction is retained as a separate nine-row file. The Fig. 5 mass parameter and static-meson gap are calibrated against the original graphics' six horizontal and seven vertical labels. We isolate the three filled point symbols and their error strokes from the fit and its band. The respective mass coordinates are 0.23849, 0.47343 and 0.70132. Rounded meson masses in Table 1 alone give 0.23962, 0.46890 and 0.68974. The figure uses the unrounded underlying masses, as described in the article. The analysis adopts the Fig. 5 coordinates and keeps the flow times for each ensemble distinct. [Original publication](https://arxiv.org/abs/2403.00754v2) · [Underlying CLS scale and mass tuning](https://arxiv.org/abs/1608.08900) · [Extraction](code/mass_scan.py) · [Static-system rows](data/mass-scan-levels.csv) · [Mass and threshold rows](data/mass-scan-ensembles.csv)
+
+The energy denominator $2E_{Ql}$ is already removed in Fig. 4. Fig. 5 displays $\sqrt{t_0}(E_{Qs}-E_{Ql})$, so we multiply it by $2/\sqrt{t_0/a_{\rm lat}^2}$ to obtain the relative two-strange-meson threshold in the same units. A single chord uncertainty propagates the published vertical errors from distinct ensembles at fixed mass coordinates. The threshold uncertainty treats the plotted ordinate at fixed tabulated flow time and gives the latter's separate linearized contribution. It cannot be used with an independent-errors assumption to assess a difference between threshold and level on the same configurations. The authors report mass mistunings and neglect their effects in their analysis. A continuum or fixed-renormalized-trace extrapolation was outside that ensemble set. [Finite chords and interpolation](code/mass_response.py) · [Numerical results](results/mass-response.json)
+
+The one-loop fermion polarization and its massive contribution to the ordinary static potential predate 2025. We use their standard Dirac spectral density and $T_F=1/2$ normalization. The new short-distance response follows by inserting the first-harmonic metric-field kinetic mixing and the two chiral overlaps on the two sides of that polarization. We checked the parameter integral, spectral representation, inverse quadratic form and finite-pole transform. The source and signs are specified in the manuscript. [Peter, 1997](https://arxiv.org/abs/hep-ph/9702245) · [Melles, 2000](https://arxiv.org/abs/hep-ph/0001295) · [Numerical checks](results/colour-loop.json)
+
+The choices of geometry, adjoint block and light matter are theoretical inputs. Their contemporary companion-project provenance and dimensional benchmark are documented outside the historical bibliography. The programme registered the mode, scalar scan and subsequent loop check in two real commits. The published measurements predate either registration. [Editorial cross-reference](README.md#present-day-editorial-cross-reference) · [First-harmonic and mass-scan registration](https://github.com/arivero/qcdstring/commit/081ad4acdd71f42351ca35662afe4bf62c12d3b3) · [Short-distance follow-up registration](https://github.com/arivero/qcdstring/commit/a609c0dc8b69ac33218f99f556afc5481442c8df)

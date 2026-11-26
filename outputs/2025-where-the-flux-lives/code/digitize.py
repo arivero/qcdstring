@@ -1,4 +1,4 @@
-"""Extract the nine N200 markers from the authors' Fig. 4 vector artwork.
+"""Extract the ordered levels from the authors' Fig. 4 vector artwork.
 
 Usage: python code/digitize.py PATH/VRensembles.pdf
 The reference tables below identify axes from VRensembles_fig.tex. Match
@@ -14,11 +14,12 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 HASH = "abeae9c810a8b0b00250328c87951fbdb4739de0cf400d9a60f89c88c3981783"
+ENSEMBLES = ("D200", "N200", "N203")
 
 def center(rect):
     return (rect.x0 + rect.x1) / 2, (rect.y0 + rect.y1) / 2
 
-def extract(path):
+def extract(path, ensemble="N200"):
     if hashlib.sha256(path.read_bytes()).hexdigest() != HASH:
         raise ValueError("Unexpected artwork. Use VRensembles.pdf from arXiv:2403.00754v2.")
     with fitz.open(path) as doc:
@@ -26,10 +27,11 @@ def extract(path):
     black = [p["rect"] for p in paths if p["color"] == (0, 0, 0)]
     y_ticks = sorted(b.y0 for b in black if 52.6 < b.x0 < 52.8
                      and 3.9 < b.width < 4.2 and b.height < 0.01)
-    x_ticks = sorted(b.x0 for b in black if 201 < b.x0 < 320
-                     and 169.9 < b.y0 < 170.1 and b.width < 0.01)
-    if len(y_ticks) != 9 or len(x_ticks) != 6:
+    all_ticks = sorted(b.x0 for b in black if 169.9 < b.y0 < 170.1 and b.width < 0.01)
+    if len(y_ticks) != 9 or len(all_ticks) != 6 * len(ENSEMBLES):
         raise ValueError("Could not isolate the axes")
+    panel_start = 6 * ENSEMBLES.index(ensemble)
+    x_ticks = all_ticks[panel_start:panel_start + 6]
     scale, zero = np.polyfit(y_ticks, np.linspace(0.08, -0.08, 9), 1)
     points = [p["rect"] for p in paths if p["type"] == "fs"]
     bars = [p["rect"] for p in paths if p["type"] == "s" and p["color"]
