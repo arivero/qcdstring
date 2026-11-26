@@ -28,7 +28,7 @@ for row in data["radial"]:
         assert abs(low+high-row["lambda_n"]-row["lambda_b"]-projection["h_over_mgamma"]**2)<1e-12
         assert abs(projection["lower_vector_weight"] + projection["upper_vector_weight"] - 1)<1e-12
 
-assert [int(n) for n in re.findall(r'\\tag\{(\d+)\}',text)]==list(range(1,38))
+assert [int(n) for n in re.findall(r'\\tag\{(\d+)\}',text)]==list(range(1,39))
 
 # Section 11: printed values against results/spin-structure.json
 spin = json.loads((ROOT / "results/spin-structure.json").read_text())
@@ -52,6 +52,26 @@ assert max(variants.values()) - min(variants.values()) < 1e-8
 ferm = json.loads((ROOT / "results/fermion-operator.json").read_text())
 assert all(v is not None for k in ("sector_1_identity", "sector_2_identity") for v in ferm[k].values())
 assert all(m["max_singular_value_minus_f"] < 1e-12 and m["max_cross_sector_entry"] < 1e-12 for m in ferm["mass_matrix"].values())
+
+# Section 11.5: bosonic Hessian at w > 0
+bos = json.loads((ROOT / "results/boson-hessian.json").read_text())
+table92 = [0.876730, 0.881729, 0.886729]
+val = bos["validation"]["0.01"]["l0_masses"]
+assert all(min(abs(x - m) for x in val) < 5e-5 for m in table92)
+for label in ("$0.876751$", "$0.881702$", "$0.886750$", "$0.46087$", "$0.4389$", "$w_B=0.42$", "$1.126$", "$1.391$"):
+    assert label in text, label
+assert abs(min(val, key=lambda x: abs(x - 0.876751)) - 0.876751) < 5e-7
+scan = {r["w"]: r for r in bos["scan"]}
+assert max(scan) == 0.42 and all(max(r["translations"]) < 1e-4 for r in scan.values())
+assert all(min(min(v) for v in r["levels"].values()) > 0 for r in scan.values())
+lows = [scan[w]["lowest_nontranslation"] for w in sorted(scan)]
+assert min(lows) > 0.43 and max(abs(a - b) for a, b in zip(lows, lows[1:])) < 0.018
+assert round(scan[0.42]["lowest_nontranslation"], 4) == 0.4389 and round(scan[0.1]["lowest_nontranslation"], 4) == 0.6898
+b = bos["budget"]
+assert round(b["R25_h0.05"]["lowest_nontranslation"], 5) == 0.46087
+assert abs(b["R25_h0.025"]["lowest_nontranslation"] - b["R25_h0.05"]["lowest_nontranslation"]) < 5e-5
+assert abs(b["R35_h0.05"]["lowest_nontranslation"] - b["R25_h0.05"]["lowest_nontranslation"]) < 1e-9
+assert round(bos["high_l"]["0.388"]["12"][0], 3) == 1.126 and round(bos["high_l"]["0.388"]["16"][0], 3) == 1.391
 for label, ok in expect.items():
     assert label in text, label
     assert ok, label
@@ -61,4 +81,4 @@ assert spin["casimir"]["cft_E_R_times_L_over_pi"] == 0 and spin["casimir"]["cft_
 for u in re.findall(r'!?\[[^\]\n]+\]\(([^)\s]+)\)',text):
     if not u.startswith(('http://','https://','#')):
         assert (ROOT/u.split('#')[0]).is_file(),u
-print("Verified six spectral rows, both projected examples, 37 equation labels, the Section 11 values and local manuscript links.")
+print("Verified six spectral rows, both projected examples, 38 equation labels, the Section 11 values and local manuscript links.")
