@@ -7,6 +7,10 @@ theory, and to extract from it quantitative hadron physics. The memory of
 the next fifty years is used to choose which calculations to do and in
 which order; every remembered result is rederived before it is used.
 
+## Present-day Wilson and string goal
+
+Construct a gauge-invariant correlator that tests a scalar–fermion partner relation on a colour string and determines which part survives toward Wilson gauge theory or QCD. Use the established vortex, fivebrane and spin-structure calculations. Search the YM release first on each visit, commit and verify each partial result, then rotate. The BPS shape mode has a normalized massive fermion partner and a predicted soft splitting. Next match static-source endpoint operators and their mass response. [Massive partner and registered slope test](outputs/1995-electric-string-corollary/massive-superpartner.md)
+
 ## Guiding principles
 
 1. **Rederive before you cite.** A `[MEMORY]` tag on a result means it is
