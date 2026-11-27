@@ -31,6 +31,8 @@ python3 code/build.py
 
 ## Present-day editorial cross-reference
 
+A separate comparison attaches an antiquark and a scalar diquark to the same static line. It specifies a charge matrix element, an energy test and a scalar-response test of a possible defect supersymmetry. [Partner test](endpoint-partner-test.md)
+
 The November 2026 working note derives the finite-cutoff light–strange scalar response of the full static-source matrix, follows the two line self-energies through subtraction, and gives a one-third slope check at equal quark masses. [Static-source mass derivative](static-source-mass-derivative.md)
 
 The 2025 date belongs to the counterfactual series. The present-day choice of polar geometry in Section 10 comes from the companion project at revision 6ac5bfa. Its static-force calculation used the squared overlap of an even right-handed source. Its monopole sections, holomorphic mass map and transverse colour propagator supply the wavefunctions and pole block assumed in the article. The signed light overlaps, the matching of the two separately defined probes and the strange-loop response are derived in this edition. The published QCD comparison uses only material available by December 2025. [Static-colour force and its two poles](https://github.com/arivero/conneskk/blob/6ac5bfa16f927c44c500509a6a3849e83704d84e/results/issues/29_static_colour.md) · [Polar sections](https://github.com/arivero/conneskk/blob/6ac5bfa16f927c44c500509a6a3849e83704d84e/results/63_vortex_roots_and_diagonal_photon.md) · [Fermion operator](https://github.com/arivero/conneskk/blob/6ac5bfa16f927c44c500509a6a3849e83704d84e/results/67_fermion_masses_on_the_long_neck.md)
